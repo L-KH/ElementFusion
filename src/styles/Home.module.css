@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.leftPane {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #ccc;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.leftPane h2,
+.rightPane h2 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.elementsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #222;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+
+  &.hover:hover {    transform: scale(1.05);
+    background-color: #444;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+  }
+}
+
+.fusionArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fusionBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fusionBox.invalid {
+  border: 2px solid red;
+}
+
+.fusionElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Increased size */
+  height: 150px; /* Increased size */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.fusionElement img {
+  width: 100%; /* Ensure the image takes the entire box */
+  height: 100%; /* Ensure the image takes the entire box */
+  object-fit: cover; /* Cover the element box */
+}
+
+.fusionElement span {
+  font-size: 14px;
+  color: #333;
+  display: none; /* Hide the name text */
+}
+
+.fusionSign {
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+}
+
+.emptyBox {
+  width: 150px; /* Increased size */
+  height: 150px; /* Increased size */
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-size: 24px;
+}
+
+.invalidSign {
+  color: red;
+  font-size: 48px;
+}

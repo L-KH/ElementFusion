@@ -1,90 +1,74 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const { pick, omit } = require("lodash")
-const colors = require("tailwindcss/colors")
-const defaultTheme = require("tailwindcss/defaultTheme")
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx}',
+    './src/components/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode: ['class', '[style="color-scheme: dark;"]'],
   theme: {
+    fontSize: {
+      xs: ['0.75rem', { lineHeight: '1rem' }],
+      sm: ['0.875rem', { lineHeight: '1.5rem' }],
+      base: ['1rem', { lineHeight: '2rem' }],
+      lg: ['1.125rem', { lineHeight: '1.75rem' }],
+      xl: ['1.25rem', { lineHeight: '2rem' }],
+      '2xl': ['1.5rem', { lineHeight: '2.5rem' }],
+      '3xl': ['2rem', { lineHeight: '2.5rem' }],
+      '4xl': ['2.5rem', { lineHeight: '3rem' }],
+      '5xl': ['3rem', { lineHeight: '3.5rem' }],
+      '6xl': ['3.75rem', { lineHeight: '1' }],
+      '7xl': ['4.5rem', { lineHeight: '1' }],
+      '8xl': ['6rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }],
+    },
     extend: {
-      colors: {
-        primary: {
-          50: "#eff6ff",
-          100: "#dbeafe",
-          200: "#bfdbfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
-        },
-      },
       fontFamily: {
-        body: [
-          "Inter",
-          "ui-sans-serif",
-          "system-ui",
-          "-apple-system",
-          "system-ui",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Arial",
-          "Noto Sans",
-          "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
-        ],
-        sans: [
-          "Inter",
-          "ui-sans-serif",
-          "system-ui",
-          "-apple-system",
-          "system-ui",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Arial",
-          "Noto Sans",
-          "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
-        ],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        display: ['Lexend', ...defaultTheme.fontFamily.sans],
       },
-      borderWidth: {
-        DEFAULT: "1px",
-        0: "0",
-        2: "2px",
-        3: "3px",
-        4: "4px",
-        6: "6px",
-        8: "8px",
-      },
-      minHeight: {
-        ...defaultTheme.height,
-      },
-      minWidth: {
-        ...defaultTheme.width,
+      maxWidth: {
+        '8xl': '88rem',
       },
     },
   },
-  plugins: [],
-  future: {
-    hoverOnlyWhenSupported: true,
+
+  daisyui: {
+    themes: [
+      {
+        light: {
+          primary: '#676de3',
+          secondary: '#67e39f',
+          accent: '#e3dd67',
+          neutral: '#e4e5f6',
+          'base-100': '#fff',
+          'base-200': '#f8fafc',
+          'base-300': '#f1f2fc',
+          'base-content': '#1d1955',
+        },
+      },
+      {
+        dark: {
+          primary: '#676de3',
+          secondary: '#67e39f',
+          accent: '#e3dd67',
+          neutral: '#e4e5f6',
+          'base-100': '#1e272f',
+          'base-200': '#141a1f',
+          'base-300': '#28343e',
+        },
+      }
+      // ,
+      // 'cupcake',
+      // 'lofi',
+      // 'cyberpunk',
+    ],
   },
+
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('daisyui'),
+  ],
 }

@@ -1,0 +1,19 @@
+[
+    {
+      "input": ["water", "fire"],
+      "output": "steam"
+    },
+    {
+      "input": ["earth", "fire"],
+      "output": "lava"
+    },
+    {
+      "input": ["water", "water"],
+      "output": "sea"
+    },
+    {
+      "input": ["air", "air"],
+      "output": "pressure"
+    }
+  ]
+  
