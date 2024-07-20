@@ -1,36 +1,102 @@
 import React from 'react';
-import styles from '../../../styles/Home.module.css';
+import styled from 'styled-components';
 
-const FusionArea = ({ selectedElements, onElementRemove, result }) => {
+type Element = {
+  id: number;
+  name: string;
+  imagePath: string;
+};
+
+const FusionAreaContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const FusionBox = styled.div<{ invalid?: boolean }>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
+`;
+
+const FusionElement = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+`;
+
+const FusionSign = styled.div`
+  font-size: 24px;
+  color: #333;
+  margin: 0 10px;
+`;
+
+const EmptyBox = styled.div`
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-size: 24px;
+`;
+
+const InvalidSign = styled.span`
+  color: red;
+  font-size: 48px;
+`;
+
+const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedElements: Element[], onElementRemove: (index: number) => void, result: { success: boolean, element: Element } | null }) => {
   return (
-    <div className={styles.fusionArea}>
+    <FusionAreaContainer>
       <h2>Fusion Area</h2>
-      <div className={`${styles.fusionBox} ${result && !result.success ? styles.invalid : ''}`}>
+      <FusionBox invalid={!!(result && !result.success)}>
         {selectedElements[0] ? (
-          <div className={styles.fusionElement} onClick={() => onElementRemove(0)}>
+          <FusionElement onClick={() => onElementRemove(0)}>
             <img src={selectedElements[0].imagePath} alt={selectedElements[0].name} />
-          </div>
+          </FusionElement>
         ) : (
-          <div className={styles.emptyBox}></div>
+          <EmptyBox />
         )}
-        <div className={styles.fusionSign}>+</div>
+        <FusionSign>+</FusionSign>
         {selectedElements[1] ? (
-          <div className={styles.fusionElement} onClick={() => onElementRemove(1)}>
+          <FusionElement onClick={() => onElementRemove(1)}>
             <img src={selectedElements[1].imagePath} alt={selectedElements[1].name} />
-          </div>
+          </FusionElement>
         ) : (
-          <div className={styles.emptyBox}></div>
+          <EmptyBox />
         )}
-        <div className={styles.fusionSign}>=</div>
-        <div className={styles.fusionElement}>
+        <FusionSign>=</FusionSign>
+        <FusionElement>
           {result && result.success ? (
             <img src={result.element.imagePath} alt={result.element.name} />
           ) : result && !result.success ? (
-            <span className={styles.invalidSign}>X</span>
+            <InvalidSign>X</InvalidSign>
           ) : null}
-        </div>
-      </div>
-    </div>
+        </FusionElement>
+      </FusionBox>
+    </FusionAreaContainer>
   );
 };
 

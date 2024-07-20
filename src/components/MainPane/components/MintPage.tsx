@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const elements = [
+type Element = {
+  id: number;
+  name: string;
+  imagePath: string;
+};
+
+const elements: Element[] = [
   { id: 1, name: 'Air', imagePath: '/images/air.webp' },
   { id: 2, name: 'Earth', imagePath: '/images/earth.webp' },
   { id: 3, name: 'Fire', imagePath: '/images/fire.webp' },
@@ -17,7 +23,7 @@ const ElementsList = styled.div`
   padding-top: 20px;
 `;
 
-const Element = styled.div`
+const ElementDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +31,7 @@ const Element = styled.div`
   margin: 10px 0;
   border-radius: 10px;
   cursor: pointer;
-  width: 100%; 
+  width: 100%; /* Full width */
   text-align: center;
   font-size: 18px;
   box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
@@ -33,6 +39,7 @@ const Element = styled.div`
 
   &:hover {
     transform: scale(1.05);
+    background-color: #4411;
     box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
   }
 
@@ -47,20 +54,20 @@ const Element = styled.div`
   }
 `;
 
-const MintPage = ({ onElementClick, discoveredElements }) => {
+const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (element: Element) => void, discoveredElements: Element[] }) => {
   const allElements = [...elements, ...discoveredElements];
   return (
     <div>
       <h2>Elements</h2>
       <ElementsList>
         {allElements.map((element) => (
-          <Element
+          <ElementDiv
             key={element.id}
             onClick={() => onElementClick(element)}
           >
             <img src={element.imagePath} alt={element.name} />
             <span>{element.name}</span>
-          </Element>
+          </ElementDiv>
         ))}
       </ElementsList>
     </div>

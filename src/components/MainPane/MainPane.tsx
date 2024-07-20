@@ -3,6 +3,17 @@ import FusionArea from './components/FusionArea';
 import MintPage from './components/MintPage';
 import styled from 'styled-components';
 
+type Element = {
+  id: number;
+  name: string;
+  imagePath: string;
+};
+
+type Combination = {
+  input: string[];
+  output: string;
+};
+
 const Container = styled.div`
   display: flex;
   height: 100vh;
@@ -27,24 +38,24 @@ const RightPane = styled.div`
 `;
 
 const MainPane = () => {
-  const [selectedElements, setSelectedElements] = useState([]);
-  const [combinations, setCombinations] = useState([]);
-  const [discoveredElements, setDiscoveredElements] = useState([]);
-  const [result, setResult] = useState(null);
+  const [selectedElements, setSelectedElements] = useState<Element[]>([]);
+  const [combinations, setCombinations] = useState<Combination[]>([]);
+  const [discoveredElements, setDiscoveredElements] = useState<Element[]>([]);
+  const [result, setResult] = useState<{ success: boolean; element: Element } | null>(null);
 
   useEffect(() => {
     fetch('/combinations.json')
       .then((res) => res.json())
-      .then((data) => setCombinations(data));
+      .then((data: Combination[]) => setCombinations(data));
   }, []);
 
-  const handleElementClick = (element) => {
+  const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
       setSelectedElements([...selectedElements, element]);
     }
   };
 
-  const handleElementRemove = (index) => {
+  const handleElementRemove = (index: number) => {
     const newElements = [...selectedElements];
     newElements.splice(index, 1);
     setSelectedElements(newElements);
@@ -63,12 +74,13 @@ const MainPane = () => {
       if (combination) {
         const alreadyDiscovered = discoveredElements.some(el => el.name === combination.output);
         const newElement = { id: Date.now(), name: combination.output, imagePath: `/images/${combination.output}.webp` };
+        console.log('New Element:', newElement); // Debug log to check image path
         if (!alreadyDiscovered) {
           setDiscoveredElements([...discoveredElements, newElement]);
         }
         setResult({ success: true, element: newElement });
       } else {
-        setResult({ success: false });
+        setResult(null);
       }
     }
   };
