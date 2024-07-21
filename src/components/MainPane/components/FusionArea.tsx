@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rarityColors } from '../rarityColors';
 
 type Element = {
   id: number;
@@ -24,13 +23,13 @@ const FusionBox = styled.div<{ invalid?: boolean }>`
   border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
 `;
 
-const FusionElement = styled.div<{ rarity: string }>`
+const FusionElement = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   width: 150px;
   height: 150px;
-  border: 2px solid ${(props) => rarityColors[props.rarity]};
+  border: 2px solid #ccc;
   border-radius: 5px;
   margin: 0 10px;
   background-color: #f0f0f0;
@@ -69,13 +68,13 @@ const InvalidSign = styled.span`
   font-size: 48px;
 `;
 
-const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedElements: Element[], onElementRemove: (index: number) => void, result: { success: boolean, element: Element } | null }) => {
+const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedElements: Element[], onElementRemove: (index: number) => void, result: { success: boolean; element?: Element } | null }) => {
   return (
     <FusionAreaContainer>
       <h2>Fusion Area</h2>
       <FusionBox invalid={!!(result && !result.success)}>
         {selectedElements[0] ? (
-          <FusionElement rarity={selectedElements[0].rarity} onClick={() => onElementRemove(0)}>
+          <FusionElement onClick={() => onElementRemove(0)}>
             <img src={selectedElements[0].imagePath} alt={selectedElements[0].name} />
           </FusionElement>
         ) : (
@@ -83,16 +82,16 @@ const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedEle
         )}
         <FusionSign>+</FusionSign>
         {selectedElements[1] ? (
-          <FusionElement rarity={selectedElements[1].rarity} onClick={() => onElementRemove(1)}>
+          <FusionElement onClick={() => onElementRemove(1)}>
             <img src={selectedElements[1].imagePath} alt={selectedElements[1].name} />
           </FusionElement>
         ) : (
           <EmptyBox />
         )}
         <FusionSign>=</FusionSign>
-        <FusionElement rarity={result && result.success ? result.element.rarity : 'common'}>
+        <FusionElement>
           {result && result.success ? (
-            <img src={result.element.imagePath} alt={result.element.name} />
+            <img src={result.element?.imagePath} alt={result.element?.name} />
           ) : result && !result.success ? (
             <InvalidSign>X</InvalidSign>
           ) : null}

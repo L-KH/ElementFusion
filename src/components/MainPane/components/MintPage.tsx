@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { rarityColors } from '../rarityColors';
 
 type Element = {
   id: number;
@@ -15,6 +14,14 @@ const elements: Element[] = [
   { id: 3, name: 'Fire', imagePath: '/images/fire.webp', rarity: 'common' },
   { id: 4, name: 'Water', imagePath: '/images/water.webp', rarity: 'common' },
 ];
+
+const rarityColors: { [key: string]: string } = {
+  common: 'rgba(255, 255, 255, 0.7)',
+  uncommon: 'rgba(0, 255, 0, 0.7)',
+  rare: 'rgba(0, 0, 255, 0.7)',
+  epic: 'rgba(255, 0, 255, 0.7)',
+  legendary: 'rgba(255, 215, 0, 0.7)',
+};
 
 const ElementsList = styled.div`
   display: flex;
@@ -41,7 +48,7 @@ const ElementDiv = styled.div<{ rarity: string }>`
 
   &:hover {
     transform: scale(1.05);
-    background-color: #4411;
+    background-color: ${(props) => rarityColors[props.rarity]};
     box-shadow: 0 0 30px ${(props) => rarityColors[props.rarity]};
   }
 
@@ -65,8 +72,8 @@ const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (ele
         {allElements.map((element) => (
           <ElementDiv
             key={element.id}
-            rarity={element.rarity}
             onClick={() => onElementClick(element)}
+            rarity={element.rarity}
           >
             <img src={element.imagePath} alt={element.name} />
             <span>{element.name}</span>

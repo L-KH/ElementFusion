@@ -81,9 +81,8 @@ const MainPane = () => {
         }
         setResult({ success: true, element: newElement });
       } else {
-        setResult(null);  // Ensure we set the state to null if the combination is unsuccessful
+        setResult({ success: false, element: undefined });  // Ensure we set the state to false if the combination is unsuccessful
       }
-      
     }
   };
 
