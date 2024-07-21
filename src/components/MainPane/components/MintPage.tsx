@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
+import { rarityColors } from '../rarityColors';
 
 type Element = {
   id: number;
   name: string;
   imagePath: string;
+  rarity: string;
 };
 
 const elements: Element[] = [
-  { id: 1, name: 'Air', imagePath: '/images/air.webp' },
-  { id: 2, name: 'Earth', imagePath: '/images/earth.webp' },
-  { id: 3, name: 'Fire', imagePath: '/images/fire.webp' },
-  { id: 4, name: 'Water', imagePath: '/images/water.webp' },
+  { id: 1, name: 'Air', imagePath: '/images/air.webp', rarity: 'common' },
+  { id: 2, name: 'Earth', imagePath: '/images/earth.webp', rarity: 'common' },
+  { id: 3, name: 'Fire', imagePath: '/images/fire.webp', rarity: 'common' },
+  { id: 4, name: 'Water', imagePath: '/images/water.webp', rarity: 'common' },
 ];
 
 const ElementsList = styled.div`
@@ -23,7 +25,7 @@ const ElementsList = styled.div`
   padding-top: 20px;
 `;
 
-const ElementDiv = styled.div`
+const ElementDiv = styled.div<{ rarity: string }>`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,13 +36,13 @@ const ElementDiv = styled.div`
   width: 100%; /* Full width */
   text-align: center;
   font-size: 18px;
-  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 20px ${(props) => rarityColors[props.rarity]};
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
     transform: scale(1.05);
     background-color: #4411;
-    box-shadow: 0 0 30px rgba(0, 255, 255, 0.7);
+    box-shadow: 0 0 30px ${(props) => rarityColors[props.rarity]};
   }
 
   img {
@@ -63,6 +65,7 @@ const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (ele
         {allElements.map((element) => (
           <ElementDiv
             key={element.id}
+            rarity={element.rarity}
             onClick={() => onElementClick(element)}
           >
             <img src={element.imagePath} alt={element.name} />

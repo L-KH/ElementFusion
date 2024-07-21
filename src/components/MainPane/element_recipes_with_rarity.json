@@ -1,0 +1,7122 @@
+[
+    {
+        "input": [
+            "rain",
+            "smoke"
+        ],
+        "output": "acid rain",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rain",
+            "smog"
+        ],
+        "output": "acid rain",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "metal"
+        ],
+        "output": "airplane",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "steel"
+        ],
+        "output": "airplane",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "clock",
+            "sound"
+        ],
+        "output": "alarm clock",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fruit",
+            "time"
+        ],
+        "output": "alcohol",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "juice",
+            "time"
+        ],
+        "output": "alcohol",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "plant"
+        ],
+        "output": "algae",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ocean",
+            "plant"
+        ],
+        "output": "algae",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sea",
+            "plant"
+        ],
+        "output": "algae",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "life",
+            "space"
+        ],
+        "output": "alien",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "dust"
+        ],
+        "output": "allergy",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lizard",
+            "swamp"
+        ],
+        "output": "alligator",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lizard",
+            "river"
+        ],
+        "output": "alligator",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mountain",
+            "sheep"
+        ],
+        "output": "alpaca",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "hospital",
+            "car"
+        ],
+        "output": "ambulance",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "doctor",
+            "car"
+        ],
+        "output": "ambulance",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "bird"
+        ],
+        "output": "angel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "fishing rod"
+        ],
+        "output": "angler",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "grass",
+            "wild animal"
+        ],
+        "output": "ant",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "sugar"
+        ],
+        "output": "ant",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "snow",
+            "desert"
+        ],
+        "output": "antarctica",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ice",
+            "desert"
+        ],
+        "output": "antarctica",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "glass"
+        ],
+        "output": "aquarium",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "glass",
+            "fish"
+        ],
+        "output": "aquarium",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "isle",
+            "isle"
+        ],
+        "output": "archipelago",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "armor"
+        ],
+        "output": "armadillo",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "metal"
+        ],
+        "output": "armor",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "steel"
+        ],
+        "output": "armor",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "volcano",
+            "energy"
+        ],
+        "output": "ash",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "moon"
+        ],
+        "output": "astronaut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rocket",
+            "human"
+        ],
+        "output": "astronaut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "space station"
+        ],
+        "output": "astronaut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "space"
+        ],
+        "output": "astronaut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "air",
+            "pressure"
+        ],
+        "output": "atmosphere",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sky",
+            "pressure"
+        ],
+        "output": "atmosphere",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "energy",
+            "explosion"
+        ],
+        "output": "atomic bomb",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "antarctica"
+        ],
+        "output": "aurora",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "antarctica"
+        ],
+        "output": "aurora",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "antarctica",
+            "atmosphere"
+        ],
+        "output": "aurora",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "energy",
+            "snow"
+        ],
+        "output": "avalanche",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "blade",
+            "wood"
+        ],
+        "output": "axe",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "pig",
+            "fire"
+        ],
+        "output": "bacon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "swamp",
+            "life"
+        ],
+        "output": "bacteria",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "bread"
+        ],
+        "output": "baker",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "flour"
+        ],
+        "output": "baker",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "dough"
+        ],
+        "output": "baker",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "bread"
+        ],
+        "output": "bakery",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "baker"
+        ],
+        "output": "bakery",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fruit",
+            "monkey"
+        ],
+        "output": "banana",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bread",
+            "banana"
+        ],
+        "output": "banana bread",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blood",
+            "fabric"
+        ],
+        "output": "bandage",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "money"
+        ],
+        "output": "bank",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "gold"
+        ],
+        "output": "bank",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "livestock",
+            "house"
+        ],
+        "output": "barn",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "cow",
+            "house"
+        ],
+        "output": "barn",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "hay"
+        ],
+        "output": "barn",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mouse",
+            "bird"
+        ],
+        "output": "bat",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mouse",
+            "sky"
+        ],
+        "output": "bat",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bat",
+            "human"
+        ],
+        "output": "batman",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "flour",
+            "milk"
+        ],
+        "output": "batter",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gun",
+            "blade"
+        ],
+        "output": "bayonet",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gun",
+            "sword"
+        ],
+        "output": "bayonet",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "campfire",
+            "meat"
+        ],
+        "output": "bbq",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "campfire",
+            "garden"
+        ],
+        "output": "bbq",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sea",
+            "sand"
+        ],
+        "output": "beach",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ocean",
+            "sand"
+        ],
+        "output": "beach",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "sand"
+        ],
+        "output": "beach",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "wood"
+        ],
+        "output": "beaver",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "dam"
+        ],
+        "output": "beaver",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "flower",
+            "wild animal"
+        ],
+        "output": "bee",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bee",
+            "house"
+        ],
+        "output": "beehive",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bee",
+            "tree"
+        ],
+        "output": "beehive",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "alcohol",
+            "wheat"
+        ],
+        "output": "beer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wheel",
+            "wheel"
+        ],
+        "output": "bicycle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "life",
+            "sky"
+        ],
+        "output": "bird",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "egg",
+            "air"
+        ],
+        "output": "bird",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "egg",
+            "sky"
+        ],
+        "output": "bird",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "air",
+            "life"
+        ],
+        "output": "bird",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "house"
+        ],
+        "output": "birdhouse",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "star",
+            "pressure"
+        ],
+        "output": "black hole",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "stone"
+        ],
+        "output": "blade",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "glass",
+            "blade"
+        ],
+        "output": "blender",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "electricity"
+        ],
+        "output": "blender",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "snow",
+            "wind"
+        ],
+        "output": "blizzard",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "snow",
+            "storm"
+        ],
+        "output": "blizzard",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "snow",
+            "snow"
+        ],
+        "output": "blizzard",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "blade"
+        ],
+        "output": "blood",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "wood"
+        ],
+        "output": "boat",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "steam",
+            "metal"
+        ],
+        "output": "boiler",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "corpse",
+            "time"
+        ],
+        "output": "bone",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "pottery"
+        ],
+        "output": "bonsai tree",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "scissors"
+        ],
+        "output": "bonsai tree",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "paper",
+            "wood"
+        ],
+        "output": "book",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "paper",
+            "story"
+        ],
+        "output": "book",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dough",
+            "fire"
+        ],
+        "output": "bread",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "clay",
+            "fire"
+        ],
+        "output": "brick",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mud",
+            "fire"
+        ],
+        "output": "brick",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mud",
+            "sun"
+        ],
+        "output": "brick",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "clay",
+            "sun"
+        ],
+        "output": "brick",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "river",
+            "wood"
+        ],
+        "output": "bridge",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "river",
+            "metal"
+        ],
+        "output": "bridge",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "river",
+            "steel"
+        ],
+        "output": "bridge",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wood",
+            "hay"
+        ],
+        "output": "broom",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gunpowder",
+            "metal"
+        ],
+        "output": "bullet",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bullet",
+            "armor"
+        ],
+        "output": "bulletproof vest",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "car",
+            "car"
+        ],
+        "output": "bus",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "meat"
+        ],
+        "output": "butcher",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "milk",
+            "pressure"
+        ],
+        "output": "butter",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "energy",
+            "milk"
+        ],
+        "output": "butter",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "flower",
+            "wild animal"
+        ],
+        "output": "butterfly",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "plant"
+        ],
+        "output": "cactus",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "desert",
+            "plant"
+        ],
+        "output": "cactus",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dough",
+            "candle"
+        ],
+        "output": "cake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "desert",
+            "horse"
+        ],
+        "output": "camel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "desert",
+            "wild animal"
+        ],
+        "output": "camel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "livestock",
+            "desert"
+        ],
+        "output": "camel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fire",
+            "wood"
+        ],
+        "output": "campfire",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wax",
+            "thread"
+        ],
+        "output": "candle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wax",
+            "fire"
+        ],
+        "output": "candle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sugar",
+            "christmas tree"
+        ],
+        "output": "candy cane",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gunpowder",
+            "pirate ship"
+        ],
+        "output": "cannon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gunpowder",
+            "castle"
+        ],
+        "output": "cannon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wheel",
+            "metal"
+        ],
+        "output": "car",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sugar",
+            "fire"
+        ],
+        "output": "caramel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "oxygen"
+        ],
+        "output": "carbon dioxide",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "night"
+        ],
+        "output": "carbon dioxide",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "night"
+        ],
+        "output": "carbon dioxide",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "snowman",
+            "vegetable"
+        ],
+        "output": "carrot",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "snowman"
+        ],
+        "output": "carrot",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wheel",
+            "wood"
+        ],
+        "output": "cart",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "knight"
+        ],
+        "output": "castle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "milk"
+        ],
+        "output": "cat",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "cat",
+            "plant"
+        ],
+        "output": "catnip",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "hard roe",
+            "human"
+        ],
+        "output": "caviar",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "horse",
+            "human"
+        ],
+        "output": "centaur",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wheat",
+            "milk"
+        ],
+        "output": "cereal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "axe",
+            "electricity"
+        ],
+        "output": "chainsaw",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lizard",
+            "rainbow"
+        ],
+        "output": "chameleon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "fire"
+        ],
+        "output": "charcoal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wood",
+            "fire"
+        ],
+        "output": "charcoal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "time",
+            "milk"
+        ],
+        "output": "cheese",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "cheese",
+            "hamburger"
+        ],
+        "output": "cheeseburger",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "livestock",
+            "bird"
+        ],
+        "output": "chicken",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "livestock"
+        ],
+        "output": "chicken",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "farmer"
+        ],
+        "output": "chicken",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "chicken"
+        ],
+        "output": "chicken soup",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "chicken",
+            "bone"
+        ],
+        "output": "chicken wing",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "house",
+            "fireplace"
+        ],
+        "output": "chimney",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "smoke",
+            "brick"
+        ],
+        "output": "chimney",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fireplace",
+            "brick"
+        ],
+        "output": "chimney",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wool",
+            "fireplace"
+        ],
+        "output": "christmas stocking",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "light bulb",
+            "tree"
+        ],
+        "output": "christmas tree",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "star"
+        ],
+        "output": "christmas tree",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tobacco",
+            "paper"
+        ],
+        "output": "cigarette",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "village",
+            "village"
+        ],
+        "output": "city",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "skyscraper",
+            "skyscraper"
+        ],
+        "output": "city",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "mud"
+        ],
+        "output": "clay",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "time",
+            "electricity"
+        ],
+        "output": "clock",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "time",
+            "wheel"
+        ],
+        "output": "clock",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "time",
+            "tool"
+        ],
+        "output": "clock",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "air",
+            "steam"
+        ],
+        "output": "cloud",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "pressure",
+            "plant"
+        ],
+        "output": "coal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "snowman"
+        ],
+        "output": "coal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "palm",
+            "fruit"
+        ],
+        "output": "coconut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "coconut",
+            "tool"
+        ],
+        "output": "coconut milk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "milk",
+            "coconut"
+        ],
+        "output": "coconut milk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "corpse"
+        ],
+        "output": "coffin",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "rain"
+        ],
+        "output": "cold",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "nerd"
+        ],
+        "output": "computer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "electricity",
+            "nerd"
+        ],
+        "output": "computer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wire",
+            "nerd"
+        ],
+        "output": "computer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mouse",
+            "computer"
+        ],
+        "output": "computer mouse",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "blade"
+        ],
+        "output": "confetti",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "scissors"
+        ],
+        "output": "confetti",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "star",
+            "star"
+        ],
+        "output": "constellation",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dough",
+            "sugar"
+        ],
+        "output": "cookie",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "gun"
+        ],
+        "output": "corpse",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "grim reaper"
+        ],
+        "output": "corpse",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "cloud"
+        ],
+        "output": "cotton",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grass",
+            "livestock"
+        ],
+        "output": "cow",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "scarecrow"
+        ],
+        "output": "crow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "field"
+        ],
+        "output": "crow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "witch",
+            "glass"
+        ],
+        "output": "crystal ball",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wizard",
+            "glass"
+        ],
+        "output": "crystal ball",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "clock",
+            "bird"
+        ],
+        "output": "cuckoo",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "robot"
+        ],
+        "output": "cyborg",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bicycle",
+            "human"
+        ],
+        "output": "cyclist",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "beaver",
+            "river"
+        ],
+        "output": "dam",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "beaver",
+            "tree"
+        ],
+        "output": "dam",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "beaver",
+            "wood"
+        ],
+        "output": "dam",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wall",
+            "river"
+        ],
+        "output": "dam",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "jedi",
+            "fire"
+        ],
+        "output": "darth vader",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "jedi",
+            "lava"
+        ],
+        "output": "darth vader",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "time"
+        ],
+        "output": "day",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "night",
+            "sun"
+        ],
+        "output": "day",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "time",
+            "night"
+        ],
+        "output": "day",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sky",
+            "sun"
+        ],
+        "output": "day",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "sand"
+        ],
+        "output": "desert",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "cactus"
+        ],
+        "output": "desert",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fog",
+            "grass"
+        ],
+        "output": "dew",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "grass"
+        ],
+        "output": "dew",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "pressure",
+            "coal"
+        ],
+        "output": "diamond",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "coal",
+            "time"
+        ],
+        "output": "diamond",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lizard",
+            "time"
+        ],
+        "output": "dinosaur",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "hospital"
+        ],
+        "output": "doctor",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wild animal",
+            "human"
+        ],
+        "output": "dog",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wolf",
+            "bone"
+        ],
+        "output": "dog",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dog",
+            "house"
+        ],
+        "output": "doghouse",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "dough",
+            "oil"
+        ],
+        "output": "donut",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rainbow",
+            "rainbow"
+        ],
+        "output": "double rainbow!",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "flour"
+        ],
+        "output": "dough",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lizard",
+            "fire"
+        ],
+        "output": "dragon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "airplane",
+            "robot"
+        ],
+        "output": "drone",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "leather"
+        ],
+        "output": "drum",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "alcohol"
+        ],
+        "output": "drunk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "beer",
+            "human"
+        ],
+        "output": "drunk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "wine"
+        ],
+        "output": "drunk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "carbon dioxide",
+            "cold"
+        ],
+        "output": "dry ice",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "ice",
+            "carbon dioxide"
+        ],
+        "output": "dry ice",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "bird"
+        ],
+        "output": "duck",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "pond"
+        ],
+        "output": "duck",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "lake"
+        ],
+        "output": "duck",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "time",
+            "duckling"
+        ],
+        "output": "duck",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "duck"
+        ],
+        "output": "duckling",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sand",
+            "wind"
+        ],
+        "output": "dune",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "desert",
+            "wind"
+        ],
+        "output": "dune",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "beach",
+            "wind"
+        ],
+        "output": "dune",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "air"
+        ],
+        "output": "dust",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "vampire"
+        ],
+        "output": "dust",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "day",
+            "vampire"
+        ],
+        "output": "dust",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gunpowder",
+            "wire"
+        ],
+        "output": "dynamite",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mountain",
+            "bird"
+        ],
+        "output": "eagle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "earth",
+            "energy"
+        ],
+        "output": "earthquake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "wave"
+        ],
+        "output": "earthquake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "moon"
+        ],
+        "output": "eclipse",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "life",
+            "stone"
+        ],
+        "output": "egg",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "bird"
+        ],
+        "output": "egg",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "turtle",
+            "turtle"
+        ],
+        "output": "egg",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lizard",
+            "lizard"
+        ],
+        "output": "egg",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "egg",
+            "clock"
+        ],
+        "output": "egg timer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "watch"
+        ],
+        "output": "egg timer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "car",
+            "electricity"
+        ],
+        "output": "electric car",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fish",
+            "electricity"
+        ],
+        "output": "electric eel",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "electricity"
+        ],
+        "output": "electrician",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "wire"
+        ],
+        "output": "electrician",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "energy"
+        ],
+        "output": "electricity",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "solar cell",
+            "sun"
+        ],
+        "output": "electricity",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wind turbine",
+            "wind"
+        ],
+        "output": "electricity",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "light",
+            "solar cell"
+        ],
+        "output": "electricity",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "letter",
+            "computer"
+        ],
+        "output": "email",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "letter",
+            "internet"
+        ],
+        "output": "email",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "fire"
+        ],
+        "output": "energy",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "sun"
+        ],
+        "output": "energy",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "tool"
+        ],
+        "output": "engineer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "volcano",
+            "energy"
+        ],
+        "output": "eruption",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sword",
+            "stone"
+        ],
+        "output": "excalibur",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "gunpowder",
+            "fire"
+        ],
+        "output": "explosion",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "thread",
+            "tool"
+        ],
+        "output": "fabric",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "story",
+            "monarch"
+        ],
+        "output": "fairy tale",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "story",
+            "castle"
+        ],
+        "output": "fairy tale",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "knight",
+            "story"
+        ],
+        "output": "fairy tale",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dragon",
+            "story"
+        ],
+        "output": "fairy tale",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "house"
+        ],
+        "output": "family",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "family"
+        ],
+        "output": "family tree",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "farmer",
+            "house"
+        ],
+        "output": "farm",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "farmer",
+            "barn"
+        ],
+        "output": "farm",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "field",
+            "human"
+        ],
+        "output": "farmer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "plant"
+        ],
+        "output": "farmer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "pitchfork"
+        ],
+        "output": "farmer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "goat",
+            "human"
+        ],
+        "output": "faun",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wall",
+            "wood"
+        ],
+        "output": "fence",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "tool"
+        ],
+        "output": "field",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "farmer"
+        ],
+        "output": "field",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fire",
+            "carbon dioxide"
+        ],
+        "output": "fire extinguisher",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pressure",
+            "carbon dioxide"
+        ],
+        "output": "fire extinguisher",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "carbon dioxide"
+        ],
+        "output": "fire extinguisher",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "fire"
+        ],
+        "output": "fireman",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "firetruck"
+        ],
+        "output": "fireman",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "campfire"
+        ],
+        "output": "fireplace",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "campfire",
+            "brick"
+        ],
+        "output": "fireplace",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "campfire",
+            "wall"
+        ],
+        "output": "fireplace",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fireman",
+            "car"
+        ],
+        "output": "firetruck",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "explosion",
+            "sky"
+        ],
+        "output": "fireworks",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "hard roe",
+            "time"
+        ],
+        "output": "fish",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "fish"
+        ],
+        "output": "fishing rod",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "fish"
+        ],
+        "output": "fishing rod",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fire",
+            "gun"
+        ],
+        "output": "flamethrower",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "light"
+        ],
+        "output": "flashlight",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rain",
+            "rain"
+        ],
+        "output": "flood",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rain",
+            "time"
+        ],
+        "output": "flood",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wheat",
+            "stone"
+        ],
+        "output": "flour",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "windmill",
+            "wheat"
+        ],
+        "output": "flour",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "garden"
+        ],
+        "output": "flower",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wood",
+            "wind"
+        ],
+        "output": "flute",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fish",
+            "bird"
+        ],
+        "output": "flying fish",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "fish"
+        ],
+        "output": "flying fish",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "squirrel",
+            "bird"
+        ],
+        "output": "flying squirrel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "squirrel",
+            "wind"
+        ],
+        "output": "flying squirrel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "squirrel",
+            "airplane"
+        ],
+        "output": "flying squirrel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "squirrel"
+        ],
+        "output": "flying squirrel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "earth",
+            "cloud"
+        ],
+        "output": "fog",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tree",
+            "tree"
+        ],
+        "output": "forest",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "paper",
+            "cookie"
+        ],
+        "output": "fortune cookie",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "dinosaur",
+            "time"
+        ],
+        "output": "fossil",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "dinosaur",
+            "earth"
+        ],
+        "output": "fossil",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "stone",
+            "dinosaur"
+        ],
+        "output": "fossil",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "statue",
+            "water"
+        ],
+        "output": "fountain",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "chicken",
+            "wild animal"
+        ],
+        "output": "fox",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "zombie",
+            "electricity"
+        ],
+        "output": "frankenstein",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "corpse"
+        ],
+        "output": "frankenstein",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "oil",
+            "vegetable"
+        ],
+        "output": "french fries",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "cold"
+        ],
+        "output": "fridge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "cold"
+        ],
+        "output": "fridge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "ice"
+        ],
+        "output": "fridge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "pond"
+        ],
+        "output": "frog",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tree",
+            "farmer"
+        ],
+        "output": "fruit",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sun",
+            "tree"
+        ],
+        "output": "fruit",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fruit",
+            "tree"
+        ],
+        "output": "fruit tree",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "star",
+            "star"
+        ],
+        "output": "galaxy",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "plant"
+        ],
+        "output": "garden",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "grass"
+        ],
+        "output": "garden",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "grass"
+        ],
+        "output": "garden",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "flower",
+            "flower"
+        ],
+        "output": "garden",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "garden"
+        ],
+        "output": "gardener",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steam",
+            "earth"
+        ],
+        "output": "geyser",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "graveyard",
+            "night"
+        ],
+        "output": "ghost",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "castle",
+            "night"
+        ],
+        "output": "ghost",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "santa",
+            "christmas tree"
+        ],
+        "output": "gift",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "santa",
+            "christmas stocking"
+        ],
+        "output": "gift",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "santa",
+            "cookie"
+        ],
+        "output": "gift",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "santa",
+            "chimney"
+        ],
+        "output": "gift",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "santa",
+            "fireplace"
+        ],
+        "output": "gift",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "dough"
+        ],
+        "output": "gingerbread house",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "gingerbread man"
+        ],
+        "output": "gingerbread house",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "life",
+            "dough"
+        ],
+        "output": "gingerbread man",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "ice",
+            "mountain"
+        ],
+        "output": "glacier",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fire",
+            "sand"
+        ],
+        "output": "glass",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "electricity"
+        ],
+        "output": "glass",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "glass",
+            "metal"
+        ],
+        "output": "glasses",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "glass",
+            "glass"
+        ],
+        "output": "glasses",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "garden",
+            "statue"
+        ],
+        "output": "gnome",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "livestock",
+            "mountain"
+        ],
+        "output": "goat",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "dinosaur",
+            "city"
+        ],
+        "output": "godzilla",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "sun"
+        ],
+        "output": "gold",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "rainbow"
+        ],
+        "output": "gold",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "clay",
+            "life"
+        ],
+        "output": "golem",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lava",
+            "pressure"
+        ],
+        "output": "granite",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "earth"
+        ],
+        "output": "grass",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "coffin",
+            "earth"
+        ],
+        "output": "grave",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "corpse",
+            "earth"
+        ],
+        "output": "grave",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grave",
+            "stone"
+        ],
+        "output": "gravestone",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "grave",
+            "grave"
+        ],
+        "output": "graveyard",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "gravestone",
+            "gravestone"
+        ],
+        "output": "graveyard",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "plant",
+            "glass"
+        ],
+        "output": "greenhouse",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "explosion",
+            "metal"
+        ],
+        "output": "grenade",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cheese",
+            "toast"
+        ],
+        "output": "grilled cheese",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "scythe"
+        ],
+        "output": "grim reaper",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "corpse",
+            "scythe"
+        ],
+        "output": "grim reaper",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "bullet"
+        ],
+        "output": "gun",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fire",
+            "dust"
+        ],
+        "output": "gunpowder",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "rain",
+            "ice"
+        ],
+        "output": "hail",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ice",
+            "storm"
+        ],
+        "output": "hail",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ice",
+            "cloud"
+        ],
+        "output": "hail",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "meat",
+            "smoke"
+        ],
+        "output": "ham",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "meat",
+            "bread"
+        ],
+        "output": "hamburger",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "wood"
+        ],
+        "output": "hammer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wheel",
+            "mouse"
+        ],
+        "output": "hamster",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "egg",
+            "water"
+        ],
+        "output": "hard roe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fish",
+            "fish"
+        ],
+        "output": "hard roe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "sea"
+        ],
+        "output": "hard roe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "ocean"
+        ],
+        "output": "hard roe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "pond"
+        ],
+        "output": "hard roe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "angel",
+            "music"
+        ],
+        "output": "harp",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grass",
+            "scythe"
+        ],
+        "output": "hay",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "farmer",
+            "grass"
+        ],
+        "output": "hay",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grass",
+            "sun"
+        ],
+        "output": "hay",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "hay",
+            "hay"
+        ],
+        "output": "hay bale",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "plant",
+            "fence"
+        ],
+        "output": "hedge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "leaf",
+            "fence"
+        ],
+        "output": "hedge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "airplane"
+        ],
+        "output": "helicopter",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "windmill",
+            "airplane"
+        ],
+        "output": "helicopter",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "knight",
+            "dragon"
+        ],
+        "output": "hero",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "horse",
+            "river"
+        ],
+        "output": "hippo",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "horse",
+            "water"
+        ],
+        "output": "hippo",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bee",
+            "flower"
+        ],
+        "output": "honey",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bee",
+            "beehive"
+        ],
+        "output": "honey",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "earth"
+        ],
+        "output": "horizon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sea",
+            "sky"
+        ],
+        "output": "horizon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ocean",
+            "sky"
+        ],
+        "output": "horizon",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "hay",
+            "livestock"
+        ],
+        "output": "horse",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "metal",
+            "horse"
+        ],
+        "output": "horseshoe",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "house",
+            "sickness"
+        ],
+        "output": "hospital",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "ambulance"
+        ],
+        "output": "hospital",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "house",
+            "doctor"
+        ],
+        "output": "hospital",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "glass"
+        ],
+        "output": "hourglass",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "human"
+        ],
+        "output": "house",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "brick"
+        ],
+        "output": "house",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "tool",
+            "brick"
+        ],
+        "output": "house",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wall",
+            "wall"
+        ],
+        "output": "house",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "life"
+        ],
+        "output": "human",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "flower"
+        ],
+        "output": "hummingbird",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wind",
+            "energy"
+        ],
+        "output": "hurricane",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "cold"
+        ],
+        "output": "ice",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "milk",
+            "cold"
+        ],
+        "output": "ice cream",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "milk",
+            "ice"
+        ],
+        "output": "ice cream",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "car",
+            "ice cream"
+        ],
+        "output": "ice cream truck",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "ice"
+        ],
+        "output": "iceberg",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ocean",
+            "ice"
+        ],
+        "output": "iceberg",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "antarctica"
+        ],
+        "output": "iceberg",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ocean",
+            "antarctica"
+        ],
+        "output": "iceberg",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ice",
+            "tea"
+        ],
+        "output": "iced tea",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "cold",
+            "tea"
+        ],
+        "output": "iced tea",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "light bulb"
+        ],
+        "output": "idea",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "light bulb",
+            "nerd"
+        ],
+        "output": "idea",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "ice"
+        ],
+        "output": "igloo",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "house",
+            "snow"
+        ],
+        "output": "igloo",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "computer",
+            "computer"
+        ],
+        "output": "internet",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "computer",
+            "wire"
+        ],
+        "output": "internet",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "computer",
+            "web"
+        ],
+        "output": "internet",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "ocean",
+            "volcano"
+        ],
+        "output": "isle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "volcano",
+            "sea"
+        ],
+        "output": "isle",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "wall"
+        ],
+        "output": "ivy",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "pumpkin",
+            "fire"
+        ],
+        "output": "jack-o'-lantern",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "blade",
+            "pumpkin"
+        ],
+        "output": "jack-o'-lantern",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "pumpkin",
+            "candle"
+        ],
+        "output": "jack-o'-lantern",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "juice",
+            "sugar"
+        ],
+        "output": "jam",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lightsaber",
+            "human"
+        ],
+        "output": "jedi",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "knight",
+            "lightsaber"
+        ],
+        "output": "jedi",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "meat",
+            "sun"
+        ],
+        "output": "jerky",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "meat",
+            "salt"
+        ],
+        "output": "jerky",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "fruit"
+        ],
+        "output": "juice",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "pressure",
+            "fruit"
+        ],
+        "output": "juice",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wind",
+            "paper"
+        ],
+        "output": "kite",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sky",
+            "paper"
+        ],
+        "output": "kite",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "armor"
+        ],
+        "output": "knight",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "pond"
+        ],
+        "output": "lake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "river",
+            "dam"
+        ],
+        "output": "lake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "light bulb"
+        ],
+        "output": "lamp",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "earth",
+            "fire"
+        ],
+        "output": "lava",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "lava",
+            "lamp"
+        ],
+        "output": "lava lamp",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grass",
+            "tool"
+        ],
+        "output": "lawn mower",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "scythe"
+        ],
+        "output": "lawn mower",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tree",
+            "wind"
+        ],
+        "output": "leaf",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "cow",
+            "blade"
+        ],
+        "output": "leather",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pig",
+            "blade"
+        ],
+        "output": "leather",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fruit",
+            "water"
+        ],
+        "output": "lemonade",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "paper",
+            "pencil"
+        ],
+        "output": "letter",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "swamp",
+            "energy"
+        ],
+        "output": "life",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "love",
+            "time"
+        ],
+        "output": "life",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "light bulb",
+            "electricity"
+        ],
+        "output": "light",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "flashlight"
+        ],
+        "output": "light",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "glass"
+        ],
+        "output": "light bulb",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "light",
+            "house"
+        ],
+        "output": "lighthouse",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "light",
+            "beach"
+        ],
+        "output": "lighthouse",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "light",
+            "ocean"
+        ],
+        "output": "lighthouse",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "light",
+            "sea"
+        ],
+        "output": "lighthouse",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "light",
+            "sword"
+        ],
+        "output": "lightsaber",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "energy",
+            "sword"
+        ],
+        "output": "lightsaber",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "electricity",
+            "sword"
+        ],
+        "output": "lightsaber",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wild animal",
+            "cat"
+        ],
+        "output": "lion",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "farmer",
+            "life"
+        ],
+        "output": "livestock",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wild animal",
+            "human"
+        ],
+        "output": "livestock",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "farmer",
+            "wild animal"
+        ],
+        "output": "livestock",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "egg",
+            "swamp"
+        ],
+        "output": "lizard",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "house"
+        ],
+        "output": "log cabin",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "human"
+        ],
+        "output": "love",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "axe",
+            "human"
+        ],
+        "output": "lumberjack",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "chainsaw"
+        ],
+        "output": "lumberjack",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cheese",
+            "pasta"
+        ],
+        "output": "mac and cheese",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "letter"
+        ],
+        "output": "mailman",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cow",
+            "sea"
+        ],
+        "output": "manatee",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "earth"
+        ],
+        "output": "map",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rust",
+            "planet"
+        ],
+        "output": "mars",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sugar",
+            "campfire"
+        ],
+        "output": "marshmallows",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "oil"
+        ],
+        "output": "mayonnaise",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cow",
+            "tool"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pig",
+            "tool"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "livestock"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cow",
+            "butcher"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pig",
+            "butcher"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "livestock",
+            "butcher"
+        ],
+        "output": "meat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "snake"
+        ],
+        "output": "medusa",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "fish"
+        ],
+        "output": "mermaid",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fire",
+            "stone"
+        ],
+        "output": "metal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "meteoroid",
+            "atmosphere"
+        ],
+        "output": "meteor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "meteoroid"
+        ],
+        "output": "meteor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "stone",
+            "space"
+        ],
+        "output": "meteoroid",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "glass",
+            "bacteria"
+        ],
+        "output": "microscope",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bacteria",
+            "glasses"
+        ],
+        "output": "microscope",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "farmer",
+            "cow"
+        ],
+        "output": "milk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cow",
+            "human"
+        ],
+        "output": "milk",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "milk",
+            "ice cream"
+        ],
+        "output": "milk shake",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "cow"
+        ],
+        "output": "minotaur",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "glass",
+            "metal"
+        ],
+        "output": "mirror",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "time",
+            "bread"
+        ],
+        "output": "mold",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "castle"
+        ],
+        "output": "monarch",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "excalibur",
+            "human"
+        ],
+        "output": "monarch",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "gold"
+        ],
+        "output": "money",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tree",
+            "wild animal"
+        ],
+        "output": "monkey",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sky",
+            "cheese"
+        ],
+        "output": "moon",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sky",
+            "stone"
+        ],
+        "output": "moon",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "plant",
+            "stone"
+        ],
+        "output": "moss",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "algae",
+            "stone"
+        ],
+        "output": "moss",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bicycle",
+            "energy"
+        ],
+        "output": "motorcycle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bicycle",
+            "steel"
+        ],
+        "output": "motorcycle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "earthquake",
+            "earth"
+        ],
+        "output": "mountain",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "mountain",
+            "goat"
+        ],
+        "output": "mountain goat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "goat",
+            "mountain range"
+        ],
+        "output": "mountain goat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "mountain",
+            "mountain"
+        ],
+        "output": "mountain range",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "cheese",
+            "wild animal"
+        ],
+        "output": "mouse",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "cheese"
+        ],
+        "output": "mousetrap",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "cheese"
+        ],
+        "output": "mousetrap",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "earth"
+        ],
+        "output": "mud",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "corpse",
+            "pyramid"
+        ],
+        "output": "mummy",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "flute"
+        ],
+        "output": "music",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "sound"
+        ],
+        "output": "music",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "unicorn",
+            "ocean"
+        ],
+        "output": "narwhal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "unicorn",
+            "water"
+        ],
+        "output": "narwhal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sea",
+            "unicorn"
+        ],
+        "output": "narwhal",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "metal",
+            "thread"
+        ],
+        "output": "needle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "hay"
+        ],
+        "output": "needle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "glasses"
+        ],
+        "output": "nerd",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "bird",
+            "tree"
+        ],
+        "output": "nest",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "hay"
+        ],
+        "output": "nest",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "hay"
+        ],
+        "output": "nest",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "paper"
+        ],
+        "output": "newspaper",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "moon",
+            "time"
+        ],
+        "output": "night",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "time",
+            "day"
+        ],
+        "output": "night",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sky",
+            "moon"
+        ],
+        "output": "night",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "shuriken",
+            "human"
+        ],
+        "output": "ninja",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "desert",
+            "water"
+        ],
+        "output": "oasis",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tree",
+            "desert"
+        ],
+        "output": "oasis",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "desert",
+            "palm"
+        ],
+        "output": "oasis",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lava",
+            "water"
+        ],
+        "output": "obsidian",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "sea"
+        ],
+        "output": "ocean",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sea",
+            "sea"
+        ],
+        "output": "ocean",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sunflower",
+            "pressure"
+        ],
+        "output": "oil",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "egg",
+            "fire"
+        ],
+        "output": "omelette",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wire",
+            "light"
+        ],
+        "output": "optical fiber",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fruit tree",
+            "fruit tree"
+        ],
+        "output": "orchard",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "field",
+            "fruit tree"
+        ],
+        "output": "orchard",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "bird",
+            "paper"
+        ],
+        "output": "origami",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "earth"
+        ],
+        "output": "ostrich",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "sand"
+        ],
+        "output": "ostrich",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "night",
+            "bird"
+        ],
+        "output": "owl",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "bird",
+            "wizard"
+        ],
+        "output": "owl",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "plant",
+            "sun"
+        ],
+        "output": "oxygen",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "carbon dioxide"
+        ],
+        "output": "oxygen",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "oxygen",
+            "oxygen"
+        ],
+        "output": "ozone",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "electricity",
+            "oxygen"
+        ],
+        "output": "ozone",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "rainbow"
+        ],
+        "output": "paint",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "pencil"
+        ],
+        "output": "paint",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "isle",
+            "tree"
+        ],
+        "output": "palm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tree",
+            "beach"
+        ],
+        "output": "palm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "pressure"
+        ],
+        "output": "paper",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "airplane",
+            "paper"
+        ],
+        "output": "paper airplane",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "pirate"
+        ],
+        "output": "parrot",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "flour",
+            "egg"
+        ],
+        "output": "pasta",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "rainbow"
+        ],
+        "output": "peacock",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "horse"
+        ],
+        "output": "pegasus",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "sky",
+            "horse"
+        ],
+        "output": "pegasus",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "bird",
+            "unicorn"
+        ],
+        "output": "pegasus",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "wood",
+            "coal"
+        ],
+        "output": "pencil",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "charcoal"
+        ],
+        "output": "pencil",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "ice",
+            "wild animal"
+        ],
+        "output": "penguin",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ice",
+            "bird"
+        ],
+        "output": "penguin",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "bird",
+            "snow"
+        ],
+        "output": "penguin",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "doctor",
+            "mold"
+        ],
+        "output": "penicillin",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fossil",
+            "time"
+        ],
+        "output": "petroleum",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fossil",
+            "pressure"
+        ],
+        "output": "petroleum",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fire",
+            "bird"
+        ],
+        "output": "phoenix",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "grass",
+            "sandwich"
+        ],
+        "output": "picnic",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "beach",
+            "sandwich"
+        ],
+        "output": "picnic",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "dough",
+            "fruit"
+        ],
+        "output": "pie",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "livestock",
+            "mud"
+        ],
+        "output": "pig",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "bird",
+            "city"
+        ],
+        "output": "pigeon",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "letter"
+        ],
+        "output": "pigeon",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "statue"
+        ],
+        "output": "pigeon",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pig",
+            "money"
+        ],
+        "output": "piggy bank",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "pottery",
+            "pig"
+        ],
+        "output": "piggy bank",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "airplane",
+            "human"
+        ],
+        "output": "pilot",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "seaplane",
+            "human"
+        ],
+        "output": "pilot",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "life"
+        ],
+        "output": "pinocchio",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "tobacco",
+            "wood"
+        ],
+        "output": "pipe",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fish",
+            "blood"
+        ],
+        "output": "piranha",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sword",
+            "sailor"
+        ],
+        "output": "pirate",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sailor",
+            "pirate ship"
+        ],
+        "output": "pirate",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sailboat",
+            "pirate"
+        ],
+        "output": "pirate ship",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "boat",
+            "pirate"
+        ],
+        "output": "pirate ship",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tool",
+            "hay"
+        ],
+        "output": "pitchfork",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "cheese",
+            "dough"
+        ],
+        "output": "pizza",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "earth",
+            "space"
+        ],
+        "output": "planet",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "life"
+        ],
+        "output": "plankton",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ocean",
+            "life"
+        ],
+        "output": "plankton",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "life"
+        ],
+        "output": "plankton",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "rain",
+            "earth"
+        ],
+        "output": "plant",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "beaver",
+            "duck"
+        ],
+        "output": "platypus",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "water",
+            "garden"
+        ],
+        "output": "pond",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "juice",
+            "ice"
+        ],
+        "output": "popsicle",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "juice",
+            "cold"
+        ],
+        "output": "popsicle",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "fire",
+            "clay"
+        ],
+        "output": "pottery",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "clay",
+            "wheel"
+        ],
+        "output": "pottery",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "clay",
+            "tool"
+        ],
+        "output": "pottery",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "earth",
+            "earth"
+        ],
+        "output": "pressure",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "air",
+            "air"
+        ],
+        "output": "pressure",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "paper",
+            "computer"
+        ],
+        "output": "printer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "glass",
+            "rainbow"
+        ],
+        "output": "prism",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "dinosaur"
+        ],
+        "output": "pterodactyl",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "dinosaur"
+        ],
+        "output": "pterodactyl",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sun",
+            "ice"
+        ],
+        "output": "puddle",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sun",
+            "snowman"
+        ],
+        "output": "puddle",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snowman",
+            "flamethrower"
+        ],
+        "output": "puddle",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "vegetable",
+            "fire"
+        ],
+        "output": "pumpkin",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "vegetable",
+            "light"
+        ],
+        "output": "pumpkin",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "desert",
+            "grave"
+        ],
+        "output": "pyramid",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "desert",
+            "stone"
+        ],
+        "output": "pyramid",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "water",
+            "air"
+        ],
+        "output": "rain",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "cloud",
+            "water"
+        ],
+        "output": "rain",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rain",
+            "sun"
+        ],
+        "output": "rainbow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "rain",
+            "light"
+        ],
+        "output": "rainbow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "pirate ship"
+        ],
+        "output": "rat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sailboat",
+            "wild animal"
+        ],
+        "output": "rat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "flour",
+            "paper"
+        ],
+        "output": "recipe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "paper",
+            "baker"
+        ],
+        "output": "recipe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "santa",
+            "wild animal"
+        ],
+        "output": "reindeer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "livestock",
+            "santa"
+        ],
+        "output": "reindeer",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "diamond",
+            "metal"
+        ],
+        "output": "ring",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "diamond",
+            "gold"
+        ],
+        "output": "ring",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "mountain",
+            "water"
+        ],
+        "output": "river",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "rain",
+            "mountain"
+        ],
+        "output": "river",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "metal",
+            "life"
+        ],
+        "output": "robot",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "steel",
+            "life"
+        ],
+        "output": "robot",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "life",
+            "armor"
+        ],
+        "output": "robot",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "airplane",
+            "space"
+        ],
+        "output": "rocket",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "robot",
+            "vacuum cleaner"
+        ],
+        "output": "roomba",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "thread",
+            "thread"
+        ],
+        "output": "rope",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "plant",
+            "love"
+        ],
+        "output": "rose",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "flower",
+            "love"
+        ],
+        "output": "rose",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "time",
+            "castle"
+        ],
+        "output": "ruins",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "time",
+            "house"
+        ],
+        "output": "ruins",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wood",
+            "pencil"
+        ],
+        "output": "ruler",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "air",
+            "metal"
+        ],
+        "output": "rust",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "oxygen"
+        ],
+        "output": "rust",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steel",
+            "oxygen"
+        ],
+        "output": "rust",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "steel"
+        ],
+        "output": "rust",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "car"
+        ],
+        "output": "rv",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "horse",
+            "leather"
+        ],
+        "output": "saddle",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "tool",
+            "glasses"
+        ],
+        "output": "safety glasses",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "explosion",
+            "glasses"
+        ],
+        "output": "safety glasses",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "engineer",
+            "glasses"
+        ],
+        "output": "safety glasses",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "boat",
+            "wind"
+        ],
+        "output": "sailboat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "boat",
+            "fabric"
+        ],
+        "output": "sailboat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "boat"
+        ],
+        "output": "sailor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "sailboat"
+        ],
+        "output": "sailor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sea",
+            "sun"
+        ],
+        "output": "salt",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "ocean",
+            "sun"
+        ],
+        "output": "salt",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fire",
+            "sea"
+        ],
+        "output": "salt",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fire",
+            "ocean"
+        ],
+        "output": "salt",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "air",
+            "stone"
+        ],
+        "output": "sand",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "wind",
+            "stone"
+        ],
+        "output": "sand",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sand",
+            "castle"
+        ],
+        "output": "sand castle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sand",
+            "paper"
+        ],
+        "output": "sandpaper",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "stone",
+            "sand"
+        ],
+        "output": "sandstone",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sand",
+            "storm"
+        ],
+        "output": "sandstorm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sand",
+            "hurricane"
+        ],
+        "output": "sandstorm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sand",
+            "energy"
+        ],
+        "output": "sandstorm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bread",
+            "ham"
+        ],
+        "output": "sandwich",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cheese",
+            "bread"
+        ],
+        "output": "sandwich",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bread",
+            "bacon"
+        ],
+        "output": "sandwich",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "christmas tree"
+        ],
+        "output": "santa",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "doctor"
+        ],
+        "output": "scalpel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "hospital"
+        ],
+        "output": "scalpel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "hay"
+        ],
+        "output": "scarecrow",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "blade",
+            "blade"
+        ],
+        "output": "scissors",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "dune"
+        ],
+        "output": "scorpion",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "sand"
+        ],
+        "output": "scorpion",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "grass"
+        ],
+        "output": "scythe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "wheat"
+        ],
+        "output": "scythe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "water"
+        ],
+        "output": "sea",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "bird",
+            "sea"
+        ],
+        "output": "seagull",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "ocean"
+        ],
+        "output": "seagull",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "beach"
+        ],
+        "output": "seagull",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "horse",
+            "sea"
+        ],
+        "output": "seahorse",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "ocean",
+            "horse"
+        ],
+        "output": "seahorse",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "fish",
+            "horse"
+        ],
+        "output": "seahorse",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "dog",
+            "sea"
+        ],
+        "output": "seal",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "airplane",
+            "water"
+        ],
+        "output": "seaplane",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "airplane",
+            "ocean"
+        ],
+        "output": "seaplane",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "airplane",
+            "sea"
+        ],
+        "output": "seaplane",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sickness",
+            "sea"
+        ],
+        "output": "seasickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sickness",
+            "ocean"
+        ],
+        "output": "seasickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "boat",
+            "sickness"
+        ],
+        "output": "seasickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steamboat",
+            "sickness"
+        ],
+        "output": "seasickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sailboat",
+            "sickness"
+        ],
+        "output": "seasickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "plant",
+            "sea"
+        ],
+        "output": "seaweed",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "plant",
+            "ocean"
+        ],
+        "output": "seaweed",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blood",
+            "ocean"
+        ],
+        "output": "shark",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "blood"
+        ],
+        "output": "shark",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ocean",
+            "wild animal"
+        ],
+        "output": "shark",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "wild animal"
+        ],
+        "output": "shark",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "cloud",
+            "livestock"
+        ],
+        "output": "sheep",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "paper",
+            "music"
+        ],
+        "output": "sheet music",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "star",
+            "blade"
+        ],
+        "output": "shuriken",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "rain"
+        ],
+        "output": "sickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "sickness"
+        ],
+        "output": "sickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "sickness"
+        ],
+        "output": "sickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "bacteria"
+        ],
+        "output": "sickness",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "snowboard",
+            "wheel"
+        ],
+        "output": "skateboard",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "corpse",
+            "time"
+        ],
+        "output": "skeleton",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bone",
+            "bone"
+        ],
+        "output": "skeleton",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "glasses",
+            "snow"
+        ],
+        "output": "ski goggles",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "air",
+            "cloud"
+        ],
+        "output": "sky",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "sky"
+        ],
+        "output": "skyscraper",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "cart"
+        ],
+        "output": "sledge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "snow",
+            "wagon"
+        ],
+        "output": "sledge",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "time"
+        ],
+        "output": "sloth",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "smoke",
+            "fog"
+        ],
+        "output": "smog",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fog",
+            "city"
+        ],
+        "output": "smog",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fire",
+            "wood"
+        ],
+        "output": "smoke",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "fruit",
+            "blender"
+        ],
+        "output": "smoothie",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wild animal",
+            "wire"
+        ],
+        "output": "snake",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "rain",
+            "cold"
+        ],
+        "output": "snow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steam",
+            "cold"
+        ],
+        "output": "snow",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "snow",
+            "crystal ball"
+        ],
+        "output": "snow globe",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "human"
+        ],
+        "output": "snowball",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wood",
+            "snow"
+        ],
+        "output": "snowboard",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "surfer"
+        ],
+        "output": "snowboard",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "human"
+        ],
+        "output": "snowman",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snowball",
+            "snowball"
+        ],
+        "output": "snowman",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "carrot"
+        ],
+        "output": "snowman",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snowball",
+            "carrot"
+        ],
+        "output": "snowman",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "motorcycle"
+        ],
+        "output": "snowmobile",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "snow",
+            "car"
+        ],
+        "output": "snowmobile",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "oil",
+            "ash"
+        ],
+        "output": "soap",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "carbon dioxide"
+        ],
+        "output": "soda",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "juice",
+            "carbon dioxide"
+        ],
+        "output": "soda",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sun",
+            "tool"
+        ],
+        "output": "solar cell",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sun",
+            "planet"
+        ],
+        "output": "solar system",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "wave"
+        ],
+        "output": "sound",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sky",
+            "star"
+        ],
+        "output": "space",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sun",
+            "star"
+        ],
+        "output": "space",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "moon",
+            "star"
+        ],
+        "output": "space",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "space",
+            "house"
+        ],
+        "output": "space station",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "airplane",
+            "astronaut"
+        ],
+        "output": "spaceship",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "lion"
+        ],
+        "output": "sphinx",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wild animal",
+            "thread"
+        ],
+        "output": "spider",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "mouse",
+            "tree"
+        ],
+        "output": "squirrel",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sky",
+            "night"
+        ],
+        "output": "star",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "night",
+            "telescope"
+        ],
+        "output": "star",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "fish",
+            "star"
+        ],
+        "output": "starfish",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "sea",
+            "star"
+        ],
+        "output": "starfish",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "ocean",
+            "star"
+        ],
+        "output": "starfish",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "stone",
+            "tool"
+        ],
+        "output": "statue",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "medusa"
+        ],
+        "output": "statue",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "meat",
+            "bbq"
+        ],
+        "output": "steak",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fire",
+            "cow"
+        ],
+        "output": "steak",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "water",
+            "fire"
+        ],
+        "output": "steam",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "water",
+            "energy"
+        ],
+        "output": "steam",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "boiler",
+            "tool"
+        ],
+        "output": "steam engine",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "boiler",
+            "wheel"
+        ],
+        "output": "steam engine",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steam engine",
+            "water"
+        ],
+        "output": "steamboat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "steam engine",
+            "boat"
+        ],
+        "output": "steamboat",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "metal",
+            "coal"
+        ],
+        "output": "steel",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tool",
+            "doctor"
+        ],
+        "output": "stethoscope",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "lava"
+        ],
+        "output": "stone",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "energy",
+            "cloud"
+        ],
+        "output": "storm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cloud",
+            "electricity"
+        ],
+        "output": "storm",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "campfire"
+        ],
+        "output": "story",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fruit",
+            "energy"
+        ],
+        "output": "sugar",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "juice",
+            "fire"
+        ],
+        "output": "sugar",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "juice",
+            "energy"
+        ],
+        "output": "sugar",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fire",
+            "sky"
+        ],
+        "output": "sun",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "clock",
+            "sun"
+        ],
+        "output": "sundial",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "plant",
+            "sun"
+        ],
+        "output": "sunflower",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "flower",
+            "sun"
+        ],
+        "output": "sunflower",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "sun",
+            "glasses"
+        ],
+        "output": "sunglasses",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "beach",
+            "glasses"
+        ],
+        "output": "sunglasses",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "explosion",
+            "star"
+        ],
+        "output": "super nova",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "human",
+            "wave"
+        ],
+        "output": "surfer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fish",
+            "seaweed"
+        ],
+        "output": "sushi",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "caviar",
+            "seaweed"
+        ],
+        "output": "sushi",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "mud",
+            "plant"
+        ],
+        "output": "swamp",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "mud",
+            "grass"
+        ],
+        "output": "swamp",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wool",
+            "tool"
+        ],
+        "output": "sweater",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "human",
+            "wool"
+        ],
+        "output": "sweater",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "glasses",
+            "water"
+        ],
+        "output": "swim goggles",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "swim goggles"
+        ],
+        "output": "swimmer",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "blade",
+            "metal"
+        ],
+        "output": "sword",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "blade",
+            "steel"
+        ],
+        "output": "sword",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fish",
+            "sword"
+        ],
+        "output": "swordfish",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "car",
+            "armor"
+        ],
+        "output": "tank",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "car",
+            "gun"
+        ],
+        "output": "tank",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "gun",
+            "electricity"
+        ],
+        "output": "taser",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "water",
+            "leaf"
+        ],
+        "output": "tea",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "glass",
+            "sky"
+        ],
+        "output": "telescope",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "glass",
+            "star"
+        ],
+        "output": "telescope",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "glass",
+            "space"
+        ],
+        "output": "telescope",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "cotton",
+            "tool"
+        ],
+        "output": "thread",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wheel",
+            "wool"
+        ],
+        "output": "thread",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sea",
+            "moon"
+        ],
+        "output": "tide",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "ocean",
+            "moon"
+        ],
+        "output": "tide",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "sand",
+            "glass"
+        ],
+        "output": "time",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steamboat",
+            "iceberg"
+        ],
+        "output": "titanic",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "sandwich",
+            "fire"
+        ],
+        "output": "toast",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "bread",
+            "fire"
+        ],
+        "output": "toast",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "plant",
+            "fire"
+        ],
+        "output": "tobacco",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "metal",
+            "human"
+        ],
+        "output": "tool",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "rainbow"
+        ],
+        "output": "toucan",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "farmer",
+            "car"
+        ],
+        "output": "tractor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "field",
+            "car"
+        ],
+        "output": "tractor",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "steam engine",
+            "steel"
+        ],
+        "output": "train",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "steam engine",
+            "metal"
+        ],
+        "output": "train",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "steam engine",
+            "wheel"
+        ],
+        "output": "train",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "steam engine",
+            "wagon"
+        ],
+        "output": "train",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "pirate",
+            "treasure map"
+        ],
+        "output": "treasure",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "pirate",
+            "map"
+        ],
+        "output": "treasure map",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "plant",
+            "time"
+        ],
+        "output": "tree",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "tree",
+            "house"
+        ],
+        "output": "treehouse",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "horse",
+            "wood"
+        ],
+        "output": "trojan horse",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "ocean",
+            "earthquake"
+        ],
+        "output": "tsunami",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "sea",
+            "earthquake"
+        ],
+        "output": "tsunami",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "egg",
+            "sand"
+        ],
+        "output": "turtle",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "day",
+            "night"
+        ],
+        "output": "twilight",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "meat",
+            "dinosaur"
+        ],
+        "output": "tyrannosaurus rex",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "rocket",
+            "alien"
+        ],
+        "output": "ufo",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "airplane",
+            "alien"
+        ],
+        "output": "ufo",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "tool",
+            "rain"
+        ],
+        "output": "umbrella",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "rain",
+            "fabric"
+        ],
+        "output": "umbrella",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "rainbow",
+            "horse"
+        ],
+        "output": "unicorn",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "rainbow",
+            "life"
+        ],
+        "output": "unicorn",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "double rainbow!",
+            "horse"
+        ],
+        "output": "unicorn",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "double rainbow!",
+            "life"
+        ],
+        "output": "unicorn",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "electricity",
+            "broom"
+        ],
+        "output": "vacuum cleaner",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "blood"
+        ],
+        "output": "vampire",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "vampire"
+        ],
+        "output": "vampire",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "vampire"
+        ],
+        "output": "vampire",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "plant",
+            "pottery"
+        ],
+        "output": "vase",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "pottery",
+            "flower"
+        ],
+        "output": "vase",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "field",
+            "fruit"
+        ],
+        "output": "vegetable",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "house",
+            "house"
+        ],
+        "output": "village",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lava",
+            "earth"
+        ],
+        "output": "volcano",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "lava",
+            "mountain"
+        ],
+        "output": "volcano",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "fire",
+            "mountain"
+        ],
+        "output": "volcano",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bird",
+            "corpse"
+        ],
+        "output": "vulture",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "cart",
+            "horse"
+        ],
+        "output": "wagon",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "brick",
+            "brick"
+        ],
+        "output": "wall",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wizard",
+            "wood"
+        ],
+        "output": "wand",
+        "rarity": "common"
+    },
+    {
+        "input": [
+            "sword",
+            "human"
+        ],
+        "output": "warrior",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "clock"
+        ],
+        "output": "watch",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "water",
+            "gun"
+        ],
+        "output": "water gun",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "flower",
+            "pond"
+        ],
+        "output": "water lily",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "water",
+            "pipe"
+        ],
+        "output": "water pipe",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "mountain",
+            "river"
+        ],
+        "output": "waterfall",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "sea",
+            "wind"
+        ],
+        "output": "wave",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "ocean",
+            "wind"
+        ],
+        "output": "wave",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "bee",
+            "beehive"
+        ],
+        "output": "wax",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "spider",
+            "thread"
+        ],
+        "output": "web",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "wolf",
+            "human"
+        ],
+        "output": "werewolf",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "werewolf",
+            "human"
+        ],
+        "output": "werewolf",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "werewolf",
+            "human"
+        ],
+        "output": "werewolf",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "field",
+            "farmer"
+        ],
+        "output": "wheat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "plant",
+            "farmer"
+        ],
+        "output": "wheat",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "tool",
+            "wood"
+        ],
+        "output": "wheel",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "forest",
+            "life"
+        ],
+        "output": "wild animal",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "pig",
+            "wild animal"
+        ],
+        "output": "wild boar",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "pig",
+            "forest"
+        ],
+        "output": "wild boar",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "pressure",
+            "air"
+        ],
+        "output": "wind",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "air",
+            "energy"
+        ],
+        "output": "wind",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "windmill",
+            "electricity"
+        ],
+        "output": "wind turbine",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "house",
+            "wind"
+        ],
+        "output": "windmill",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "wheel",
+            "wind"
+        ],
+        "output": "windmill",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "fruit",
+            "alcohol"
+        ],
+        "output": "wine",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "electricity",
+            "metal"
+        ],
+        "output": "wire",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wizard",
+            "broom"
+        ],
+        "output": "witch",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "broom"
+        ],
+        "output": "witch",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "human",
+            "energy"
+        ],
+        "output": "wizard",
+        "rarity": "uncommon"
+    },
+    {
+        "input": [
+            "wild animal",
+            "dog"
+        ],
+        "output": "wolf",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "wild animal",
+            "moon"
+        ],
+        "output": "wolf",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "dog",
+            "forest"
+        ],
+        "output": "wolf",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "tool",
+            "tree"
+        ],
+        "output": "wood",
+        "rarity": "epic"
+    },
+    {
+        "input": [
+            "bird",
+            "wood"
+        ],
+        "output": "woodpecker",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "sheep",
+            "tool"
+        ],
+        "output": "wool",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "scissors",
+            "sheep"
+        ],
+        "output": "wool",
+        "rarity": "legendary"
+    },
+    {
+        "input": [
+            "gift",
+            "paper"
+        ],
+        "output": "wrapping paper",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "jedi",
+            "swamp"
+        ],
+        "output": "yoda",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "milk",
+            "bacteria"
+        ],
+        "output": "yogurt",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "corpse",
+            "life"
+        ],
+        "output": "zombie",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "zombie"
+        ],
+        "output": "zombie",
+        "rarity": "rare"
+    },
+    {
+        "input": [
+            "human",
+            "zombie"
+        ],
+        "output": "zombie",
+        "rarity": "rare"
+    }
+]

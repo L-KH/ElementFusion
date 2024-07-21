@@ -1,10 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { rarityColors } from '../rarityColors';
 
 type Element = {
   id: number;
   name: string;
   imagePath: string;
+  rarity: string;
 };
 
 const FusionAreaContainer = styled.div`
@@ -22,13 +24,13 @@ const FusionBox = styled.div<{ invalid?: boolean }>`
   border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
 `;
 
-const FusionElement = styled.div`
+const FusionElement = styled.div<{ rarity: string }>`
   display: flex;
   align-items: center;
   justify-content: center;
   width: 150px;
   height: 150px;
-  border: 2px solid #ccc;
+  border: 2px solid ${(props) => rarityColors[props.rarity]};
   border-radius: 5px;
   margin: 0 10px;
   background-color: #f0f0f0;
@@ -73,7 +75,7 @@ const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedEle
       <h2>Fusion Area</h2>
       <FusionBox invalid={!!(result && !result.success)}>
         {selectedElements[0] ? (
-          <FusionElement onClick={() => onElementRemove(0)}>
+          <FusionElement rarity={selectedElements[0].rarity} onClick={() => onElementRemove(0)}>
             <img src={selectedElements[0].imagePath} alt={selectedElements[0].name} />
           </FusionElement>
         ) : (
@@ -81,14 +83,14 @@ const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedEle
         )}
         <FusionSign>+</FusionSign>
         {selectedElements[1] ? (
-          <FusionElement onClick={() => onElementRemove(1)}>
+          <FusionElement rarity={selectedElements[1].rarity} onClick={() => onElementRemove(1)}>
             <img src={selectedElements[1].imagePath} alt={selectedElements[1].name} />
           </FusionElement>
         ) : (
           <EmptyBox />
         )}
         <FusionSign>=</FusionSign>
-        <FusionElement>
+        <FusionElement rarity={result && result.success ? result.element.rarity : 'common'}>
           {result && result.success ? (
             <img src={result.element.imagePath} alt={result.element.name} />
           ) : result && !result.success ? (

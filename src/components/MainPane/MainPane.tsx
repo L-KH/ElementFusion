@@ -2,16 +2,19 @@ import React, { useState, useEffect } from 'react';
 import FusionArea from './components/FusionArea';
 import MintPage from './components/MintPage';
 import styled from 'styled-components';
+import combinationsData from './element_recipes_with_rarity.json';
 
 type Element = {
   id: number;
   name: string;
   imagePath: string;
+  rarity: string;
 };
 
 type Combination = {
   input: string[];
   output: string;
+  rarity: string;
 };
 
 const Container = styled.div`
@@ -39,15 +42,8 @@ const RightPane = styled.div`
 
 const MainPane = () => {
   const [selectedElements, setSelectedElements] = useState<Element[]>([]);
-  const [combinations, setCombinations] = useState<Combination[]>([]);
   const [discoveredElements, setDiscoveredElements] = useState<Element[]>([]);
-  const [result, setResult] = useState<{ success: boolean; element: Element } | null>(null);
-
-  useEffect(() => {
-    fetch('/combinations.json')
-      .then((res) => res.json())
-      .then((data: Combination[]) => setCombinations(data));
-  }, []);
+  const [result, setResult] = useState<{ success: boolean; element?: Element } | null>(null);
 
   const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
@@ -65,7 +61,7 @@ const MainPane = () => {
   const checkCombination = () => {
     if (selectedElements.length === 2) {
       const inputs = selectedElements.map((el) => el.name.toLowerCase());
-      const combination = combinations.find((combo) => {
+      const combination = combinationsData.find((combo: Combination) => {
         return (
           (combo.input[0] === inputs[0] && combo.input[1] === inputs[1]) ||
           (combo.input[0] === inputs[1] && combo.input[1] === inputs[0])
@@ -73,15 +69,21 @@ const MainPane = () => {
       });
       if (combination) {
         const alreadyDiscovered = discoveredElements.some(el => el.name === combination.output);
-        const newElement = { id: Date.now(), name: combination.output, imagePath: `/images/${combination.output}.webp` };
+        const newElement = {
+          id: Date.now(),
+          name: combination.output,
+          imagePath: `/images/${combination.output}.webp`,
+          rarity: combination.rarity,
+        };
         console.log('New Element:', newElement); // Debug log to check image path
         if (!alreadyDiscovered) {
           setDiscoveredElements([...discoveredElements, newElement]);
         }
         setResult({ success: true, element: newElement });
       } else {
-        setResult(null);
+        setResult(null);  // Ensure we set the state to null if the combination is unsuccessful
       }
+      
     }
   };
 
