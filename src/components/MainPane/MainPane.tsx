@@ -72,7 +72,7 @@ const MainPane = () => {
         const newElement = {
           id: Date.now(),
           name: combination.output,
-          imagePath: `/images/${combination.output}.webp`,
+          imagePath: `/images/${combination.output}.png`,
           rarity: combination.rarity,
         };
         console.log('New Element:', newElement); // Debug log to check image path

@@ -20,7 +20,7 @@ const FusionBox = styled.div<{ invalid?: boolean }>`
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
+  border: ${(props) => (props.invalid ? '5px solid red' : 'none')};
 `;
 
 const FusionElement = styled.div`
@@ -65,7 +65,7 @@ const EmptyBox = styled.div`
 
 const InvalidSign = styled.span`
   color: red;
-  font-size: 48px;
+  font-size: 88px;
 `;
 
 const FusionArea = ({ selectedElements, onElementRemove, result }: { selectedElements: Element[], onElementRemove: (index: number) => void, result: { success: boolean; element?: Element } | null }) => {

@@ -16,7 +16,7 @@ const elements: Element[] = [
 ];
 
 const rarityColors: { [key: string]: string } = {
-  common: 'rgba(255, 255, 255, 0.7)',
+  common: 'rgba(237, 237, 237, 0.8)',
   uncommon: 'rgba(0, 255, 0, 0.7)',
   rare: 'rgba(0, 0, 255, 0.7)',
   epic: 'rgba(255, 0, 255, 0.7)',
@@ -45,6 +45,7 @@ const ElementDiv = styled.div<{ rarity: string }>`
   font-size: 18px;
   box-shadow: 0 0 20px ${(props) => rarityColors[props.rarity]};
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  border: 0.5px solid black; /* Add a border */
 
   &:hover {
     transform: scale(1.05);
@@ -62,6 +63,7 @@ const ElementDiv = styled.div<{ rarity: string }>`
     flex-grow: 1;
   }
 `;
+
 
 const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (element: Element) => void, discoveredElements: Element[] }) => {
   const allElements = [...elements, ...discoveredElements];

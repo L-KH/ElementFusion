@@ -278,21 +278,21 @@ const transports: Record<number, Transport> = {
 export const wagmiConfig = createConfig({
   chains: [
   //customTaiko,
-  customplume,
+  // customplume,
   customTaiko2,
   sepolia,
-  customScroll,
-  //fantomSonicTestnet,
-  customMetis,
-  customLineaTestnet,
-  // baseGoerli,
-  // bscTestnet,
-  customberachain, // Add the custom Berachain Testnet to the wagmi configuration
-  customparallel,
-  customTabi,
-  custommint,
-  customzircuit,
-  customredstone
+  // customScroll,
+  // //fantomSonicTestnet,
+  // customMetis,
+  // customLineaTestnet,
+  // // baseGoerli,
+  // // bscTestnet,
+  // customberachain, // Add the custom Berachain Testnet to the wagmi configuration
+  // customparallel,
+  // customTabi,
+  // custommint,
+  // customzircuit,
+  // customredstone
   ],
   connectors,
   transports,
