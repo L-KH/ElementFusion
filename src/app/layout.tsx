@@ -10,11 +10,11 @@ import { Providers } from "./providers";
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ImaginAIryNFTs",
-  applicationName: "ImaginAIryNFTs",
+  title: "Wizardry",
+  applicationName: "Wizardry",
   description: "Your Prompt, Your art, Your NFT",
   authors: {
-    name: "ImaginAIryNFTs",
+    name: "Wizardry",
     url: "",
   },
   icons: "favicon.ico",

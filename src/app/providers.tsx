@@ -19,7 +19,7 @@ export function Providers({ children }: { children: ReactNode }) {
   const theme = extendTheme({ initialColorMode: "dark", useSystemColorMode: false });
 
   const appInfo = {
-    appName: "ImaginAIryNFTs",
+    appName: "Wizardry",
   };
 
   return (
