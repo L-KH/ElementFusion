@@ -8,7 +8,6 @@ type Element = {
   rarity: string;
 };
 
-// Styled components
 const FusionAreaContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -73,23 +72,19 @@ const SaveButton = styled.button`
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #4caf50;
+  cursor: pointer;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
   }
 `;
 
-const FusionArea = ({ selectedElements, onElementRemove, result, onSave, discoveredElements }: { 
-  selectedElements: Element[], 
-  onElementRemove: (index: number) => void, 
-  result: { success: boolean, element?: Element } | null, 
-  onSave: () => void, 
-  discoveredElements: Element[] }) => {
+const FusionArea = ({ selectedElements, onElementRemove, result, onSave }: { selectedElements: Element[], onElementRemove: (index: number) => void, result: { success: boolean, element: Element } | null, onSave: () => void }) => {
   return (
     <FusionAreaContainer>
       <h2>Fusion Area</h2>
@@ -112,22 +107,13 @@ const FusionArea = ({ selectedElements, onElementRemove, result, onSave, discove
         <FusionSign>=</FusionSign>
         <FusionElement>
           {result && result.success ? (
-            <img src={result.element?.imagePath} alt={result.element?.name} />
+            <img src={result.element.imagePath} alt={result.element.name} />
           ) : result && !result.success ? (
             <InvalidSign>X</InvalidSign>
           ) : null}
         </FusionElement>
       </FusionBox>
       <SaveButton onClick={onSave}>Save My Progress</SaveButton>
-      <h3>Discovered Elements:</h3>
-      <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-        {discoveredElements.map((element) => (
-          <div key={element.id} style={{ margin: '10px', textAlign: 'center' }}>
-            <img src={element.imagePath} alt={element.name} style={{ width: '50px', height: '50px' }} />
-            <p>{element.name}</p>
-          </div>
-        ))}
-      </div>
     </FusionAreaContainer>
   );
 };

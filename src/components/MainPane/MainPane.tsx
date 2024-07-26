@@ -3,6 +3,7 @@ import FusionArea from './components/FusionArea';
 import MintPage from './components/MintPage';
 import styled from 'styled-components';
 import combinationsData from './element_recipes_with_rarity.json';
+import { useSignMessageHook } from '../../hooks/useSignMessageHook'; // Ensure the correct path
 
 type Element = {
   id: number;
@@ -43,7 +44,13 @@ const RightPane = styled.div`
 const MainPane = () => {
   const [selectedElements, setSelectedElements] = useState<Element[]>([]);
   const [discoveredElements, setDiscoveredElements] = useState<Element[]>([]);
-  const [result, setResult] = useState<{ success: boolean; element?: Element } | null>(null);
+  const [result, setResult] = useState<{ success: boolean; element: Element | null } | null>(null);
+  const { saveElements, loadElements } = useSignMessageHook();
+
+  useEffect(() => {
+    const savedElements = loadElements();
+    setDiscoveredElements(savedElements);
+  }, []);
 
   const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
@@ -81,9 +88,13 @@ const MainPane = () => {
         }
         setResult({ success: true, element: newElement });
       } else {
-        setResult({ success: false, element: undefined });  // Ensure we set the state to false if the combination is unsuccessful
+        setResult({ success: false, element: null });
       }
     }
+  };
+
+  const handleSave = async () => {
+    await saveElements(discoveredElements);
   };
 
   useEffect(() => {
@@ -93,7 +104,13 @@ const MainPane = () => {
   return (
     <Container>
       <LeftPane>
-        <FusionArea selectedElements={selectedElements} onElementRemove={handleElementRemove} result={result} />
+      <FusionArea
+        selectedElements={selectedElements}
+        onElementRemove={handleElementRemove}
+        result={result as { success: boolean; element: Element } | null}
+        onSave={handleSave}
+        discoveredElements={discoveredElements}
+      />
       </LeftPane>
       <RightPane>
         <MintPage onElementClick={handleElementClick} discoveredElements={discoveredElements} />

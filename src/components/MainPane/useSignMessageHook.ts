@@ -35,20 +35,11 @@ export function useSignMessageHook() {
     try {
       const message = JSON.stringify(elements);
       await signMessage({ message });
-      localStorage.setItem('savedElements', message);
       console.log('Elements saved successfully:', elements);
     } catch (err) {
       console.error('Error saving elements:', err);
     }
   };
 
-  const loadElements = (): AlchemyElement[] => {
-    const savedElements = localStorage.getItem('savedElements');
-    if (savedElements) {
-      return JSON.parse(savedElements);
-    }
-    return [];
-  };
-
-  return { signature, recoveredAddress, error, isPending, signMessage, saveElements, loadElements };
+  return { signature, recoveredAddress, error, isPending, signMessage, saveElements };
 }
