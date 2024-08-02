@@ -6,7 +6,7 @@ import { Open_Sans } from "next/font/google";
 
 import "@rainbow-me/rainbowkit/styles.css";
 import { Providers } from "./providers";
-
+import Cursor3D from '../components/Cursor3D';
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={open_sans.className}>
+      <Cursor3D />
         <Providers>{children}</Providers>
       </body>
     </html>

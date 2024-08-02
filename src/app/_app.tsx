@@ -6,9 +6,12 @@ import RootLayout from "./layout";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    
     <RootLayout>
+      
       <Component {...pageProps} />
       <Analytics />
+
     </RootLayout>
   );
 }

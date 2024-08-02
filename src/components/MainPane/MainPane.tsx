@@ -110,6 +110,7 @@ const MainPane = () => {
         result={result as { success: boolean; element: Element } | null}
         onSave={handleSave}
         discoveredElements={discoveredElements}
+        onElementClick={handleElementClick}
       />
       </LeftPane>
       <RightPane>

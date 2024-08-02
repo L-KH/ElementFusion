@@ -66,7 +66,17 @@ const ElementDiv = styled.div<{ rarity: string }>`
 
 
 const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (element: Element) => void, discoveredElements: Element[] }) => {
-  const allElements = [...elements, ...discoveredElements];
+  // Filter out basic elements from discoveredElements
+  const nonBasicElements = discoveredElements.filter(element => 
+    !elements.some(basicElement => basicElement.name.toLowerCase() === element.name.toLowerCase())
+  );
+
+  // Sort non-basic elements alphabetically
+  const sortedNonBasicElements = nonBasicElements.sort((a, b) => a.name.localeCompare(b.name));
+
+  // Combine basic elements and sorted non-basic elements
+  const allElements = [...elements, ...sortedNonBasicElements];
+
   return (
     <div>
       <h2>Elements</h2>
