@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 type Element = {
   id: number;
@@ -23,29 +23,33 @@ const rarityColors: { [key: string]: string } = {
   legendary: 'rgba(255, 215, 0, 0.7)',
 };
 
-const ElementsList = styled.div`
+const fadeIn = keyframes`
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+`;
+
+const Grid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+`;
+
+const ElementCard = styled.div<{ rarity: string }>`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  padding-top: 20px;
-`;
-
-const ElementDiv = styled.div<{ rarity: string }>`
-  display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 10px 20px;
-  margin: 10px 0;
+  padding: 15px;
   border-radius: 10px;
   cursor: pointer;
-  width: 100%; /* Full width */
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   box-shadow: 0 0 20px ${(props) => rarityColors[props.rarity]};
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-  border: 0.5px solid black; /* Add a border */
+  border: 0.5px solid black;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
 
   &:hover {
     transform: scale(1.05);
@@ -53,17 +57,18 @@ const ElementDiv = styled.div<{ rarity: string }>`
     box-shadow: 0 0 30px ${(props) => rarityColors[props.rarity]};
   }
 
-  img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
-
-  span {
-    flex-grow: 1;
-  }
+  animation: ${fadeIn} 0.5s ease-out;
 `;
 
+const ElementImage = styled.img`
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+`;
+
+const ElementName = styled.span`
+  font-weight: bold;
+`;
 
 const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (element: Element) => void, discoveredElements: Element[] }) => {
   // Filter out basic elements from discoveredElements
@@ -80,18 +85,18 @@ const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (ele
   return (
     <div>
       <h2>Elements</h2>
-      <ElementsList>
+      <Grid>
         {allElements.map((element) => (
-          <ElementDiv
+          <ElementCard
             key={element.id}
             onClick={() => onElementClick(element)}
             rarity={element.rarity}
           >
-            <img src={element.imagePath} alt={element.name} />
-            <span>{element.name}</span>
-          </ElementDiv>
+            <ElementImage src={element.imagePath} alt={element.name} />
+            <ElementName>{element.name}</ElementName>
+          </ElementCard>
         ))}
-      </ElementsList>
+      </Grid>
     </div>
   );
 };

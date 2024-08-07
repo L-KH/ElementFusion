@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={open_sans.className}>
-      <Cursor3D />
+        <Cursor3D />
         <Providers>{children}</Providers>
       </body>
     </html>
