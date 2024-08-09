@@ -3,11 +3,11 @@ import styled, { keyframes } from 'styled-components';
 
 const spiralRotateToCenter = (startPosition: 'left' | 'right') => keyframes`
   0% {
-    transform: ${startPosition === 'left' ? 'translateX(-30vw)' : 'translateX(30vw)'} scale(1.5) rotate(0deg);
+    transform: ${startPosition === 'left' ? 'translateX(-150px)' : 'translateX(150px)'} scale(1.5) rotate(0deg);
     opacity: 1;
   }
   50% {
-    transform: ${startPosition === 'left' ? 'translateX(-15vw)' : 'translateX(15vw)'} scale(1.25) rotate(${startPosition === 'left' ? '360deg' : '-360deg'});
+    transform: ${startPosition === 'left' ? 'translateX(-75px)' : 'translateX(75px)'} scale(1.25) rotate(${startPosition === 'left' ? '360deg' : '-360deg'});
     opacity: 0.5;
   }
   100% {
@@ -17,11 +17,10 @@ const spiralRotateToCenter = (startPosition: 'left' | 'right') => keyframes`
 `;
 
 const appearFromCenter = keyframes`
-  0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
-  50% { transform: translate(-50%, -50%) scale(1.5); opacity: 1; }
-  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+  0% { transform: scale(0); opacity: 0; }
+  50% { transform: scale(1.5); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
 `;
-
 const getRarityColor = (rarity: string) => {
   switch (rarity.toLowerCase()) {
     case 'common': return '#cccccc';
@@ -72,8 +71,8 @@ const FusionArea = styled.div`
 `;
 
 const ElementImage = styled.div<{ position: 'left' | 'right'; imagePath: string }>`
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-image: url(${props => props.imagePath});
   background-size: cover;
   background-position: center;
@@ -85,13 +84,16 @@ const ElementImage = styled.div<{ position: 'left' | 'right'; imagePath: string 
              ${traceEffect} 2s linear forwards;
   will-change: transform, opacity, box-shadow;
 `;
-
 const ResultElementContainer = styled.div`
-  position: fixed; // Changed to fixed to ensure it's centered on the screen
+  position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const ResultElement = styled.img<{ rarity: string }>`
@@ -108,7 +110,9 @@ const ElementName = styled.div`
   color: #fff;
   opacity: 0;
   animation: ${appearFromCenter} 1.5s cubic-bezier(0.34, 1.56, 0.64, 1) 2.5s forwards;
+  margin-top: 10px;
 `;
+
 
 interface FusionAnimationProps {
   element1: { imagePath: string; name: string };
@@ -119,11 +123,24 @@ interface FusionAnimationProps {
 
 const FusionAnimation: React.FC<FusionAnimationProps> = ({ element1, element2, result, onAnimationEnd }) => {
   const animationRef = useRef<HTMLDivElement>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  
   useEffect(() => {
     const animationDuration = 6000; // 6 seconds
     const timer = setTimeout(onAnimationEnd, animationDuration);
-    return () => clearTimeout(timer);
+
+    // Create and play the audio
+    audioRef.current = new Audio('/fusion.mp3'); // Adjust the path as needed
+    audioRef.current.play().catch(error => console.error("Audio playback failed:", error));
+
+    return () => {
+      clearTimeout(timer);
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0;
+      }
+    };
   }, [onAnimationEnd]);
 
   return (

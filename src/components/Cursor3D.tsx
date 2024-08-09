@@ -17,8 +17,14 @@ const Cursor3D: React.FC = () => {
     const trail: { x: number; y: number; size: number; blur: number }[] = [];
     const trailLength = 30;
 
-    // Use a trending color palette
-    const colors = ['#ff6f61', '#6b5b95', '#88b04b', '#f7cac9', '#92a8d1'];
+    // Generate 3 random colors
+    const getRandomColor = () => {
+      const r = Math.floor(Math.random() * 256);
+      const g = Math.floor(Math.random() * 256);
+      const b = Math.floor(Math.random() * 256);
+      return `rgb(${r},${g},${b})`;
+    };
+    const colors = [getRandomColor(), getRandomColor(), getRandomColor()];
     
     const updateMousePosition = (e: MouseEvent) => {
       mouseX = e.clientX;
@@ -39,10 +45,14 @@ const Cursor3D: React.FC = () => {
           point.x, point.y, point.size
         );
         const alpha = 0.7 * (1 - index / trailLength);
-        gradient.addColorStop(0, colors[index % colors.length].replace('rgb', 'rgba').replace(')', `,${alpha})`));
-        gradient.addColorStop(1, colors[(index + 1) % colors.length].replace('rgb', 'rgba').replace(')', `,${alpha * 0.5})`));
+        const colorIndex = Math.floor(index / (trailLength / 3));
+        const nextColorIndex = (colorIndex + 1) % 3;
+        
+        gradient.addColorStop(0, colors[colorIndex]);
+        gradient.addColorStop(1, colors[nextColorIndex]);
 
         ctx.filter = `blur(${point.blur}px)`;
+        ctx.globalAlpha = alpha;
         ctx.beginPath();
         ctx.arc(point.x, point.y, point.size * (1 - index / trailLength), 0, Math.PI * 2);
         ctx.fillStyle = gradient;

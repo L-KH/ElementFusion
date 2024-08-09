@@ -15,7 +15,6 @@ import { type Chain } from 'viem'
 import { createConfig, http } from "wagmi";
 import {
   sepolia,
-  scrollTestnet,
   fantomSonicTestnet,
   lineaTestnet,
 } from "wagmi/chains";
@@ -243,7 +242,6 @@ const BeraBartio: Chain = {
 // Fix missing icons
 const customLineaTestnet = { ...lineaTestnet, iconUrl: lineaTesnet_logo.src };
 const customMetis = { ...metissepoliatestnet, iconUrl: metistoken.src };
-const customScroll = { ...scrollTestnet, iconUrl: scroll_logo.src };
 const customTaiko = { ...taikokaltatestnet, iconUrl: taiko_logo.src };
 const customTaiko2 = { ...taikokaltatestnet2, iconUrl: taiko_logo.src };
 
@@ -261,7 +259,6 @@ const transports: Record<number, Transport> = {
   //[customTaiko.id]: http(), // Add Berachain Testnet transport
   [customTaiko2.id]: http(), // Add Berachain Testnet transport
   [sepolia.id]: http(),
-  [customScroll.id]: http(),
   [fantomSonicTestnet.id]: http(),
   [customMetis.id]: http(), // Add Berachain Testnet transport
   [customTabi.id]: http(), 
