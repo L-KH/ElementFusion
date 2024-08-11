@@ -321,7 +321,7 @@ const FusionArea = ({
   const toast = useToast();
   const { isConnected } = useAccount();
   const { handleMint } = useMint();
-
+  const [isMinting, setIsMinting] = useState(false);
 
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
@@ -342,7 +342,7 @@ const FusionArea = ({
       });
       return;
     }
-  
+    setIsMinting(true);
     try {
       console.log("Minting element:", element);
       const rarityToNumber = {
@@ -353,20 +353,23 @@ const FusionArea = ({
         'legendary': 4
       };
       const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
-      const tx = await handleMint(element.name, rarityNumber);  
+      const txHash = await handleMint(element.name, rarityNumber);
+  
       toast({
         title: "Element minting initiated",
-        description: "Transaction submitted. Please wait for confirmation.",
+        description: `Transaction submitted. Hash: ${txHash}`,
         status: "info",
         duration: 5000,
         isClosable: true,
       });
   
-      await tx.wait();
+      console.log("Transaction hash:", txHash);
+  
+      // Remove the await tx.wait() line
   
       toast({
-        title: "Element minted successfully!",
-        description: "Transaction confirmed.",
+        title: "Element minting transaction submitted",
+        description: `Transaction hash: ${txHash}`,
         status: "success",
         duration: 5000,
         isClosable: true,
@@ -380,6 +383,8 @@ const FusionArea = ({
         duration: 5000,
         isClosable: true,
       });
+    } finally {
+      setIsMinting(false);
     }
   };
   
