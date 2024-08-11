@@ -1,0 +1,19 @@
+{
+    "name": "love",
+    "description": "Element Fusion NFT representing love",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZZgeWR6QVn1FRFCXP37Wrz6FrnUM7NdH2pig1S3y3gqC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:57.078772"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, human"
+        }
+    ]
+}

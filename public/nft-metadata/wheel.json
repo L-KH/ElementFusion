@@ -1,0 +1,19 @@
+{
+    "name": "wheel",
+    "description": "Element Fusion NFT representing wheel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYfpQKxPMBGrdYV4BbVFiooNVYWAtBm9yk1ZYSSBY53hC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:45.892361"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tool, wood"
+        }
+    ]
+}

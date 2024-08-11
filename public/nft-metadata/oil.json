@@ -1,0 +1,19 @@
+{
+    "name": "oil",
+    "description": "Element Fusion NFT representing oil",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUaxXtgjNzSetqLKk6JPKCBdo5BjAmfuMv7sz71UvsUcG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:20.586948"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sunflower, pressure"
+        }
+    ]
+}

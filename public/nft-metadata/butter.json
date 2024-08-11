@@ -1,0 +1,19 @@
+{
+    "name": "butter",
+    "description": "Element Fusion NFT representing butter",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmce3eRRDphe2jSs9FT4xKR22K6jHZwBtjX8LYsRBMXUCL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:57.441641"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "energy, milk"
+        }
+    ]
+}

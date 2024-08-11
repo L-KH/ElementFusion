@@ -1,0 +1,19 @@
+{
+    "name": "picnic",
+    "description": "Element Fusion NFT representing picnic",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmb9KL1aQmcLRZ511vCBohfmopgBGhktrZPxyawSjfZJo5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:25:27.414030"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "beach, sandwich"
+        }
+    ]
+}

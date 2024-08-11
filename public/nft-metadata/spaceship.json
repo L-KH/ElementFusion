@@ -1,0 +1,19 @@
+{
+    "name": "spaceship",
+    "description": "Element Fusion NFT representing spaceship",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZyQwgNR55TeGEwSBaP3F2eUbc6nsCX6uaSuCevp8FzNp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:39.300598"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "airplane, astronaut"
+        }
+    ]
+}

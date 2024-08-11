@@ -1,0 +1,19 @@
+{
+    "name": "confetti",
+    "description": "Element Fusion NFT representing confetti",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmbt1wpopThs9RSTGvFg5MwXsDXKApKDAA7JKxDCWm8scW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:34.649139"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, scissors"
+        }
+    ]
+}

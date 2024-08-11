@@ -1,0 +1,19 @@
+{
+    "name": "axe",
+    "description": "Element Fusion NFT representing axe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRUDAUifYHvCP92DU6wc28LY4Geft3CxxBUWp5AEj1Lk2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:32:05.332962"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "blade, wood"
+        }
+    ]
+}

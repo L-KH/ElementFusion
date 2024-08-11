@@ -1,0 +1,19 @@
+{
+    "name": "algae",
+    "description": "Element Fusion NFT representing algae",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTgkRB9QMmGef2nKFbgwpqxbShbPdK4aJTZcU65FDBuTy",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:28:59.946219"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, plant"
+        }
+    ]
+}

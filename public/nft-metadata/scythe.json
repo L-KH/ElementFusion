@@ -1,0 +1,19 @@
+{
+    "name": "scythe",
+    "description": "Element Fusion NFT representing scythe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdAFsc2Cb7JovyNuVYTVsjWmrTLfLWHe8hvXcJX8f9XJH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:41:52.916959"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "blade, wheat"
+        }
+    ]
+}

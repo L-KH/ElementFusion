@@ -1,0 +1,19 @@
+{
+    "name": "swim goggles",
+    "description": "Element Fusion NFT representing swim goggles",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRdXu4SPHpdiZaqpEFWSnLPcUtkx2NLicWGimKju57C4o",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:52:42.638909"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glasses, water"
+        }
+    ]
+}

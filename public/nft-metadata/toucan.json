@@ -1,0 +1,19 @@
+{
+    "name": "toucan",
+    "description": "Element Fusion NFT representing toucan",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQHg2HvXbTFH22tRjHbCW4UKXmfiLg3vBUfMd9NxmT6FT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:51.481266"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, rainbow"
+        }
+    ]
+}

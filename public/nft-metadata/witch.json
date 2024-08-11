@@ -1,0 +1,19 @@
+{
+    "name": "witch",
+    "description": "Element Fusion NFT representing witch",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXH2T2BqRReYactx3k2aZbfQVWNWUBFk6nfbXCjVNUpQN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:02:09.408364"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, broom"
+        }
+    ]
+}

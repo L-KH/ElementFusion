@@ -1,0 +1,19 @@
+{
+    "name": "cereal",
+    "description": "Element Fusion NFT representing cereal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS1gaWrShb6q8EBGSGDgQZHJj2SPKVWA4jMVBqrL6vNGf",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:11.819154"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheat, milk"
+        }
+    ]
+}

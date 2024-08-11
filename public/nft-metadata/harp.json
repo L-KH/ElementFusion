@@ -1,0 +1,19 @@
+{
+    "name": "harp",
+    "description": "Element Fusion NFT representing harp",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSgqQEMXXjDih641VRSxiR2djqg47KKzMURPSRKbjJP8X",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:05:49.893106"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "angel, music"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "armadillo",
+    "description": "Element Fusion NFT representing armadillo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP1hZnreJfoz8ZxqeNsqWS4N9hUHx5n9X4LRYX14L7Y4Q",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:30:42.262113"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, armor"
+        }
+    ]
+}

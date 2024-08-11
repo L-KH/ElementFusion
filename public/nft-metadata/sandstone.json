@@ -1,0 +1,19 @@
+{
+    "name": "sandstone",
+    "description": "Element Fusion NFT representing sandstone",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSv4F5MAV4VouY6a4ne8PA8mMi8XwXkHJf5VT6v9jEcZV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:40:16.065111"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "stone, sand"
+        }
+    ]
+}

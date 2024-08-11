@@ -1,0 +1,19 @@
+{
+    "name": "alligator",
+    "description": "Element Fusion NFT representing alligator",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZPRiWCnUyhZiMx8yQrbMJqSVbpuGXvscnpwvnxNAK2k",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:25.187951"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lizard, river"
+        }
+    ]
+}

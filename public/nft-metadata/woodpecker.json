@@ -1,0 +1,19 @@
+{
+    "name": "woodpecker",
+    "description": "Element Fusion NFT representing woodpecker",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf4pjAbPjmdAtUuZuFA9w2VS8fu6sVxgeLwW42SZKyDsm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:02:48.699742"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, wood"
+        }
+    ]
+}

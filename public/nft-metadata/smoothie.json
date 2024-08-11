@@ -1,0 +1,19 @@
+{
+    "name": "smoothie",
+    "description": "Element Fusion NFT representing smoothie",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVfSNfx4iinHaxciproPCLNGqJss3QPDD3FiMyPQXhJs4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:04.452897"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fruit, blender"
+        }
+    ]
+}

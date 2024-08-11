@@ -1,0 +1,19 @@
+{
+    "name": "recipe",
+    "description": "Element Fusion NFT representing recipe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdKmSWVxWpV4fDdQfirvSUSPyfCvYEyxgymyncmpvsHUx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:30:11.708900"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, baker"
+        }
+    ]
+}

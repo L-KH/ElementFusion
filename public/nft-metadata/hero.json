@@ -1,0 +1,19 @@
+{
+    "name": "hero",
+    "description": "Element Fusion NFT representing hero",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbUPKLUQ2oR3vNKr5a4yifG2wb5guDkA4S8sKKLy5Zv6b",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:06:51.782111"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "knight, dragon"
+        }
+    ]
+}

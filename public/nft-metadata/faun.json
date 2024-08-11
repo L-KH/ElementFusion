@@ -1,0 +1,19 @@
+{
+    "name": "faun",
+    "description": "Element Fusion NFT representing faun",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRX9mGZfUsSwNFFUpTvnyUuxeXQUhwGoyDQeezaAzT7S7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:55:29.315418"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "goat, human"
+        }
+    ]
+}

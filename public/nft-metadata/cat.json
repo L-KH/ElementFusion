@@ -1,0 +1,19 @@
+{
+    "name": "cat",
+    "description": "Element Fusion NFT representing cat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXNXmpB5SAiWkg2QfdootBj8pmg63L9qRt4cMw2vuJqMG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:47.956105"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, milk"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "barn",
+    "description": "Element Fusion NFT representing barn",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQXBnQLBaGwV2khuoTcbNPkgzXHPvYsgy7H3kWWfoB7Ft",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:36.669579"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, hay"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "optical fiber",
+    "description": "Element Fusion NFT representing optical fiber",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSfbm7ek2ZC39nY28szVd1WFMorxbLvCrtMu3LX6AtvcB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:32.314284"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wire, light"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "pinocchio",
+    "description": "Element Fusion NFT representing pinocchio",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdezkYsigcE8QQxaQNHaDAWwZjrV5N4ccr1QeuxTZMLLc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:22.997777"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, life"
+        }
+    ]
+}

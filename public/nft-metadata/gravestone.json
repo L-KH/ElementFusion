@@ -1,0 +1,19 @@
+{
+    "name": "gravestone",
+    "description": "Element Fusion NFT representing gravestone",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSf5duR4p7WzBc61XJq2N2YjS8DvGBNdPw1kF7ACm5d6q",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:48.504188"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "grave, stone"
+        }
+    ]
+}

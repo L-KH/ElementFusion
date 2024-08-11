@@ -1,0 +1,19 @@
+{
+    "name": "seaweed",
+    "description": "Element Fusion NFT representing seaweed",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZKVkeoAb9QCFrtV9d24ESnTUxtTTFdVw9Bri3igVyRX7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:43:45.357396"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, ocean"
+        }
+    ]
+}

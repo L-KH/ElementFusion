@@ -1,0 +1,19 @@
+{
+    "name": "lamp",
+    "description": "Element Fusion NFT representing lamp",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVpKxHWAKduhHzEfJgyqnQZhNDRFMB4TDRTPRcimk4vWe",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:13:11.878687"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, light bulb"
+        }
+    ]
+}

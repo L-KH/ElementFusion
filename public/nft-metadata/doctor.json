@@ -1,0 +1,19 @@
+{
+    "name": "doctor",
+    "description": "Element Fusion NFT representing doctor",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT7he21aTbqVkHW2SNz5AxgKLHfiS8KpqpzWXvZc7ZHdB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:47.261643"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, hospital"
+        }
+    ]
+}

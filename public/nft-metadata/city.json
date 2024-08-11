@@ -1,0 +1,19 @@
+{
+    "name": "city",
+    "description": "Element Fusion NFT representing city",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZSnRrUeskBTeViJHavCDsyxoG5dZnVVeVfw2QL14vixd",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:00.836693"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "skyscraper, skyscraper"
+        }
+    ]
+}

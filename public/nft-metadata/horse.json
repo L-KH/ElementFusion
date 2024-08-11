@@ -1,0 +1,19 @@
+{
+    "name": "horse",
+    "description": "Element Fusion NFT representing horse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV8qHRqMLWBudmBeifT2f3mLB2nxeL2QEKJoRRn2kzfBV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:07:36.258951"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "hay, livestock"
+        }
+    ]
+}

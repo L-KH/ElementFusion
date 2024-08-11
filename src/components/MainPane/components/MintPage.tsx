@@ -21,6 +21,8 @@ const rarityColors: { [key: string]: string } = {
   rare: 'rgba(0, 0, 255, 0.7)',
   epic: 'rgba(255, 0, 255, 0.7)',
   legendary: 'rgba(255, 215, 0, 0.7)',
+  hidden: 'rgba(0, 0, 0, 0.7)',
+
 };
 
 const fadeIn = keyframes`

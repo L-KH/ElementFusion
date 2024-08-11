@@ -1,0 +1,19 @@
+{
+    "name": "tractor",
+    "description": "Element Fusion NFT representing tractor",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaXRrHeagnY2E9vif8W1yLrxdSG9QsXDApd4JvTxc6TxX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:55:02.937549"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "field, car"
+        }
+    ]
+}

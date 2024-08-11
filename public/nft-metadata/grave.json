@@ -1,0 +1,19 @@
+{
+    "name": "grave",
+    "description": "Element Fusion NFT representing grave",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPy7oaLnUn96yTrDk7LxdsCYxstceL9222YeHdSgA8iDb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:42.842060"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "corpse, earth"
+        }
+    ]
+}

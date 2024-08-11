@@ -1,0 +1,19 @@
+{
+    "name": "chainsaw",
+    "description": "Element Fusion NFT representing chainsaw",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeqY88Kecabn8yGVoi63sfA8uo3CQ2yKs4oNU58ZVkrn1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:16.800538"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "axe, electricity"
+        }
+    ]
+}

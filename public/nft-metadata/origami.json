@@ -1,0 +1,19 @@
+{
+    "name": "origami",
+    "description": "Element Fusion NFT representing origami",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTjVk6AzAJHyye9ByiCw1ePmqxwkcnEWBUMs8YcDjD93s",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:50.879111"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, paper"
+        }
+    ]
+}

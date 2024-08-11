@@ -1,0 +1,19 @@
+{
+    "name": "vegetable",
+    "description": "Element Fusion NFT representing vegetable",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTru8yWzKg3ni7Tcp4gLnjjKnBBtUqZszF8G7ouxzdZBP",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:14.415490"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "field, fruit"
+        }
+    ]
+}

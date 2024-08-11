@@ -1,0 +1,19 @@
+{
+    "name": "cold",
+    "description": "Element Fusion NFT representing cold",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPK1BVqJQ5WZQnTzD3okxPRUvKFqRzSE6vUNEDiJa8ed7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:00.723455"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, rain"
+        }
+    ]
+}

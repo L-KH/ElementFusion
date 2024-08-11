@@ -1,0 +1,19 @@
+{
+    "name": "gingerbread man",
+    "description": "Element Fusion NFT representing gingerbread man",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRVwvk41GxqpyJ2ApKyWboBviYdM9VoPRbNCMgcd4ehcE",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:02:22.147839"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "life, dough"
+        }
+    ]
+}

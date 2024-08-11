@@ -1,0 +1,19 @@
+{
+    "name": "frankenstein",
+    "description": "Element Fusion NFT representing frankenstein",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUe5qnxMaJ7U5c7bka7g39qjPnW9nT9yohS1UgFoabh7f",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:59:42.375006"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "electricity, corpse"
+        }
+    ]
+}

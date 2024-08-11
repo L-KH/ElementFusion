@@ -1,0 +1,19 @@
+{
+    "name": "swimmer",
+    "description": "Element Fusion NFT representing swimmer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZvBX4FpCybnkBU9CGDq19A8ZAkVWFMzwerheS1Pc1bwq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:52:48.039962"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, swim goggles"
+        }
+    ]
+}

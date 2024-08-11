@@ -1,0 +1,19 @@
+{
+    "name": "coal",
+    "description": "Element Fusion NFT representing coal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbNqrxi88BtDLUBJoSp2fkC42U51ioFjH1CLfKDcvPyFm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:39.571718"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, snowman"
+        }
+    ]
+}

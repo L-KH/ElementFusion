@@ -1,0 +1,19 @@
+{
+    "name": "airplane",
+    "description": "Element Fusion NFT representing airplane",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQTTbci3cdUht8X3pYc88qmWM23t3tkN6nXwxJxcd88TL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:28:22.591784"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, steel"
+        }
+    ]
+}

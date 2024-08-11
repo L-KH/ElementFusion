@@ -1,0 +1,19 @@
+{
+    "name": "computer",
+    "description": "Element Fusion NFT representing computer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNkJGDd4veSTfb8QVc1GNa63ZGPHtX1eDnLmXCXf49ckE",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:15.048350"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wire, nerd"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "storm",
+    "description": "Element Fusion NFT representing storm",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfCWh1mkohQqvRcSbhTBpWfDMHxD5eoz3pWQAgxjc99MA",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:50:41.574799"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cloud, electricity"
+        }
+    ]
+}

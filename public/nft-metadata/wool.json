@@ -1,0 +1,19 @@
+{
+    "name": "wool",
+    "description": "Element Fusion NFT representing wool",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbGGTPmV7QouaUGrqydYvyoCjFCrjNVDXnkhKpSqK4pwg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:03:01.583754"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "scissors, sheep"
+        }
+    ]
+}

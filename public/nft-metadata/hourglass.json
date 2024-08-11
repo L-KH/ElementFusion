@@ -1,0 +1,19 @@
+{
+    "name": "hourglass",
+    "description": "Element Fusion NFT representing hourglass",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYpM7nZjBdJhfJDPHsjDRvuUQvjnkpRJ4m4nLfNhhAdRA",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:08:09.348501"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, glass"
+        }
+    ]
+}

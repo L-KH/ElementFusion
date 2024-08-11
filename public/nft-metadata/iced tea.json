@@ -1,0 +1,19 @@
+{
+    "name": "iced tea",
+    "description": "Element Fusion NFT representing iced tea",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYtFp4LCRaJUaxq9nGx1tXstdoJERDXUzG9QJ1enLC9Sc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:10:10.757184"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cold, tea"
+        }
+    ]
+}

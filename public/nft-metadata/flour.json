@@ -1,0 +1,19 @@
+{
+    "name": "flour",
+    "description": "Element Fusion NFT representing flour",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXjFzqsPEMQ1MrqMYixYGjJTUS1eCGdh8F4MWtu8qLkAM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:48.402182"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "windmill, wheat"
+        }
+    ]
+}

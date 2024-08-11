@@ -1,0 +1,19 @@
+{
+    "name": "space station",
+    "description": "Element Fusion NFT representing space station",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWdmdQzXFDrPZeBQK9naDBsgKpZ1MwXx2Sscy4a7Lx9Yp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:32.190780"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "space, house"
+        }
+    ]
+}

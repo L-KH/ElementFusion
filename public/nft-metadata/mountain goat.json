@@ -1,0 +1,19 @@
+{
+    "name": "mountain goat",
+    "description": "Element Fusion NFT representing mountain goat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW6aUVDuSfcbwcJfxSzXrtK2mDu1nmLGu7FGfKz2Hyprg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:41.182817"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "goat, mountain range"
+        }
+    ]
+}

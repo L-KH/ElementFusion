@@ -1,0 +1,19 @@
+{
+    "name": "steamboat",
+    "description": "Element Fusion NFT representing steamboat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWZ7mbW7FUjMcSzP2khoRgt7ievKyxHATiB1BR6FWdaBR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:50:18.024125"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "steam engine, boat"
+        }
+    ]
+}

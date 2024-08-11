@@ -1,0 +1,19 @@
+{
+    "name": "explosion",
+    "description": "Element Fusion NFT representing explosion",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUXGkqY9nPzdxHLsGRBcgg5jr6yfrsAWctYx2QZ8GYrjd",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:53:59.434128"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gunpowder, fire"
+        }
+    ]
+}

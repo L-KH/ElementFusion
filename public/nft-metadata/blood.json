@@ -1,0 +1,19 @@
+{
+    "name": "blood",
+    "description": "Element Fusion NFT representing blood",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZVxLi2zZvAYvhGg756rStxKECzVN68L8w3ANrn17ywTz",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:36:40.957516"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, blade"
+        }
+    ]
+}

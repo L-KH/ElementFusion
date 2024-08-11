@@ -1,0 +1,19 @@
+{
+    "name": "web",
+    "description": "Element Fusion NFT representing web",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZH3v5eKUorkQ7LpSZkbYSHEVfser9jEWAiFS12iZHcbR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:05.581788"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "spider, thread"
+        }
+    ]
+}

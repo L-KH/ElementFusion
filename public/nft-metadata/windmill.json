@@ -1,0 +1,19 @@
+{
+    "name": "windmill",
+    "description": "Element Fusion NFT representing windmill",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZdTm8Vr4HH8BWdYAMZkp67J6F2FceFobkvic3a4EmXj7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:01:35.266544"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheel, wind"
+        }
+    ]
+}

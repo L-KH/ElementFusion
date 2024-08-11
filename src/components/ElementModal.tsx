@@ -2,6 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { GlowingElement, SmoothTransition, HoverEffect } from './StyledComponents';
+import { useToast } from '@chakra-ui/react';
+import { useAccount } from 'wagmi';
+import { useMint } from '../hooks/WriteContract';
+import { Element } from '@/utils/types'; // Add this import
+import fs from 'fs';
+import path from 'path';
 
 const ModalBackground = styled.div<{ rarity: string }>`
   position: fixed;
@@ -77,7 +83,7 @@ const ElementDescription = styled.p`
   margin-bottom: 20px;
 `;
 
-const MintButton = styled(HoverEffect)`
+const MintButton = styled(HoverEffect)<{ disabled?: boolean }>`
   background-color: #4caf50;
   color: white;
   border: none;
@@ -85,48 +91,123 @@ const MintButton = styled(HoverEffect)`
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
+
+  ${({ disabled }) =>
+    disabled &&
+    `
+      background-color: #9e9e9e;
+      cursor: not-allowed;
+  `}
 `;
+
 
 const ElementCombination = styled.p`
   font-size: 18px;
   margin-bottom: 20px;
   color: #666;
 `;
+interface ElementModalProps {
+  element: Element;
+  onClose: () => void;
+}
+const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
+  const [description, setDescription] = useState('Loading...');
+  const [isMinting, setIsMinting] = useState(false);
+  const toast = useToast();
+  const { isConnected } = useAccount();
+  const { handleMint } = useMint();
 
-const ElementModal = ({ element, onClose }) => {
-    const [description, setDescription] = useState('Loading...');
+  useEffect(() => {
+    const fetchDescription = async () => {
+      try {
+        const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(element.name)}`);
+        const data = await response.json();
+        setDescription(data.extract || 'No description available.');
+      } catch (error) {
+        setDescription('Description not available.');
+      }
+    };
+
+    fetchDescription();
+  }, [element.name]);
+
+  const handleMintClick = async () => {
+    if (!isConnected) {
+      toast({
+        title: "Wallet not connected",
+        description: "Please connect your wallet to mint",
+        status: "error",
+        duration: 5000,
+        isClosable: true,
+      });
+      return;
+    }
   
-    useEffect(() => {
-      const fetchDescription = async () => {
-        try {
-          const response = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(element.name)}`);
-          const data = await response.json();
-          setDescription(data.extract || 'No description available.');
-        } catch (error) {
-          setDescription('Description not available.');
-        }
+    setIsMinting(true);
+  
+    try {
+      console.log("Minting element:", element);
+      const rarityToNumber = {
+        'common': 0,
+        'uncommon': 1,
+        'rare': 2,
+        'epic': 3,
+        'legendary': 4
       };
+      const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
+      const tx = await handleMint(element.name, rarityNumber);  
+      toast({
+        title: "Element minting initiated",
+        description: "Transaction submitted. Please wait for confirmation.",
+        status: "info",
+        duration: 5000,
+        isClosable: true,
+      });
   
-      fetchDescription();
-    }, [element.name]);
+      // Instead of waiting for the transaction, we'll just log it
+      console.log("Transaction hash:", tx);
   
-    return (
-      <ModalBackground rarity={element.rarity} onClick={onClose}>
-        <ModalContent onClick={(e) => e.stopPropagation()}>
-          <ElementImageWrapper>
-            <ElementImage src={element.imagePath} alt={element.name} />
-          </ElementImageWrapper>
-          <ElementTitle>{element.name}</ElementTitle>
-          <ElementRarity>Rarity: {element.rarity}</ElementRarity>
-          {element.combination && (
-            <ElementCombination>Combination: {element.combination}</ElementCombination>
-          )}
-          <ElementDescription>{description}</ElementDescription>
-          <MintButton onClick={() => alert('Minting functionality will be added later')}>Mint</MintButton>
-        </ModalContent>
-      </ModalBackground>
-    );
+      toast({
+        title: "Element minting transaction submitted",
+        description: `Transaction hash: ${tx}`,
+        status: "success",
+        duration: 5000,
+        isClosable: true,
+      });
+    } catch (error) {
+      console.error('Error during minting:', error);
+      toast({
+        title: "Minting failed",
+        description: error instanceof Error ? error.message : "An unknown error occurred",
+        status: "error",
+        duration: 5000,
+        isClosable: true,
+      });
+    } finally {
+      setIsMinting(false);
+    }
   };
   
-  export default ElementModal;
+
   
+  return (
+    <ModalBackground rarity={element.rarity} onClick={onClose}>
+      <ModalContent onClick={(e) => e.stopPropagation()}>
+        <ElementImageWrapper>
+          <ElementImage src={element.imagePath} alt={element.name} />
+        </ElementImageWrapper>
+        <ElementTitle>{element.name}</ElementTitle>
+        <ElementRarity>Rarity: {element.rarity}</ElementRarity>
+        {element.combination && (
+          <ElementCombination>Combination: {element.combination}</ElementCombination>
+        )}
+        <ElementDescription>{description}</ElementDescription>
+        <MintButton onClick={handleMintClick} disabled={isMinting || !isConnected}>
+      {isMinting ? 'Minting...' : (isConnected ? 'Mint' : 'Connect Wallet')}
+    </MintButton>
+      </ModalContent>
+    </ModalBackground>
+  );
+};
+
+export default ElementModal;

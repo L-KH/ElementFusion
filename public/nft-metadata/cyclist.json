@@ -1,0 +1,19 @@
+{
+    "name": "cyclist",
+    "description": "Element Fusion NFT representing cyclist",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPWZCDGZ2ed9aaGhZRwis4w44PcGKwKxSLasPzRe88ddL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:50.212542"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bicycle, human"
+        }
+    ]
+}

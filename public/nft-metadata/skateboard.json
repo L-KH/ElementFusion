@@ -1,0 +1,19 @@
+{
+    "name": "skateboard",
+    "description": "Element Fusion NFT representing skateboard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeDVRGamJJgbJFjG5upLeZwUJJmaRsMyv1t811Cf7EM8Z",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:44:48.252689"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snowboard, wheel"
+        }
+    ]
+}

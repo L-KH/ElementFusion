@@ -1,0 +1,19 @@
+{
+    "name": "meat",
+    "description": "Element Fusion NFT representing meat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaVmMTdRmC3tVGEVfRFG2cF2T6ziQ7yxWeQ1A3euzKBuY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:17:16.237651"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "livestock, butcher"
+        }
+    ]
+}

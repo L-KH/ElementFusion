@@ -1,0 +1,19 @@
+{
+    "name": "fabric",
+    "description": "Element Fusion NFT representing fabric",
+    "image": "https://gateway.pinata.cloud/ipfs/QmULWmPmdWHsZo1KyZ8Tcq41NvmabconS8MAUNivPmsGYU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:54:07.754087"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "thread, tool"
+        }
+    ]
+}

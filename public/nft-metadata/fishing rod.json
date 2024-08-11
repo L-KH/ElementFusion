@@ -1,0 +1,19 @@
+{
+    "name": "fishing rod",
+    "description": "Element Fusion NFT representing fishing rod",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc5eLYMB5Wq8LgLhLenFTvuHfRC1Sb1sxATC2ggExFWv3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:02.520034"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, fish"
+        }
+    ]
+}

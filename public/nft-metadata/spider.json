@@ -1,0 +1,19 @@
+{
+    "name": "spider",
+    "description": "Element Fusion NFT representing spider",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZEuXustBuKMFzr5BpiGJHhcMTFHPnDmLRX4KGXR7X9Ap",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:50.272951"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, thread"
+        }
+    ]
+}

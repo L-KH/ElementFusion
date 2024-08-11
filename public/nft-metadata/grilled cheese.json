@@ -1,0 +1,19 @@
+{
+    "name": "grilled cheese",
+    "description": "Element Fusion NFT representing grilled cheese",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeTbqX7tzs29urkNhbHawvj7Tgp2tKboskGi9QNAWisL6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:20.551296"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cheese, toast"
+        }
+    ]
+}

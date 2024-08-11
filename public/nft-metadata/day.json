@@ -1,0 +1,19 @@
+{
+    "name": "day",
+    "description": "Element Fusion NFT representing day",
+    "image": "https://gateway.pinata.cloud/ipfs/QmepTwapABQrTZKRuhsNAhERaHftHpmLStoy2N8PBPMzEg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:46:59.011237"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, sun"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ghost",
+    "description": "Element Fusion NFT representing ghost",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXdi6tBAuSAeXwZnW5ykMZLTW8a9hhPFixnJZUCuTWt1G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:01:29.719933"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "castle, night"
+        }
+    ]
+}

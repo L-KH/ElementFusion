@@ -1,0 +1,19 @@
+{
+    "name": "aurora",
+    "description": "Element Fusion NFT representing aurora",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPDKRbiMNykejxJR3C1F1MMFUAevsBjfYivraNipYKkHH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:54.450545"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "antarctica, atmosphere"
+        }
+    ]
+}

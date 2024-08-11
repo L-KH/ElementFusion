@@ -1,0 +1,19 @@
+{
+    "name": "banana bread",
+    "description": "Element Fusion NFT representing banana bread",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRtVdWTyUQQ5j4aV4mtg1nPPvcXtTTdSqUpWdWFjqLCgn",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:00.221339"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bread, banana"
+        }
+    ]
+}

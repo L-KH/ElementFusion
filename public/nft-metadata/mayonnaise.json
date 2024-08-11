@@ -1,0 +1,19 @@
+{
+    "name": "mayonnaise",
+    "description": "Element Fusion NFT representing mayonnaise",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmdfs9um43Rm8vpqee41vmFusJij5zXjdSyLWqbgxSUTnq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:16:49.148082"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "egg, oil"
+        }
+    ]
+}

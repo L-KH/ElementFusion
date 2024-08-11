@@ -1,0 +1,19 @@
+{
+    "name": "coconut",
+    "description": "Element Fusion NFT representing coconut",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYW56q4aGEHvqrV5VNnoe5xD47fmgnWYr9uWhfZaZ3wWF",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:45.102652"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "palm, fruit"
+        }
+    ]
+}

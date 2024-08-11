@@ -1,0 +1,19 @@
+{
+    "name": "dam",
+    "description": "Element Fusion NFT representing dam",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXXY7SJqGqqVKcSzNYgcJNj6FG2JYpp2BGzgGMDrrh7ik",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:46:16.872081"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wall, river"
+        }
+    ]
+}

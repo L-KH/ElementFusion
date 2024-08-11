@@ -1,0 +1,19 @@
+{
+    "name": "sheet music",
+    "description": "Element Fusion NFT representing sheet music",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPBHokVWowqJpVQeKkeHUYpBiQLoTVEMrTcvHyLVS62T3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:44:20.836329"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, music"
+        }
+    ]
+}

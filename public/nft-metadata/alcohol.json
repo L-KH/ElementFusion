@@ -1,0 +1,19 @@
+{
+    "name": "alcohol",
+    "description": "Element Fusion NFT representing alcohol",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmb7c6mb1B9fe6gRBZNEURJHpjCTg72XKB8Ej72seRL1kN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:28:39.925051"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "juice, time"
+        }
+    ]
+}

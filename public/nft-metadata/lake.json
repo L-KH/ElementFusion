@@ -1,0 +1,19 @@
+{
+    "name": "lake",
+    "description": "Element Fusion NFT representing lake",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbAvL6dGHS2iFjS4kZQ6zfPPivQnSvVpcd4ebXQVEWNzH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:13:05.348224"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "river, dam"
+        }
+    ]
+}

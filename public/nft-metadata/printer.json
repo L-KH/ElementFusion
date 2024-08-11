@@ -1,0 +1,19 @@
+{
+    "name": "printer",
+    "description": "Element Fusion NFT representing printer",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc6YTJD8g9pedjVvCeEUzSdpHyEKkAHmj8tgSuaLgheBH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:28:14.242591"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, computer"
+        }
+    ]
+}

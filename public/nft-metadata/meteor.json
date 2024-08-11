@@ -1,0 +1,19 @@
+{
+    "name": "meteor",
+    "description": "Element Fusion NFT representing meteor",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS1deHW9uLxuQvmjAiLqWRpwfoKsjmo4cX8Tt659KWDyX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:17:41.837690"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, meteoroid"
+        }
+    ]
+}

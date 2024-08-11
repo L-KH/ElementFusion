@@ -1,0 +1,19 @@
+{
+    "name": "pirate",
+    "description": "Element Fusion NFT representing pirate",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ62gTWS1hCDWiLX6USXRjnTZASQCP1MXjp3FpgUYAL7E",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:44.091320"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sailor, pirate ship"
+        }
+    ]
+}

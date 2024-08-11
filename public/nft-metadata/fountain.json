@@ -1,0 +1,19 @@
+{
+    "name": "fountain",
+    "description": "Element Fusion NFT representing fountain",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZzdAFaPfAJ6gURB3bv7QzzkuCicf6tGoizA49XvaGdzi",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:59:23.754753"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "statue, water"
+        }
+    ]
+}

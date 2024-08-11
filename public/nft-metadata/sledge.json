@@ -1,0 +1,19 @@
+{
+    "name": "sledge",
+    "description": "Element Fusion NFT representing sledge",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPDQfJdWQAd4bzF2ZSD18zHJsVk9LzSjmxoJsv6KdQdWo",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:42.059846"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, wagon"
+        }
+    ]
+}

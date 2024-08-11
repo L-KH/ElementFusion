@@ -1,0 +1,19 @@
+{
+    "name": "geyser",
+    "description": "Element Fusion NFT representing geyser",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWJFq11q2AMiz5AVL1YNsU5fPCyXN6yGdpFY6K1htZc4D",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:01:21.435545"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "steam, earth"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "bird",
+    "description": "Element Fusion NFT representing bird",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbErdX41NCEbe2iVXMmkuQyiLPvMbTkTE1jwip2sswosb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:35:38.779020"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "air, life"
+        }
+    ]
+}

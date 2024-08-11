@@ -1,0 +1,19 @@
+{
+    "name": "swordfish",
+    "description": "Element Fusion NFT representing swordfish",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZeMRQQyhNXaMUSMzbeBozog7AghJyEtwLi5sJMZEpMyv",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:53:08.151556"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fish, sword"
+        }
+    ]
+}

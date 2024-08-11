@@ -1,0 +1,19 @@
+{
+    "name": "pizza",
+    "description": "Element Fusion NFT representing pizza",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRgZDLfrhyy9KZ1G7CwQ3dPuKvxVECspZZ1gkF4RW47vY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:00.797793"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cheese, dough"
+        }
+    ]
+}

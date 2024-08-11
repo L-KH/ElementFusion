@@ -1,0 +1,19 @@
+{
+    "name": "ice cream",
+    "description": "Element Fusion NFT representing ice cream",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaSuNvkFJYwiU4ezXFBbmTSpdu1XLorbaFLLsr1AxMAMJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:09:18.168949"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "milk, ice"
+        }
+    ]
+}

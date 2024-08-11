@@ -1,0 +1,19 @@
+{
+    "name": "rose",
+    "description": "Element Fusion NFT representing rose",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmeun4BYrnEAxyy1bJi63RPXNrbPT7GLMbbth33n27fNN4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:36:48.545204"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, love"
+        }
+    ]
+}

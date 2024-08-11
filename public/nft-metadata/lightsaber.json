@@ -1,0 +1,19 @@
+{
+    "name": "lightsaber",
+    "description": "Element Fusion NFT representing lightsaber",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd6ERSKMPQJjEuvWPL3oY8ffjQgBWMBCt9vtFMrKMLvxU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:23.856758"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "electricity, sword"
+        }
+    ]
+}

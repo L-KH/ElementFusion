@@ -1,0 +1,19 @@
+{
+    "name": "palm",
+    "description": "Element Fusion NFT representing palm",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdmpKbjz73xrrqbxShLGgUZgpSD2PwqohtECHueK9pYeA",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:44.911748"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, beach"
+        }
+    ]
+}

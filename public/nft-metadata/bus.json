@@ -1,0 +1,19 @@
+{
+    "name": "bus",
+    "description": "Element Fusion NFT representing bus",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVitjZaMXV4f7T5CbuAV9oCu8WdxT7MbGStPSH2g6JSij",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:43.086680"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "car, car"
+        }
+    ]
+}

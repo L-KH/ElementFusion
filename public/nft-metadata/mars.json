@@ -1,0 +1,19 @@
+{
+    "name": "mars",
+    "description": "Element Fusion NFT representing mars",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWA7SFuSmp9TNTdH5Cxf1G9u12iH7gid7Qu8uyyKxYZF1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:16:36.340852"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rust, planet"
+        }
+    ]
+}

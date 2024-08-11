@@ -1,0 +1,19 @@
+{
+    "name": "chicken wing",
+    "description": "Element Fusion NFT representing chicken wing",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS4V3x9FF4i3wxnjL2qXxzzrGj5a684iCTSQA8sb4PmgN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:09.693034"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "chicken, bone"
+        }
+    ]
+}

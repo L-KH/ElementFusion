@@ -1,0 +1,19 @@
+{
+    "name": "graveyard",
+    "description": "Element Fusion NFT representing graveyard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVNWrH5B87hUckAD4R1AwXphiJB9ocgBiFmHDQyH8KqA4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:02.600260"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gravestone, gravestone"
+        }
+    ]
+}

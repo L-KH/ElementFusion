@@ -1,0 +1,19 @@
+{
+    "name": "banana",
+    "description": "Element Fusion NFT representing banana",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWoqvLhM4r95hCU8A4NgmKVSqWY12oYG5bqvSLam6Jix3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:32:54.125096"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fruit, monkey"
+        }
+    ]
+}

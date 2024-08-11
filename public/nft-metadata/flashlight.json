@@ -1,0 +1,19 @@
+{
+    "name": "flashlight",
+    "description": "Element Fusion NFT representing flashlight",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeJ4egPtPcV4suTyq4ze3cFHfD24XLxmEG1M7fhPKs6uj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:16.149960"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tool, light"
+        }
+    ]
+}

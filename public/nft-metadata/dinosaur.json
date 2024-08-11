@@ -1,0 +1,19 @@
+{
+    "name": "dinosaur",
+    "description": "Element Fusion NFT representing dinosaur",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmezpv5WubRyUeCnzbb1EfNUU6nviP2Qyz34NoRCS8CuBQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:40.738212"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lizard, time"
+        }
+    ]
+}

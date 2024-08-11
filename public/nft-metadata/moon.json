@@ -1,0 +1,19 @@
+{
+    "name": "moon",
+    "description": "Element Fusion NFT representing moon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZKj8Hm9z9EG5NaqDMyFLdmPumCWV13Kxm77PybCLwcAV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:08.510286"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, stone"
+        }
+    ]
+}

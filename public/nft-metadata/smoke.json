@@ -1,0 +1,19 @@
+{
+    "name": "smoke",
+    "description": "Element Fusion NFT representing smoke",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNcddEC2Z9YKKQUSeWJdEj1r7AMM5vbo8Faf3TsNYpHgb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:59.284661"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, wood"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "angler",
+    "description": "Element Fusion NFT representing angler",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXCGdPc4PnNmaZLS6BPKTWECYXSWXKVFw1C4fJVDpSfPU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:54.836765"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, fishing rod"
+        }
+    ]
+}

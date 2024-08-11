@@ -1,0 +1,19 @@
+{
+    "name": "cheese",
+    "description": "Element Fusion NFT representing cheese",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYkyd68rMkFhPqWoDB1QKPudLE2uLtYEzGo9yvLaqhKRy",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:39.310112"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "time, milk"
+        }
+    ]
+}

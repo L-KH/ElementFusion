@@ -1,0 +1,19 @@
+{
+    "name": "lumberjack",
+    "description": "Element Fusion NFT representing lumberjack",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXeTED8nCEMMiVKXtLhLEGPT3vFho3JdmRkQX7zE2B46W",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:16:09.379915"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, chainsaw"
+        }
+    ]
+}

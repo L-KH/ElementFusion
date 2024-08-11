@@ -1,0 +1,19 @@
+{
+    "name": "glass",
+    "description": "Element Fusion NFT representing glass",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNZ9J7rWjf7TbjTdGMU7Rgm9EAK7j85Ky5RmsT13eXVkq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:02:40.052169"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, electricity"
+        }
+    ]
+}

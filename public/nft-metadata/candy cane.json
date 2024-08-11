@@ -1,0 +1,19 @@
+{
+    "name": "candy cane",
+    "description": "Element Fusion NFT representing candy cane",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQpmMCin8cidB2w24jp2CsHUo4p67ujhh1krHnugd1j28",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:46.735669"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sugar, christmas tree"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "snake",
+    "description": "Element Fusion NFT representing snake",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYiu5hdw2CvTWmezHzUSTQgHvp1shaG9R4RXtdFG2AT43",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:11.224331"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, wire"
+        }
+    ]
+}

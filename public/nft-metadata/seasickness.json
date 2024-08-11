@@ -1,0 +1,19 @@
+{
+    "name": "seasickness",
+    "description": "Element Fusion NFT representing seasickness",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXZaqpz4dkW8ajv4D6mrf6uTzXrXK5Mq8PgqrWXPSQR6E",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:43:32.410368"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sailboat, sickness"
+        }
+    ]
+}

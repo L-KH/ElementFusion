@@ -1,0 +1,19 @@
+{
+    "name": "unicorn",
+    "description": "Element Fusion NFT representing unicorn",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWEEKz2hKZHvmemNXfcTJL1mpza2bhQ4V2Ge2hmiVkUuY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:57:37.834667"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "double rainbow!, life"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "carbon dioxide",
+    "description": "Element Fusion NFT representing carbon dioxide",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfFjJrqigviTHbjKSbTU1ggLw8nR8Q38azdAcxiLgeGz9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:20.026452"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, night"
+        }
+    ]
+}

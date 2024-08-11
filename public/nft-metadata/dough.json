@@ -1,0 +1,19 @@
+{
+    "name": "dough",
+    "description": "Element Fusion NFT representing dough",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSSPjJTLGRw9cHtTt2XwbzRrUWJE9kLPK8ErksuKyoxo6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:20.892307"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, flour"
+        }
+    ]
+}

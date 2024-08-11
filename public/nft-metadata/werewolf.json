@@ -1,0 +1,19 @@
+{
+    "name": "werewolf",
+    "description": "Element Fusion NFT representing werewolf",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPPJhVA8ScBDd9zuGYtW7zmDUn9Rscj33TZQVxGmcw97E",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:24.034902"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "werewolf, human"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "constellation",
+    "description": "Element Fusion NFT representing constellation",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYoEnHngsrvcQPFgTGCPU4M5ESzYvtphVHk5TZemqNcfL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:41.666520"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "star, star"
+        }
+    ]
+}

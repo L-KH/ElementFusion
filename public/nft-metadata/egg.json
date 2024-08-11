@@ -1,0 +1,19 @@
+{
+    "name": "egg",
+    "description": "Element Fusion NFT representing egg",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVw7Vx9GMGvzHSgbLTm3yaBqXqiG93bNub3yCagqgJYRn",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:55.014695"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lizard, lizard"
+        }
+    ]
+}

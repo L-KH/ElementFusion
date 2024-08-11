@@ -1,0 +1,19 @@
+{
+    "name": "bakery",
+    "description": "Element Fusion NFT representing bakery",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXK3TU3M9RtzYNmfk4aK1w5dnRkJgTVcN52WLBAkAGyQs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:32:49.031403"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, baker"
+        }
+    ]
+}

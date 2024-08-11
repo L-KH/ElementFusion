@@ -1,0 +1,19 @@
+{
+    "name": "grim reaper",
+    "description": "Element Fusion NFT representing grim reaper",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT9chaGAS8FLYaw7cQTXhSY7c3Le6P5YBsvyHan5rgYTF",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:30.865124"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "corpse, scythe"
+        }
+    ]
+}

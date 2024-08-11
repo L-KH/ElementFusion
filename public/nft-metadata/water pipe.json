@@ -1,0 +1,19 @@
+{
+    "name": "water pipe",
+    "description": "Element Fusion NFT representing water pipe",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma2HgEJ11N25m1jpPJcWX1u7Eb2qjsmXTwQ2WdTvx9eg3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:38.139330"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, pipe"
+        }
+    ]
+}

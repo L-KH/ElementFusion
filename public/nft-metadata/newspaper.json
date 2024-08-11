@@ -1,0 +1,19 @@
+{
+    "name": "newspaper",
+    "description": "Element Fusion NFT representing newspaper",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTtUQQtnYnEbMpvekJe4mWWtXFJh4X9yUeSqjmnExFYHb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:21:16.327885"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, paper"
+        }
+    ]
+}

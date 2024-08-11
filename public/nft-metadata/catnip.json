@@ -1,0 +1,19 @@
+{
+    "name": "catnip",
+    "description": "Element Fusion NFT representing catnip",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTdapY8ebh6HHmiAmK2XjXJz3GbCVKC9vjFFtVn9tdKbG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:53.716674"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cat, plant"
+        }
+    ]
+}

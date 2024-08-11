@@ -1,0 +1,19 @@
+{
+    "name": "yoda",
+    "description": "Element Fusion NFT representing yoda",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSJMLWsgSDoCVMdRWMX1JwMuGaHwpQVJsTXDUgWoPMtaq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:03:14.647449"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "jedi, swamp"
+        }
+    ]
+}

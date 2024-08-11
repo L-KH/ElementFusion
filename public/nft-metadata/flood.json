@@ -1,0 +1,19 @@
+{
+    "name": "flood",
+    "description": "Element Fusion NFT representing flood",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTtoGbXAAiDu6mb543efZLvrNQaXeEC2LMBDsMq435WG9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:36.791430"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rain, time"
+        }
+    ]
+}

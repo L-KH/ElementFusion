@@ -1,0 +1,19 @@
+{
+    "name": "life",
+    "description": "Element Fusion NFT representing life",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeUAovhjY3wBMTZ82KuemtFcajELdqN4juXZnojakuZnm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:14:22.889116"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "love, time"
+        }
+    ]
+}

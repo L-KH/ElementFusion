@@ -1,0 +1,19 @@
+{
+    "name": "prism",
+    "description": "Element Fusion NFT representing prism",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQuHMacRxcC9nbtqkP5sDrqsMEKsAKnfmKyqPPUjvCtTa",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:28:18.910983"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glass, rainbow"
+        }
+    ]
+}

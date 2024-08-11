@@ -1,0 +1,19 @@
+{
+    "name": "soap",
+    "description": "Element Fusion NFT representing soap",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVvRbrq14FwQYAr8PWkuJpZx7iTzLwGE9UaU7dEycss4G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:25.995079"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "oil, ash"
+        }
+    ]
+}

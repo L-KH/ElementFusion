@@ -1,0 +1,19 @@
+{
+    "name": "cuckoo",
+    "description": "Element Fusion NFT representing cuckoo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdsUBkUSJoX2rwUPaWhDMs6jPoAwqLnVbsWDwSg43nnZi",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:38.204895"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clock, bird"
+        }
+    ]
+}

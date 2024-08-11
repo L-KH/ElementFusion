@@ -1,0 +1,19 @@
+{
+    "name": "cactus",
+    "description": "Element Fusion NFT representing cactus",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdL6u34uGQatDGtaSNhXhEtzKZ9KZGqKoVXNGgyvKHFXM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:14.415993"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "desert, plant"
+        }
+    ]
+}

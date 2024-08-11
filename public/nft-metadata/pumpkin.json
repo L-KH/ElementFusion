@@ -1,0 +1,19 @@
+{
+    "name": "pumpkin",
+    "description": "Element Fusion NFT representing pumpkin",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmb34uqfco8DCT2qLV9eCp1AYXd3rLwUetfWpMVjNPx5uR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:28:49.535790"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "vegetable, light"
+        }
+    ]
+}

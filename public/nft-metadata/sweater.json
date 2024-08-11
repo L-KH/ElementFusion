@@ -1,0 +1,19 @@
+{
+    "name": "sweater",
+    "description": "Element Fusion NFT representing sweater",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQg3Z2oAUnabznvnaQ2h9srTenmJj5jjyAndEeUsiqofj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:52:37.266934"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, wool"
+        }
+    ]
+}

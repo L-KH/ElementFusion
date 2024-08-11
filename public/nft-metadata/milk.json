@@ -1,0 +1,19 @@
+{
+    "name": "milk",
+    "description": "Element Fusion NFT representing milk",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZDshhaHtj7He9KfAM6ok64hsRUMmrTcs8CsY8ABukpsr",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:09.333310"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cow, human"
+        }
+    ]
+}

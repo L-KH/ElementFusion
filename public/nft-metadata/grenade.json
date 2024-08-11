@@ -1,0 +1,19 @@
+{
+    "name": "grenade",
+    "description": "Element Fusion NFT representing grenade",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTssQ3aHos7knjcsTDCSuNC7osYMXb7CNuG7Zr1L4PEUj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:14.982520"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "explosion, metal"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "popsicle",
+    "description": "Element Fusion NFT representing popsicle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPhgaiSCPSEKuwMccjwFmqZmebYi93hwnZh39k1k3hZyd",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:48.607822"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "juice, cold"
+        }
+    ]
+}

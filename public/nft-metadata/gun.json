@@ -1,0 +1,19 @@
+{
+    "name": "gun",
+    "description": "Element Fusion NFT representing gun",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeRvfaDv5BP9jkWgijHHaae2AEJnz94xjgnDHHaaoct13",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:36.389605"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, bullet"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "steam",
+    "description": "Element Fusion NFT representing steam",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRY1iG5HpQ8c57tubhV8YRPLBPbFY5Gfy4HFYLHKqHjPq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:49:58.321143"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, energy"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "granite",
+    "description": "Element Fusion NFT representing granite",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbRVp3TPUuGNcvDLZBd6Za9DVumELGPLHiYyv55c8WeTn",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:24.366789"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lava, pressure"
+        }
+    ]
+}

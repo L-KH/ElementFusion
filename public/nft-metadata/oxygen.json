@@ -1,0 +1,19 @@
+{
+    "name": "oxygen",
+    "description": "Element Fusion NFT representing oxygen",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPc1WzscXwFV6djw2FurS6RUcGBdyXraAnu3jyetcWoaW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:16.885774"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, carbon dioxide"
+        }
+    ]
+}

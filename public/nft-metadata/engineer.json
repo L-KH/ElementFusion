@@ -1,0 +1,19 @@
+{
+    "name": "engineer",
+    "description": "Element Fusion NFT representing engineer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRqpu4RzioSYkJBpNxj6DN1FGEgMYKMRfgJ8LSzm5EhEm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:53:29.589279"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, tool"
+        }
+    ]
+}

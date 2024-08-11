@@ -1,0 +1,19 @@
+{
+    "name": "smog",
+    "description": "Element Fusion NFT representing smog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUArSjHJSuisg1Uy9HaPeAYPBqnqjCm8S2ek1M4gdoRjh",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:54.847753"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fog, city"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ufo",
+    "description": "Element Fusion NFT representing ufo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaC6eHfUyEbbVSobez9SBYVABhyhWd6DmxN9KYQrB6BWb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:57:02.117049"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "airplane, alien"
+        }
+    ]
+}

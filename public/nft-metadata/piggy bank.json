@@ -1,0 +1,19 @@
+{
+    "name": "piggy bank",
+    "description": "Element Fusion NFT representing piggy bank",
+    "image": "https://gateway.pinata.cloud/ipfs/QmedkBeKNqk9wLjGH335CSQE15vDZbURDTDnVUNJbdmWTo",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:06.437663"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pottery, pig"
+        }
+    ]
+}

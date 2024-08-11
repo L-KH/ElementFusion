@@ -1,0 +1,19 @@
+{
+    "name": "drunk",
+    "description": "Element Fusion NFT representing drunk",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTqtQcph159ttXsCj46Wq7EPnDeME2X9wok3f35x1me5d",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:57.065211"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, wine"
+        }
+    ]
+}

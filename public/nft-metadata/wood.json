@@ -1,0 +1,19 @@
+{
+    "name": "wood",
+    "description": "Element Fusion NFT representing wood",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPeP7vUZ7n3AoSR9ssNsHbfZLVTfYVk8ZseH2CNcBi7rR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:02:43.977775"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tool, tree"
+        }
+    ]
+}

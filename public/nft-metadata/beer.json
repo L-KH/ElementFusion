@@ -1,0 +1,19 @@
+{
+    "name": "beer",
+    "description": "Element Fusion NFT representing beer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZKfZThvB9YLduuek8FM1P78uZNZcha5BXjhFsUifrCiC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:35:06.695279"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "alcohol, wheat"
+        }
+    ]
+}

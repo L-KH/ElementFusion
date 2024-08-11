@@ -1,0 +1,19 @@
+{
+    "name": "bridge",
+    "description": "Element Fusion NFT representing bridge",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmaw6Etmgq3rkcxLurMvhjdJcVMtqpMLxAwsKBXRNN1mdB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:14.918482"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "river, steel"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "alarm clock",
+    "description": "Element Fusion NFT representing alarm clock",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVgNabn1qNd1PijKH4RiuUn1uQKmwvL3sj5fHSP4oTkeL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:28:30.420337"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clock, sound"
+        }
+    ]
+}

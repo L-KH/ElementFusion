@@ -1,0 +1,19 @@
+{
+    "name": "crow",
+    "description": "Element Fusion NFT representing crow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZP4pXMYxViUfkhZhgWiRez7qpA4u8dxoJHR1Z83KDMG2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:17.009149"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, field"
+        }
+    ]
+}

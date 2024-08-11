@@ -1,0 +1,19 @@
+{
+    "name": "eagle",
+    "description": "Element Fusion NFT representing eagle",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd3TeEKVTSwhfQsae3Yxmr3ooovD9yoykJWwqaZirQned",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:18.408720"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mountain, bird"
+        }
+    ]
+}

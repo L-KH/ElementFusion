@@ -1,0 +1,19 @@
+{
+    "name": "snowboard",
+    "description": "Element Fusion NFT representing snowboard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNxaCgonW4P4nnh8WMtEeeuyGy76wgtk9u7FdZq7ZQFTy",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:42.020933"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, surfer"
+        }
+    ]
+}

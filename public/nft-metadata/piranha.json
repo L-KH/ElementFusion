@@ -1,0 +1,19 @@
+{
+    "name": "piranha",
+    "description": "Element Fusion NFT representing piranha",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW9Zb63ro4ptwvEasLP8EQtKJrSRfYgyuzEgEiyS8P96z",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:33.866393"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fish, blood"
+        }
+    ]
+}

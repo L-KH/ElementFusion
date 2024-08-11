@@ -1,0 +1,19 @@
+{
+    "name": "ant",
+    "description": "Element Fusion NFT representing ant",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU7MJGk65V5omvWUAoir4N4p47WveyGTp4vExP3ygxzZm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:30:05.687270"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, sugar"
+        }
+    ]
+}

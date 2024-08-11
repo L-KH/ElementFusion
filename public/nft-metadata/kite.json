@@ -1,0 +1,19 @@
+{
+    "name": "kite",
+    "description": "Element Fusion NFT representing kite",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcDcW1fHYaRdd8V1kA3eej2KX2paELjAsZttbkExEtqy4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:44.144906"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, paper"
+        }
+    ]
+}

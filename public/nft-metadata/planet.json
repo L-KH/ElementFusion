@@ -1,0 +1,19 @@
+{
+    "name": "planet",
+    "description": "Element Fusion NFT representing planet",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWMfh86Rba4fAo1Le4DynDChi3Rw1YAkTcYDasNVc7nPj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:06.395635"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earth, space"
+        }
+    ]
+}

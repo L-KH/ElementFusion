@@ -1,0 +1,19 @@
+{
+    "name": "iceberg",
+    "description": "Element Fusion NFT representing iceberg",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ3BAVGtqWezybnXgFe6U5UD6Tu5AdS7Cf6LfPms4N6J9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:09:56.301500"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ocean, antarctica"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "bee",
+    "description": "Element Fusion NFT representing bee",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcTrR461W35mC9YE2ad3zc9fZu6P99gdDoqR7RC93gFaW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:34:53.031309"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, wild animal"
+        }
+    ]
+}

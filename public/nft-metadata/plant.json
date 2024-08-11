@@ -1,0 +1,19 @@
+{
+    "name": "plant",
+    "description": "Element Fusion NFT representing plant",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfBTqL2sELxwoCGDemCAdE5h7Ypijv71Hds3jVhK8poRj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:27.969101"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rain, earth"
+        }
+    ]
+}

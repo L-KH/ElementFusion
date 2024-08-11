@@ -1,0 +1,19 @@
+{
+    "name": "idea",
+    "description": "Element Fusion NFT representing idea",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfKSPL1rXdxBPesrUozQznUiDGyfUAMha7PBFkjwTf9yc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:10:24.807407"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "light bulb, nerd"
+        }
+    ]
+}

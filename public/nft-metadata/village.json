@@ -1,0 +1,19 @@
+{
+    "name": "village",
+    "description": "Element Fusion NFT representing village",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWyLKy8hdmvS9Q5s22H8VpryiQQcyJ1vT4j2HL6HLXxXf",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:24.231355"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, house"
+        }
+    ]
+}

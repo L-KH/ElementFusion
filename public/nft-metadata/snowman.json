@@ -1,0 +1,19 @@
+{
+    "name": "snowman",
+    "description": "Element Fusion NFT representing snowman",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSqaVoGihzudXyGStZaWHUW998oYNi1LRLCYQQVUWHJpx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:10.550820"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snowball, carrot"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "squirrel",
+    "description": "Element Fusion NFT representing squirrel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcoPzs8FFK4WvA8dHyM9apZUg6sFxNn9p92pd2GvvVwyQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:55.845082"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mouse, tree"
+        }
+    ]
+}

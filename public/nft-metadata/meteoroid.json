@@ -1,0 +1,19 @@
+{
+    "name": "meteoroid",
+    "description": "Element Fusion NFT representing meteoroid",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSziMH3U6vmTqmrUXf1SCx4yWeVVVb1xdmwibqMx4aDij",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:17:47.046941"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "stone, space"
+        }
+    ]
+}

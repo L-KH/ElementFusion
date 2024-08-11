@@ -1,0 +1,19 @@
+{
+    "name": "petroleum",
+    "description": "Element Fusion NFT representing petroleum",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma9ePVWzT1rgNgebrP47ZVL62EYL7ZUX8apW6fjGztFzb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:25:04.029562"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fossil, pressure"
+        }
+    ]
+}

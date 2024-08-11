@@ -1,0 +1,19 @@
+{
+    "name": "avalanche",
+    "description": "Element Fusion NFT representing avalanche",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdYN8TRsKQkQm37k3wTaLPirbVepwZgXFYYZgneboc73M",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:59.883268"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "energy, snow"
+        }
+    ]
+}

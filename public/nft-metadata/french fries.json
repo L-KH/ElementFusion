@@ -1,0 +1,19 @@
+{
+    "name": "french fries",
+    "description": "Element Fusion NFT representing french fries",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSBKu68mhr29WPGk8LXsjBxYFrwjenxhLzDSo5hjmJWiQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:59:48.447731"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "oil, vegetable"
+        }
+    ]
+}

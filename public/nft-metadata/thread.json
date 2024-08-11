@@ -1,0 +1,19 @@
+{
+    "name": "thread",
+    "description": "Element Fusion NFT representing thread",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXVSuHKhvZo3tkSKoVgdr8uFdTh9DYXfFsDMoXt2AxUTQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:00.765175"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheel, wool"
+        }
+    ]
+}

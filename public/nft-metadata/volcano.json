@@ -1,0 +1,19 @@
+{
+    "name": "volcano",
+    "description": "Element Fusion NFT representing volcano",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQ7jvama2FqLZn5T41PEVYhyGc5Loxf5uzhmUGggX8WDq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:45.898576"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, mountain"
+        }
+    ]
+}

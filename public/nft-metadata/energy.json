@@ -1,0 +1,19 @@
+{
+    "name": "energy",
+    "description": "Element Fusion NFT representing energy",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbzY3izH3HfccZtNEZ2yESywPizg9BkoKMSkvF6szX8JP",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:53:08.926525"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, sun"
+        }
+    ]
+}

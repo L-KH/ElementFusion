@@ -1,0 +1,19 @@
+{
+    "name": "fossil",
+    "description": "Element Fusion NFT representing fossil",
+    "image": "https://gateway.pinata.cloud/ipfs/QmakFZX3SsXbEGEPaRKFjveeoCjKK1H2j3WjpWkgCmxb3c",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:59:16.272521"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "stone, dinosaur"
+        }
+    ]
+}

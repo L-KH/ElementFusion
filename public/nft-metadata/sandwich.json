@@ -1,0 +1,19 @@
+{
+    "name": "sandwich",
+    "description": "Element Fusion NFT representing sandwich",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdjYJ4KaGET8mgEyXkvdJQeK2uXSbiRa953fbbVbUHmFQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:41:01.616885"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bread, bacon"
+        }
+    ]
+}

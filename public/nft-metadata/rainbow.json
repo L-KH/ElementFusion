@@ -1,0 +1,19 @@
+{
+    "name": "rainbow",
+    "description": "Element Fusion NFT representing rainbow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNdZ42SnseGszLRAJcVA9mJntwokTza1WXZD6ZZSDAY3C",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:29:46.754849"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rain, light"
+        }
+    ]
+}

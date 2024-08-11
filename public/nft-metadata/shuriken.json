@@ -1,0 +1,19 @@
+{
+    "name": "shuriken",
+    "description": "Element Fusion NFT representing shuriken",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXdztrSk9FcFzg4QvRc4EmW7vqPhLY5NNWdHNbYNM1sYj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:44:26.033609"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "star, blade"
+        }
+    ]
+}

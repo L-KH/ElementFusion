@@ -1,0 +1,19 @@
+{
+    "name": "wave",
+    "description": "Element Fusion NFT representing wave",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbQEZFJLqezPdM9mP8pqeoFqMswQUrLPEtWdQvyiHLBfG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:55.972869"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ocean, wind"
+        }
+    ]
+}

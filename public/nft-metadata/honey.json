@@ -1,0 +1,19 @@
+{
+    "name": "honey",
+    "description": "Element Fusion NFT representing honey",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT34c72FMTNVvcG2CpD3fteb4c1WBV5hwpsS2SjJvd6aL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:07:10.266307"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bee, beehive"
+        }
+    ]
+}

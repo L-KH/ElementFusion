@@ -1,0 +1,19 @@
+{
+    "name": "clock",
+    "description": "Element Fusion NFT representing clock",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTYat8qwQpSpSUM66opdvwu8J7Ukmix4igMjMWCwf3zxF",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:19.812240"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "time, tool"
+        }
+    ]
+}

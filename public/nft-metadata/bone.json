@@ -1,0 +1,19 @@
+{
+    "name": "bone",
+    "description": "Element Fusion NFT representing bone",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbQHKEEmzk7ZzcQLcHNHKS23r8B5VPbkinddgMfG36ULH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:37:00.815122"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "corpse, time"
+        }
+    ]
+}

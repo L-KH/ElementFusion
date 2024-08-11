@@ -1,0 +1,19 @@
+{
+    "name": "batter",
+    "description": "Element Fusion NFT representing batter",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdDcp8WNEbJ84QJczPmKJKsA6YcDMYAJ4Q3amZV91vQKd",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:56.997629"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flour, milk"
+        }
+    ]
+}

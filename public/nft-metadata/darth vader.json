@@ -1,0 +1,19 @@
+{
+    "name": "darth vader",
+    "description": "Element Fusion NFT representing darth vader",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfT8so4qKkPQitYbSbfxq9icCHPs2kXDRKdvqCxwkPdPM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:46:29.029264"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "jedi, lava"
+        }
+    ]
+}

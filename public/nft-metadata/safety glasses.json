@@ -1,0 +1,19 @@
+{
+    "name": "safety glasses",
+    "description": "Element Fusion NFT representing safety glasses",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSfAPW7iVG6piS2b2pmJBbbkxPZ6q6hdskc1uSuK3TUS7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:39:02.273966"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "engineer, glasses"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "steam engine",
+    "description": "Element Fusion NFT representing steam engine",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPpxvzkbmqeTHv8taRwix5SJYXxtfbXQ5JPQfmrWEyums",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:50:07.707332"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "boiler, wheel"
+        }
+    ]
+}

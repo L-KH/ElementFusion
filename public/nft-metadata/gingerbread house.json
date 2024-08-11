@@ -1,0 +1,19 @@
+{
+    "name": "gingerbread house",
+    "description": "Element Fusion NFT representing gingerbread house",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV84rGYcHgUbKbghHDwhnnZF41bELLdxaFUf9LVUHons2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:02:15.849093"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, gingerbread man"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "mountain range",
+    "description": "Element Fusion NFT representing mountain range",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUCneAAVo1tXEyc2CyZDcUtk9NfSDvVpXYMKqNJcQWEgp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:46.570265"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mountain, mountain"
+        }
+    ]
+}

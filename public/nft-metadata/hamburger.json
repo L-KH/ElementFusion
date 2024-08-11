@@ -1,0 +1,19 @@
+{
+    "name": "hamburger",
+    "description": "Element Fusion NFT representing hamburger",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRBpbB3xSTYSdGEcCf1RoeGzpsQy7RxfHCMHhhVAPn1Mi",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:05:05.611209"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "meat, bread"
+        }
+    ]
+}

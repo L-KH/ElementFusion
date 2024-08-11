@@ -1,0 +1,19 @@
+{
+    "name": "log cabin",
+    "description": "Element Fusion NFT representing log cabin",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUcJazgo6r29FNZw1siAZXQL81kBgg4YzYqgGyvGgMqWH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:50.162205"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, house"
+        }
+    ]
+}

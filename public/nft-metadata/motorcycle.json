@@ -1,0 +1,19 @@
+{
+    "name": "motorcycle",
+    "description": "Element Fusion NFT representing motorcycle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW41gTwzxS3J6g8udY8LHL7gVbSQFr3KRGQMnTSCtJ3jL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:26.362343"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bicycle, steel"
+        }
+    ]
+}

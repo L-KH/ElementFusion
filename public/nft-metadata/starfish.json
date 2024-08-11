@@ -1,0 +1,19 @@
+{
+    "name": "starfish",
+    "description": "Element Fusion NFT representing starfish",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXsFgN2sGePKzBKHszcxsJ9YLTTN2m3vWUehum4p8eqDa",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:49:27.266902"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ocean, star"
+        }
+    ]
+}

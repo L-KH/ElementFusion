@@ -1,0 +1,19 @@
+{
+    "name": "doghouse",
+    "description": "Element Fusion NFT representing doghouse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdQsoTysqKxgpxRdLVANdqXKW9yGdbBHAuzn5RmV3EpQV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:05.265028"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dog, house"
+        }
+    ]
+}

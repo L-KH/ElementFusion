@@ -1,0 +1,19 @@
+{
+    "name": "statue",
+    "description": "Element Fusion NFT representing statue",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV4rLvN2oPkQQUshDk9f179wfQjad5maNbJo2n3fmjVP2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:49:40.365934"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, medusa"
+        }
+    ]
+}

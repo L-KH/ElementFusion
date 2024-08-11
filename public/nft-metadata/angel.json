@@ -1,0 +1,19 @@
+{
+    "name": "angel",
+    "description": "Element Fusion NFT representing angel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXy78GfrtcsSmgLrVmt6HJXEwJ6h6UETekrtEq4LuascT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:48.925699"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, bird"
+        }
+    ]
+}

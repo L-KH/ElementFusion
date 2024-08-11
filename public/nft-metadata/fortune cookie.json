@@ -1,0 +1,19 @@
+{
+    "name": "fortune cookie",
+    "description": "Element Fusion NFT representing fortune cookie",
+    "image": "https://gateway.pinata.cloud/ipfs/QmecZ1JmtuDwA4ppGXFzq5BvkEY7FphXBisYRpGyRHJjK4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:58:57.894555"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, cookie"
+        }
+    ]
+}

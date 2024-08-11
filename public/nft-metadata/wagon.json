@@ -1,0 +1,19 @@
+{
+    "name": "wagon",
+    "description": "Element Fusion NFT representing wagon",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf68amHXCcQ6pxCcSsZcRg6fUuYXxunMdjh9UBPaQQhy2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:57.762776"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cart, horse"
+        }
+    ]
+}

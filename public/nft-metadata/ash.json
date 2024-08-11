@@ -1,0 +1,19 @@
+{
+    "name": "ash",
+    "description": "Element Fusion NFT representing ash",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXsBothKwysYtR4kncaJpaj4m9SrzroSJfFXBGUyQ2euU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:05.566428"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "volcano, energy"
+        }
+    ]
+}

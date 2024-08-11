@@ -1,0 +1,19 @@
+{
+    "name": "treehouse",
+    "description": "Element Fusion NFT representing treehouse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSCi4QdQCzgU9z1DCx2DcpC882i5cdM5A3a2mvY2WneCV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:55:54.307951"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, house"
+        }
+    ]
+}

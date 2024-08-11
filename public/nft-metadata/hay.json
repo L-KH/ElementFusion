@@ -1,0 +1,19 @@
+{
+    "name": "hay",
+    "description": "Element Fusion NFT representing hay",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdcvorkkDBAE8cgdYDoPiNxKg3QQzNPqUjd8MiphUuWWt",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:06:11.278041"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "grass, sun"
+        }
+    ]
+}

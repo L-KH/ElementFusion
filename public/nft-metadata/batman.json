@@ -1,0 +1,19 @@
+{
+    "name": "batman",
+    "description": "Element Fusion NFT representing batman",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWwrcHZpTuZiuMhk87J8cEjZFRsS3av9zNbgiuydKezzd",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:52.245893"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bat, human"
+        }
+    ]
+}

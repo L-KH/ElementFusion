@@ -1,0 +1,19 @@
+{
+    "name": "seal",
+    "description": "Element Fusion NFT representing seal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU7WVrmMUiStbyYwK7MA49rgzDbLgXKUVvvfa8JA9CHpP",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:42:31.006241"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dog, sea"
+        }
+    ]
+}

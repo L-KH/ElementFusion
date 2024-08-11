@@ -1,0 +1,19 @@
+{
+    "name": "fairy tale",
+    "description": "Element Fusion NFT representing fairy tale",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUftknnm6NkqAeYUQmBJ3zWi4tdkeMa3bbQX7f8Kojgkg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:54:37.395851"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dragon, story"
+        }
+    ]
+}

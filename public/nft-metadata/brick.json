@@ -1,0 +1,19 @@
+{
+    "name": "brick",
+    "description": "Element Fusion NFT representing brick",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYA51GWN4KKgqvGFbyPBQQUqy56jwkvHjhst1hLGUHA3A",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:37:55.946272"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clay, sun"
+        }
+    ]
+}

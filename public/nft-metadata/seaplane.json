@@ -1,0 +1,19 @@
+{
+    "name": "seaplane",
+    "description": "Element Fusion NFT representing seaplane",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQ6LebjNcqY4jJHMtufjM49cozW23yBinceaJSrRLKY5q",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:42:47.613411"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "airplane, sea"
+        }
+    ]
+}

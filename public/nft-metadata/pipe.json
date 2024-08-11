@@ -1,0 +1,19 @@
+{
+    "name": "pipe",
+    "description": "Element Fusion NFT representing pipe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcbiqPGhnw2bRHgS57MmSmYaBp927DoLa8WFuhQtsc7j7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:28.810488"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tobacco, wood"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "turtle",
+    "description": "Element Fusion NFT representing turtle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdX9ihmNf4j4wrxfJN5GTzj7AVt6iQXaPTp8CrMJSQ2je",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:56:30.519799"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "egg, sand"
+        }
+    ]
+}

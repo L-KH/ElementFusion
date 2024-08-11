@@ -1,0 +1,19 @@
+{
+    "name": "moss",
+    "description": "Element Fusion NFT representing moss",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbUTRubdqf29QYbCnYQmVAA8MJQwvthCNniq9fc8smVLL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:17.114947"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "algae, stone"
+        }
+    ]
+}

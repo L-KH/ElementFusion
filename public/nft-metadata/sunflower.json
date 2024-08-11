@@ -1,0 +1,19 @@
+{
+    "name": "sunflower",
+    "description": "Element Fusion NFT representing sunflower",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPWDdLt7USACYCkiYpm6v9hxri2owEjLyR1c4RmCfWwXV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:32.795431"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, sun"
+        }
+    ]
+}

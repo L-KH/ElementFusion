@@ -1,0 +1,19 @@
+{
+    "name": "treasure",
+    "description": "Element Fusion NFT representing treasure",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWuzyzwppQodDs8mhps4V3YFsP38tYKLCudiuJHcRuhJo",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:55:33.172934"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pirate, treasure map"
+        }
+    ]
+}

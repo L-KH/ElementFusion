@@ -1,0 +1,19 @@
+{
+    "name": "metal",
+    "description": "Element Fusion NFT representing metal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaJdTYosd6UXVsZxFBdZXitPVRfZKoTvjYkmaeC3gf3od",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:17:31.676997"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, stone"
+        }
+    ]
+}

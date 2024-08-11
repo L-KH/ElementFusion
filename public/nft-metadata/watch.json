@@ -1,0 +1,19 @@
+{
+    "name": "watch",
+    "description": "Element Fusion NFT representing watch",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT3vUydLYvo8Kew693GgPCyKeKgxDLQ2swiBJ76YHmonh",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:24.361679"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, clock"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "charcoal",
+    "description": "Element Fusion NFT representing charcoal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW95K9vaiFRmk2jUoHKXSwihqiw8NFZNiGr7wSBZ8q8kb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:34.733110"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, fire"
+        }
+    ]
+}

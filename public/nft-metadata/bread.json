@@ -1,0 +1,19 @@
+{
+    "name": "bread",
+    "description": "Element Fusion NFT representing bread",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU2feeoWJvAeiMnCqc2FQh2xiZ6PWpuGghzu9KULEFd1G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:37:29.308509"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dough, fire"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "waterfall",
+    "description": "Element Fusion NFT representing waterfall",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQMdjsoCcnQFTaLs5bSmAsXpL9hshwdGA4Unx3QuAYsiV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:45.048477"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mountain, river"
+        }
+    ]
+}

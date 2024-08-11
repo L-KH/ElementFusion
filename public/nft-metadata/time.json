@@ -1,0 +1,19 @@
+{
+    "name": "time",
+    "description": "Element Fusion NFT representing time",
+    "image": "https://gateway.pinata.cloud/ipfs/QmacWsYNEJpP8dH6Ehj9L7QTx8NUV9WSSuD7j2sZPKcTC3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:16.948828"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, glass"
+        }
+    ]
+}

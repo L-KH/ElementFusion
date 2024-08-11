@@ -1,0 +1,19 @@
+{
+    "name": "sundial",
+    "description": "Element Fusion NFT representing sundial",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTq3oh1QhQH1xz32FRtqhbB8ebBU3mtjv7BYPUxSR1YSW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:18.915792"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clock, sun"
+        }
+    ]
+}

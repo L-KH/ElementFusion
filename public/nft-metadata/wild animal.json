@@ -1,0 +1,19 @@
+{
+    "name": "wild animal",
+    "description": "Element Fusion NFT representing wild animal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbQVGJZ569yuXqzJECE8Y63jWq4XGHKEK1uraTMywPeK2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:51.015276"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "forest, life"
+        }
+    ]
+}

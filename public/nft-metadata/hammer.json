@@ -1,0 +1,19 @@
+{
+    "name": "hammer",
+    "description": "Element Fusion NFT representing hammer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZUyfB4Ew4W4NEhrYgwH43j74VnpnLrmF4eEowkgh5Ftf",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:05:10.123167"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, wood"
+        }
+    ]
+}

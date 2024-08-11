@@ -1,0 +1,19 @@
+{
+    "name": "rat",
+    "description": "Element Fusion NFT representing rat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYgztK6ujohCVsnbcP5gmb4oFyn3SWx8pbqrJvHRWmbz1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:29:56.089221"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sailboat, wild animal"
+        }
+    ]
+}

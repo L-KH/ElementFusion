@@ -1,0 +1,19 @@
+{
+    "name": "steak",
+    "description": "Element Fusion NFT representing steak",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVgLrZtHJTH7FTRZrsy6qAhCyvDeh93Mo1mAksPyj9M8h",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:49:49.973753"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, cow"
+        }
+    ]
+}

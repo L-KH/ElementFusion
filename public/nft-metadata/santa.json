@@ -1,0 +1,19 @@
+{
+    "name": "santa",
+    "description": "Element Fusion NFT representing santa",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVc5AfPFDiRVzSkaWthkGd3HNCSKmLgfzMnr82DVfFfAr",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:41:06.568229"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, christmas tree"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "hurricane",
+    "description": "Element Fusion NFT representing hurricane",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdUgEnvCY3tFxYyHwqkLX43DnwWEWvUJ7fYTAkQVSSd43",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:08:58.382493"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wind, energy"
+        }
+    ]
+}

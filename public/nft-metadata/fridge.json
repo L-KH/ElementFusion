@@ -1,0 +1,19 @@
+{
+    "name": "fridge",
+    "description": "Element Fusion NFT representing fridge",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSWouZACz7NjoKyoHMSgNEhFQEvTUnmmtr5N76MeurFpB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:00:01.456275"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, ice"
+        }
+    ]
+}

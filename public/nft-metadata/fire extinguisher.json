@@ -1,0 +1,19 @@
+{
+    "name": "fire extinguisher",
+    "description": "Element Fusion NFT representing fire extinguisher",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmdun3iavPrSqJZGUpUra7g6SghjXEcBNRHhydxBtN5U5B",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:56:03.926293"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, carbon dioxide"
+        }
+    ]
+}

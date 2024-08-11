@@ -1,0 +1,19 @@
+{
+    "name": "christmas stocking",
+    "description": "Element Fusion NFT representing christmas stocking",
+    "image": "https://gateway.pinata.cloud/ipfs/QmReLfHGXrDQiZLj2MMEYGmLACc3TbRD4Gds7RPPGHGzr7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:30.117867"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wool, fireplace"
+        }
+    ]
+}

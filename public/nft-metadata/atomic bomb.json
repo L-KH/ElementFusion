@@ -1,0 +1,19 @@
+{
+    "name": "atomic bomb",
+    "description": "Element Fusion NFT representing atomic bomb",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZYvZ7SdEEmA6FKBPGHjoKBL7LfgwsnUYLQEw2NGRVL38",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:42.245799"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "energy, explosion"
+        }
+    ]
+}

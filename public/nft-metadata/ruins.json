@@ -1,0 +1,19 @@
+{
+    "name": "ruins",
+    "description": "Element Fusion NFT representing ruins",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ1NWesNzS4h4HBrmrQeA2f8NAnXuwX1Hf5ZgBZkfXEWp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:37:02.701739"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "time, house"
+        }
+    ]
+}

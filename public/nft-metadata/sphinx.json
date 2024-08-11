@@ -1,0 +1,19 @@
+{
+    "name": "sphinx",
+    "description": "Element Fusion NFT representing sphinx",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVQaMGodEbEx2PPWHLx5Po7ppoxgwLm5o4g9zs6TmCQMz",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:46.079999"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, lion"
+        }
+    ]
+}

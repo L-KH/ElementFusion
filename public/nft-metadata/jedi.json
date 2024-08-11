@@ -1,0 +1,19 @@
+{
+    "name": "jedi",
+    "description": "Element Fusion NFT representing jedi",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeCAf8fnBF3zNJqAkfMaTLCeuyLw46waoQU1M2FUEYN2k",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:09.705063"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "knight, lightsaber"
+        }
+    ]
+}

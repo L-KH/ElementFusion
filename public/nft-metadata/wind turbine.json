@@ -1,0 +1,19 @@
+{
+    "name": "wind turbine",
+    "description": "Element Fusion NFT representing wind turbine",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRLtsSCTKjLAaZz3W1LyxaLMTiSagy9637zrmiqXqoLY6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:01:22.688711"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "windmill, electricity"
+        }
+    ]
+}

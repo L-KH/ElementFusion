@@ -1,0 +1,19 @@
+{
+    "name": "diamond",
+    "description": "Element Fusion NFT representing diamond",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbSFjn4mZgbgH8gVD1zcwVXUAxiZ5zR5yjfDHDQ1r3iVb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:36.664276"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "coal, time"
+        }
+    ]
+}

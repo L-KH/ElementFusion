@@ -1,0 +1,19 @@
+{
+    "name": "cookie",
+    "description": "Element Fusion NFT representing cookie",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf2oF3JAST41ivrkPcgPKN2zU5Y3nFaKu7eQK1AZ7u6WR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:47.513531"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dough, sugar"
+        }
+    ]
+}

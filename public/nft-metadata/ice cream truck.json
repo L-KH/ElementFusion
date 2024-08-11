@@ -1,0 +1,19 @@
+{
+    "name": "ice cream truck",
+    "description": "Element Fusion NFT representing ice cream truck",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXfRPSdvtDaDeoj2NDvLJSLk2ybVq4xUvTtmcZFHYTdsc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:09:23.860111"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "car, ice cream"
+        }
+    ]
+}

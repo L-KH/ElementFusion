@@ -1,0 +1,19 @@
+{
+    "name": "flying squirrel",
+    "description": "Element Fusion NFT representing flying squirrel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQP4tE8GwV1ADC2KrvCQ4TJ4EhnJNqh9feCC6rPDFe3T5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:58:35.449104"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, squirrel"
+        }
+    ]
+}

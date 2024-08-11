@@ -1,0 +1,19 @@
+{
+    "name": "night",
+    "description": "Element Fusion NFT representing night",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdUgEttMh5jNVrHoqQDgYeYNC51CsMn4e9hEoLrc6EPu6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:21:30.862833"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, moon"
+        }
+    ]
+}

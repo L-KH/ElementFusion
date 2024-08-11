@@ -1,0 +1,19 @@
+{
+    "name": "forest",
+    "description": "Element Fusion NFT representing forest",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRGTjwZKxs1qEVxC7V9yth2t2NMd2jQpdihwhh92yycPZ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:58:51.226291"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, tree"
+        }
+    ]
+}

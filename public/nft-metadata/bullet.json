@@ -1,0 +1,19 @@
+{
+    "name": "bullet",
+    "description": "Element Fusion NFT representing bullet",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXxFJfxHbeG6HNWBhFaU26bdmMCaHdSd4iwfyyNz8nAde",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:28.771701"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gunpowder, metal"
+        }
+    ]
+}

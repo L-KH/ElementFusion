@@ -1,0 +1,19 @@
+{
+    "name": "vase",
+    "description": "Element Fusion NFT representing vase",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWtTgPgMXHuNtUcyZRRG9KCqDh2PFD8AUANXy6oyQwSzM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:10.147418"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pottery, flower"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "earthquake",
+    "description": "Element Fusion NFT representing earthquake",
+    "image": "https://gateway.pinata.cloud/ipfs/Qme6x6Uc58txyEk1duQuGzaW1Nff3vx1nZR2BT4kGM9iEL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:28.222065"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earth, wave"
+        }
+    ]
+}

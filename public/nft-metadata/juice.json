@@ -1,0 +1,19 @@
+{
+    "name": "juice",
+    "description": "Element Fusion NFT representing juice",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUhWMgdADrTHmGWuPkvc4EDh4Nchg54y7ULYrbZUFC4hZ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:32.425967"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pressure, fruit"
+        }
+    ]
+}

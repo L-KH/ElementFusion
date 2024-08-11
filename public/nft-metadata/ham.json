@@ -1,0 +1,19 @@
+{
+    "name": "ham",
+    "description": "Element Fusion NFT representing ham",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVcZJqHnMvjmw7XQ8VFpC6rzfJZxdTfu3o9met1sNtQ4G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:59.267230"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "meat, smoke"
+        }
+    ]
+}

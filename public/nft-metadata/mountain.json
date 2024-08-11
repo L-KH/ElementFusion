@@ -1,0 +1,19 @@
+{
+    "name": "mountain",
+    "description": "Element Fusion NFT representing mountain",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSneyqf8Z1abTEpxQ2JLPh5VzaFssR9Utkq2tWTfM6tCk",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:19:34.119309"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earthquake, earth"
+        }
+    ]
+}

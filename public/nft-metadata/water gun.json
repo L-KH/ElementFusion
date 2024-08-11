@@ -1,0 +1,19 @@
+{
+    "name": "water gun",
+    "description": "Element Fusion NFT representing water gun",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSWnbaWSRQiyNWP3tyqsYj2woi5X1fJms6H9jASi3Nfwx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:28.353974"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, gun"
+        }
+    ]
+}

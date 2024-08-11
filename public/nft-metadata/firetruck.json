@@ -1,0 +1,19 @@
+{
+    "name": "firetruck",
+    "description": "Element Fusion NFT representing firetruck",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSTJHVhg5tbF4hucxV3jV2WVF5Hn93z2CT3D9Fa7DH5n5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:56:43.162693"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fireman, car"
+        }
+    ]
+}

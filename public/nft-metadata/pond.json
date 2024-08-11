@@ -1,0 +1,19 @@
+{
+    "name": "pond",
+    "description": "Element Fusion NFT representing pond",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWfJFBbA8UoQZXbbAUjeQX4HsUyETrkKfwniuJ3xJVgbw",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:41.589139"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, garden"
+        }
+    ]
+}

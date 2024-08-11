@@ -1,0 +1,19 @@
+{
+    "name": "blizzard",
+    "description": "Element Fusion NFT representing blizzard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP7LKyg7coBGTyXT4MNnsia9q8QKij5Z53jmEwrpNFSEw",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:36:34.137567"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, snow"
+        }
+    ]
+}

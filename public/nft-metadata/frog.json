@@ -1,0 +1,19 @@
+{
+    "name": "frog",
+    "description": "Element Fusion NFT representing frog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVLs7AXWdrQxFc1FLXHhoSY1eyB9kpx7Z8ug12webexCh",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:00:08.193847"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, pond"
+        }
+    ]
+}

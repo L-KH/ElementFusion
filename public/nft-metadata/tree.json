@@ -1,0 +1,19 @@
+{
+    "name": "tree",
+    "description": "Element Fusion NFT representing tree",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNseQNjMmijDt1UxrmuQUMgRvkNawy3RNUhSdHf46f6uc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:55:48.757700"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, time"
+        }
+    ]
+}

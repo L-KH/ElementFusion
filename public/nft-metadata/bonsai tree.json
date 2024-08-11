@@ -1,0 +1,19 @@
+{
+    "name": "bonsai tree",
+    "description": "Element Fusion NFT representing bonsai tree",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWhMvhAhpGBbNt3ZcusPdrjMoRkjUMFPMc2g74rEpQeNw",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:37:12.897223"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, scissors"
+        }
+    ]
+}

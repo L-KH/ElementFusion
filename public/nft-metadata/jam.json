@@ -1,0 +1,19 @@
+{
+    "name": "jam",
+    "description": "Element Fusion NFT representing jam",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUgzJkUsm4kpXVyZYqLZSQ51xxDB3QVfuuguB6eeFzDCj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:00.527535"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "juice, sugar"
+        }
+    ]
+}

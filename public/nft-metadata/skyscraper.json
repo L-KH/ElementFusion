@@ -1,0 +1,19 @@
+{
+    "name": "skyscraper",
+    "description": "Element Fusion NFT representing skyscraper",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmbt7Q7Sn1sNRMTf8ojQXDDr5xq3viZzmjUYXhCxNjaPuK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:28.713427"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, sky"
+        }
+    ]
+}

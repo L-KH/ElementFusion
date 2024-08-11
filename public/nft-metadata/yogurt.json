@@ -1,0 +1,19 @@
+{
+    "name": "yogurt",
+    "description": "Element Fusion NFT representing yogurt",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTwLPGHveorkzA3xyXa8p3PMiffJ22RMK1u8drjZtBSdv",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:03:22.863831"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "milk, bacteria"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "donut",
+    "description": "Element Fusion NFT representing donut",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRDYBZjRRktX4HEe39yqjCZW2ktggrJrbMzzMCdNPdfEW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:09.413428"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dough, oil"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "isle",
+    "description": "Element Fusion NFT representing isle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSHpvNQ3XJPVC8tCkrakxvxDw9EyZ6YckqJD7qUBxCg1G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:11:31.292272"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "volcano, sea"
+        }
+    ]
+}

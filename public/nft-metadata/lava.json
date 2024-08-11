@@ -1,0 +1,19 @@
+{
+    "name": "lava",
+    "description": "Element Fusion NFT representing lava",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdbfW9cP8nwpzTnPp1N8NqAQgMJuK3M3SLByqr2Hhs9bq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:13:15.681397"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earth, fire"
+        }
+    ]
+}

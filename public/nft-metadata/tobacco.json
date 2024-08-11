@@ -1,0 +1,19 @@
+{
+    "name": "tobacco",
+    "description": "Element Fusion NFT representing tobacco",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSQEgbF8CiA8PSUFd6rJZN6RTCbsTxJueNphVyKw3pv2R",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:39.311170"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, fire"
+        }
+    ]
+}

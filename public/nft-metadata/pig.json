@@ -1,0 +1,19 @@
+{
+    "name": "pig",
+    "description": "Element Fusion NFT representing pig",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUKUgNfy8fptywsW8rJzkbKF7qfTdA3eZCWZEco6nYmm7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:25:38.914168"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "livestock, mud"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "tsunami",
+    "description": "Element Fusion NFT representing tsunami",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWPueg3JFKw4pJcnrW6yR9i9MsAH9rVyGdbsWHSv8Z2vR",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:56:22.103659"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, earthquake"
+        }
+    ]
+}

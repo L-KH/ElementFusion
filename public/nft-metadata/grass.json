@@ -1,0 +1,19 @@
+{
+    "name": "grass",
+    "description": "Element Fusion NFT representing grass",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTfZUMMZgmbYdyd9nr3QhFuR6AnU5G9MWKSQFfE4sqr8s",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:29.959444"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, earth"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "phoenix",
+    "description": "Element Fusion NFT representing phoenix",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWLMnvPcN4s3ipAms1QBvWwbfL7UNbJLd4PUe7mjngLxJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:25:10.368726"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, bird"
+        }
+    ]
+}

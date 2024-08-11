@@ -1,0 +1,19 @@
+{
+    "name": "rust",
+    "description": "Element Fusion NFT representing rust",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNM9A3PHuSeLWvYNmuNWw3uo3mqjcvMocDRaA4MqNMSty",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:38:19.818883"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "air, steel"
+        }
+    ]
+}

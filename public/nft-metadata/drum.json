@@ -1,0 +1,19 @@
+{
+    "name": "drum",
+    "description": "Element Fusion NFT representing drum",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZp9Bt9SkvfNUiqnPQtcAwqKwFTtLewtkryQSTJznfh6K",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:39.011117"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, leather"
+        }
+    ]
+}

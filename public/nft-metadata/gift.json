@@ -1,0 +1,19 @@
+{
+    "name": "gift",
+    "description": "Element Fusion NFT representing gift",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUh3fYqhWDBh8kKF9Eyrvv7K5RStoG6AuHMvYj2AKrD28",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:02:04.038039"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "santa, fireplace"
+        }
+    ]
+}

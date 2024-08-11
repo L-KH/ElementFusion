@@ -1,0 +1,19 @@
+{
+    "name": "train",
+    "description": "Element Fusion NFT representing train",
+    "image": "https://gateway.pinata.cloud/ipfs/QmULnZq8zdsenLLjq1cy8gk2P8sRArMxbpz4x3FJCAxukJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:55:23.777277"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "steam engine, wagon"
+        }
+    ]
+}

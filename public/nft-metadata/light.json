@@ -1,0 +1,19 @@
+{
+    "name": "light",
+    "description": "Element Fusion NFT representing light",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZk1e1F6jcxD5Ss4upszAHaGyr5Jp2B5UiCQPwDi8Hh4w",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:14:35.105274"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "electricity, flashlight"
+        }
+    ]
+}

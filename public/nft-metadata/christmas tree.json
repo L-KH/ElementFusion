@@ -1,0 +1,19 @@
+{
+    "name": "christmas tree",
+    "description": "Element Fusion NFT representing christmas tree",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma5hqSYb1Bi73juoBLc7yru1Z7VB5WaozaV9RT4fC2qM6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:41.908824"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, star"
+        }
+    ]
+}

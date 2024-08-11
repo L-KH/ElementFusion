@@ -1,0 +1,19 @@
+{
+    "name": "sand",
+    "description": "Element Fusion NFT representing sand",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbHsXEDeznFt1HHiGPaGW8FJmYXoEUHUB3iuCehPh6fNL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:39:57.689645"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wind, stone"
+        }
+    ]
+}

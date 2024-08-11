@@ -1,0 +1,19 @@
+{
+    "name": "ice",
+    "description": "Element Fusion NFT representing ice",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTBCXrFgQbRQWCyNr2Ka7hrmgr3Nikz1CGNDYatMPfaK9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:09:04.409867"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, cold"
+        }
+    ]
+}

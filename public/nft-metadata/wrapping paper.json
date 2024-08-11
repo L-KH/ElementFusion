@@ -1,0 +1,19 @@
+{
+    "name": "wrapping paper",
+    "description": "Element Fusion NFT representing wrapping paper",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaUfUfUVixDXte1AoGCFGzuLSsaEmRqf8oce4Dfn7vXQM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:03:09.283539"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gift, paper"
+        }
+    ]
+}

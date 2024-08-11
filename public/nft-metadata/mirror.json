@@ -1,0 +1,19 @@
+{
+    "name": "mirror",
+    "description": "Element Fusion NFT representing mirror",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVBsQBhh7hKjeAL5RscRq63MsLSQHpQJV5Ld9cAd6GNVm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:26.449324"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glass, metal"
+        }
+    ]
+}

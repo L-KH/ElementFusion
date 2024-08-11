@@ -1,0 +1,19 @@
+{
+    "name": "sloth",
+    "description": "Element Fusion NFT representing sloth",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRrdGUNepnDE7cUnTmJexvmGzm5vkTxChDiomU5PuxGQK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:46.444318"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, time"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "leather",
+    "description": "Element Fusion NFT representing leather",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfSJM7BSxfrYFC6s8W8b6X68ypvwDyjJR19653voPQXSV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:13:59.637380"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pig, blade"
+        }
+    ]
+}

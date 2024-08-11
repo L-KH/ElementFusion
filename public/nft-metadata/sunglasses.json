@@ -1,0 +1,19 @@
+{
+    "name": "sunglasses",
+    "description": "Element Fusion NFT representing sunglasses",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPWF8yrEJyY34trJZZ5fdo7g2spuFJCKJUbSda81kc5Up",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:43.362460"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "beach, glasses"
+        }
+    ]
+}

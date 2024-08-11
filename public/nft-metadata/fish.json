@@ -1,0 +1,19 @@
+{
+    "name": "fish",
+    "description": "Element Fusion NFT representing fish",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP3eZC8BKuuDJm3HbPw9eGew4P1RndBU3hMCN6PGt8wSW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:56:52.299113"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "hard roe, time"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "lava lamp",
+    "description": "Element Fusion NFT representing lava lamp",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdEyLnG4Lrch5LXRQXMtA3CzmUvvgkF2We28ZsitVd9i2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:13:20.827342"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lava, lamp"
+        }
+    ]
+}

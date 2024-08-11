@@ -1,0 +1,19 @@
+{
+    "name": "penguin",
+    "description": "Element Fusion NFT representing penguin",
+    "image": "https://gateway.pinata.cloud/ipfs/QmersVEUsT7ByTKrtCbTDprcDUFet73UTSVzn3v799zKbp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:24:49.071386"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, snow"
+        }
+    ]
+}

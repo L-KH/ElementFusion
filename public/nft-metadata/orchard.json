@@ -1,0 +1,19 @@
+{
+    "name": "orchard",
+    "description": "Element Fusion NFT representing orchard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTYi1esMSHGvw3vkShhCEZuq2cB7wx9adpHgfozGNuriL",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:45.265470"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "field, fruit tree"
+        }
+    ]
+}

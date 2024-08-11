@@ -1,0 +1,19 @@
+{
+    "name": "lizard",
+    "description": "Element Fusion NFT representing lizard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdVx4wEvhNFPXvmKU8pLRD95QViHUdfz4BV6nFpNB97p7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:44.661586"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "egg, swamp"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "sand castle",
+    "description": "Element Fusion NFT representing sand castle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbuFQFrJwYcFAMxmzsmtDPfKjeQUUwmeXMaAZdbeM1nnc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:40:03.431443"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, castle"
+        }
+    ]
+}

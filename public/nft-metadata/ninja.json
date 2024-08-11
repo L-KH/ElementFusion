@@ -1,0 +1,19 @@
+{
+    "name": "ninja",
+    "description": "Element Fusion NFT representing ninja",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPXk6jgGEwJwiUUFpXAMhgChJM4D4GrrZfyEWnYCS92kC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:21:36.559462"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "shuriken, human"
+        }
+    ]
+}

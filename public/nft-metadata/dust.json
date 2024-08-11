@@ -1,0 +1,19 @@
+{
+    "name": "dust",
+    "description": "Element Fusion NFT representing dust",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNenxKS2eL9VT9ZE5GtenkbJph75KuScFcMe7xVcDNZJn",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:10.912480"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "day, vampire"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "dew",
+    "description": "Element Fusion NFT representing dew",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRnq4EUuAKFairnVUx8cjKgsQq5kpBWVAbivFRBAETWDW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:26.539142"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, grass"
+        }
+    ]
+}

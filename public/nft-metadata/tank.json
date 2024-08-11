@@ -1,0 +1,19 @@
+{
+    "name": "tank",
+    "description": "Element Fusion NFT representing tank",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVjruhRm4Dt11ySoxX53hXvhyZJv66uFxGD4L1QAPm2QZ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:53:19.093878"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "car, gun"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ruler",
+    "description": "Element Fusion NFT representing ruler",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSMqR8SxSpfA4oLYa1WDmMerST581berFdGn3iUVnZ6MQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:37:08.598916"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, pencil"
+        }
+    ]
+}

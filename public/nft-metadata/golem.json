@@ -1,0 +1,19 @@
+{
+    "name": "golem",
+    "description": "Element Fusion NFT representing golem",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW1DysCGtbJ3u1QuDx7hoULZasxeYeGpz8Z14bv4NMsar",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:15.965567"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clay, life"
+        }
+    ]
+}

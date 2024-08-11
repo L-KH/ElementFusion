@@ -1,0 +1,19 @@
+{
+    "name": "snowmobile",
+    "description": "Element Fusion NFT representing snowmobile",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaL67DkykRJmkhpATpz8n21vzi84mFfCQbJy26ZgHsJNV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:20.174020"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, car"
+        }
+    ]
+}

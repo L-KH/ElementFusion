@@ -1,0 +1,19 @@
+{
+    "name": "fog",
+    "description": "Element Fusion NFT representing fog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbLLwzUmMQhZM7Jfue1e5PGnTQc48bJ4z2JkFSsDBTWUc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:58:42.352305"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earth, cloud"
+        }
+    ]
+}

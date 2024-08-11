@@ -1,0 +1,19 @@
+{
+    "name": "archipelago",
+    "description": "Element Fusion NFT representing archipelago",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQabnKnjh4F4XUXXxBb8xFBjFsGYSzUpKhzY26pMSknPj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:30:38.626455"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "isle, isle"
+        }
+    ]
+}

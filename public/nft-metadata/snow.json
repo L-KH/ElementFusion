@@ -1,0 +1,19 @@
+{
+    "name": "snow",
+    "description": "Element Fusion NFT representing snow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRwPMnQyCeNiMLP7QFVwdibaxhFUtHcfDv96KPiaCQztH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:21.624858"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "steam, cold"
+        }
+    ]
+}

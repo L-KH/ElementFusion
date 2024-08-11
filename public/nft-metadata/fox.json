@@ -1,0 +1,19 @@
+{
+    "name": "fox",
+    "description": "Element Fusion NFT representing fox",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVE121tU1gpNHDkxR5q6z6ZMQjhjzp9EhJ2RhfE58rWiK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:59:32.613873"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "chicken, wild animal"
+        }
+    ]
+}

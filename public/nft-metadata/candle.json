@@ -1,0 +1,19 @@
+{
+    "name": "candle",
+    "description": "Element Fusion NFT representing candle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQp6FqyhB4vzkRHub77ZE5JV2XReKMhsZpc1FGDP1Ra3Z",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:42.678021"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wax, fire"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "sugar",
+    "description": "Element Fusion NFT representing sugar",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTZ5gdESB9A2k9Btq8MTATazKT3K6QENWyuv8SsET5aUg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:09.033880"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "juice, energy"
+        }
+    ]
+}

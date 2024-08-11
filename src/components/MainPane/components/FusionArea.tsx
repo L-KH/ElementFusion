@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
 import ElementModal  from '../../ElementModal';
 import FusionAnimation from '../../FusionAnimation';
-
+import { useToast } from '@chakra-ui/react';
+import { useAccount } from 'wagmi';
+import { useMint } from '../../../hooks/WriteContract';
 type Element = {
   id: number;
   name: string;
@@ -316,6 +318,10 @@ const FusionArea = ({
   const [selectedModalElement, setSelectedModalElement] = useState<Element | null>(null);
   const [showFusionAnimation, setShowFusionAnimation] = useState(false);
   const [animationEnabled, setAnimationEnabled] = useState(true);
+  const toast = useToast();
+  const { isConnected } = useAccount();
+  const { handleMint } = useMint();
+
 
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
@@ -325,6 +331,61 @@ const FusionArea = ({
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
   };
 
+  const handleMintClick = async (element: Element) => {
+    if (!isConnected) {
+      toast({
+        title: "Wallet not connected",
+        description: "Please connect your wallet to mint",
+        status: "error",
+        duration: 5000,
+        isClosable: true,
+      });
+      return;
+    }
+  
+    try {
+      console.log("Minting element:", element);
+      const rarityToNumber = {
+        'common': 0,
+        'uncommon': 1,
+        'rare': 2,
+        'epic': 3,
+        'legendary': 4
+      };
+      const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
+      const tx = await handleMint(element.name, rarityNumber);  
+      toast({
+        title: "Element minting initiated",
+        description: "Transaction submitted. Please wait for confirmation.",
+        status: "info",
+        duration: 5000,
+        isClosable: true,
+      });
+  
+      await tx.wait();
+  
+      toast({
+        title: "Element minted successfully!",
+        description: "Transaction confirmed.",
+        status: "success",
+        duration: 5000,
+        isClosable: true,
+      });
+    } catch (error) {
+      console.error('Error during minting:', error);
+      toast({
+        title: "Minting failed",
+        description: error instanceof Error ? error.message : "An unknown error occurred",
+        status: "error",
+        duration: 5000,
+        isClosable: true,
+      });
+    }
+  };
+  
+
+
+  
   useEffect(() => {
     if (selectedElements.length === 2 && result && result.success) {
       setShowFusionAnimation(true);
@@ -406,7 +467,7 @@ const handleAnimationToggle = () => {
                         rarity={category}
                         onClick={(e) => {
                           e.stopPropagation();
-                          // Add minting functionality here
+                          handleMintClick(element);
                         }}
                       >
                         Mint

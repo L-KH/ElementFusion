@@ -1,0 +1,19 @@
+{
+    "name": "hippo",
+    "description": "Element Fusion NFT representing hippo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVfCyQSRyMsXQVwFTnqxB3Nr9WmRSF8XegKKvkgccykJx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:06:59.529399"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "horse, water"
+        }
+    ]
+}

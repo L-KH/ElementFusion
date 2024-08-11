@@ -1,0 +1,19 @@
+{
+    "name": "desert",
+    "description": "Element Fusion NFT representing desert",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTZkT6x3Q6yfNVZaftYV1YPa8Hyr7jtTmXfQpEmKkc8y6",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:12.406318"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, cactus"
+        }
+    ]
+}

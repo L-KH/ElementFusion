@@ -1,0 +1,19 @@
+{
+    "name": "egg timer",
+    "description": "Element Fusion NFT representing egg timer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQgsacWsigQCyzv8DeYzLqhNKGArSbnj4uar8w9reG86f",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:51:04.223853"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "egg, watch"
+        }
+    ]
+}

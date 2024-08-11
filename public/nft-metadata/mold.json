@@ -1,0 +1,19 @@
+{
+    "name": "mold",
+    "description": "Element Fusion NFT representing mold",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNLkkwPHMwDdyfkS8avpzNSYaaaW95bq8DXBNrUq9Cy2j",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:30.670659"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "time, bread"
+        }
+    ]
+}

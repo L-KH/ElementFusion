@@ -1,0 +1,19 @@
+{
+    "name": "parrot",
+    "description": "Element Fusion NFT representing parrot",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmb1eEmaxVai94edmg9qrD9FBcbrQBx4RhZ4XWGrnVtr3b",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:59.056788"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, pirate"
+        }
+    ]
+}

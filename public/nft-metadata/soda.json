@@ -1,0 +1,19 @@
+{
+    "name": "soda",
+    "description": "Element Fusion NFT representing soda",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQVmxNjthaAkYcZPpcXuzS7JtoqtLEe3SJ2koFYCZvs97",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:35.671238"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "juice, carbon dioxide"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "minotaur",
+    "description": "Element Fusion NFT representing minotaur",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbJCLzBhVrHSoN37zMg7GcDnqD2e3qWy2jUcGgJ3KMHBX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:19.693006"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, cow"
+        }
+    ]
+}

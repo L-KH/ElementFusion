@@ -1,0 +1,19 @@
+{
+    "name": "hospital",
+    "description": "Element Fusion NFT representing hospital",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWdjqqRrY4rBeRgSgWEcyyuAuqQCrmymxSQpPm9xpRbbe",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:08:03.473169"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, doctor"
+        }
+    ]
+}

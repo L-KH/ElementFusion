@@ -1,0 +1,19 @@
+{
+    "name": "ring",
+    "description": "Element Fusion NFT representing ring",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYUDSJo76fLangcfavmy42gn48ebLpUAdPpPNV1RBnqmV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:30:34.049588"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "diamond, gold"
+        }
+    ]
+}

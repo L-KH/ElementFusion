@@ -1,0 +1,19 @@
+{
+    "name": "owl",
+    "description": "Element Fusion NFT representing owl",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTRMAvzqrHQ68mKYorxSdJPTJiE5M7ujU4jBoo9KmBSzr",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:07.943913"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, wizard"
+        }
+    ]
+}

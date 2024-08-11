@@ -1,0 +1,19 @@
+{
+    "name": "mud",
+    "description": "Element Fusion NFT representing mud",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPSxFiVEZku9MtpvT29QWGEnkoMSZvUs8dwBPxdZLBdVw",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:20:09.665513"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, earth"
+        }
+    ]
+}

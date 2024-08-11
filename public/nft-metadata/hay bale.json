@@ -1,0 +1,19 @@
+{
+    "name": "hay bale",
+    "description": "Element Fusion NFT representing hay bale",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmasy6SqeH8Si4aub6s8LgdspTG1DDFWhmAELnPbHW5EbE",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:06:20.543477"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "hay, hay"
+        }
+    ]
+}

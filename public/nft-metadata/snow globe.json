@@ -1,0 +1,19 @@
+{
+    "name": "snow globe",
+    "description": "Element Fusion NFT representing snow globe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmRkSCYHg9WNJbnVuTHESbJGbjW5rsAGjfpxairGQNo2d4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:26.375905"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, crystal ball"
+        }
+    ]
+}

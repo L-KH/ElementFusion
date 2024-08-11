@@ -1,0 +1,19 @@
+{
+    "name": "beaver",
+    "description": "Element Fusion NFT representing beaver",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWW3ARMboM874UhUtE4siS1CEWt5gPqXfMFgGDySFJdNy",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:34:47.756436"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, dam"
+        }
+    ]
+}

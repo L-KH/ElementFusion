@@ -1,0 +1,19 @@
+{
+    "name": "paper",
+    "description": "Element Fusion NFT representing paper",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeBdSZT4oA6LaoYX7BK1Be6ypbv4sxpFK5MgM3CP3f6G7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:49.699482"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, pressure"
+        }
+    ]
+}

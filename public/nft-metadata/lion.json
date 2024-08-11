@@ -1,0 +1,19 @@
+{
+    "name": "lion",
+    "description": "Element Fusion NFT representing lion",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmej9XoJnVE7vLY3rRr9HzkAdAchn94K9E3qLexUVjVrwD",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:29.056637"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wild animal, cat"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "pyramid",
+    "description": "Element Fusion NFT representing pyramid",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf7QEqG95UQ8Ldp2CRukfCZmb8z9NYvQFfog9QqdarRwT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:29:03.927464"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "desert, stone"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "eruption",
+    "description": "Element Fusion NFT representing eruption",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeETyFs5veejNMzxfKHA2iaX2BZwh4T7ejqhpYMckX5rG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:53:44.347589"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "volcano, energy"
+        }
+    ]
+}

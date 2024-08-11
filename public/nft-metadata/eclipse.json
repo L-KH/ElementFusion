@@ -1,0 +1,19 @@
+{
+    "name": "eclipse",
+    "description": "Element Fusion NFT representing eclipse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQbCwyCTrHSUtMmBDiCXGGVWBa9WAjLrkNdgrfTi8a4KH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:34.031756"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, moon"
+        }
+    ]
+}

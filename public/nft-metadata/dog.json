@@ -1,0 +1,19 @@
+{
+    "name": "dog",
+    "description": "Element Fusion NFT representing dog",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS6mga1ubcmNAUmkY8Uuh1969atZ4aN33kgkKjd3vwv7U",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:47:59.617541"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wolf, bone"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ski goggles",
+    "description": "Element Fusion NFT representing ski goggles",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUzvhePWWJ7DnUxuYoJDXqW251Prm4njxTAFARPUCCxGY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:45:09.524705"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glasses, snow"
+        }
+    ]
+}

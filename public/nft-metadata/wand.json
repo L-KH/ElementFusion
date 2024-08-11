@@ -1,0 +1,19 @@
+{
+    "name": "wand",
+    "description": "Element Fusion NFT representing wand",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWgWRtN7ZGQxx4GL53bkvKg3K2mncGDokZ3Wady77aeLm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:09.705647"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wizard, wood"
+        }
+    ]
+}

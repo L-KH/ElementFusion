@@ -1,0 +1,19 @@
+{
+    "name": "hail",
+    "description": "Element Fusion NFT representing hail",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW4jA1dmGDYxsETkfgvAUnPumQzQcPJFd6aFV3igCQ1B3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:55.141210"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ice, cloud"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "caviar",
+    "description": "Element Fusion NFT representing caviar",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPyeakRDvja8TH6haDw6qNfC1Xym2hdXtSG4HjBJfk8AM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:58.593987"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "hard roe, human"
+        }
+    ]
+}

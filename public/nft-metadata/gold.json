@@ -1,0 +1,19 @@
+{
+    "name": "gold",
+    "description": "Element Fusion NFT representing gold",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcNj8iXAtYPS5wvPBRisn2zSZKyZ9CDEHwdkQgjw5LYou",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:12.280218"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, rainbow"
+        }
+    ]
+}

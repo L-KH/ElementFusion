@@ -1,0 +1,19 @@
+{
+    "name": "igloo",
+    "description": "Element Fusion NFT representing igloo",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWmXZyUy35nnBBdbrn2KnEYZSMT8FYHuhKg45SDwtEmFD",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:10:39.805535"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, snow"
+        }
+    ]
+}

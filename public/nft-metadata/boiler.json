@@ -1,0 +1,19 @@
+{
+    "name": "boiler",
+    "description": "Element Fusion NFT representing boiler",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPxXG667EhXGFjmV94g2y2HpbuXQLcoQ6S7aeXWfpZgvn",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:36:55.295270"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "steam, metal"
+        }
+    ]
+}

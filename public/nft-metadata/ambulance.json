@@ -1,0 +1,19 @@
+{
+    "name": "ambulance",
+    "description": "Element Fusion NFT representing ambulance",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT93woJLnKBpwcy84RV7ixoKK5gGz6u3H87FYKsfXG7m4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:44.185959"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "doctor, car"
+        }
+    ]
+}

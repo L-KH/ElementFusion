@@ -1,0 +1,19 @@
+{
+    "name": "campfire",
+    "description": "Element Fusion NFT representing campfire",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXXQ7uuXCout52ZYTRaV6KE7BjkA74Nmg8n84NVeRmMuv",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:35.448664"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, wood"
+        }
+    ]
+}

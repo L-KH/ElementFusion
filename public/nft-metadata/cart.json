@@ -1,0 +1,19 @@
+{
+    "name": "cart",
+    "description": "Element Fusion NFT representing cart",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmes1qytRP8Mf5pKNBPLC7xvEdVWsN5uDSngjVvVnwKabX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:35.484380"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheel, wood"
+        }
+    ]
+}

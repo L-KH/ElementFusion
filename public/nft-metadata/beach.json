@@ -1,0 +1,19 @@
+{
+    "name": "beach",
+    "description": "Element Fusion NFT representing beach",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcCQHZ55PHPRy2PiyptgbvxYwJQh9B2PzjqtTwGhvTMuT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:34:36.940430"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, sand"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "dynamite",
+    "description": "Element Fusion NFT representing dynamite",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZLszVsoEtM5mR1h79dSbEkHU4qjoQkUk2cHmnZmPopMU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:50:14.702573"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gunpowder, wire"
+        }
+    ]
+}

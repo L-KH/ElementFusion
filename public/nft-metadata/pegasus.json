@@ -1,0 +1,19 @@
+{
+    "name": "pegasus",
+    "description": "Element Fusion NFT representing pegasus",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUGDDKMTKYSp8dctNQCggxjyNTNDHSvmdMbZCmucZitEf",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:24:26.161039"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, unicorn"
+        }
+    ]
+}

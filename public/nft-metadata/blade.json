@@ -1,0 +1,19 @@
+{
+    "name": "blade",
+    "description": "Element Fusion NFT representing blade",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVfuabbiyGpK5qk1dPPwKWuM3TPFHCUNanx15CWbCdd5p",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:36:01.745290"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, stone"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "tyrannosaurus rex",
+    "description": "Element Fusion NFT representing tyrannosaurus rex",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbowGaLdkBq7gv7nwtZkMTHpJS3nZMx1VeyeexiHFofe5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:56:46.107005"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "meat, dinosaur"
+        }
+    ]
+}

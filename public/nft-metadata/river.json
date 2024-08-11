@@ -1,0 +1,19 @@
+{
+    "name": "river",
+    "description": "Element Fusion NFT representing river",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVU7zhL4gLGX56nwnzTTMo8y2BXzPw2d1s1vTUF9DeywH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:30:43.924314"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rain, mountain"
+        }
+    ]
+}

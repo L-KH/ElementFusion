@@ -1,0 +1,19 @@
+{
+    "name": "water lily",
+    "description": "Element Fusion NFT representing water lily",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQVivMuJFtNRVt7qEAKjWX68p9mA8XzuJeuGQjW5jwodT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:34.916929"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, pond"
+        }
+    ]
+}

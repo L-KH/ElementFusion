@@ -1,0 +1,19 @@
+{
+    "name": "umbrella",
+    "description": "Element Fusion NFT representing umbrella",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmf5BdNex3piEz2kRAYaoGVJ89owyW7RFT4QDpD494tTjs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:57:17.580824"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rain, fabric"
+        }
+    ]
+}

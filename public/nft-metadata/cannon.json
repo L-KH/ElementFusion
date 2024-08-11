@@ -1,0 +1,19 @@
+{
+    "name": "cannon",
+    "description": "Element Fusion NFT representing cannon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXvJVeZEnhquHMv6TQxY6zXfaiXmbPn3H9UXnzPByzLZE",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:57.221307"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gunpowder, castle"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "carrot",
+    "description": "Element Fusion NFT representing carrot",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfUYP71k7bQ35hVaqnE7pEHPS51EjuGHQb4MHHnvotgYJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:29.310396"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, snowman"
+        }
+    ]
+}

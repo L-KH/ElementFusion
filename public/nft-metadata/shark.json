@@ -1,0 +1,19 @@
+{
+    "name": "shark",
+    "description": "Element Fusion NFT representing shark",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaW2HJTZBmSH9BJkrNQHSz7a9Ei2ihXKxgr4qRSzZz3V5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:44:09.589079"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, wild animal"
+        }
+    ]
+}

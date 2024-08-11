@@ -1,0 +1,19 @@
+{
+    "name": "castle",
+    "description": "Element Fusion NFT representing castle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmewJgktz9bk9J3JZ381g8RHTzXUM86FF3RBHKhURPUUxV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:40:43.341513"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, knight"
+        }
+    ]
+}

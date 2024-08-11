@@ -1,0 +1,19 @@
+{
+    "name": "saddle",
+    "description": "Element Fusion NFT representing saddle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTy4sRykdW75CVa6Ujn9cLPwVEqvLrYycjtmWK2aCPnDC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:38:39.808815"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "horse, leather"
+        }
+    ]
+}

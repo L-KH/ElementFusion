@@ -1,0 +1,19 @@
+{
+    "name": "jerky",
+    "description": "Element Fusion NFT representing jerky",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS38nQ1aW53nBiAHweSLhNGyCqQXs6w2ju1xjBhXXFANC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:24.547583"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "meat, salt"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "livestock",
+    "description": "Element Fusion NFT representing livestock",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfZH9msj3katLZRKSHUjeoZzqDnFT6SKLzM2xjy6QoFZJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:37.578178"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "farmer, wild animal"
+        }
+    ]
+}

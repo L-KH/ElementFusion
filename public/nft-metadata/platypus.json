@@ -1,0 +1,19 @@
+{
+    "name": "platypus",
+    "description": "Element Fusion NFT representing platypus",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmcf37LkzRK6s94oroTvnSbvT639685HjjzmRTAenftWKp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:33.346328"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "beaver, duck"
+        }
+    ]
+}

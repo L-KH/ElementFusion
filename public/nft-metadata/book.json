@@ -1,0 +1,19 @@
+{
+    "name": "book",
+    "description": "Element Fusion NFT representing book",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbRhLRvTuZfE3bLBWpX3QfDVSVEu7d9b1Qg2gJVquFB3s",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:37:23.884244"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "paper, story"
+        }
+    ]
+}

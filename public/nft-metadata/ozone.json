@@ -1,0 +1,19 @@
+{
+    "name": "ozone",
+    "description": "Element Fusion NFT representing ozone",
+    "image": "https://gateway.pinata.cloud/ipfs/QmefrbWaxPnyyxoYEEN1ws5EwQLiYzKVFcqo1DU8R5jdCY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:25.463566"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "electricity, oxygen"
+        }
+    ]
+}

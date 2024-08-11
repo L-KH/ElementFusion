@@ -1,0 +1,19 @@
+{
+    "name": "obsidian",
+    "description": "Element Fusion NFT representing obsidian",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfXF2dtNUyG6VespfEb4axfkJ67WLXswahVPgtqe6G4qY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:03.864226"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lava, water"
+        }
+    ]
+}

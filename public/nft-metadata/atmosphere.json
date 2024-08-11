@@ -1,0 +1,19 @@
+{
+    "name": "atmosphere",
+    "description": "Element Fusion NFT representing atmosphere",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT9UJwVGDmDRPGue24fjNpUreMyrqJtYHZgoo9qJJTsH2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:35.292365"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sky, pressure"
+        }
+    ]
+}

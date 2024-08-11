@@ -1,0 +1,19 @@
+{
+    "name": "scalpel",
+    "description": "Element Fusion NFT representing scalpel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV4xmJSAXwTkW5NoyVeEUArNiC7Wc7Qdgs9VsGXz8kdMZ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:41:19.749435"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "blade, hospital"
+        }
+    ]
+}

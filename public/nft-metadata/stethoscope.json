@@ -1,0 +1,19 @@
+{
+    "name": "stethoscope",
+    "description": "Element Fusion NFT representing stethoscope",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdUSX2nD5dRVjNLf31URYGza1jGcgy9AzkacmL6iEsbeN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:50:28.311671"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tool, doctor"
+        }
+    ]
+}

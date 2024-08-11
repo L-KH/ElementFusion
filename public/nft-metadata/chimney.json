@@ -1,0 +1,19 @@
+{
+    "name": "chimney",
+    "description": "Element Fusion NFT representing chimney",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXis2ZyaxYh5RCVixcVbFjkghaQCnULjdcwyNrx9GwY7m",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:25.479465"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fireplace, brick"
+        }
+    ]
+}

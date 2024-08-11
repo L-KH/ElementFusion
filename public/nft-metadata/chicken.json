@@ -1,0 +1,19 @@
+{
+    "name": "chicken",
+    "description": "Element Fusion NFT representing chicken",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVEcnGchUxkz1ZJwqKGipPb5WufXLmHrGw7Mt6xzE5MSp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:58.789467"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, farmer"
+        }
+    ]
+}

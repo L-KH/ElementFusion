@@ -1,0 +1,19 @@
+{
+    "name": "sound",
+    "description": "Element Fusion NFT representing sound",
+    "image": "https://gateway.pinata.cloud/ipfs/QmefKsmH47xufXa72J6gZwv9cwBhFW4JqyhY6m3m5c9M7w",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:48:02.893210"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "air, wave"
+        }
+    ]
+}

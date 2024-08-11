@@ -1,0 +1,19 @@
+{
+    "name": "family tree",
+    "description": "Element Fusion NFT representing family tree",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmej9fnqa3sPmW5EAisdPtVkWwoRK2DXVZFMBwAMgRKKi7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:54:50.798659"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, family"
+        }
+    ]
+}

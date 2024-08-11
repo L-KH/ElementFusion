@@ -1,0 +1,19 @@
+{
+    "name": "drone",
+    "description": "Element Fusion NFT representing drone",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTjQJWpSUkTFQ8rVeLrgNDebgssRF9fgZh7RHz4ifqEmp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:34.029478"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "airplane, robot"
+        }
+    ]
+}

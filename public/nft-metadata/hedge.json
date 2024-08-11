@@ -1,0 +1,19 @@
+{
+    "name": "hedge",
+    "description": "Element Fusion NFT representing hedge",
+    "image": "https://gateway.pinata.cloud/ipfs/QmdtEKjgexLebi3pzUhG6iyvy6qLh2WHHFZsJ6pViHhpEY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:06:33.377795"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "leaf, fence"
+        }
+    ]
+}

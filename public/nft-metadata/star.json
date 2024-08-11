@@ -1,0 +1,19 @@
+{
+    "name": "star",
+    "description": "Element Fusion NFT representing star",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXY8heYoCz6f1QVP5EHDw57AyMY9urLCSYYpzQpPUeUrW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:49:03.102857"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "night, telescope"
+        }
+    ]
+}

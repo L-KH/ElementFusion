@@ -1,0 +1,19 @@
+{
+    "name": "solar system",
+    "description": "Element Fusion NFT representing solar system",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ5HQgiWNp87EnEA4rRRceck56wbr5oabXQ1mJE6vUhhk",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:50.296881"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, planet"
+        }
+    ]
+}

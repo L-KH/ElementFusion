@@ -1,0 +1,19 @@
+{
+    "name": "jack-o'-lantern",
+    "description": "Element Fusion NFT representing jack-o'-lantern",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVCLARMJBbRTnE2N89e92b7Eamsyt6QKeSEAf3eLkcinM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:11:54.973866"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pumpkin, candle"
+        }
+    ]
+}

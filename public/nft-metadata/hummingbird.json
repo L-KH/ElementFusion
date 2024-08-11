@@ -1,0 +1,19 @@
+{
+    "name": "hummingbird",
+    "description": "Element Fusion NFT representing hummingbird",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeYLaK6abtPWfsBrtFuz3i6EXzNpuQ1UR27AGH19KZkGx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:08:53.232962"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, flower"
+        }
+    ]
+}

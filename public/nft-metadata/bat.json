@@ -1,0 +1,19 @@
+{
+    "name": "bat",
+    "description": "Element Fusion NFT representing bat",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc5ahqC9yySFyE1KDaHTcJEUR2xexE5J5Cd9y59opXKjq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:46.801737"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mouse, sky"
+        }
+    ]
+}

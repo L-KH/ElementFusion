@@ -1,0 +1,19 @@
+{
+    "name": "reindeer",
+    "description": "Element Fusion NFT representing reindeer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeXMaX3FSyRzK87ty51myRFZZPCgDdsTgmT7mkG1XpLCE",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:30:22.194378"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "livestock, santa"
+        }
+    ]
+}

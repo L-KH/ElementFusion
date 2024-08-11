@@ -1,0 +1,19 @@
+{
+    "name": "cigarette",
+    "description": "Element Fusion NFT representing cigarette",
+    "image": "https://gateway.pinata.cloud/ipfs/QmarkSvvvHHJx84ot5jPjTYdqzkS7NN8yw2LqExW2cxqyC",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:48.318287"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tobacco, paper"
+        }
+    ]
+}

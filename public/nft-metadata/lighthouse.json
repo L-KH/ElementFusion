@@ -1,0 +1,19 @@
+{
+    "name": "lighthouse",
+    "description": "Element Fusion NFT representing lighthouse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmepotEgaP2Xqe7MYxap6Sp4dnGM3zWCrfQ6SBjUEqqMJb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:15:05.317075"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "light, sea"
+        }
+    ]
+}

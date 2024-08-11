@@ -1,0 +1,19 @@
+{
+    "name": "monkey",
+    "description": "Element Fusion NFT representing monkey",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUWWuWJTzmK9SjBrmzMK4NH1i7FjKckvdJvjTtAMKjxNm",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:58.245066"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tree, wild animal"
+        }
+    ]
+}

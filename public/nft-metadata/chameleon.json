@@ -1,0 +1,19 @@
+{
+    "name": "chameleon",
+    "description": "Element Fusion NFT representing chameleon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT3BF65YEooDY5Gkz4vhhKtiQyz9iBPtBoqfQZr13Aa25",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:22.471208"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lizard, rainbow"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "gardener",
+    "description": "Element Fusion NFT representing gardener",
+    "image": "https://gateway.pinata.cloud/ipfs/QmP5n9cf72zAreCFpUMRPSF4ZhNsgwBQPsyJpVDL2pUnNs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:01:16.170757"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, garden"
+        }
+    ]
+}

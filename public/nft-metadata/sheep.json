@@ -1,0 +1,19 @@
+{
+    "name": "sheep",
+    "description": "Element Fusion NFT representing sheep",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmat25DKQMR2D2ymhwMfE5a7suYiiCMirMNf77W67DhfXw",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:44:13.721670"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "cloud, livestock"
+        }
+    ]
+}

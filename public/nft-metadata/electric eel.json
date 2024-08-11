@@ -1,0 +1,19 @@
+{
+    "name": "electric eel",
+    "description": "Element Fusion NFT representing electric eel",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc4btdjwn44VLi2ufRKPMWro3pCwCNNrd37XgzbX8ipWe",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:51:17.747618"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fish, electricity"
+        }
+    ]
+}

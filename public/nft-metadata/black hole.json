@@ -1,0 +1,19 @@
+{
+    "name": "black hole",
+    "description": "Element Fusion NFT representing black hole",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXsdBc6k7xqH1rTW3xLBJZtXrx5y32JDpEx7uvyjeeVZQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:35:54.766323"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "star, pressure"
+        }
+    ]
+}

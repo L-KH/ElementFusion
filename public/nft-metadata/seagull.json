@@ -1,0 +1,19 @@
+{
+    "name": "seagull",
+    "description": "Element Fusion NFT representing seagull",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQWkZkLPvq9jsFBg6y1hn5RM3QNYUVJe9R8jzR2vGWUZq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:42:13.711392"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, beach"
+        }
+    ]
+}

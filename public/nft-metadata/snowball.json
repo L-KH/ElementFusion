@@ -1,0 +1,19 @@
+{
+    "name": "snowball",
+    "description": "Element Fusion NFT representing snowball",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmc7RKC1cdjXAT5MUA417zbcbpczy6HV7bPeWcJRg1nfvB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:46:31.085400"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "snow, human"
+        }
+    ]
+}

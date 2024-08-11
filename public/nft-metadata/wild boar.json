@@ -1,0 +1,19 @@
+{
+    "name": "wild boar",
+    "description": "Element Fusion NFT representing wild boar",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbrhXJTsQhNJweMPDYTzrfTgHMBXHUJKW2kkNvFdRbYqN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:59.432272"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pig, forest"
+        }
+    ]
+}

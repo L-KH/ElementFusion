@@ -1,0 +1,19 @@
+{
+    "name": "plankton",
+    "description": "Element Fusion NFT representing plankton",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ8triH9G6abiEyivpoJWKMjnH8AKaHn1xEFxcuojWntx",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:27:21.639558"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, life"
+        }
+    ]
+}

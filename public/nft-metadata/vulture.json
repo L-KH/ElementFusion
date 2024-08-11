@@ -1,0 +1,19 @@
+{
+    "name": "vulture",
+    "description": "Element Fusion NFT representing vulture",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUyPghYuBAzwDJRb2hHZntrZECAEw8mkBC5o7mUmktgs4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:58:50.446579"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, corpse"
+        }
+    ]
+}

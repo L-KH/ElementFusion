@@ -1,0 +1,19 @@
+{
+    "name": "flute",
+    "description": "Element Fusion NFT representing flute",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ6JpJxKe3KxAXVa1fAN944YEA1ziBtjraqCKRXQkKy7j",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:59.998639"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, wind"
+        }
+    ]
+}

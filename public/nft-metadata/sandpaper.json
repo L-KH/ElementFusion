@@ -1,0 +1,19 @@
+{
+    "name": "sandpaper",
+    "description": "Element Fusion NFT representing sandpaper",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmeqi79umkPbnMhsXjyK6pPNcV9BTd7GAhS64g1VLJhkd3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:40:11.495662"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sand, paper"
+        }
+    ]
+}

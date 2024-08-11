@@ -1,0 +1,19 @@
+{
+    "name": "taser",
+    "description": "Element Fusion NFT representing taser",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeWGvGbK3Z2ZtBgz7wn4ZWhW6oEkWS2xBiQ8zxTc2Co9E",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:53:25.382878"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "gun, electricity"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "aquarium",
+    "description": "Element Fusion NFT representing aquarium",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU9WSQ3YcffbBo1mfF5nCx1d5t8z9i3JF7XFeBZ3JFdnz",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:30:34.255274"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glass, fish"
+        }
+    ]
+}

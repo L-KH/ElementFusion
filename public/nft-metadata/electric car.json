@@ -1,0 +1,19 @@
+{
+    "name": "electric car",
+    "description": "Element Fusion NFT representing electric car",
+    "image": "https://gateway.pinata.cloud/ipfs/QmehHnUPayfd4W4p8EQFVd2fQQZJFo5EihDShru99eb1T2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:51:10.768958"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "car, electricity"
+        }
+    ]
+}

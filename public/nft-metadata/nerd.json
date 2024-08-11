@@ -1,0 +1,19 @@
+{
+    "name": "nerd",
+    "description": "Element Fusion NFT representing nerd",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWYUWe9upfLRVc2Joe3YUg8ZuXrhrGPro3VryAUo7E1gj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:20:51.557274"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, glasses"
+        }
+    ]
+}

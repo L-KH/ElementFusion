@@ -1,0 +1,19 @@
+{
+    "name": "ocean",
+    "description": "Element Fusion NFT representing ocean",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcKbEWQCreavCUP2AptGTWUs4HyPrL8bHT8gjD33oTpSG",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:15.471559"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, sea"
+        }
+    ]
+}

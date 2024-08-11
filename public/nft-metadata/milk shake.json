@@ -1,0 +1,19 @@
+{
+    "name": "milk shake",
+    "description": "Element Fusion NFT representing milk shake",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQEDtcE62amYZGc9ZmXSqCwRziWd7Qr2huCzDkQJSVnEB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:18:14.617842"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "milk, ice cream"
+        }
+    ]
+}

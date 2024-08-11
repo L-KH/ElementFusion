@@ -1,0 +1,19 @@
+{
+    "name": "flamethrower",
+    "description": "Element Fusion NFT representing flamethrower",
+    "image": "https://gateway.pinata.cloud/ipfs/QmX6nZ8qDCUCBCwjC4edc3q4cpNz2tviGPXwNnFnizbmtH",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:09.633918"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, gun"
+        }
+    ]
+}

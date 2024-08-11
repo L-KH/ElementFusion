@@ -1,0 +1,19 @@
+{
+    "name": "electrician",
+    "description": "Element Fusion NFT representing electrician",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYta3PTtQgsmxniGQ2wf1E3Yp8XzWW8GGskSePPdQinMX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:52:07.041379"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, wire"
+        }
+    ]
+}

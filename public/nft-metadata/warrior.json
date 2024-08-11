@@ -1,0 +1,19 @@
+{
+    "name": "warrior",
+    "description": "Element Fusion NFT representing warrior",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSPSehaLStAhzu3HWRyA29y1oWFiPtNFomoH44fy4z4Mt",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:15.617000"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sword, human"
+        }
+    ]
+}

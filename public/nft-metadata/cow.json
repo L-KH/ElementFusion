@@ -1,0 +1,19 @@
+{
+    "name": "cow",
+    "description": "Element Fusion NFT representing cow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaUtEoUVY8VjFTEgDLsYZZvG6m9hAt7EVXZxcemmQ97Lk",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:07.728604"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "grass, livestock"
+        }
+    ]
+}

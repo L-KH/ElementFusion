@@ -1,0 +1,19 @@
+{
+    "name": "bank",
+    "description": "Element Fusion NFT representing bank",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYSEeQQMbJ6fR8R9ebUS38ai7yxtZem4xEW5a6RB9SdVp",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:17.536016"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "house, gold"
+        }
+    ]
+}

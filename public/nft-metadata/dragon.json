@@ -1,0 +1,19 @@
+{
+    "name": "dragon",
+    "description": "Element Fusion NFT representing dragon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcxbTYphgm5ko8ebMXkXbnMu7toTi83KysEfpXtCXdpyf",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:28.613505"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "lizard, fire"
+        }
+    ]
+}

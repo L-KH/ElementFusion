@@ -1,0 +1,19 @@
+{
+    "name": "wax",
+    "description": "Element Fusion NFT representing wax",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPk615HXEJmQLG85t5wMm28eTHtwznrJarN4sjR8mPgsr",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:01.502011"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bee, beehive"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "alien",
+    "description": "Element Fusion NFT representing alien",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfPmTERmPv4cVsRozTMaNjeGPBz7AvNXHsmokrvVo2XpW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:03.909895"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "life, space"
+        }
+    ]
+}

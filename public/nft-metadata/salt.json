@@ -1,0 +1,19 @@
+{
+    "name": "salt",
+    "description": "Element Fusion NFT representing salt",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmabgj1sHTQ4wFEgoyMr2ArQBK7i29Yca9MhBRuV6FuHz1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:39:46.969653"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, ocean"
+        }
+    ]
+}

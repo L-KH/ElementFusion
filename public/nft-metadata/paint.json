@@ -1,0 +1,19 @@
+{
+    "name": "paint",
+    "description": "Element Fusion NFT representing paint",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeP1BwYmBhh8wYMp9mbP77DC8hpPk5856YEGsfZLj83U3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:23:36.827720"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, pencil"
+        }
+    ]
+}

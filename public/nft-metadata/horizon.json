@@ -1,0 +1,19 @@
+{
+    "name": "horizon",
+    "description": "Element Fusion NFT representing horizon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVEFTqTzAB1cDBLKu619nWq8GAYcesswWvKArF2hk9gMK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:07:32.113168"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ocean, sky"
+        }
+    ]
+}

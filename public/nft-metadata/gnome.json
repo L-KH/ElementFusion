@@ -1,0 +1,19 @@
+{
+    "name": "gnome",
+    "description": "Element Fusion NFT representing gnome",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSxtMH89XbGhdLUzqcwPnEHTcTZPKM8kqMy76cBtq6iU7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:02:55.624009"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "garden, statue"
+        }
+    ]
+}

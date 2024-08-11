@@ -1,0 +1,19 @@
+{
+    "name": "butterfly",
+    "description": "Element Fusion NFT representing butterfly",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPsa5AtCwZ5bQm9DqwM4R4YPWrWsy67QRdcvaT14iTA9U",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:39:02.333417"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, wild animal"
+        }
+    ]
+}

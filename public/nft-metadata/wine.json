@@ -1,0 +1,19 @@
+{
+    "name": "wine",
+    "description": "Element Fusion NFT representing wine",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNmMAjVXdoyoYFACjgN2KkzeZFzK42MuxXCKC2D8g3Z9p",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:01:40.791168"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fruit, alcohol"
+        }
+    ]
+}

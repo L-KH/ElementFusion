@@ -1,0 +1,19 @@
+{
+    "name": "roomba",
+    "description": "Element Fusion NFT representing roomba",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZN7dhmqpaYKz8KLVtRivyBVN7YLTdyF4DGM9nRFKqS5G",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:31:06.881680"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "robot, vacuum cleaner"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "ostrich",
+    "description": "Element Fusion NFT representing ostrich",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSC554NNvePonQ1eDuZRkWACiMosbRTHNhqNtNVqPeUqq",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:22:58.501361"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bird, sand"
+        }
+    ]
+}

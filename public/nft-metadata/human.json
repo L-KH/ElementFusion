@@ -1,0 +1,19 @@
+{
+    "name": "human",
+    "description": "Element Fusion NFT representing human",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWduAjiafaEKSirjDnwaRRAB2cpYnpyezwsFiWan3w7D2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:08:47.892270"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "earth, life"
+        }
+    ]
+}

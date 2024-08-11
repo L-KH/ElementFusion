@@ -1,0 +1,19 @@
+{
+    "name": "pottery",
+    "description": "Element Fusion NFT representing pottery",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQQ2FzsXxRRzqhw5P3eSWe5ctPEYZidmcTU9ewWMdMgef",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:28:00.833698"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "clay, tool"
+        }
+    ]
+}

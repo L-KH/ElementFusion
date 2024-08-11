@@ -1,0 +1,19 @@
+{
+    "name": "hamster",
+    "description": "Element Fusion NFT representing hamster",
+    "image": "https://gateway.pinata.cloud/ipfs/QmV4VHqmu9oCD1EpZSik7xL88zemcZhvz1ko1UCAsbhUrt",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:05:16.391965"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheel, mouse"
+        }
+    ]
+}

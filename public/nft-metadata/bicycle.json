@@ -1,0 +1,19 @@
+{
+    "name": "bicycle",
+    "description": "Element Fusion NFT representing bicycle",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXcvGEopfnmK1E8GtkSK7CKdS6EKxDkcbbUhYDsKkQUJK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:35:14.890848"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wheel, wheel"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "horseshoe",
+    "description": "Element Fusion NFT representing horseshoe",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSEp8tm42bPNqtpxJSBD4SEmFNDcZ2SQVshDCUHNpGvUV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:07:41.232392"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, horse"
+        }
+    ]
+}

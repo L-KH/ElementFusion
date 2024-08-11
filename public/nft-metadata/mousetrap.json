@@ -1,0 +1,19 @@
+{
+    "name": "mousetrap",
+    "description": "Element Fusion NFT representing mousetrap",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQREc9jMkj4eWYSGfJA9F3MqHni3QY1muykU4YNyag3g7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:20:05.533648"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, cheese"
+        }
+    ]
+}

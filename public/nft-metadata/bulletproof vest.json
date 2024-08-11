@@ -1,0 +1,19 @@
+{
+    "name": "bulletproof vest",
+    "description": "Element Fusion NFT representing bulletproof vest",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZQtwhdqAvFDBzPoas65zEjAdc8VFZp5yggcqJrHxw3xj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:36.394749"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bullet, armor"
+        }
+    ]
+}

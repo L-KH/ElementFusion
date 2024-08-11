@@ -1,0 +1,19 @@
+{
+    "name": "farm",
+    "description": "Element Fusion NFT representing farm",
+    "image": "https://gateway.pinata.cloud/ipfs/Qmd4N6faAGLMpDr4gob4y5Hst1r4zmnqZZv9SDNKH3UVP7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:55:07.538300"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "farmer, barn"
+        }
+    ]
+}

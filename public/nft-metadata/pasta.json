@@ -1,0 +1,19 @@
+{
+    "name": "pasta",
+    "description": "Element Fusion NFT representing pasta",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVgyp9xQ15SCcamSB5SHW3PorFXQn31Dr3cCWUxW7vCK7",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:24:04.709569"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flour, egg"
+        }
+    ]
+}

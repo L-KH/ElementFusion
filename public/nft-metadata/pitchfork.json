@@ -1,0 +1,19 @@
+{
+    "name": "pitchfork",
+    "description": "Element Fusion NFT representing pitchfork",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWR1KGSv7oxP4bUkhcWzSVkT6HhLArk7gK8shtEgtkGPh",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:55.063052"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "tool, hay"
+        }
+    ]
+}

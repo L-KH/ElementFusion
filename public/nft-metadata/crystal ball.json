@@ -1,0 +1,19 @@
+{
+    "name": "crystal ball",
+    "description": "Element Fusion NFT representing crystal ball",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaCKx1uCmwyM1yFYA2xauyuoeszYnXy5swN555HyFcAG1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:33.380202"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wizard, glass"
+        }
+    ]
+}

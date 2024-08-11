@@ -1,0 +1,19 @@
+{
+    "name": "bacon",
+    "description": "Element Fusion NFT representing bacon",
+    "image": "https://gateway.pinata.cloud/ipfs/QmccssgZEyR7BjHrwGfnDWRRNy2pMa89dGzTn55Zm2ub85",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:32:10.594860"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "pig, fire"
+        }
+    ]
+}

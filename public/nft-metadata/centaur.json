@@ -1,0 +1,19 @@
+{
+    "name": "centaur",
+    "description": "Element Fusion NFT representing centaur",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaLhgTCu9Tnq2CZWGEgas6BKJUUTJPQDKuWFrQNe6YLA3",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:41:05.316830"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "horse, human"
+        }
+    ]
+}

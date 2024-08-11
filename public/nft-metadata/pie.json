@@ -1,0 +1,19 @@
+{
+    "name": "pie",
+    "description": "Element Fusion NFT representing pie",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZphik7TPamo9AyVC3FCNas2Vu99QCuwvUXTkrgseVu1K",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:25:33.563636"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "dough, fruit"
+        }
+    ]
+}

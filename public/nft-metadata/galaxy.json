@@ -1,0 +1,19 @@
+{
+    "name": "galaxy",
+    "description": "Element Fusion NFT representing galaxy",
+    "image": "https://gateway.pinata.cloud/ipfs/QmU1DP6PjPoMPoVs1rhmmzbRMKd14VmihMS3mxjzKejjPU",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:00:34.005158"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "star, star"
+        }
+    ]
+}

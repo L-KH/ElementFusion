@@ -1,0 +1,19 @@
+{
+    "name": "wire",
+    "description": "Element Fusion NFT representing wire",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbB27rV8uNpHg22d3B4CEzZKtP6bKDRrPC3PS8yy5PZSA",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:01:45.466206"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "electricity, metal"
+        }
+    ]
+}

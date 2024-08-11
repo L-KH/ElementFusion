@@ -1,0 +1,19 @@
+{
+    "name": "pencil",
+    "description": "Element Fusion NFT representing pencil",
+    "image": "https://gateway.pinata.cloud/ipfs/QmSGoyjXRqsW997KNT8FM2SzSq39PX834wdi5zLRdxZAkB",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:24:34.979753"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, charcoal"
+        }
+    ]
+}

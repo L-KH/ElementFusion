@@ -1,0 +1,19 @@
+{
+    "name": "computer mouse",
+    "description": "Element Fusion NFT representing computer mouse",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZ1fxLFfbHepDUknyXxqoFMVYWEDuxzbE1CKy2TrN4C5f",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:44:21.980149"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mouse, computer"
+        }
+    ]
+}

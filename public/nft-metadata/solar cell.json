@@ -1,0 +1,19 @@
+{
+    "name": "solar cell",
+    "description": "Element Fusion NFT representing solar cell",
+    "image": "https://gateway.pinata.cloud/ipfs/QmS2gwAcgf5MefTodn49AvT7gPY6fby2MNgGkjZh5YAwq5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:47:41.939677"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, tool"
+        }
+    ]
+}

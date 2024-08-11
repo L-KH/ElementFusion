@@ -1,0 +1,19 @@
+{
+    "name": "cotton",
+    "description": "Element Fusion NFT representing cotton",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNZzvR5LYF9NvwARHeK58CNGmZuKFXEGQbuEREB2oTedT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:02.155447"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, cloud"
+        }
+    ]
+}

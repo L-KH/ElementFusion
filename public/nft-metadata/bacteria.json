@@ -1,0 +1,19 @@
+{
+    "name": "bacteria",
+    "description": "Element Fusion NFT representing bacteria",
+    "image": "https://gateway.pinata.cloud/ipfs/QmecLP7Ek2UMGp97pcD8u7UwRA8RTDhKzeGD3xg9exoaaV",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:32:15.679182"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "swamp, life"
+        }
+    ]
+}

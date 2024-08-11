@@ -1,0 +1,19 @@
+{
+    "name": "gunpowder",
+    "description": "Element Fusion NFT representing gunpowder",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYUeYQoohdyT2Vhv9RzHk1gW7YCrTf2Z88a43xoDWaPGo",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:04:45.080493"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, dust"
+        }
+    ]
+}

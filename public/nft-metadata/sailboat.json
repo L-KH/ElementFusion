@@ -1,0 +1,19 @@
+{
+    "name": "sailboat",
+    "description": "Element Fusion NFT representing sailboat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZTWUTZmoc45EYE7p71aHPH8d2hQauraVmpGRYSZarBCN",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:39:15.300893"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "boat, fabric"
+        }
+    ]
+}

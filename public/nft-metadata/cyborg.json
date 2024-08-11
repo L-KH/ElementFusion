@@ -1,0 +1,19 @@
+{
+    "name": "cyborg",
+    "description": "Element Fusion NFT representing cyborg",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWqDawZo5VaEK4Ai1JFZSJGg16WPeR8zVffVSNc6gbWwz",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:45:45.155827"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, robot"
+        }
+    ]
+}

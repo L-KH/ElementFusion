@@ -1,0 +1,19 @@
+{
+    "name": "wizard",
+    "description": "Element Fusion NFT representing wizard",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfA8ZNv4duLUhKer8QonBsx6vMATdHPsRPBEZ3XsEumGP",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:02:19.747493"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, energy"
+        }
+    ]
+}

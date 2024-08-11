@@ -1,0 +1,19 @@
+{
+    "name": "zombie",
+    "description": "Element Fusion NFT representing zombie",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYEhoyVut2NJt1j1LaYTg7Wn32jDBmmDJj7dcAPTtT3wY",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:03:39.591218"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, zombie"
+        }
+    ]
+}

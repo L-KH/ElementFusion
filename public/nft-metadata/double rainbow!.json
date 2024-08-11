@@ -1,0 +1,19 @@
+{
+    "name": "double rainbow!",
+    "description": "Element Fusion NFT representing double rainbow!",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXNxanxagZv1MXGy6xA4NNkDeeydeEbKotJ4yD4VmbPLs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:48:14.717683"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "rainbow, rainbow"
+        }
+    ]
+}

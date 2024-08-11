@@ -1,0 +1,19 @@
+{
+    "name": "swamp",
+    "description": "Element Fusion NFT representing swamp",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQ3t87PYjWvJP3i7nqCU13hPjw2iLEhHCbA5T9zEJWUdt",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:52:20.955988"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mud, grass"
+        }
+    ]
+}

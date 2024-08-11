@@ -1,0 +1,19 @@
+{
+    "name": "penicillin",
+    "description": "Element Fusion NFT representing penicillin",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcZ2DCZj4Noy33Bojtj4utevFaLdF2hivjterbD4vU9RS",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:24:55.473430"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "doctor, mold"
+        }
+    ]
+}

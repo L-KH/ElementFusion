@@ -1,0 +1,19 @@
+{
+    "name": "medusa",
+    "description": "Element Fusion NFT representing medusa",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfRqSZpoeURgnxqKkqyzZhgRYHxk5h1eTBdTBZHhhER6w",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:17:21.602330"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, snake"
+        }
+    ]
+}

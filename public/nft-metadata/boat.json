@@ -1,0 +1,19 @@
+{
+    "name": "boat",
+    "description": "Element Fusion NFT representing boat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaXJAwjdqhguN2EcqfyYgkJaYqvqMa1VoT5M27weiKkYM",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:36:48.865402"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, wood"
+        }
+    ]
+}

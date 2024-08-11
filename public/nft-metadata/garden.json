@@ -1,0 +1,19 @@
+{
+    "name": "garden",
+    "description": "Element Fusion NFT representing garden",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPeLb12ySJRLdfpTWniRhkGA5dJFrP1Fru2yP7ou6iKcu",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:01:10.104755"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "flower, flower"
+        }
+    ]
+}

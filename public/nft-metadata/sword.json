@@ -1,0 +1,19 @@
+{
+    "name": "sword",
+    "description": "Element Fusion NFT representing sword",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNT2eoXMqqf5fSiwUWNDSCUwNiv1XJafNhxpTvaZ8dBJs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:53:00.758147"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "blade, steel"
+        }
+    ]
+}

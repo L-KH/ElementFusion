@@ -1,0 +1,19 @@
+{
+    "name": "alpaca",
+    "description": "Element Fusion NFT representing alpaca",
+    "image": "https://gateway.pinata.cloud/ipfs/QmZtTk9dnpGentAAFbVnWdmPAJsbYMStVjwir8T3k7QbYg",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:29:29.254151"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "mountain, sheep"
+        }
+    ]
+}

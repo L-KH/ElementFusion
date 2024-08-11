@@ -1,0 +1,19 @@
+{
+    "name": "bandage",
+    "description": "Element Fusion NFT representing bandage",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQWoa1VasroTesS8A526uSEjGJdb5EdujNGkW2VqkmgWT",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:33:06.545306"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "blood, fabric"
+        }
+    ]
+}

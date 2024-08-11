@@ -1,0 +1,19 @@
+{
+    "name": "coffin",
+    "description": "Element Fusion NFT representing coffin",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma5WUCFrX1SpuY96KY6j9yw3MJTwN1usmp8fxUuR2Fn1S",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:56.564666"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, corpse"
+        }
+    ]
+}

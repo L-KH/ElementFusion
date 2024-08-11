@@ -1,0 +1,19 @@
+{
+    "name": "wall",
+    "description": "Element Fusion NFT representing wall",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbVuReBTatEiWvLAh39u988nL6xR9vnSUuiYaAC4YcK1n",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:59:04.454224"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "brick, brick"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "dune",
+    "description": "Element Fusion NFT representing dune",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbdkkTYTje9wNULvv7VmX3JXS2RN1W87dC7XUyhkCT4VP",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:49:55.832505"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "beach, wind"
+        }
+    ]
+}

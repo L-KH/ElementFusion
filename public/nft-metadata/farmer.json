@@ -1,0 +1,19 @@
+{
+    "name": "farmer",
+    "description": "Element Fusion NFT representing farmer",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcqkEEM752wrDFVJSgR6Nw42pU9pb82wf6m3JSWfMZmoj",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:55:23.255259"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, pitchfork"
+        }
+    ]
+}

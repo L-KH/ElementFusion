@@ -1,0 +1,19 @@
+{
+    "name": "narwhal",
+    "description": "Element Fusion NFT representing narwhal",
+    "image": "https://gateway.pinata.cloud/ipfs/QmaqsSKHj1ZobEzYz97KSF5QBHFUn8E6CpmJ8swPCqstSW",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:20:35.766309"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sea, unicorn"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "wheat",
+    "description": "Element Fusion NFT representing wheat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmcrATt61A1LbptgUxMG1tasNZL8iPpZbuP6i7WfKb3ER8",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:00:40.170096"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, farmer"
+        }
+    ]
+}

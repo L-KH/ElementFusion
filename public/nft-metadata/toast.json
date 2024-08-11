@@ -1,0 +1,19 @@
+{
+    "name": "toast",
+    "description": "Element Fusion NFT representing toast",
+    "image": "https://gateway.pinata.cloud/ipfs/QmX1d8eAveWyKrprp2ACXjweVh8ZRp4B4fsFKUGMf4zs2k",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:33.357875"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "bread, fire"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "broom",
+    "description": "Element Fusion NFT representing broom",
+    "image": "https://gateway.pinata.cloud/ipfs/QmbzXmagFhwNQvpWFVzYzkqWx2QmDcn6Gq2MXtxqsbjovr",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:38:20.190674"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wood, hay"
+        }
+    ]
+}

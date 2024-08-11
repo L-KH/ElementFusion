@@ -1,0 +1,19 @@
+{
+    "name": "lemonade",
+    "description": "Element Fusion NFT representing lemonade",
+    "image": "https://gateway.pinata.cloud/ipfs/QmekKPqmV8PqKCHP948SyR811sV5k1YFp4QSJjqDm1a52c",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:14:08.738118"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fruit, water"
+        }
+    ]
+}

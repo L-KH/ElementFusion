@@ -1,0 +1,19 @@
+{
+    "name": "steel",
+    "description": "Element Fusion NFT representing steel",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXiXHGvS5kyNQJqj4wamv4Lae4SYUHf1gaJ9GbTmxV3dQ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:50:22.610699"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "metal, coal"
+        }
+    ]
+}

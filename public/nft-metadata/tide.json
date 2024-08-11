@@ -1,0 +1,19 @@
+{
+    "name": "tide",
+    "description": "Element Fusion NFT representing tide",
+    "image": "https://gateway.pinata.cloud/ipfs/QmW9Lr67z76o7YTgCKpV1AoT92FMv5VswEUFgAEu3U8cx5",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:54:10.866145"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ocean, moon"
+        }
+    ]
+}

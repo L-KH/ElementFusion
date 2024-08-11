@@ -1,0 +1,19 @@
+{
+    "name": "knight",
+    "description": "Element Fusion NFT representing knight",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfKsiC4Tdk4rmgmjeBZ5MmwSb7iNTbigqJMjVC6RHXVc2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:12:51.845938"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, armor"
+        }
+    ]
+}

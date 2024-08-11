@@ -1,0 +1,19 @@
+{
+    "name": "antarctica",
+    "description": "Element Fusion NFT representing antarctica",
+    "image": "https://gateway.pinata.cloud/ipfs/QmQtxBpU4kKTvvqttjgSAG3oQQy1RCf64FB7cVqpRmWTHc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:30:19.720779"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "ice, desert"
+        }
+    ]
+}

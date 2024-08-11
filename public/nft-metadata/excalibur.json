@@ -1,0 +1,19 @@
+{
+    "name": "excalibur",
+    "description": "Element Fusion NFT representing excalibur",
+    "image": "https://gateway.pinata.cloud/ipfs/QmWzGYWqt9XuY4dR4S85k3pZjuhXDyQrtZjEBZZVj6u69C",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:53:53.226409"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sword, stone"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "fence",
+    "description": "Element Fusion NFT representing fence",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTKiVCDiewt7h7Yqk2D1AwUaL1wce8jm1hZkmYSLt25S2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:55:36.673768"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "wall, wood"
+        }
+    ]
+}

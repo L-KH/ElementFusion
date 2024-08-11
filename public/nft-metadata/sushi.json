@@ -1,0 +1,19 @@
+{
+    "name": "sushi",
+    "description": "Element Fusion NFT representing sushi",
+    "image": "https://gateway.pinata.cloud/ipfs/QmUvXMFXcdsK89KDLATK76NBvw6BdYpj23dtnqBYmGC8sX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:52:09.640955"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "caviar, seaweed"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "sailor",
+    "description": "Element Fusion NFT representing sailor",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfWQa5Z5J3pApMbLiX9D3AuN6LnmehnmZ9jgDg8oTyEKs",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:39:28.725787"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, sailboat"
+        }
+    ]
+}

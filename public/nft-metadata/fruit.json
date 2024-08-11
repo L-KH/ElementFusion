@@ -1,0 +1,19 @@
+{
+    "name": "fruit",
+    "description": "Element Fusion NFT representing fruit",
+    "image": "https://gateway.pinata.cloud/ipfs/QmakMibSVrzLd7FERmXTDrXkFMJnvSfq45MQLsFTA6KYmX",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:00:20.263457"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "sun, tree"
+        }
+    ]
+}

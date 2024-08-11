@@ -1,0 +1,19 @@
+{
+    "name": "chicken soup",
+    "description": "Element Fusion NFT representing chicken soup",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVaNked3CZ1kHufixXuudzxqJJK8rfoXYJvA6J7Y6g6m2",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:42:05.042853"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "water, chicken"
+        }
+    ]
+}

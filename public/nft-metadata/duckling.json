@@ -1,0 +1,19 @@
+{
+    "name": "duckling",
+    "description": "Element Fusion NFT representing duckling",
+    "image": "https://gateway.pinata.cloud/ipfs/QmNSA6VZgMSooGYrRybmsfnT8ZZ7t3TiUcszhPzMRAnUGF",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:49:37.671541"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "egg, duck"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "astronaut",
+    "description": "Element Fusion NFT representing astronaut",
+    "image": "https://gateway.pinata.cloud/ipfs/QmTgne1asZHw5NGA8ddEhz3KNfdXqqfpqwMfRMQSaboVAb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:31:23.750875"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, space"
+        }
+    ]
+}

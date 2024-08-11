@@ -1,0 +1,19 @@
+{
+    "name": "pilot",
+    "description": "Element Fusion NFT representing pilot",
+    "image": "https://gateway.pinata.cloud/ipfs/Qme7V5SYT3oguPrcr7u4edBmqWqrKM5vPHydRGxzzpKxbe",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:26:16.262603"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "seaplane, human"
+        }
+    ]
+}

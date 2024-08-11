@@ -1,0 +1,19 @@
+{
+    "name": "super nova",
+    "description": "Element Fusion NFT representing super nova",
+    "image": "https://gateway.pinata.cloud/ipfs/Qma1iiA6wjBjuBBGMq6dd5R7pRAe1xE5hfCEe5ebq6G6tc",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "legendary"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:49.877532"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "explosion, star"
+        }
+    ]
+}

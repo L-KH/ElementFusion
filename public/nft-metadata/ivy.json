@@ -1,0 +1,19 @@
+{
+    "name": "ivy",
+    "description": "Element Fusion NFT representing ivy",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPVbahF9GqXqVoXnwsQcG6ooUa6F8kxk6DzyxaV13ncB9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:11:36.437495"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, wall"
+        }
+    ]
+}

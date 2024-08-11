@@ -1,0 +1,19 @@
+{
+    "name": "scarecrow",
+    "description": "Element Fusion NFT representing scarecrow",
+    "image": "https://gateway.pinata.cloud/ipfs/QmT9JfW1qB5cy6yfm86Qq9Vpfoa9iYsF8GesLHGPabEck9",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:41:25.394774"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "human, hay"
+        }
+    ]
+}

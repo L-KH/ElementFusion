@@ -1,0 +1,19 @@
+{
+    "name": "coconut milk",
+    "description": "Element Fusion NFT representing coconut milk",
+    "image": "https://gateway.pinata.cloud/ipfs/QmYfgzjKo2GiDjBczeEAji6SzbvuAnmipFnEpRtwtbUByb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:43:51.737459"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "milk, coconut"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "robot",
+    "description": "Element Fusion NFT representing robot",
+    "image": "https://gateway.pinata.cloud/ipfs/QmegEaA3AM6B33319KEHkVe2BkWReuF8D66TcJFymGryU8",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:30:58.555646"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "life, armor"
+        }
+    ]
+}

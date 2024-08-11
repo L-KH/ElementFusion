@@ -1,0 +1,19 @@
+{
+    "name": "flower",
+    "description": "Element Fusion NFT representing flower",
+    "image": "https://gateway.pinata.cloud/ipfs/QmfFEeKR6cejGeS6jjFh7mt3P1BC2ccVP7JNvXGnYJ6tzk",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T12:57:54.679281"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "plant, garden"
+        }
+    ]
+}

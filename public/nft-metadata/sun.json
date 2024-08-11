@@ -1,0 +1,19 @@
+{
+    "name": "sun",
+    "description": "Element Fusion NFT representing sun",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVwpSjAo8iN7q6JzCprkiJAnMMsfZqj2FEnG1KncdbEJJ",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:51:13.199492"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "fire, sky"
+        }
+    ]
+}

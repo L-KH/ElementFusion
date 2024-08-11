@@ -1,0 +1,19 @@
+{
+    "name": "twilight",
+    "description": "Element Fusion NFT representing twilight",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPW5qgQ1SnkCxfwYDFHNV8BxKL3FjrjHkfJJ81gpSvjYb",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "epic"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:56:40.393559"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "day, night"
+        }
+    ]
+}

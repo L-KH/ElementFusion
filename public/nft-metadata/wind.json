@@ -1,0 +1,19 @@
+{
+    "name": "wind",
+    "description": "Element Fusion NFT representing wind",
+    "image": "https://gateway.pinata.cloud/ipfs/QmXK7SvfW6eorAYmhzLMUywaVeVQbuhgtRxqLedjb1NS2e",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "uncommon"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T23:01:17.419522"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "air, energy"
+        }
+    ]
+}

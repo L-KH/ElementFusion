@@ -1,0 +1,19 @@
+{
+    "name": "goat",
+    "description": "Element Fusion NFT representing goat",
+    "image": "https://gateway.pinata.cloud/ipfs/QmeHAm94rFGTgj3L5XVGBp8qM9wQKgvd9bbnEBi7CPydr1",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "common"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T13:03:02.188011"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "livestock, mountain"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "telescope",
+    "description": "Element Fusion NFT representing telescope",
+    "image": "https://gateway.pinata.cloud/ipfs/QmPbcSuEeGwNZCLdz82FQQ2UqUs4876idazWnmmpSuHpPK",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "rare"
+        },
+        {
+            "trait_type": "Creation Date",
+            "value": "2024-08-09T22:53:50.924867"
+        },
+        {
+            "trait_type": "Inputs",
+            "value": "glass, space"
+        }
+    ]
+}
