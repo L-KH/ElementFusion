@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled, { keyframes } from 'styled-components';
-
+import { FaSearch } from 'react-icons/fa';
 type Element = {
   id: number;
   name: string;
@@ -71,24 +71,86 @@ const ElementImage = styled.img`
 const ElementName = styled.span`
   font-weight: bold;
 `;
+//-------------------------------- Search CSS -----------------------
 
+const SearchContainer = styled.div`
+  position: relative;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 300px;
+  display: block; // Ensure it's displayed as a block element
+`;
+
+const searchBarAnimation = keyframes`
+  0% { width: 50px; }
+  100% { width: 100%; }
+`;
+
+const SearchBar = styled.input`
+  width: 50px;
+  padding: 10px 40px 10px 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  width: 100%; // Start with full width
+  border: 1px solid; // Add a border to make it visible
+  &:focus {
+    width: 100%;
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: ${searchBarAnimation} 0.3s forwards;
+  }
+
+`;
+
+const SearchIcon = styled(FaSearch)`
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+`;
+//----------------------------- End Search CSS -----------------------------------
 const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (element: Element) => void, discoveredElements: Element[] }) => {
-  // Filter out basic elements from discoveredElements
-  const nonBasicElements = discoveredElements.filter(element => 
-    !elements.some(basicElement => basicElement.name.toLowerCase() === element.name.toLowerCase())
-  );
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredElements, setFilteredElements] = useState<Element[]>([]);
 
-  // Sort non-basic elements alphabetically
-  const sortedNonBasicElements = nonBasicElements.sort((a, b) => a.name.localeCompare(b.name));
+  useEffect(() => {
+    // Filter out basic elements from discoveredElements
+    const nonBasicElements = discoveredElements.filter(element => 
+      !elements.some(basicElement => basicElement.name.toLowerCase() === element.name.toLowerCase())
+    );
 
-  // Combine basic elements and sorted non-basic elements
-  const allElements = [...elements, ...sortedNonBasicElements];
+    // Sort non-basic elements alphabetically
+    const sortedNonBasicElements = nonBasicElements.sort((a, b) => a.name.localeCompare(b.name));
+
+    // Combine basic elements and sorted non-basic elements
+    const allElements = [...elements, ...sortedNonBasicElements];
+
+    // Filter elements based on search term
+    const filtered = allElements.filter(element =>
+      element.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    setFilteredElements(filtered);
+    console.log("Filtered elements:", filtered);
+  }, [discoveredElements, searchTerm]);
 
   return (
     <div>
-      <h2>Elements</h2>
+      <SearchContainer>
+        <SearchBar
+          type="text"
+          placeholder="Search elements..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+        <SearchIcon />
+      </SearchContainer>
       <Grid>
-        {allElements.map((element) => (
+        {filteredElements.map((element) => (
           <ElementCard
             key={element.id}
             onClick={() => onElementClick(element)}

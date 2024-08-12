@@ -8,7 +8,7 @@ import { useSignMessageHook } from '../../hooks/useSignMessageHook';
 import { Spinner, useToast } from '@chakra-ui/react';
 import { ArrowUpIcon } from '@chakra-ui/icons';
 import { AnimatedElement, ScrollToTopButton } from '../../components/UIComponents';
-
+import BackgroundPattern from './BackgroundPattern';
 type Element = {
   id: number;
   name: string;
@@ -26,6 +26,7 @@ const Container = styled.div`
   display: flex;
   height: 100vh;
   width: 100vw;
+  
 `;
 
 
@@ -132,8 +133,11 @@ const MainPane = () => {
   useEffect(() => {
     checkCombination();
   }, [selectedElements]);
+
+
   return (
     <Container>
+      <BackgroundPattern />
       <LeftPane>
         <FusionArea
           selectedElements={selectedElements}
@@ -151,7 +155,6 @@ const MainPane = () => {
           <ArrowUpIcon />
         </ScrollToTopButton>
       </RightPane>
-      
     </Container>
   );
 };

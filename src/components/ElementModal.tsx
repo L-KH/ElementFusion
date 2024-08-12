@@ -1,4 +1,5 @@
 // ElementModal.tsx
+// sk-rnZJRAX0BlvSsHgLn8X-f2iXvHmtgUwlmkKOlnMTe1T3BlbkFJ3HfMscGBsSeUK3xKzGCAQEtW3cqNEdG2Uj-YpDEpsA
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { GlowingElement, SmoothTransition, HoverEffect } from './StyledComponents';
@@ -6,8 +7,8 @@ import { useToast } from '@chakra-ui/react';
 import { useAccount } from 'wagmi';
 import { useMint } from '../hooks/WriteContract';
 import { Element } from '@/utils/types'; // Add this import
-import fs from 'fs';
-import path from 'path';
+import { FaTwitter } from 'react-icons/fa'; // Import Twitter icon
+
 
 const ModalBackground = styled.div<{ rarity: string }>`
   position: fixed;
@@ -106,6 +107,25 @@ const ElementCombination = styled.p`
   margin-bottom: 20px;
   color: #666;
 `;
+const ShareButton = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #1DA1F2;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+const TwitterIcon = styled(FaTwitter)`
+  margin-right: 5px;
+`;
+
 interface ElementModalProps {
   element: Element;
   onClose: () => void;
@@ -187,10 +207,39 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
       setIsMinting(false);
     }
   };
-  
+  const getRarityEmoji = (rarity: string) => {
+    switch (rarity.toLowerCase()) {
+      case 'common':
+        return '⚪'; // White circle
+      case 'uncommon':
+        return '🟢'; // Green circle
+      case 'rare':
+        return '🔵'; // Blue circle
+      case 'epic':
+        return '🟣'; // Purple circle
+      case 'legendary':
+        return '🟡'; // Yellow circle
+      default:
+        return '⚫'; // Black circle
+    }
+  };
+
+  const generateTweetText = () => {
+    const rarityEmoji = getRarityEmoji(element.rarity);
+    return encodeURIComponent(`🔮  Elemental Wisdom: I've discovered the ${element.rarity} "${element.name}" in Alchemist!
+
+What element would YOU combine with "${rarityEmoji} ${element.name} ${rarityEmoji}" to create something new? 🤔
+
+Share your ideas below! ⬇️
+
+#Alchemist #NFT #CreativeElements`);
+  };
+
+  const twitterShareUrl = `https://twitter.com/intent/tweet?text=${generateTweetText()}`;
+
 
   
-  return (
+return (
     <ModalBackground rarity={element.rarity} onClick={onClose}>
       <ModalContent onClick={(e) => e.stopPropagation()}>
         <ElementImageWrapper>
@@ -203,8 +252,11 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
         )}
         <ElementDescription>{description}</ElementDescription>
         <MintButton onClick={handleMintClick} disabled={isMinting || !isConnected}>
-      {isMinting ? 'Minting...' : (isConnected ? 'Mint' : 'Connect Wallet')}
-    </MintButton>
+          {isMinting ? 'Minting...' : (isConnected ? 'Mint' : 'Connect Wallet')}
+        </MintButton>
+        <ShareButton href={twitterShareUrl} target="_blank" rel="noopener noreferrer">
+          <TwitterIcon /> Share on X
+        </ShareButton>
       </ModalContent>
     </ModalBackground>
   );
