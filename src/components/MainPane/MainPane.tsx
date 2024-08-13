@@ -105,7 +105,6 @@ const MainPane = () => {
           imagePath: `/images/${combination.output}.png`,
           rarity: combination.rarity,
         };
-        console.log('New Element:', newElement); // Debug log to check image path
         if (!alreadyDiscovered) {
           setDiscoveredElements([...discoveredElements, newElement]);
         }

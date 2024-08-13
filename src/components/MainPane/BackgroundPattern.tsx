@@ -3,7 +3,7 @@ import styled, { keyframes } from 'styled-components';
 
 const float = keyframes`
   0% { transform: translateY(0px); }
-  50% { transform: translateY(10px); }
+  50% { transform: translateY(5px); }
   100% { transform: translateY(0px); }
 `;
 
@@ -17,7 +17,7 @@ const SVGContainer = styled.svg`
 `;
 
 const AnimatedGroup = styled.g<{ delay: number }>`
-  animation: ${float} 6s ease-in-out infinite;
+  animation: ${float} 8s ease-in-out infinite;
   animation-delay: ${props => props.delay}s;
 `;
 
@@ -30,21 +30,21 @@ const emojis = [
 const BackgroundPattern: React.FC = () => {
   const patternElements = useMemo(() => {
     const elements: JSX.Element[] = [];
-    const gridSize = 100;
-    const cols = 10;
-    const rows = 10;
+    const gridSize = 150; // Increase grid size to reduce the number of elements
+    const cols = 8; // Reduce number of columns
+    const rows = 8; // Reduce number of rows
 
     for (let i = 0; i < rows; i++) {
       for (let j = 0; j < cols; j++) {
         const x = j * gridSize + (i % 2 === 0 ? 0 : gridSize / 2);
-        const y = i * gridSize * 0.866; // 0.866 is approximately sin(60°)
+        const y = i * gridSize * 0.866;
 
         const emoji = emojis[Math.floor(Math.random() * emojis.length)];
-        const size = 20 + Math.random() * 30; // Random size between 20 and 50
-        const opacity = 0.2 + Math.random() * 0.3; // Random opacity between 0.2 and 0.5
+        const size = 30 + Math.random() * 20; // Slightly larger emojis, but fewer
+        const opacity = 0.3 + Math.random() * 0.2; // Opacity range is reduced
 
         elements.push(
-          <AnimatedGroup key={`${i}-${j}`} delay={Math.random() * 6}>
+          <AnimatedGroup key={`${i}-${j}`} delay={Math.random() * 8}> 
             <text
               x={x}
               y={y}
@@ -65,7 +65,7 @@ const BackgroundPattern: React.FC = () => {
   return (
     <SVGContainer>
       <defs>
-        <pattern id="elementPattern" x="0" y="0" width="1000" height="866" patternUnits="userSpaceOnUse">
+        <pattern id="elementPattern" x="0" y="0" width="1200" height="1039" patternUnits="userSpaceOnUse">
           {patternElements}
         </pattern>
       </defs>

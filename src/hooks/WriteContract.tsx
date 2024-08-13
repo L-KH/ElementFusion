@@ -64,3 +64,40 @@ export const useMint = () => {
 
   return { handleMint }
 }
+
+export const useHintPurchase = () => {
+  const account = useAccount()
+
+  const handleHintPurchase = async (isPremium: boolean) => {
+    try {
+      const chainId = account.chainId || 11155111 // Sepolia Testnet
+      const NFTAddress = addresses[chainId]?.nft?.address
+
+      if (!NFTAddress) {
+        throw new Error("NFT address not found")
+      }
+
+      const price = isPremium ? parseEther('0.002') : parseEther('0.001');
+
+      console.log("Purchasing hint package:", { isPremium, price: price.toString() });
+
+      const tx = await writeContract(wagmiConfig, {
+        address: NFTAddress as `0x${string}`,
+        abi: NFTAbi as any,
+        functionName: 'purchaseHintPackage',
+        args: [isPremium],
+        value: price,
+      })
+      
+      console.log("Transaction submitted:", tx);
+      
+      return tx // This should be the transaction hash
+      
+    } catch (error) {
+      console.error("Error in handleHintPurchase:", error)
+      throw error
+    }
+  }
+
+  return { handleHintPurchase }
+}

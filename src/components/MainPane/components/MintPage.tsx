@@ -81,10 +81,7 @@ const SearchContainer = styled.div`
   display: block; // Ensure it's displayed as a block element
 `;
 
-const searchBarAnimation = keyframes`
-  0% { width: 50px; }
-  100% { width: 100%; }
-`;
+
 
 const SearchBar = styled.input`
   width: 50px;
@@ -100,7 +97,7 @@ const SearchBar = styled.input`
     width: 100%;
     outline: none;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-    animation: ${searchBarAnimation} 0.3s forwards;
+    
   }
 
 `;
@@ -135,7 +132,6 @@ const MintPage = ({ onElementClick, discoveredElements }: { onElementClick: (ele
     );
 
     setFilteredElements(filtered);
-    console.log("Filtered elements:", filtered);
   }, [discoveredElements, searchTerm]);
 
   return (

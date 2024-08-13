@@ -5,6 +5,9 @@ import FusionAnimation from '../../FusionAnimation';
 import { useToast } from '@chakra-ui/react';
 import { useAccount } from 'wagmi';
 import { useMint } from '../../../hooks/WriteContract';
+import HintModal from '../../HintModal'; // New import
+
+
 type Element = {
   id: number;
   name: string;
@@ -42,19 +45,44 @@ const FusionElement = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 140px;
-  height: 140px;
-  border: 2px solid #ccc;
+  width: 180px;
+  height: 180px;
+  border: 2px solid rgba(204, 204, 204, 0.9);
   border-radius: 5px;
   margin: 10px;
-  background-color: #f0f0f0;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: rgba(240, 240, 240, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: inherit;
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+
+    &::before {
+      opacity: 1;
+    }
+  }
 
   img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    z-index: 1;
   }
 
   @media (max-width: 600px) {
@@ -85,22 +113,6 @@ const InvalidSign = styled.span`
   color: red;
   font-size: 48px;
 `;
-
-const SaveButton = styled.button`
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #45a049;
-  }
-`;
-
 const DiscoveredElementsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -299,7 +311,56 @@ const SwitcherText = styled.span`
 `;
 
 //----------------------------------end switcher-------------------------------------
+//----------------Hints
+const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+`;
 
+const StyledButton = styled.button`
+  flex: 1;
+  max-width: 200px;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+`;
+
+const SaveButton = styled(StyledButton)`
+  background-color: #4caf50;
+
+  &:hover {
+    background-color: #45a049;
+  }
+`;
+
+const HintButton = styled(StyledButton)`
+  background-color: #f0ad4e;
+
+  &:hover {
+    background-color: #ec971f;
+  }
+`;
+const SectionHeader = styled.h2`
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px; // This adds space above the header
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+`;
+//---------------endHints
 const FusionArea = ({ 
   selectedElements, 
   onElementRemove, 
@@ -322,6 +383,8 @@ const FusionArea = ({
   const { isConnected } = useAccount();
   const { handleMint } = useMint();
   const [isMinting, setIsMinting] = useState(false);
+  const [showHintModal, setShowHintModal] = useState(false);
+  const [lastHintTime, setLastHintTime] = useState<number | null>(null);
 
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
@@ -344,7 +407,6 @@ const FusionArea = ({
     }
     setIsMinting(true);
     try {
-      console.log("Minting element:", element);
       const rarityToNumber = {
         'common': 0,
         'uncommon': 1,
@@ -363,7 +425,6 @@ const FusionArea = ({
         isClosable: true,
       });
   
-      console.log("Transaction hash:", txHash);
   
       // Remove the await tx.wait() line
   
@@ -411,6 +472,14 @@ const FusionArea = ({
 const handleAnimationToggle = () => {
     setAnimationEnabled(!animationEnabled);
   };
+  //----- hint
+  const handleHintClick = () => {
+    setShowHintModal(true);
+  };
+
+  const closeHintModal = () => {
+    setShowHintModal(false);
+  };
   return (
     <FusionAreaContainer>
       <SwitcherContainer>
@@ -451,8 +520,11 @@ const handleAnimationToggle = () => {
           ) : null}
         </FusionElement>
       </FusionBox>
-      <SaveButton onClick={onSave}>Save My Progress</SaveButton>
-      <h2>Discovered Elements</h2>
+      <ButtonContainer>
+        <SaveButton onClick={onSave}>Save My Progress</SaveButton>
+        <HintButton onClick={handleHintClick}>Show Hint</HintButton>
+      </ButtonContainer>
+      <SectionHeader>Discovered Elements:</SectionHeader>
       <DiscoveredElementsContainer>
         {Object.entries(categorizedElements).map(([category, elements]) => (
           elements.length > 0 && (
@@ -498,6 +570,9 @@ const handleAnimationToggle = () => {
           result={result.element!}
           onAnimationEnd={handleAnimationEnd}
         />
+      )}
+      {showHintModal && (
+        <HintModal onClose={closeHintModal} />
       )}
     </FusionAreaContainer>
   );
