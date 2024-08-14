@@ -54,7 +54,6 @@ const ElementCard = styled.div<{ rarity: string }>`
   backdrop-filter: blur(5px);
 
   &:hover {
-    transform: scale(1.05);
     background-color: ${(props) => rarityColors[props.rarity]};
     box-shadow: 0 0 30px ${(props) => rarityColors[props.rarity]};
   }
