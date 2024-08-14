@@ -37,7 +37,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           position: 'relative',
           zIndex: 1,
         }}>
-          <Cursor3D />
+          {/* <Cursor3D /> */}
           <Providers>{children}</Providers>
         </div>
       </body>

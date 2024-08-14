@@ -136,7 +136,7 @@ const MainPane = () => {
 
   return (
     <Container>
-      <BackgroundPattern />
+      {/* <BackgroundPattern /> */}
       <LeftPane>
         <FusionArea
           selectedElements={selectedElements}
