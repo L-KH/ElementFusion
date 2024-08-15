@@ -40,10 +40,10 @@ const Header: FC = () => {
         justifyContent={"space-between"}
       >
         <HStack>
-          <Image src={logo.src} alt="logo" width={45} height={45} />
+          <Image src={logo.src} alt="logo" width={55} height={55} />
           {!isTablet && (
             <Heading as="h1" fontSize={"1.5rem"} className="text-shadow">
-              Wizardry
+              ElementFusion
               <Text fontSize="0.8rem" color="gray.500" ml={1}>
                 Testnet
               </Text>

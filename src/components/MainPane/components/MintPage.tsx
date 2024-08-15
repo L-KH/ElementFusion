@@ -47,7 +47,7 @@ const ElementCard = styled.div<{ rarity: string }>`
   cursor: pointer;
   text-align: center;
   font-size: 16px;
-  box-shadow: 0 0 20px ${(props) => rarityColors[props.rarity]};
+  box-shadow: 0 0 10px ${(props) => rarityColors[props.rarity]};
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
   border: 0.5px solid black;
   background-color: rgba(255, 255, 255, 0.1);

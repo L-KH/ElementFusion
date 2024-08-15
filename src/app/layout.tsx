@@ -9,11 +9,11 @@ import Cursor3D from '../components/Cursor3D';
 const open_sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wizardry",
-  applicationName: "Wizardry",
+  title: "ElementFusion",
+  applicationName: "ElementFusion",
   description: "Your Prompt, Your art, Your NFT",
   authors: {
-    name: "Wizardry",
+    name: "ElementFusion",
     url: "",
   },
   icons: "favicon.ico",

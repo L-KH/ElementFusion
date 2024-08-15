@@ -160,12 +160,15 @@ const CategoryCard = styled.div<{ rarity: string }>`
   padding: 15px;
   border-radius: 10px;
   background: ${props => getRarityGradient(props.rarity)};
-  animation: ${props => glowAnimation(getGlowColor(props.rarity))} 2s infinite;
+  
   overflow-y: auto;
 
   @media (max-width: 600px) {
     height: auto;
     max-height: 300px;
+  }
+      &:hover {
+    animation: ${props => glowAnimation(getGlowColor(props.rarity))} 2s infinite;
   }
 `;
 

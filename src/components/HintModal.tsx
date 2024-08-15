@@ -197,10 +197,16 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
     //     }
     //   }, []);
       
-      
+    let debounceTimeout;
     const handleFreeHintClick = () => {
+      if (debounceTimeout) return; // Prevent multiple calls within the debounce period
+      
+      debounceTimeout = setTimeout(() => {
+        debounceTimeout = null; // Reset the debounceTimeout after the delay
+      }, 1000); // Set debounce delay (e.g., 1 second)
+    
       const currentTime = Date.now();
-      if (lastHintTime && currentTime - lastHintTime < 3 * 60 * 60 * 0) {
+      if (lastHintTime && currentTime - lastHintTime < 3 * 60 * 60 * 1000) {
         const remainingTime = Math.ceil((3 * 60 * 60 * 1000 - (currentTime - lastHintTime)) / (60 * 1000));
         toast({
           title: "Free hint not available",
@@ -211,7 +217,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
         });
         return;
       }
-  
+    
       const randomRecipe = elementRecipes[Math.floor(Math.random() * elementRecipes.length)];
       setFreeHint(`${randomRecipe.input[0]} + ${randomRecipe.input[1]} = ${randomRecipe.output}`);
       setLastHintTime(currentTime);
@@ -356,7 +362,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
                     <CardButton color="white" onClick={handleFreeHintClick}>Get Hint</CardButton>
                 </Card>
                 <Card isActive={activeCard === 1} color="rgba(33, 150, 243, 0.3)" onClick={() => handleCardClick(1)}>
-                    <CardTitle>Apprentice Pack</CardTitle>
+                    <CardTitle>Alchemist's Apprentice</CardTitle>
                     <IconWrapper><FaFlask /></IconWrapper>
                     <CardPrice>0.001 ETH</CardPrice>
                     <CardDescription>5 random hints to boost your progress</CardDescription>
