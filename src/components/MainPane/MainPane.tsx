@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import FusionArea from './components/FusionArea';
 import MintPage from './components/MintPage';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import combinationsData from './element_recipes_with_rarity.json';
 import { useSignMessageHook } from '../../hooks/useSignMessageHook';
 import { Spinner, useToast } from '@chakra-ui/react';
@@ -70,7 +70,10 @@ const MainPane = () => {
     const savedElements = loadElements();
     setDiscoveredElements(savedElements);
   }, []);
-
+  useEffect(() => {
+    loadElements();
+  }, [loadElements]);
+  
   const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
       setSelectedElements([...selectedElements, element]);
@@ -140,7 +143,6 @@ const MainPane = () => {
         result={result as { success: boolean; element: Element } | null}
         onSave={handleSave}
         discoveredElements={discoveredElements}
-        onElementClick={handleElementClick}
         backgroundPatternEnabled={backgroundPatternEnabled}
         setBackgroundPatternEnabled={setBackgroundPatternEnabled}
       />

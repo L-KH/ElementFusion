@@ -13,10 +13,10 @@ import {
 import type { Transport } from "viem";
 import { type Chain } from 'viem'
 import { createConfig, http } from "wagmi";
-import taiko_logo from "../public/img/taiko_logo.png"
+
 const walletConnectProjectId = '51d5d824bfd42cd4f17cfb3dcec82da9';
 import { sepolia } from 'viem/chains'
-
+import taiko_logo from "../public/img/taiko_logo.png"
 if (!walletConnectProjectId) {
   throw new Error(
     "WalletConnect project ID is not defined. Please check your environment variables.",

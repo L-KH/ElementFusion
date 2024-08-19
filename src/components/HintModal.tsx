@@ -359,7 +359,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
                     <CardButton color="white" onClick={handleFreeHintClick}>Get Hint</CardButton>
                 </Card>
                 <Card isActive={activeCard === 1} color="rgba(33, 150, 243, 0.3)" onClick={() => handleCardClick(1)}>
-                    <CardTitle>Alchemist's Apprentice</CardTitle>
+                    <CardTitle>Alchemist Apprentice</CardTitle>
                     <IconWrapper><FaFlask /></IconWrapper>
                     <CardPrice>0.001 ETH</CardPrice>
                     <CardDescription>5 random hints to boost your progress</CardDescription>

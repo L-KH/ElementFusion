@@ -256,64 +256,7 @@ const getRarityGradient = (rarity: string) => {
 
 //-------------------------------- switcher-------------------------------
 
-const SwitcherContainer = styled.div`
-  position: absolute;
-  top: 1px;
-  left: 1px;
-  display: flex;
-  align-items: center;
-`;
 
-const SwitcherLabel = styled.label`
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-`;
-
-const SwitcherInput = styled.input`
-  opacity: 0;
-  width: 0;
-  height: 0;
-`;
-
-const SwitcherSlider = styled.span`
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  background-color: #ccc;
-  border-radius: 34px;
-  transition: 0.4s;
-
-  &:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    border-radius: 50%;
-    transition: 0.4s;
-  }
-
-  ${SwitcherInput}:checked + & {
-    background-color: #2196F3;
-  }
-
-  ${SwitcherInput}:checked + &:before {
-    transform: translateX(26px);
-  }
-
-  ${SwitcherInput}:focus + & {
-    box-shadow: 0 0 1px #2196F3;
-  }
-`;
-
-const SwitcherText = styled.span`
-  margin-left: 10px;
-  font-size: 14px;
-`;
 
 //----------------------------------end switcher-------------------------------------
 //----------------Hints
@@ -419,7 +362,6 @@ const FusionArea = ({
   result, 
   onSave, 
   discoveredElements,
-  onElementClick,
   backgroundPatternEnabled,
   setBackgroundPatternEnabled,
 }: { 
@@ -428,7 +370,6 @@ const FusionArea = ({
   result: { success: boolean, element?: Element } | null, 
   onSave: () => void, 
   discoveredElements: Element[],
-  onElementClick: (element: Element) => void,
   backgroundPatternEnabled: boolean,
   setBackgroundPatternEnabled: React.Dispatch<React.SetStateAction<boolean>>,
 }) => {
@@ -452,19 +393,7 @@ const FusionArea = ({
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
   };
 
-  const AudioStream = ({ src, playing }: { src: string; playing: boolean }) => {
-    const audioRef = useRef<HTMLAudioElement | null>(null);
-  
-    useEffect(() => {
-      if (playing) {
-        audioRef.current?.play();
-      } else {
-        audioRef.current?.pause();
-      }
-    }, [playing]);
-  
-    return <audio ref={audioRef} src={src} preload="none" loop />;
-  };
+
   
 
   
@@ -543,9 +472,7 @@ const FusionArea = ({
   const handleAnimationEnd = () => {
     setShowFusionAnimation(false);
   };
-const handleAnimationToggle = () => {
-    setAnimationEnabled(!animationEnabled);
-  };
+
   //----- hint
   const handleHintClick = () => {
     setShowHintModal(true);
