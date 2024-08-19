@@ -31,8 +31,6 @@ const Container = styled.div`
 
 
 
-
-
 const Pane = styled.div`
   transition: all 0.3s ease-in-out;
   &:hover {
@@ -64,16 +62,13 @@ const MainPane = () => {
   const { saveElements, loadElements } = useSignMessageHook();
   const [isLoading, setIsLoading] = useState(false);
   const toast = useToast();
-  const [backgroundPatternEnabled, setBackgroundPatternEnabled] = useState(true);
+  const [backgroundPatternEnabled, setBackgroundPatternEnabled] = useState(false);
 
   useEffect(() => {
     const savedElements = loadElements();
     setDiscoveredElements(savedElements);
   }, []);
-  useEffect(() => {
-    loadElements();
-  }, [loadElements]);
-  
+
   const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
       setSelectedElements([...selectedElements, element]);
@@ -125,12 +120,12 @@ const MainPane = () => {
       isClosable: true,
     });
   };
-  // const handleScrollToTop = () => {
-  //   document.querySelector('.right-pane')?.scrollTo({ top: 0, behavior: 'smooth' });
-  // };
-  // useEffect(() => {
-  //   checkCombination();
-  // }, [selectedElements]);
+  const handleScrollToTop = () => {
+    document.querySelector('.right-pane')?.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  useEffect(() => {
+    checkCombination();
+  }, [selectedElements]);
 
 
   return (
@@ -143,6 +138,7 @@ const MainPane = () => {
         result={result as { success: boolean; element: Element } | null}
         onSave={handleSave}
         discoveredElements={discoveredElements}
+        onElementClick={handleElementClick}
         backgroundPatternEnabled={backgroundPatternEnabled}
         setBackgroundPatternEnabled={setBackgroundPatternEnabled}
       />

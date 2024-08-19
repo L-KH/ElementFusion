@@ -257,7 +257,6 @@ const getRarityGradient = (rarity: string) => {
 //-------------------------------- switcher-------------------------------
 
 
-
 //----------------------------------end switcher-------------------------------------
 //----------------Hints
 const ButtonContainer = styled.div`
@@ -362,6 +361,7 @@ const FusionArea = ({
   result, 
   onSave, 
   discoveredElements,
+  onElementClick,
   backgroundPatternEnabled,
   setBackgroundPatternEnabled,
 }: { 
@@ -370,12 +370,13 @@ const FusionArea = ({
   result: { success: boolean, element?: Element } | null, 
   onSave: () => void, 
   discoveredElements: Element[],
+  onElementClick: (element: Element) => void,
   backgroundPatternEnabled: boolean,
   setBackgroundPatternEnabled: React.Dispatch<React.SetStateAction<boolean>>,
 }) => {
   const [selectedModalElement, setSelectedModalElement] = useState<Element | null>(null);
   const [showFusionAnimation, setShowFusionAnimation] = useState(false);
-  const [animationEnabled, setAnimationEnabled] = useState(true);
+  const [animationEnabled, setAnimationEnabled] = useState(false);
   const toast = useToast();
   const { isConnected } = useAccount();
   const { handleMint } = useMint();
@@ -393,10 +394,6 @@ const FusionArea = ({
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
   };
 
-
-  
-
-  
   const handleMintClick = async (element: Element) => {
     if (!isConnected) {
       toast({
