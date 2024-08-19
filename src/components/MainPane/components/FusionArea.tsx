@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes } from 'styled-components';
 import ElementModal  from '../../ElementModal';
 import FusionAnimation from '../../FusionAnimation';
@@ -6,7 +6,9 @@ import { useToast } from '@chakra-ui/react';
 import { useAccount } from 'wagmi';
 import { useMint } from '../../../hooks/WriteContract';
 import HintModal from '../../HintModal'; // New import
-
+import { FaCog, FaTimes } from 'react-icons/fa';
+import { Popover, PopoverTrigger, PopoverContent, PopoverBody, PopoverCloseButton, Switch, Text, VStack, Flex ,Select } from '@chakra-ui/react';
+import { useAudioManager } from '../../useAudioManager'; // Add this import
 
 type Element = {
   id: number;
@@ -364,6 +366,53 @@ const SectionHeader = styled.h2`
   font-weight: bold;
 `;
 //---------------endHints
+const OptionsGear = styled(FaCog)`
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: #2196F3;
+  cursor: pointer;
+`;
+const MusicOption = styled.button<{ isSelected: boolean }>`
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #2196F3;
+  background-color: ${props => props.isSelected ? '#2196F3' : 'transparent'};
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: ${props => props.isSelected ? 'white' : '#2196F3'};
+  font-size: 12px;
+  font-weight: bold;
+`;
+const CustomCloseButton = styled.button`
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  z-index: 1000;
+  &:hover {
+    background: #e0e0e0;
+    color: #000;
+  }
+`;
+
+
+
 const FusionArea = ({ 
   selectedElements, 
   onElementRemove, 
@@ -371,6 +420,8 @@ const FusionArea = ({
   onSave, 
   discoveredElements,
   onElementClick,
+  backgroundPatternEnabled,
+  setBackgroundPatternEnabled,
 }: { 
   selectedElements: Element[], 
   onElementRemove: (index: number) => void, 
@@ -378,6 +429,8 @@ const FusionArea = ({
   onSave: () => void, 
   discoveredElements: Element[],
   onElementClick: (element: Element) => void,
+  backgroundPatternEnabled: boolean,
+  setBackgroundPatternEnabled: React.Dispatch<React.SetStateAction<boolean>>,
 }) => {
   const [selectedModalElement, setSelectedModalElement] = useState<Element | null>(null);
   const [showFusionAnimation, setShowFusionAnimation] = useState(false);
@@ -387,7 +440,9 @@ const FusionArea = ({
   const { handleMint } = useMint();
   const [isMinting, setIsMinting] = useState(false);
   const [showHintModal, setShowHintModal] = useState(false);
-  const [lastHintTime, setLastHintTime] = useState<number | null>(null);
+
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+  const { musicOption, setMusicOption } = useAudioManager();
 
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
@@ -397,6 +452,22 @@ const FusionArea = ({
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
   };
 
+  const AudioStream = ({ src, playing }: { src: string; playing: boolean }) => {
+    const audioRef = useRef<HTMLAudioElement | null>(null);
+  
+    useEffect(() => {
+      if (playing) {
+        audioRef.current?.play();
+      } else {
+        audioRef.current?.pause();
+      }
+    }, [playing]);
+  
+    return <audio ref={audioRef} src={src} preload="none" loop />;
+  };
+  
+
+  
   const handleMintClick = async (element: Element) => {
     if (!isConnected) {
       toast({
@@ -485,17 +556,65 @@ const handleAnimationToggle = () => {
   };
   return (
     <FusionAreaContainer>
-      <SwitcherContainer>
-        <SwitcherLabel>
-          <SwitcherInput 
-            type="checkbox" 
-            checked={animationEnabled}
-            onChange={handleAnimationToggle}
-          />
-          <SwitcherSlider />
-          <SwitcherText>{animationEnabled ? 'Animation On' : 'Animation Off'}</SwitcherText>
-        </SwitcherLabel>
-      </SwitcherContainer>
+
+      <Popover 
+        isOpen={isPopoverOpen} 
+        onClose={() => setIsPopoverOpen(false)} 
+        placement="bottom-start"
+      >
+        <PopoverTrigger>
+          <OptionsGear onClick={() => setIsPopoverOpen(true)} />
+        </PopoverTrigger>
+        <PopoverContent position="relative" padding="30px 15px 15px">
+          <CustomCloseButton onClick={() => setIsPopoverOpen(false)}>
+            <FaTimes />
+          </CustomCloseButton>
+
+
+          <PopoverBody>
+
+            <VStack align="start" spacing={4}>
+              <Flex align="center" justify="space-between" width="100%">
+                <Text>Animation</Text>
+                <Switch
+                  isChecked={animationEnabled}
+                  onChange={() => setAnimationEnabled(!animationEnabled)}
+                />
+              </Flex>
+              <Flex align="center" justify="space-between" width="100%">
+                <Text>Background Pattern</Text>
+                <Switch
+                  isChecked={backgroundPatternEnabled}
+                  onChange={() => setBackgroundPatternEnabled(!backgroundPatternEnabled)}
+                />
+              </Flex>
+              <Flex align="center" justify="space-between" width="100%">
+                <Text>Music</Text>
+                <Flex>
+                  <MusicOption 
+                    isSelected={musicOption === 'off'} 
+                    onClick={() => setMusicOption('off')}
+                  >
+                    Off
+                  </MusicOption>
+                  <MusicOption 
+                    isSelected={musicOption === 'music1'} 
+                    onClick={() => setMusicOption('music1')}
+                  >
+                    1
+                  </MusicOption>
+                  <MusicOption 
+                    isSelected={musicOption === 'music2'} 
+                    onClick={() => setMusicOption('music2')}
+                  >
+                    2
+                  </MusicOption>
+                </Flex>
+              </Flex>
+            </VStack>
+          </PopoverBody>
+        </PopoverContent>
+      </Popover>
 
       <h2>Fusion Area</h2>
       <FusionBox invalid={!!(result && !result.success)}>

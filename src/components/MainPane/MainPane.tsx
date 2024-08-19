@@ -70,6 +70,8 @@ const MainPane = () => {
   const { saveElements, loadElements } = useSignMessageHook();
   const [isLoading, setIsLoading] = useState(false);
   const toast = useToast();
+  const [backgroundPatternEnabled, setBackgroundPatternEnabled] = useState(true);
+
   useEffect(() => {
     const savedElements = loadElements();
     setDiscoveredElements(savedElements);
@@ -136,23 +138,25 @@ const MainPane = () => {
 
   return (
     <Container>
-      {/* <BackgroundPattern /> */}
+      {backgroundPatternEnabled && <BackgroundPattern />}
       <LeftPane>
-        <FusionArea
-          selectedElements={selectedElements}
-          onElementRemove={handleElementRemove}
-          result={result as { success: boolean; element: Element } | null}
-          onSave={handleSave}
-          discoveredElements={discoveredElements}
-          onElementClick={handleElementClick}
-        />
+      <FusionArea
+        selectedElements={selectedElements}
+        onElementRemove={handleElementRemove}
+        result={result as { success: boolean; element: Element } | null}
+        onSave={handleSave}
+        discoveredElements={discoveredElements}
+        onElementClick={handleElementClick}
+        backgroundPatternEnabled={backgroundPatternEnabled}
+        setBackgroundPatternEnabled={setBackgroundPatternEnabled}
+      />
         {isLoading && <Spinner />}
       </LeftPane>
       <RightPane className="right-pane">
         <MintPage onElementClick={handleElementClick} discoveredElements={discoveredElements} />
-        <ScrollToTopButton onClick={handleScrollToTop}>
+        {/* <ScrollToTopButton onClick={handleScrollToTop}>
           <ArrowUpIcon />
-        </ScrollToTopButton>
+        </ScrollToTopButton> */}
       </RightPane>
     </Container>
   );

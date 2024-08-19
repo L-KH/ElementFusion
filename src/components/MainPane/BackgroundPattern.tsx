@@ -64,12 +64,12 @@ const BackgroundPattern: React.FC = () => {
 
   return (
     <SVGContainer>
-      {/* <defs>
+      <defs>
         <pattern id="elementPattern" x="0" y="0" width="1200" height="1039" patternUnits="userSpaceOnUse">
           {patternElements}
         </pattern>
       </defs>
-      <rect width="100%" height="100%" fill="url(#elementPattern)" /> */}
+      <rect width="100%" height="100%" fill="url(#elementPattern)" />
     </SVGContainer>
   );
 };
