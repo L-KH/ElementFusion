@@ -4,7 +4,7 @@ import { Open_Sans } from "next/font/google";
 import "@/styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { Providers } from "./providers";
-import Cursor3D from '../components/Cursor3D';
+//import Cursor3D from '../components/Cursor3D';
 
 const open_sans = Open_Sans({ subsets: ["latin"] });
 

@@ -18,10 +18,7 @@ const IconWrapper = styled.div`
   align-items: center;
   height: 80px; // Adjust this value as needed
 `;
-const slideIn = keyframes`
-  from { transform: translateY(-20px); }
-  to { transform: translateY(0); }
-`;
+
 
 const ModalBackground = styled.div`
   position: fixed;
@@ -331,20 +328,20 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
       
       
   
-      const downloadHints = () => {
-        const hintText = purchasedHints.join('\n');
-        const blob = new Blob([hintText], { type: 'text/plain' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'my_alchemy_hints.txt';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        localStorage.setItem('hintsDownloaded', 'true');
-        setPurchasedHints([]);
-      };
+      // const downloadHints = () => {
+      //   const hintText = purchasedHints.join('\n');
+      //   const blob = new Blob([hintText], { type: 'text/plain' });
+      //   const url = URL.createObjectURL(blob);
+      //   const a = document.createElement('a');
+      //   a.href = url;
+      //   a.download = 'my_alchemy_hints.txt';
+      //   document.body.appendChild(a);
+      //   a.click();
+      //   document.body.removeChild(a);
+      //   URL.revokeObjectURL(url);
+      //   localStorage.setItem('hintsDownloaded', 'true');
+      //   setPurchasedHints([]);
+      // };
       
   
       

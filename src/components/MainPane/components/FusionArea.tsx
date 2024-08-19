@@ -7,7 +7,7 @@ import { useAccount } from 'wagmi';
 import { useMint } from '../../../hooks/WriteContract';
 import HintModal from '../../HintModal'; // New import
 import { FaCog, FaTimes } from 'react-icons/fa';
-import { Popover, PopoverTrigger, PopoverContent, PopoverBody, PopoverCloseButton, Switch, Text, VStack, Flex ,Select } from '@chakra-ui/react';
+import { Popover, PopoverTrigger, PopoverContent, PopoverBody, Switch, Text, VStack, Flex  } from '@chakra-ui/react';
 import { useAudioManager } from '../../useAudioManager'; // Add this import
 
 type Element = {

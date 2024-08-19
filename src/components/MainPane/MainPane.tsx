@@ -6,8 +6,7 @@ import styled, { keyframes } from 'styled-components';
 import combinationsData from './element_recipes_with_rarity.json';
 import { useSignMessageHook } from '../../hooks/useSignMessageHook';
 import { Spinner, useToast } from '@chakra-ui/react';
-import { ArrowUpIcon } from '@chakra-ui/icons';
-import { AnimatedElement, ScrollToTopButton } from '../../components/UIComponents';
+
 import BackgroundPattern from './BackgroundPattern';
 type Element = {
   id: number;
@@ -31,11 +30,6 @@ const Container = styled.div`
 
 
 
-
-const fadeIn = keyframes`
-  from { opacity: 0; }
-  to { opacity: 1; }
-`;
 
 
 
@@ -128,12 +122,12 @@ const MainPane = () => {
       isClosable: true,
     });
   };
-  const handleScrollToTop = () => {
-    document.querySelector('.right-pane')?.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-  useEffect(() => {
-    checkCombination();
-  }, [selectedElements]);
+  // const handleScrollToTop = () => {
+  //   document.querySelector('.right-pane')?.scrollTo({ top: 0, behavior: 'smooth' });
+  // };
+  // useEffect(() => {
+  //   checkCombination();
+  // }, [selectedElements]);
 
 
   return (
