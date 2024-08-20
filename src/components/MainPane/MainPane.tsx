@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import FusionArea from './components/FusionArea';
 import MintPage from './components/MintPage';
 import styled from 'styled-components';
-import combinationsData from './element_recipes_with_rarity.json';
+import normalModeElements from './element_recipes_with_rarity.json';
+import web3ModeElements from './element_recipes_with_rarity2.json';
 import { useSignMessageHook } from '../../hooks/useSignMessageHook';
 import { Spinner, useToast } from '@chakra-ui/react';
 
@@ -53,6 +54,7 @@ const RightPane = styled(Pane)`
   flex: 1;
   padding: 20px;
   overflow-y: auto;
+  
 `;
 
 const MainPane = () => {
@@ -63,11 +65,33 @@ const MainPane = () => {
   const [isLoading, setIsLoading] = useState(false);
   const toast = useToast();
   const [backgroundPatternEnabled, setBackgroundPatternEnabled] = useState(false);
+  const [currentMode, setCurrentMode] = useState<'normal' | 'web3'>(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    return (urlParams.get('mode') as 'normal' | 'web3') || 'normal';
+  });
+  const [normalModeDiscoveredElements, setNormalModeDiscoveredElements] = useState<Element[]>([]);
+  const [web3ModeDiscoveredElements, setWeb3ModeDiscoveredElements] = useState<Element[]>([]);
+  const addDiscoveredElement = (newElement: Element) => {
+    if (currentMode === 'normal') {
+      setNormalModeDiscoveredElements(prev => [...prev, newElement]);
+    } else {
+      setWeb3ModeDiscoveredElements(prev => [...prev, newElement]);
+    }
+  };
+  
 
   useEffect(() => {
-    const savedElements = loadElements();
-    setDiscoveredElements(savedElements);
-  }, []);
+    const loadSavedElements = async () => {
+      const savedElements = await loadElements();
+      if (currentMode === 'normal') {
+        setNormalModeDiscoveredElements(savedElements);
+      } else {
+        setWeb3ModeDiscoveredElements(savedElements);
+      }
+    };
+    loadSavedElements();
+  }, [currentMode]);
+  
 
   const handleElementClick = (element: Element) => {
     if (selectedElements.length < 2) {
@@ -81,27 +105,35 @@ const MainPane = () => {
     setSelectedElements(newElements);
     setResult(null);
   };
-
+  const updateDiscoveredElements = (newElement: Element) => {
+    if (currentMode === 'normal') {
+      if (!normalModeDiscoveredElements.some(el => el.name === newElement.name)) {
+        setNormalModeDiscoveredElements([...normalModeDiscoveredElements, newElement]);
+      }
+    } else {
+      if (!web3ModeDiscoveredElements.some(el => el.name === newElement.name)) {
+        setWeb3ModeDiscoveredElements([...web3ModeDiscoveredElements, newElement]);
+      }
+    }
+  };
   const checkCombination = () => {
     if (selectedElements.length === 2) {
       const inputs = selectedElements.map((el) => el.name.toLowerCase());
-      const combination = combinationsData.find((combo: Combination) => {
+      const recipeData = currentMode === 'normal' ? normalModeElements : web3ModeElements;
+      const combination = recipeData.find((combo: Combination) => {
         return (
           (combo.input[0] === inputs[0] && combo.input[1] === inputs[1]) ||
           (combo.input[0] === inputs[1] && combo.input[1] === inputs[0])
         );
       });
       if (combination) {
-        const alreadyDiscovered = discoveredElements.some(el => el.name === combination.output);
         const newElement = {
           id: Date.now(),
           name: combination.output,
-          imagePath: `/images/${combination.output}.png`,
+          imagePath: currentMode === 'normal' ? `/images/${combination.output}.png` : `/images2/${combination.output}.png`,
           rarity: combination.rarity,
         };
-        if (!alreadyDiscovered) {
-          setDiscoveredElements([...discoveredElements, newElement]);
-        }
+        updateDiscoveredElements(newElement);
         setResult({ success: true, element: newElement });
       } else {
         setResult({ success: false, element: null });
@@ -109,9 +141,11 @@ const MainPane = () => {
     }
   };
 
+
   const handleSave = async () => {
     setIsLoading(true);
-    await saveElements(discoveredElements);
+    const elementsToSave = currentMode === 'normal' ? normalModeDiscoveredElements : web3ModeDiscoveredElements;
+    await saveElements(elementsToSave);
     setIsLoading(false);
     toast({
       title: "Elements saved",
@@ -120,6 +154,7 @@ const MainPane = () => {
       isClosable: true,
     });
   };
+  
   const handleScrollToTop = () => {
     document.querySelector('.right-pane')?.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -137,15 +172,24 @@ const MainPane = () => {
         onElementRemove={handleElementRemove}
         result={result as { success: boolean; element: Element } | null}
         onSave={handleSave}
-        discoveredElements={discoveredElements}
         onElementClick={handleElementClick}
         backgroundPatternEnabled={backgroundPatternEnabled}
         setBackgroundPatternEnabled={setBackgroundPatternEnabled}
+        currentMode={currentMode}
+        setCurrentMode={setCurrentMode}
+        discoveredElements={currentMode === 'normal' ? normalModeDiscoveredElements : web3ModeDiscoveredElements}
       />
         {isLoading && <Spinner />}
       </LeftPane>
       <RightPane className="right-pane">
-        <MintPage onElementClick={handleElementClick} discoveredElements={discoveredElements} />
+      <MintPage
+  onElementClick={handleElementClick}
+  normalModeDiscoveredElements={normalModeDiscoveredElements}
+  web3ModeDiscoveredElements={web3ModeDiscoveredElements}
+  currentMode={currentMode}
+/>
+
+
         {/* <ScrollToTopButton onClick={handleScrollToTop}>
           <ArrowUpIcon />
         </ScrollToTopButton> */}

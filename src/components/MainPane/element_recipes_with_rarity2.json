@@ -1,0 +1,252 @@
+[
+    {
+        "input": [],
+        "output": "code",
+        "rarity": "common"
+    },
+    {
+        "input": [],
+        "output": "network",
+        "rarity": "common"
+    },
+    {
+        "input": [],
+        "output": "cryptography",
+        "rarity": "common"
+    },
+    {
+        "input": [],
+        "output": "consensus",
+        "rarity": "common"
+    },
+    {
+        "input": ["code", "network"],
+        "output": "internet",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["code", "cryptography"],
+        "output": "hash",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["network", "consensus"],
+        "output": "peer-to-peer",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["code", "consensus"],
+        "output": "smart contract",
+        "rarity": "rare"
+    },
+    {
+        "input": ["cryptography", "consensus"],
+        "output": "blockchain",
+        "rarity": "rare"
+    },
+    {
+        "input": ["blockchain", "code"],
+        "output": "cryptocurrency",
+        "rarity": "rare"
+    },
+    {
+        "input": ["blockchain", "network"],
+        "output": "node",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["cryptocurrency", "consensus"],
+        "output": "mining",
+        "rarity": "rare"
+    },
+    {
+        "input": ["mining", "code"],
+        "output": "proof of work",
+        "rarity": "epic"
+    },
+    {
+        "input": ["cryptocurrency", "network"],
+        "output": "wallet",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["wallet", "cryptography"],
+        "output": "private key",
+        "rarity": "rare"
+    },
+    {
+        "input": ["private key", "cryptography"],
+        "output": "public key",
+        "rarity": "rare"
+    },
+    {
+        "input": ["blockchain", "consensus"],
+        "output": "block",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["block", "cryptography"],
+        "output": "merkle tree",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "smart contract"],
+        "output": "dapp",
+        "rarity": "epic"
+    },
+    {
+        "input": ["dapp", "consensus"],
+        "output": "DAO",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["cryptocurrency", "consensus"],
+        "output": "staking",
+        "rarity": "rare"
+    },
+    {
+        "input": ["staking", "consensus"],
+        "output": "proof of stake",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "network"],
+        "output": "mainnet",
+        "rarity": "rare"
+    },
+    {
+        "input": ["mainnet", "code"],
+        "output": "testnet",
+        "rarity": "rare"
+    },
+    {
+        "input": ["blockchain", "cryptography"],
+        "output": "zero-knowledge proof",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["cryptocurrency", "code"],
+        "output": "token",
+        "rarity": "uncommon"
+    },
+    {
+        "input": ["token", "consensus"],
+        "output": "governance token",
+        "rarity": "rare"
+    },
+    {
+        "input": ["blockchain", "internet"],
+        "output": "web3",
+        "rarity": "epic"
+    },
+    {
+        "input": ["web3", "code"],
+        "output": "smart contract platform",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "consensus"],
+        "output": "fork",
+        "rarity": "rare"
+    },
+    {
+        "input": ["fork", "consensus"],
+        "output": "hard fork",
+        "rarity": "epic"
+    },
+    {
+        "input": ["fork", "code"],
+        "output": "soft fork",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "network"],
+        "output": "sidechain",
+        "rarity": "epic"
+    },
+    {
+        "input": ["sidechain", "consensus"],
+        "output": "layer 2",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["layer 2", "network"],
+        "output": "rollup",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["rollup", "cryptography"],
+        "output": "zk-rollup",
+        "rarity": "mythic"
+    },
+    {
+        "input": ["blockchain", "consensus"],
+        "output": "finality",
+        "rarity": "rare"
+    },
+    {
+        "input": ["cryptocurrency", "network"],
+        "output": "exchange",
+        "rarity": "rare"
+    },
+    {
+        "input": ["exchange", "smart contract"],
+        "output": "DEX",
+        "rarity": "epic"
+    },
+    {
+        "input": ["DEX", "consensus"],
+        "output": "liquidity pool",
+        "rarity": "epic"
+    },
+    {
+        "input": ["liquidity pool", "token"],
+        "output": "yield farming",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["blockchain", "network"],
+        "output": "interoperability",
+        "rarity": "epic"
+    },
+    {
+        "input": ["interoperability", "smart contract"],
+        "output": "cross-chain bridge",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["blockchain", "consensus"],
+        "output": "oracle",
+        "rarity": "epic"
+    },
+    {
+        "input": ["oracle", "network"],
+        "output": "decentralized oracle network",
+        "rarity": "legendary"
+    },
+    {
+        "input": ["blockchain", "cryptography"],
+        "output": "digital signature",
+        "rarity": "rare"
+    },
+    {
+        "input": ["digital signature", "consensus"],
+        "output": "multi-sig wallet",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "network"],
+        "output": "node operator",
+        "rarity": "rare"
+    },
+    {
+        "input": ["node operator", "consensus"],
+        "output": "validator",
+        "rarity": "epic"
+    },
+    {
+        "input": ["blockchain", "code"],
+        "output": "gas",
+        "rarity": "uncommon"
+    }
+]

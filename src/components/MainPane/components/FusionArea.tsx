@@ -9,6 +9,7 @@ import HintModal from '../../HintModal'; // New import
 import { FaCog, FaTimes } from 'react-icons/fa';
 import { Popover, PopoverTrigger, PopoverContent, PopoverBody, Switch, Text, VStack, Flex  } from '@chakra-ui/react';
 import { useAudioManager } from '../../useAudioManager'; // Add this import
+import ModeSwitchComponent from '../../ModeSwitch'; // Adjust the path as needed
 
 type Element = {
   id: number;
@@ -352,6 +353,8 @@ const CustomCloseButton = styled.button`
     color: #000;
   }
 `;
+// ---------------------- switcher
+
 
 
 
@@ -364,6 +367,8 @@ const FusionArea = ({
   onElementClick,
   backgroundPatternEnabled,
   setBackgroundPatternEnabled,
+  currentMode,
+  setCurrentMode,
 }: { 
   selectedElements: Element[], 
   onElementRemove: (index: number) => void, 
@@ -373,6 +378,8 @@ const FusionArea = ({
   onElementClick: (element: Element) => void,
   backgroundPatternEnabled: boolean,
   setBackgroundPatternEnabled: React.Dispatch<React.SetStateAction<boolean>>,
+  currentMode: 'normal' | 'web3',
+  setCurrentMode: React.Dispatch<React.SetStateAction<'normal' | 'web3'>>,
 }) => {
   const [selectedModalElement, setSelectedModalElement] = useState<Element | null>(null);
   const [showFusionAnimation, setShowFusionAnimation] = useState(false);
@@ -386,6 +393,7 @@ const FusionArea = ({
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
   const { musicOption, setMusicOption } = useAudioManager();
 
+
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
     uncommon: discoveredElements.filter(e => e.rarity === 'uncommon'),
@@ -393,7 +401,14 @@ const FusionArea = ({
     epic: discoveredElements.filter(e => e.rarity === 'epic'),
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
   };
-
+  const handleModeSwitch = (newMode: 'normal' | 'web3') => {
+    setCurrentMode(newMode);
+    // Reset the selected elements
+    onElementRemove(0);
+    onElementRemove(1);
+    // Refresh the page with the new mode
+    //window.location.href = `/?mode=${newMode}`;
+  };
   const handleMintClick = async (element: Element) => {
     if (!isConnected) {
       toast({
@@ -540,7 +555,10 @@ const FusionArea = ({
         </PopoverContent>
       </Popover>
 
-      <h2>Fusion Area</h2>
+
+      <ModeSwitchComponent currentMode={currentMode} handleModeSwitch={handleModeSwitch} />
+
+      {/* <h2>Fusion Area</h2> */}
       <FusionBox invalid={!!(result && !result.success)}>
         {selectedElements[0] ? (
           <FusionElement onClick={() => onElementRemove(0)}>

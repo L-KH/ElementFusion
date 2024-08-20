@@ -253,7 +253,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
           // Wait for transaction confirmation
           const provider = new ethers.BrowserProvider(window.ethereum);
           await provider.waitForTransaction(tx);
-          const hintCount = isPremium ? 15 : 5;
+          const hintCount = isPremium ? 25 : 10;
           const newHints = generateRandomHints(hintCount);      
           if (newHints.length === 0) {
             throw new Error("Failed to generate hints");
@@ -362,7 +362,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
                     <CardTitle>Alchemist Apprentice</CardTitle>
                     <IconWrapper><FaFlask /></IconWrapper>
                     <CardPrice>0.001 ETH</CardPrice>
-                    <CardDescription>5 random hints to boost your progress</CardDescription>
+                    <CardDescription>10 random hints to boost your progress</CardDescription>
                     <CardButton color="blue" onClick={() => handlePurchase(false)} disabled={isLoading}>
                         {isLoading ? 'Processing...' : 'Purchase'}
                     </CardButton>
@@ -372,7 +372,7 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
                     <CardTitle>Master Alchemist</CardTitle>
                     <IconWrapper><FaMagic /></IconWrapper>
                     <CardPrice>0.002 ETH</CardPrice>
-                    <CardDescription>15 random hints to unlock advanced elements</CardDescription>
+                    <CardDescription>25 random hints to unlock advanced elements</CardDescription>
                     <CardButton color="purple" onClick={() => handlePurchase(true)} disabled={isLoading}>
                         {isLoading ? 'Processing...' : 'Purchase'}
                     </CardButton>
