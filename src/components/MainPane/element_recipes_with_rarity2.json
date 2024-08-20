@@ -100,7 +100,7 @@
         "rarity": "legendary"
     },
     {
-        "input": ["cryptocurrency", "consensus"],
+        "input": ["smart contract", "consensus"],
         "output": "staking",
         "rarity": "rare"
     },
@@ -110,7 +110,7 @@
         "rarity": "epic"
     },
     {
-        "input": ["blockchain", "network"],
+        "input": ["blockchain", "blockchain"],
         "output": "mainnet",
         "rarity": "rare"
     },
