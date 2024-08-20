@@ -123,6 +123,8 @@ const MemoizedElementCard = React.memo(({ element, onElementClick, rarity }: { e
   </ElementCard>
 ));
 
+MemoizedElementCard.displayName = 'MemoizedElementCard';
+
 
 const MintPage = ({ 
   onElementClick, 
