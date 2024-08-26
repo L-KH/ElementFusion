@@ -90,8 +90,8 @@ const FusionElement = styled.div`
   }
 
   @media (min-width: 768px) {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     min-width: 120px;
     min-height: 120px;
   }
