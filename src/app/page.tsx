@@ -8,7 +8,7 @@ export default function Home() {
     <Flex flexDirection="column" minHeight="100vh">
       <Header />
 
-      <Box as="main" flex={1} p={4}>
+      <Box as="main" flex={1} p={4} overflowY="auto">
         <MainPane />
       </Box>
 

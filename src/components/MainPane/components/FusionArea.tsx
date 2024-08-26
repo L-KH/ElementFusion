@@ -37,10 +37,9 @@ const FusionBox = styled.div<{ invalid?: boolean }>`
   justify-content: center;
   margin-top: 20px;
   border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
-  flex-wrap: wrap;
-
-  @media (max-width: 600px) {
-    flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 `;
 
@@ -48,11 +47,13 @@ const FusionElement = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
-  height: 180px;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  min-height: 100px;
   border: 2px solid rgba(204, 204, 204, 0.9);
   border-radius: 5px;
-  margin: 10px;
+  margin: 0 10px;
   background-color: rgba(240, 240, 240, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -82,26 +83,31 @@ const FusionElement = styled.div`
   }
 
   img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     object-fit: contain;
     z-index: 1;
   }
 
-  @media (max-width: 600px) {
-    width: 100px;
-    height: 100px;
+  @media (min-width: 768px) {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    min-height: 120px;
   }
 `;
 
 const FusionSign = styled.div`
-  font-size: 54px;
-  margin: 0 10px;
+  font-size: 24px;
+  margin: 0 5px;
+  flex-shrink: 0;
 
-  @media (max-width: 600px) {
-    margin: 5px 0;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    margin: 0 10px;
   }
 `;
+
 
 const EmptyBox = styled(FusionElement)`
   border: 2px dashed #ccc;
@@ -109,8 +115,13 @@ const EmptyBox = styled(FusionElement)`
   align-items: center;
   justify-content: center;
   color: #ccc;
-  font-size: 24px;
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
 `;
+
 
 const InvalidSign = styled.span`
   color: red;
@@ -159,8 +170,9 @@ const glowAnimation = (color: string) => keyframes`
 const CategoryCard = styled.div<{ rarity: string }>`
   width: 100%;
   max-width: 300px;
-  height: 400px;
-  padding: 15px;
+  height: auto;
+  max-height: 300px;
+  padding: 10px;
   border-radius: 10px;
   background: ${props => getRarityGradient(props.rarity)};
   
@@ -172,6 +184,10 @@ const CategoryCard = styled.div<{ rarity: string }>`
   }
       &:hover {
     animation: ${props => glowAnimation(getGlowColor(props.rarity))} 2s infinite;
+  }
+      @media (min-width: 768px) {
+    height: 400px;
+    padding: 15px;
   }
 `;
 
@@ -262,10 +278,17 @@ const getRarityGradient = (rarity: string) => {
 //----------------Hints
 const ButtonContainer = styled.div`
   display: flex;
-  justify-content: center;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   margin-top: 20px;
   width: 100%;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
 `;
 
 const StyledButton = styled.button`
@@ -282,6 +305,10 @@ const StyledButton = styled.button`
   &:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+      @media (min-width: 768px) {
+    padding: 12px 20px;
+    font-size: 16px;
   }
 `;
 

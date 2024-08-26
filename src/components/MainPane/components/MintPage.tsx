@@ -39,8 +39,13 @@ const fadeIn = keyframes`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding: 10px;
+    @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
 `;
 
 const ElementCard = styled.div<{ rarity: string }>`

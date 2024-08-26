@@ -26,7 +26,9 @@ const Container = styled.div`
   display: flex;
   height: 100vh;
   width: 100vw;
-  
+    @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 
@@ -48,13 +50,20 @@ const LeftPane = styled(Pane)`
   border-right: 2px solid #ccc;
   position: relative;
   overflow: hidden;
+    @media (max-width: 768px) {
+    flex: 1;
+    border-right: none;
+    border-bottom: 2px solid #ccc;
+  }
 `;
 
 const RightPane = styled(Pane)`
   flex: 1;
   padding: 20px;
   overflow-y: auto;
-  
+    @media (max-width: 768px) {
+    flex: 1;
+  }
 `;
 
 const MainPane = () => {
