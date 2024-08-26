@@ -3,13 +3,18 @@ import styled, { keyframes } from 'styled-components';
 import { FaSearch } from 'react-icons/fa';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import normalModeElements from '../element_recipes_with_rarity.json';
+import web3ModeElements from '../element_recipes_with_rarity2.json';
+
 type Element = {
   id: number;
   name: string;
   imagePath: string;
   rarity: string;
 };
-
+const getTotalElements = (data: any[]) => {
+  return data.length;
+};
 
 const ElementImage = styled(LazyLoadImage)`
   width: 60px;
@@ -104,6 +109,27 @@ const SearchIcon = styled(FaSearch)`
   transform: translateY(-50%);
   pointer-events: none;
 `;
+const ProgressContainer = styled.div`
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+`;
+
+const ProgressText = styled.span`
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`;
+
+const ProgressFraction = styled.span`
+  font-size: 28px;
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`;
 //----------------------------- End Search CSS -----------------------------------
 //----------------------------- Optimisation function  -----------------------------------
 
@@ -140,6 +166,17 @@ const MintPage = ({
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredElements, setFilteredElements] = useState<Element[]>([]);
 
+  const totalElements = useMemo(() => {
+    const elementsData = currentMode === 'normal' ? normalModeElements : web3ModeElements;
+    return getTotalElements(elementsData);
+  }, [currentMode]);
+  
+
+  const discoveredCount = currentMode === 'normal'
+    ? normalModeDiscoveredElements.length
+    : web3ModeDiscoveredElements.length;
+
+
   const initialElements: { [key: string]: Element[] } = {
     normal: [
       { id: 1, name: 'Air', imagePath: '/images/air.webp', rarity: 'common' },
@@ -155,6 +192,7 @@ const MintPage = ({
     ]
   };
 
+  
   useEffect(() => {
     const currentInitialElements = initialElements[currentMode];
     const currentDiscoveredElements = currentMode === 'normal' ? normalModeDiscoveredElements : web3ModeDiscoveredElements;
@@ -188,6 +226,11 @@ const MintPage = ({
 
   return (
     <div>
+      <ProgressContainer>
+        <ProgressText>Progress: </ProgressText>
+        <ProgressFraction>{discoveredCount}/{totalElements}</ProgressFraction>
+      </ProgressContainer>
+
       <SearchContainer>
         <SearchBar
           type="text"
