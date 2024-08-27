@@ -101,7 +101,7 @@
     },
     {
         "input": ["dapp", "consensus"],
-        "output": "DAO",
+        "output": "dao",
         "rarity": "epic"
     },
     {
@@ -386,7 +386,7 @@
     },
     {
         "input": ["smart contract", "privacy"],
-        "output": "Tornado Cash",
+        "output": "tornado cash",
         "rarity": "epic"
     },
     {
@@ -406,7 +406,7 @@
     },
     {
         "input": ["tendermint", "blockchain"],
-        "output": "Cosmos",
+        "output": "cosmos",
         "rarity": "legendary"
     },
     {
