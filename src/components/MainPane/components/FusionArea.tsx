@@ -10,7 +10,8 @@ import { FaCog, FaTimes } from 'react-icons/fa';
 import { Popover, PopoverTrigger, PopoverContent, PopoverBody, Switch, Text, VStack, Flex  } from '@chakra-ui/react';
 import { useAudioManager } from '../../useAudioManager'; // Add this import
 import ModeSwitchComponent from '../../ModeSwitch'; // Adjust the path as needed
-
+import { Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Box } from '@chakra-ui/react';
+import { InfoIcon, WarningIcon } from '@chakra-ui/icons';
 type Element = {
   id: number;
   name: string;
@@ -381,7 +382,60 @@ const CustomCloseButton = styled.button`
   }
 `;
 // ---------------------- switcher
+// ------------------------- tutorial image
+const InfoIconWrapper = styled.div`
+  position: absolute;
+  top: 10px;
+  right: 20px; 
+  cursor: pointer;
+  transition: opacity 0.3s;
 
+  &:hover {
+    opacity: 0.8;
+  }
+`;
+
+const StyledModalContent = styled(ModalContent)`
+  width: 100%;
+  height: 100%;
+  max-width: 1600px;
+  max-height: 1200px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  animation: glow 2s infinite alternate;
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+    to {
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    }
+  }
+`;
+
+const TutorialImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+`;
+const WarningMessage = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: rgba(255, 165, 0, 0.2);
+  border-radius: 4px;
+  font-size: 14px;
+  color: #FFA500;
+  max-width: 400px;
+  text-align: center;
+`;
+
+//-----------------------------------------------------------------
 
 
 
@@ -419,8 +473,12 @@ const FusionArea = ({
 
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
   const { musicOption, setMusicOption } = useAudioManager();
-
-
+  const [showTutorial, setShowTutorial] = useState(false);
+  const handleInfoClick = () => {
+    setShowTutorial(true);
+  };
+  
+  
   const categorizedElements = {
     common: discoveredElements.filter(e => e.rarity === 'common'),
     uncommon: discoveredElements.filter(e => e.rarity === 'uncommon'),
@@ -531,6 +589,21 @@ const FusionArea = ({
         <PopoverTrigger>
           <OptionsGear onClick={() => setIsPopoverOpen(true)} />
         </PopoverTrigger>
+        <InfoIconWrapper onClick={handleInfoClick}>
+          <InfoIcon boxSize={6} color="#2196F3" />
+        </InfoIconWrapper>
+
+        <Modal isOpen={showTutorial} onClose={() => setShowTutorial(false)} isCentered>
+          <ModalOverlay />
+          <StyledModalContent>
+            <ModalCloseButton color="white" />
+            <ModalBody p={0}>
+              <TutorialImage src="tutorial-image.png" alt="Tutorial" onClick={() => setShowTutorial(false)} />
+            </ModalBody>
+          </StyledModalContent>
+        </Modal>
+
+
         <PopoverContent position="relative" padding="30px 15px 15px">
           <CustomCloseButton onClick={() => setIsPopoverOpen(false)}>
             <FaTimes />
@@ -615,6 +688,10 @@ const FusionArea = ({
         <SaveButton onClick={onSave}>Save My Progress</SaveButton>
         <HintButton onClick={handleHintClick}>Show Hint</HintButton>
       </ButtonContainer>
+      <WarningMessage>
+        <WarningIcon mr={2} />
+        Warning: Save your progress before refreshing or switching models to avoid losing elements!
+      </WarningMessage>
       <SectionHeader>Discovered Elements:</SectionHeader>
       <DiscoveredElementsContainer>
         {Object.entries(categorizedElements).map(([category, elements]) => (

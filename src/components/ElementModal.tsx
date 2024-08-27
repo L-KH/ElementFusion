@@ -8,7 +8,7 @@ import { useAccount } from 'wagmi';
 import { useMint } from '../hooks/WriteContract';
 import { Element } from '@/utils/types'; // Add this import
 import { FaTwitter } from 'react-icons/fa'; // Import Twitter icon
-
+import explanations from './MainPane/element_explanations.json';
 
 const ModalBackground = styled.div<{ rarity: string }>`
   position: fixed;
@@ -70,7 +70,11 @@ const ElementTitle = styled.h2`
   margin-bottom: 10px;
   color: #333;
 `;
-
+const SmallTitle = styled.span`
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+`;
 const ElementRarity = styled.p`
   font-size: 18px;
   margin-bottom: 20px;
@@ -84,6 +88,16 @@ const ElementDescription = styled.p`
   margin-bottom: 20px;
 `;
 
+
+const AIExplanation = styled.p`
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 20px;
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 5px;
+`;
 const MintButton = styled(HoverEffect)<{ disabled?: boolean }>`
   background-color: #4caf50;
   color: white;
@@ -133,6 +147,7 @@ interface ElementModalProps {
 const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
   const [description, setDescription] = useState('Loading...');
   const [isMinting, setIsMinting] = useState(false);
+  const [aiExplanation, setAIExplanation] = useState<string | null>(null);
   const toast = useToast();
   const { isConnected } = useAccount();
   const { handleMint } = useMint();
@@ -149,8 +164,27 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
     };
 
     fetchDescription();
-  }, [element.name]);
-
+    const explanation = getExplanation(element.combination?.split(' + ') || [], element.name);
+    setAIExplanation(explanation);
+  }, [element.name, element.combination]);
+  const getExplanation = (inputs: string[], output: string) => {
+    // First, try the exact match
+    const exactKey = `${inputs.sort().join('-')}_${output}`;
+    if (explanations[exactKey]) {
+      return explanations[exactKey].explanation;
+    }
+  
+    // If exact match fails, try finding a partial match
+    const partialMatches = Object.keys(explanations).filter(key => 
+      key.toLowerCase().includes(output.toLowerCase()));
+  
+    if (partialMatches.length > 0) {
+      return explanations[partialMatches[0]].explanation;
+    }
+  
+    return "No explanation available.";
+  };
+  
   const handleMintClick = async () => {
     if (!isConnected) {
       toast({
@@ -238,7 +272,6 @@ Share your ideas below! ⬇️
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${generateTweetText()}`;
 
 
-  
 return (
     <ModalBackground rarity={element.rarity} onClick={onClose}>
       <ModalContent onClick={(e) => e.stopPropagation()}>
@@ -246,11 +279,22 @@ return (
           <ElementImage src={element.imagePath} alt={element.name} />
         </ElementImageWrapper>
         <ElementTitle>{element.name}</ElementTitle>
-        <ElementRarity>Rarity: {element.rarity}</ElementRarity>
+        <ElementRarity>
+          <SmallTitle>Rarity:</SmallTitle> {getRarityEmoji(element.rarity)}{element.rarity}{getRarityEmoji(element.rarity)}
+        </ElementRarity>
         {element.combination && (
-          <ElementCombination>Combination: {element.combination}</ElementCombination>
+          <ElementCombination>
+            <SmallTitle>Combination:</SmallTitle> {element.combination}
+          </ElementCombination>
         )}
-        <ElementDescription>{description}</ElementDescription>
+        <ElementDescription>
+          <SmallTitle>Wikipedia:</SmallTitle> {description}
+        </ElementDescription>
+        {aiExplanation && (
+          <AIExplanation>
+            <SmallTitle>GPT Explanation:</SmallTitle> {aiExplanation}
+          </AIExplanation>
+        )}
         <MintButton onClick={handleMintClick} disabled={isMinting || !isConnected}>
           {isMinting ? 'Minting...' : (isConnected ? 'Mint' : 'Connect Wallet')}
         </MintButton>
@@ -261,5 +305,6 @@ return (
     </ModalBackground>
   );
 };
+
 
 export default ElementModal;

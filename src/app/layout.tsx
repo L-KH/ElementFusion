@@ -11,7 +11,7 @@ const open_sans = Open_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ElementFusion",
   applicationName: "ElementFusion",
-  description: "Your Prompt, Your art, Your NFT",
+  description: "Combine, Create, Collect.",
   authors: {
     name: "ElementFusion",
     url: "",
