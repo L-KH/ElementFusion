@@ -1,0 +1,19 @@
+{
+  "name": "EVM",
+  "description": "A rare element created by combining solidity and code.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmX8JZq3uuDgxGPZ35hXmM17EWZSpjLir178PAg5TSzM7g",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:42.799789"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "solidity, code"
+    }
+  ]
+}

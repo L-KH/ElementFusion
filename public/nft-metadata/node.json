@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "description": "A common element created by combining blockchain and network.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQp41n8gGDz2MVh7bNSe47D9tXCGvYGgEMWw1F7ncPBnk",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:57.316110"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, network"
+    }
+  ]
+}

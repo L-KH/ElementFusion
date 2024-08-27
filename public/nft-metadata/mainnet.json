@@ -1,0 +1,19 @@
+{
+  "name": "mainnet",
+  "description": "A uncommon element created by combining blockchain and peer-to-peer.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRuzDF2sJD6PfEh21ALspDzS38hxLwRXPkkmNEXg3dYSf",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:03.924301"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, peer-to-peer"
+    }
+  ]
+}

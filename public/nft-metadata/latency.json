@@ -1,0 +1,19 @@
+{
+  "name": "latency",
+  "description": "A common element created by combining network and time.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQEp8LiQ751LRiaMHgspqL9tQG1nBUUYi5Y3ScEEcF655",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:27.067914"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "network, time"
+    }
+  ]
+}

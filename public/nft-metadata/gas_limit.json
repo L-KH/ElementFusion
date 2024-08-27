@@ -1,0 +1,19 @@
+{
+  "name": "gas limit",
+  "description": "A uncommon element created by combining gas and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeUoPZJ2GKLgX8GRXgHcKb89CsT4GPQ3L3TLSbAGrX56H",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:40.503738"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "gas, consensus"
+    }
+  ]
+}

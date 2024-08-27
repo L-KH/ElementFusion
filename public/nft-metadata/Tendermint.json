@@ -1,0 +1,19 @@
+{
+  "name": "Tendermint",
+  "description": "A epic element created by combining bft and proof of stake.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmW6nqW7NiyqeYLVesakc9JnkfScobP8XHvLd3eavieYAF",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:19.567540"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "bft, proof of stake"
+    }
+  ]
+}

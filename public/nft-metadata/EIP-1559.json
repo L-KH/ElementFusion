@@ -1,0 +1,19 @@
+{
+  "name": "EIP-1559",
+  "description": "A rare element created by combining ethereum and gas.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNfHLk7jQ7moRnUe9SuR7xRLYMVjAmTM1MzsF46MPgCWs",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:50.544990"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "ethereum, gas"
+    }
+  ]
+}

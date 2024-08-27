@@ -1,0 +1,19 @@
+{
+  "name": "dapp",
+  "description": "A rare element created by combining blockchain and smart contract.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmYY7mVZzFDYj8VWqPrr8hzBZddscYgvxLzq1oUkyFgTeJ",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:01.953391"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, smart contract"
+    }
+  ]
+}

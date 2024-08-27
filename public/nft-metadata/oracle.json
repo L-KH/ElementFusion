@@ -1,0 +1,19 @@
+{
+  "name": "oracle",
+  "description": "A rare element created by combining smart contract and network.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVGUNKyyZoKuVY7qZBen2gfPzRatPMWZVMZQWzQLL9TbS",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:34.560355"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "smart contract, network"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "finality",
+  "description": "A uncommon element created by combining block and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXzzuUkm9A8JWTJEQFMwUgqzhskdRriwEEJPbnZHd4knr",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:11.282060"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "block, consensus"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "blockchain",
+  "description": "A uncommon element created by combining cryptography and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNWdyDzT8Gb742m4RBZALzacMtpB86xPr8Pvra3ATgHvg",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:54.658777"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "cryptography, consensus"
+    }
+  ]
+}

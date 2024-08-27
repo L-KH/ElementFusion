@@ -1,0 +1,19 @@
+{
+  "name": "staking",
+  "description": "A uncommon element created by combining smart contract and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmP7yMMALDbRwuKE7rLgBuqWF2jmFkxLSGLQQ5vYg2RwS9",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:02.896586"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "smart contract, consensus"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Optimism",
+  "description": "A epic element created by combining ethereum and layer 2.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXJ3a9a2dNwvuVUNnQwuU7NXuxyWsE7xwEVTK9FqmSf1g",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:43.795275"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "ethereum, layer 2"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "merkle tree",
+  "description": "A rare element created by combining blockchain and hash.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRqozkQKsC9jUwFXHKkJaB2jr7koAYAjAtTV48SJsW2cJ",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:01.436748"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, hash"
+    }
+  ]
+}

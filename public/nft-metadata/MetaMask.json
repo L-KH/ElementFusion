@@ -1,0 +1,19 @@
+{
+  "name": "MetaMask",
+  "description": "A rare element created by combining web3.js and dapp.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZMspUGdtzQdAa1QHNC4sUHMxffUv4fWQAEbuerrjKteH",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:47.584268"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "web3.js, dapp"
+    }
+  ]
+}

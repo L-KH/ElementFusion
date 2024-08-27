@@ -1,0 +1,19 @@
+{
+  "name": "multi-sig wallet",
+  "description": "A rare element created by combining digital signature and wallet.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNdJzFVc5HiwP6qEbypjStEpvobd3gB3gXhcVPtGSavuj",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:39.152705"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "digital signature, wallet"
+    }
+  ]
+}

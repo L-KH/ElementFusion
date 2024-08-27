@@ -1,0 +1,19 @@
+{
+  "name": "Monero",
+  "description": "A epic element created by combining blockchain and privacy.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPiWTogndWQkgBPXVDZeHrJxtrwcmmMHMnviHBEs1axPD",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:55.961333"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, privacy"
+    }
+  ]
+}

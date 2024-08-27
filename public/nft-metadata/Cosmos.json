@@ -1,0 +1,19 @@
+{
+  "name": "Cosmos",
+  "description": "A legendary element created by combining tendermint and blockchain.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTYguuYpak1tSUgDKWUoNQroGtECsUuFpcFc7nADDBJ5j",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:20.096827"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "tendermint, blockchain"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sidechain",
+  "description": "A rare element created by combining blockchain and bridge.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQjvZ4M7WFhfLxn9VusA9CCpzg811p6VQWdS738UQxLDN",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:09.339493"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, bridge"
+    }
+  ]
+}

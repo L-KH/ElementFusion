@@ -1,0 +1,19 @@
+{
+  "name": "hard fork",
+  "description": "A rare element created by combining fork and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTB3K9NXQ7bNqh4iTcLWf16YVKY1t8S4n935RxatyJz9B",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:08.340009"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "fork, consensus"
+    }
+  ]
+}

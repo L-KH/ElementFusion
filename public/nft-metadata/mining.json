@@ -1,0 +1,19 @@
+{
+  "name": "mining",
+  "description": "A uncommon element created by combining cryptocurrency and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmaPs8sKM3qS7Zp28z1jLxkk7i2qjZW2xuAGFBGwRRpigS",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:57.759523"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "cryptocurrency, consensus"
+    }
+  ]
+}

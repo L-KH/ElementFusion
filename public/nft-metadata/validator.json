@@ -1,0 +1,19 @@
+{
+  "name": "validator",
+  "description": "A rare element created by combining node and proof of stake.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmYEQG5DCuSRJb5ymFjybRtKV3GdUJTcWVYxV8fdYaBPMF",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:39.595553"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "node, proof of stake"
+    }
+  ]
+}

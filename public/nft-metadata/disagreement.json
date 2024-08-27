@@ -1,0 +1,19 @@
+{
+  "name": "disagreement",
+  "description": "A common element created by combining consensus and community.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWqDxiJAQ8Sn68hchEdFTBY2MgzG6iGPTzCXS4vcENWYy",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:33.584901"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "consensus, community"
+    }
+  ]
+}

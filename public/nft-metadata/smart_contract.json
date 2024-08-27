@@ -1,0 +1,19 @@
+{
+  "name": "smart contract",
+  "description": "A uncommon element created by combining code and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXkbRc2ekt6e2iWJq1QYfVK46NmVgyfyzXK7aRmiRXKHb",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:54.154034"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "code, consensus"
+    }
+  ]
+}

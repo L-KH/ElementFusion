@@ -1,0 +1,19 @@
+{
+  "name": "gas",
+  "description": "A common element created by combining smart contract and block.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQ8kdrgtaTW95BBRRmiKwz7TjunayFLWTtdebmn7ZxrSh",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:40.017778"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "smart contract, block"
+    }
+  ]
+}

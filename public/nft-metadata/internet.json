@@ -1,19 +1,19 @@
 {
-    "name": "internet",
-    "description": "Element Fusion NFT representing internet",
-    "image": "https://gateway.pinata.cloud/ipfs/QmVnbaksiafG7HPNFVRJH7gYShymqsAdG58FYDtS44nd7R",
-    "attributes": [
-        {
-            "trait_type": "Rarity",
-            "value": "uncommon"
-        },
-        {
-            "trait_type": "Creation Date",
-            "value": "2024-08-09T13:11:11.128932"
-        },
-        {
-            "trait_type": "Inputs",
-            "value": "computer, web"
-        }
-    ]
+  "name": "internet",
+  "description": "A common element created by combining code and network.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUp6ewvQE19BjFg2RFPvDvsjbGpKCxaNrnQAqUn4K67jX",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:53.069842"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "code, network"
+    }
+  ]
 }

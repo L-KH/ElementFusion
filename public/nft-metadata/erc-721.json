@@ -1,0 +1,19 @@
+{
+  "name": "erc-721",
+  "description": "A rare element created by combining smart contract and digital signature.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmedVX1ujnhg3MfatxE7ZEpS9Tkp8LXCAkDv87tb8HgCi3",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:02.498996"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "smart contract, digital signature"
+    }
+  ]
+}

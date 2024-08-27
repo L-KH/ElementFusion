@@ -1,0 +1,19 @@
+{
+  "name": "zero-knowledge proof",
+  "description": "A epic element created by combining cryptography and proof of work.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeKvEWnxgRDN626j86MkRUrZd1YtZRq6UcvEtKR3Q9ADB",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:04.890369"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "cryptography, proof of work"
+    }
+  ]
+}

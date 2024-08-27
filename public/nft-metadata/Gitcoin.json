@@ -1,0 +1,19 @@
+{
+  "name": "Gitcoin",
+  "description": "A legendary element created by combining quadratic voting and dao.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qma8ZZcBq2C8VzfBQNjWqejaM6YgnARNWjjxszsa4ctJQo",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:48.502408"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "quadratic voting, dao"
+    }
+  ]
+}

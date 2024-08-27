@@ -1,0 +1,19 @@
+{
+  "name": "web3",
+  "description": "A rare element created by combining blockchain and internet.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmcq5JYyzEE6n5eiW9Ra6h4i2FDFTLuH4uJQ5mTPaVjGKC",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:06.809996"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, internet"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "zk-rollup",
+  "description": "A legendary element created by combining rollup and zero-knowledge proof.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTpT8B5M38PSPKHxHm7bsFrmpxpae3G4o7D4erbuW8ucn",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:10.863214"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "rollup, zero-knowledge proof"
+    }
+  ]
+}

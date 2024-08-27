@@ -12,7 +12,7 @@ export const useMint = () => {
 
   const handleMint = async (name: string, rarity: number) => {
     try {
-      const chainId = account.chainId || 11155111 // Sepolia Testnet
+      const chainId = account.chainId || 656476 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
 
       if (!NFTAddress) {
@@ -25,7 +25,7 @@ export const useMint = () => {
         parseEther('0.0001'),  // rare
         parseEther('0.0005'),   // epic
         parseEther('0.005'),     // legendary
-        parseEther('0.01')     // legendary
+        parseEther('0.01')     // hidden
       ];
 
       const price = rarityPrices[rarity];
@@ -70,7 +70,7 @@ export const useHintPurchase = () => {
 
   const handleHintPurchase = async (isPremium: boolean) => {
     try {
-      const chainId = account.chainId || 11155111 // Sepolia Testnet
+      const chainId = account.chainId || 656476 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
 
       if (!NFTAddress) {

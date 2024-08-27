@@ -1,0 +1,19 @@
+{
+  "name": "scalability",
+  "description": "A uncommon element created by combining blockchain and latency.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZoSeZKG7Y1YPDFg8ndgiHHq5V1URRntktnw9nUhZUgty",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:29.054668"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, latency"
+    }
+  ]
+}

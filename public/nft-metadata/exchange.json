@@ -1,0 +1,19 @@
+{
+  "name": "exchange",
+  "description": "A uncommon element created by combining cryptocurrency and peer-to-peer.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmdQ6nLBoFfJBeMxHtb5Ve8gL73GUkaDV6W3naCWoVKcaR",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:11.929124"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "cryptocurrency, peer-to-peer"
+    }
+  ]
+}

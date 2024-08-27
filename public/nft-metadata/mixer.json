@@ -1,0 +1,19 @@
+{
+  "name": "mixer",
+  "description": "A legendary element created by combining tornado cash and zk-snark.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRGyuiJwedCCoZZ49KRsuZMEWX9ogtTFCszm2yJrHSv4v",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:14.579251"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "tornado cash, zk-snark"
+    }
+  ]
+}

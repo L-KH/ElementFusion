@@ -1,0 +1,19 @@
+{
+  "name": "BFT",
+  "description": "A rare element created by combining node and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQRuGGEEqZeCUDn4mConBMw6fkeYrgpiNtAmjvDBSaWig",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:19.096327"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "node, consensus"
+    }
+  ]
+}

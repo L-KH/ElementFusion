@@ -1,0 +1,19 @@
+{
+  "name": "yield farming",
+  "description": "A epic element created by combining liquidity pool and staking.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmWf5MDSv3ndQyKuJjtGR9QQngZipENx91LP7ye892DV9B",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:31.139372"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "liquidity pool, staking"
+    }
+  ]
+}

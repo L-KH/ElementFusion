@@ -1,0 +1,19 @@
+{
+  "name": "NFT",
+  "description": "A epic element created by combining erc-721 and token.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXxshsZ5weyb9VUpGTuomVUxuahedNbX4zQNrPK2oun3d",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:07.047980"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "erc-721, token"
+    }
+  ]
+}

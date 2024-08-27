@@ -1,0 +1,19 @@
+{
+  "name": "proof of stake",
+  "description": "A rare element created by combining staking and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXKDA8XJjs87Sr3PZ3KYucfjGBejreHMGuQzTdjmS3Dje",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:03.411696"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "staking, consensus"
+    }
+  ]
+}

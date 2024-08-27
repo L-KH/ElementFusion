@@ -1,0 +1,19 @@
+{
+  "name": "The Merge",
+  "description": "A legendary element created by combining beacon chain and ethereum.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmcbaBeCdYJkvrUWCSkCCGNStKhP4jdRFNixyjefZxs2Ts",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:53.469199"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "beacon chain, ethereum"
+    }
+  ]
+}

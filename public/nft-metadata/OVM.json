@@ -1,0 +1,19 @@
+{
+  "name": "OVM",
+  "description": "A legendary element created by combining optimism and rollup.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmcHFqoZnoTqgN4rk3pvzNGvGcyo1AE8bF4wXAjzdxxpyf",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:44.229550"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "optimism, rollup"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "public key",
+  "description": "A uncommon element created by combining private key and cryptography.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUrt9Bq5kQ1KSgjBs3pXjmcoyEcgJqZMz16eRWv1a3Gv4",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:00.499858"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "private key, cryptography"
+    }
+  ]
+}

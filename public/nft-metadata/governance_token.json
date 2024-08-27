@@ -1,0 +1,19 @@
+{
+  "name": "governance token",
+  "description": "A rare element created by combining token and dao.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmdFkdGwnxrRgGJKa7no7LYM5TAMYqcHRuLHSSJ6Dzw9tA",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:05.970515"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "token, dao"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "rollup",
+  "description": "A epic element created by combining layer 2 and smart contract.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRFMEiie8aDjTpwzVG44oBbvCUw2DNSaoaceHboSnGdLF",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:10.352230"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "layer 2, smart contract"
+    }
+  ]
+}

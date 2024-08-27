@@ -1,0 +1,19 @@
+{
+  "name": "block",
+  "description": "A common element created by combining blockchain and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUBKQUaXDtfDCNhxbEbUJqB8yEifMBuQEFDqLAAHDTyJY",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:00.907182"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, consensus"
+    }
+  ]
+}

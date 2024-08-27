@@ -1,0 +1,19 @@
+{
+  "name": "Ethereum",
+  "description": "A epic element created by combining evm and smart contract platform.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmcGLFRTfJS2LSBGbGnZBeF1aXN1Bnr9qry5jCj4pCQ7iF",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:43.290647"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "evm, smart contract platform"
+    }
+  ]
+}

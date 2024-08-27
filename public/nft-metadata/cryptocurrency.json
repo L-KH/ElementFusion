@@ -1,0 +1,19 @@
+{
+  "name": "cryptocurrency",
+  "description": "A uncommon element created by combining blockchain and code.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmbuDLorzrGewUerzZZ7tL4Vep1VGyNzTAvXvMNTsZ3CUy",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:55.907508"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, code"
+    }
+  ]
+}

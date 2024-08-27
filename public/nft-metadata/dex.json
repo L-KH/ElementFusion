@@ -1,0 +1,19 @@
+{
+  "name": "dex",
+  "description": "A rare element created by combining exchange and smart contract.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeL1jDFvZh1Kws5syh8gpQ1MgxDJwKgmYGiWuC1oEvnqj",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:21.204668"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "exchange, smart contract"
+    }
+  ]
+}

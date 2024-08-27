@@ -1,0 +1,19 @@
+{
+  "name": "fork",
+  "description": "A uncommon element created by combining blockchain and disagreement.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmXWrXUBBbQ62kaSduAeCwXgcUYJWUAmmg2iwT8kjvCuP1",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:07.847927"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "blockchain, disagreement"
+    }
+  ]
+}

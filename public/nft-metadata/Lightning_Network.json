@@ -1,0 +1,19 @@
+{
+  "name": "Lightning Network",
+  "description": "A epic element created by combining state channels and cryptocurrency.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmeBjdfhz1tgHs7Aw6Dn1duyKk5zVb6EbTiYfkqaJ7btaK",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:20.974304"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "state channels, cryptocurrency"
+    }
+  ]
+}

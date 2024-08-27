@@ -1,0 +1,19 @@
+{
+  "name": "fee market",
+  "description": "A epic element created by combining eip-1559 and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmUf6UoGBZNyWhRPTpGTZ19kq7ZTjqPtahoJbJUehL5TWZ",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:50.984632"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "eip-1559, consensus"
+    }
+  ]
+}

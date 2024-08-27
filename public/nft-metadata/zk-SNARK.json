@@ -1,0 +1,19 @@
+{
+  "name": "zk-SNARK",
+  "description": "A epic element created by combining smart contract and zero-knowledge proof.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmb6guTS2p5T7BkUVRQ44sgHvtTSSp5VqVJBaaZUtjnnRc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:53.903079"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "smart contract, zero-knowledge proof"
+    }
+  ]
+}

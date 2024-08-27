@@ -1,0 +1,19 @@
+{
+  "name": "Web3.js",
+  "description": "A rare element created by combining abi and code.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmT95gjQoi4Z76ZLWp1JdG3Q1YrEDoATGrWGiWQz6bJfLu",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:46.711735"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "abi, code"
+    }
+  ]
+}

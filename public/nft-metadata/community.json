@@ -1,0 +1,19 @@
+{
+  "name": "community",
+  "description": "A common element created by combining internet and human.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmNu4uQ1z8GsmPHSk38ymvANDB7MntiyykXHeDQ4pUKnfY",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:34.443538"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "internet, human"
+    }
+  ]
+}

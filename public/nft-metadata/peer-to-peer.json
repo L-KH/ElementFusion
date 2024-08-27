@@ -1,0 +1,19 @@
+{
+  "name": "peer-to-peer",
+  "description": "A common element created by combining network and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTHwp5HMBzrzxiZGqdZq4ZoernTunDyyoVGFXCYMHQ8F4",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:56.341170"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "network, consensus"
+    }
+  ]
+}

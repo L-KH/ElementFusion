@@ -1,0 +1,19 @@
+{
+  "name": "opcodes",
+  "description": "A rare element created by combining bytecode and evm.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZgQnGPE46bnyQ9k6x9FHNNEkudq9QpFCQrbjQdzgEM31",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:09.975122"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "bytecode, evm"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "DAO",
+  "description": "A epic element created by combining dapp and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQPhtecikbMaH6PTmWxoABbkryCSFSRse4mggPyEjRbAt",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:02.408910"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "dapp, consensus"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wallet",
+  "description": "A common element created by combining cryptocurrency and cryptography.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmf9dsgHZQVYiyyekM6qDp5c4q1XR9YsTpmtvB5up3YMPm",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:59.511417"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "cryptocurrency, cryptography"
+    }
+  ]
+}

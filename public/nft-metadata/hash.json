@@ -1,0 +1,19 @@
+{
+  "name": "hash",
+  "description": "A common element created by combining code and cryptography.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmRCu1jP68Tnv8YduywwicRxhg6hu1sVUKgTbeapC1Yx7d",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "common"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:53.631495"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "code, cryptography"
+    }
+  ]
+}
