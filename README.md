@@ -28,7 +28,8 @@ ElementFusion addresses the challenge of making learning engaging by gamifying t
 
 ## 📽️ Demo Video
 
-[Watch on YouTube](https://demo.video)
+<img src="https://i.imgur.com/uRvHhEM.gif" alt="Description" />
+https://i.imgur.com/uRvHhEM.gif
 
 ## 🛠 Installation & Setup
 
@@ -54,9 +55,8 @@ This project can be easily deployed to Vercel or any other hosting service that 
 
 Lahcen KH
 
-## 📝 License
+## 📝 Smart Contract
 
-This project is licensed under the MIT License.
-
+https://opencampus-codex.blockscout.com/address/0xd62b2dEbF594F2543f43672AA4F809038192180d?tab=contract
 
 
