@@ -8,7 +8,7 @@ const Footer: FC = () => {
   return (
     <Box as="footer" p={"1rem"} position="sticky" bottom={0} zIndex={10} textAlign={"center"}>
       <Link
-        href="https://twitter.com/"
+        href="https://x.com/element_fusion_"
         target="_blank"
         rel="noopener noreferrer"
       >
