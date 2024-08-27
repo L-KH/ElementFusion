@@ -1,5 +1,4 @@
-// ElementModal.tsx
-// sk-rnZJRAX0BlvSsHgLn8X-f2iXvHmtgUwlmkKOlnMTe1T3BlbkFJ3HfMscGBsSeUK3xKzGCAQEtW3cqNEdG2Uj-YpDEpsA
+
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { GlowingElement, SmoothTransition, HoverEffect } from './StyledComponents';
