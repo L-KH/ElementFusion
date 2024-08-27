@@ -18,19 +18,20 @@ ElementFusion addresses the challenge of making learning engaging by gamifying t
 
 ## 📁 Project Structure
 
-- **Frontend:** Built using Next.js and React for a fast and responsive UI.
+- **Frontend:** Built using Next.js and React.
 - **Styling:** Styled-components for modular and maintainable CSS.
 - **State Management:** Managed using React hooks for an intuitive experience.
 
 ## 🌐 Live Demo
 
-[Project Demo]([https://demo.online](https://www.elementfusion.tech/))
+[Project Demo](https://www.elementfusion.tech/)
 
 ## 📽️ Demo Video
 
-<img src="https://i.imgur.com/uRvHhEM.gif" alt="Description" />
-https://i.imgur.com/uRvHhEM.gif
+<img src="https://s4.ezgif.com/tmp/ezgif-4-b6862aa837.gif" alt="Description" />
+https://s4.ezgif.com/tmp/ezgif-4-b6862aa837.gif
 
+[Video Demo Drive](https://drive.google.com/file/d/11u6AvSRgxcpgz8axoVsRo8BFDixtGz3T/view?usp=sharing)
 ## 🛠 Installation & Setup
 
 1. Clone the repository:
