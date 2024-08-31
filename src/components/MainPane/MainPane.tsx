@@ -7,6 +7,7 @@ import normalModeElements from './element_recipes_with_rarity.json';
 import web3ModeElements from './element_recipes_with_rarity2.json';
 import { useSignMessageHook } from '../../hooks/useSignMessageHook';
 import { Spinner, useToast } from '@chakra-ui/react';
+import ResizableDivider from './components/ResizableDivider';
 
 import BackgroundPattern from './BackgroundPattern';
 type Element = {
@@ -40,29 +41,28 @@ const Pane = styled.div`
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
 `;
-
-const LeftPane = styled(Pane)`
-  flex: 3;
+const LeftPane = styled(Pane)<{ width: string }>`
+  width: ${props => props.width};
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-right: 2px solid #ccc;
   position: relative;
   overflow: hidden;
-    @media (max-width: 768px) {
-    flex: 1;
-    border-right: none;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 50%;
     border-bottom: 2px solid #ccc;
   }
 `;
 
-const RightPane = styled(Pane)`
-  flex: 1;
+const RightPane = styled(Pane)<{ width: string }>`
+  width: ${props => props.width};
   padding: 20px;
   overflow-y: auto;
-    @media (max-width: 768px) {
-    flex: 1;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 50%;
   }
 `;
 
@@ -74,6 +74,9 @@ const MainPane = () => {
   const [isLoading, setIsLoading] = useState(false);
   const toast = useToast();
   const [backgroundPatternEnabled, setBackgroundPatternEnabled] = useState(false);
+  const [leftPaneWidth, setLeftPaneWidth] = useState('75%');
+  const [rightPaneWidth, setRightPaneWidth] = useState('25%');
+
   const [currentMode, setCurrentMode] = useState<'normal' | 'web3'>(() => {
     const urlParams = new URLSearchParams(window.location.search);
     return (urlParams.get('mode') as 'normal' | 'web3') || 'normal';
@@ -87,7 +90,16 @@ const MainPane = () => {
       setWeb3ModeDiscoveredElements(prev => [...prev, newElement]);
     }
   };
-  
+  const handleResize = (newLeftWidth: number) => {
+    const containerWidth = document.getElementById('main-container')?.clientWidth || 0;
+    const newLeftPercentage = (newLeftWidth / containerWidth) * 100;
+    const newRightPercentage = 100 - newLeftPercentage;
+
+    if (newLeftPercentage >= 20 && newLeftPercentage <= 80) {
+      setLeftPaneWidth(`${newLeftPercentage}%`);
+      setRightPaneWidth(`${newRightPercentage}%`);
+    }
+  };
 
   useEffect(() => {
     const loadSavedElements = async () => {
@@ -173,9 +185,9 @@ const MainPane = () => {
 
 
   return (
-    <Container>
+    <Container id="main-container">
       {backgroundPatternEnabled && <BackgroundPattern />}
-      <LeftPane>
+      <LeftPane width={leftPaneWidth}>
       <FusionArea
         selectedElements={selectedElements}
         onElementRemove={handleElementRemove}
@@ -190,7 +202,8 @@ const MainPane = () => {
       />
         {isLoading && <Spinner />}
       </LeftPane>
-      <RightPane className="right-pane">
+      <ResizableDivider onResize={handleResize} />
+      <RightPane width={rightPaneWidth} className="right-pane">
       <MintPage
   onElementClick={handleElementClick}
   normalModeDiscoveredElements={normalModeDiscoveredElements}

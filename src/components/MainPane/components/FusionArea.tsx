@@ -10,8 +10,12 @@ import { FaCog, FaTimes } from 'react-icons/fa';
 import { Popover, PopoverTrigger, PopoverContent, PopoverBody, Switch, Text, VStack, Flex  } from '@chakra-ui/react';
 import { useAudioManager } from '../../useAudioManager'; // Add this import
 import ModeSwitchComponent from '../../ModeSwitch'; // Adjust the path as needed
+import QuestComponent from '../../QuestComponent';
 import { Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Box } from '@chakra-ui/react';
 import { InfoIcon, WarningIcon } from '@chakra-ui/icons';
+import { waitForTransactionReceipt } from '@wagmi/core'
+import { wagmiConfig } from '@/wagmi'
+
 type Element = {
   id: number;
   name: string;
@@ -52,7 +56,7 @@ const FusionElement = styled.div`
   height: 100px;
   min-width: 100px;
   min-height: 100px;
-  border: 2px solid rgba(204, 204, 204, 0.9);
+  border: 3px solid #999999;
   border-radius: 5px;
   margin: 0 10px;
   background-color: rgba(240, 240, 240, 0.5);
@@ -90,7 +94,7 @@ const FusionElement = styled.div`
     z-index: 1;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
     width: 180px;
     height: 180px;
     min-width: 120px;
@@ -111,7 +115,7 @@ const FusionSign = styled.div`
 
 
 const EmptyBox = styled(FusionElement)`
-  border: 2px dashed #ccc;
+  border: 3px dashed #999999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -128,14 +132,7 @@ const InvalidSign = styled.span`
   color: red;
   font-size: 48px;
 `;
-const DiscoveredElementsContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  width: 100%;
-`;
+
 // ....................................................................................................
 const getGlowColor = (rarity: string) => {
   switch (rarity) {
@@ -168,36 +165,59 @@ const glowAnimation = (color: string) => keyframes`
 
 //......................................................................................................
 
-const CategoryCard = styled.div<{ rarity: string }>`
+//--------------
+const DiscoveredElementsContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 30px;
   width: 100%;
-  max-width: 300px;
-  height: auto;
-  max-height: 300px;
-  padding: 10px;
+`;
+
+const CategoryCard = styled.div<{ rarity: string }>`
+  flex: 1;
+  min-width: 250px;
+  max-width: calc(33.33% - 20px);
+  height: 400px; // Fixed height
+  padding: 20px;
   border-radius: 10px;
   background: ${props => getRarityGradient(props.rarity)};
-  
   overflow-y: auto;
+  margin-bottom: 20px;
 
-  @media (max-width: 600px) {
-    height: auto;
-    max-height: 300px;
+  @media (max-width: 1200px) {
+    max-width: calc(50% - 20px);
   }
-      &:hover {
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+
+  &:hover {
     animation: ${props => glowAnimation(getGlowColor(props.rarity))} 2s infinite;
-  }
-      @media (min-width: 768px) {
-    height: 400px;
-    padding: 15px;
   }
 `;
 
 const ElementsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 15px;
   justify-items: center;
 `;
+
+const ElementCard = styled.div`
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100px;
+`;
+
 
 const ElementItem = styled.div`
   cursor: pointer;
@@ -221,15 +241,7 @@ const ElementItem = styled.div`
   }
 `;
 
-const ElementCard = styled.div`
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 5px;
-  padding: 3px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60px;
-`;
+
 
 
 const CategoryTitle = styled.h3`
@@ -421,20 +433,25 @@ const TutorialImage = styled.img`
   object-fit: contain;
   border-radius: 20px;
 `;
+const shimmer = keyframes`
+  0% { background-color: rgba(255, 165, 0, 0.2); color: #FFA500;}
+  50% { background-color: rgba(255, 69, 0, 0.2); color: #f25a02;}
+  100% { background-color: rgba(255, 165, 0, 0.2); color: #fa020f;}
+`;
+
 const WarningMessage = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10px;
   padding: 8px;
-  background-color: rgba(255, 165, 0, 0.2);
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 16px;
   color: #FFA500;
   max-width: 400px;
   text-align: center;
+  animation: ${shimmer} 2s ease-in-out infinite;
 `;
-
 //-----------------------------------------------------------------
 
 
@@ -525,12 +542,12 @@ const FusionArea = ({
         isClosable: true,
       });
   
-  
-      // Remove the await tx.wait() line
+      // Wait for the transaction to be mined
+      await waitForTransactionReceipt(wagmiConfig, { hash: txHash });
   
       toast({
-        title: "Element minting transaction submitted",
-        description: `Transaction hash: ${txHash}`,
+        title: "Element minting successful",
+        description: `Transaction confirmed. Hash: ${txHash}`,
         status: "success",
         duration: 5000,
         isClosable: true,
@@ -548,6 +565,7 @@ const FusionArea = ({
       setIsMinting(false);
     }
   };
+  
   
 
 
@@ -742,6 +760,7 @@ const FusionArea = ({
       {showHintModal && (
         <HintModal onClose={closeHintModal} />
       )}
+            <QuestComponent />
     </FusionAreaContainer>
   );
 };
