@@ -23,6 +23,14 @@ type Element = {
   rarity: string;
   combination?: string;
 };
+const rarityPrices = {
+  common: 0.00001,
+  uncommon: 0.00005,
+  rare: 0.0001,
+  epic: 0.0005,
+  legendary: 0.005,
+  hidden: 0.05
+};
 
 const FusionAreaContainer = styled.div`
   display: flex;
@@ -202,15 +210,15 @@ const CategoryCard = styled.div<{ rarity: string }>`
 
 const ElementsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+  gap: 1px;
   justify-items: center;
 `;
 
 const ElementCard = styled.div`
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,7 +243,7 @@ const ElementItem = styled.div`
   }
 
   p {
-    font-size: 8px;
+    font-size: 10px;
     margin: 2px 0;
     text-align: center;
   }
@@ -245,10 +253,18 @@ const ElementItem = styled.div`
 
 
 const CategoryTitle = styled.h3`
-
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const PriceTag = styled.span`
+  font-size: 0.8em;
+  opacity: 0.8;
+  margin-top: 5px;
 `;
 
 
@@ -502,7 +518,9 @@ const FusionArea = ({
     rare: discoveredElements.filter(e => e.rarity === 'rare'),
     epic: discoveredElements.filter(e => e.rarity === 'epic'),
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
+    hidden: discoveredElements.filter(e => e.rarity === 'hidden'),
   };
+  
   const handleModeSwitch = (newMode: 'normal' | 'web3') => {
     setCurrentMode(newMode);
     // Reset the selected elements
@@ -529,7 +547,8 @@ const FusionArea = ({
         'uncommon': 1,
         'rare': 2,
         'epic': 3,
-        'legendary': 4
+        'legendary': 4,
+        'hidden': 5
       };
       const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
       const txHash = await handleMint(element.name, rarityNumber);
@@ -712,10 +731,13 @@ const FusionArea = ({
       </WarningMessage>
       <SectionHeader>Discovered Elements:</SectionHeader>
       <DiscoveredElementsContainer>
-        {Object.entries(categorizedElements).map(([category, elements]) => (
+      {Object.entries(categorizedElements).map(([category, elements]) => (
           elements.length > 0 && (
             <CategoryCard key={category} rarity={category}>
-              <CategoryTitle>{category.charAt(0).toUpperCase() + category.slice(1)}</CategoryTitle>
+              <CategoryTitle>
+                {category.charAt(0).toUpperCase() + category.slice(1)}
+                <PriceTag>{rarityPrices[category]} ETH</PriceTag>
+              </CategoryTitle>
               <ElementsGrid>
                 {elements.map((element) => (
                   <ElementItem key={element.id}>

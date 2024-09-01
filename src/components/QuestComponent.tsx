@@ -312,7 +312,7 @@ const QuestComponent: React.FC = () => {
         }
       }
   
-      console.log("All quests fetched:", allQuests);
+      //console.log("All quests fetched:", allQuests);
       setQuests(allQuests);
   
       // Fetch user points
@@ -402,7 +402,7 @@ const QuestComponent: React.FC = () => {
     const currentTime = BigInt(Math.floor(Date.now() / 1000));
     const categoryQuests = quests.filter(quest => quest.periodType === periodType);
     
-    console.log(`Rendering ${categoryName}:`, categoryQuests);
+    //console.log(`Rendering ${categoryName}:`, categoryQuests);
     
     return (
       <CategoryCard key={periodType} borderColor={color}>
