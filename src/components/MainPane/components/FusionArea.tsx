@@ -561,7 +561,6 @@ const FusionArea = ({
         isClosable: true,
       });
   
-      // Wait for the transaction to be mined
       await waitForTransactionReceipt(wagmiConfig, { hash: txHash });
   
       toast({
@@ -573,9 +572,19 @@ const FusionArea = ({
       });
     } catch (error) {
       console.error('Error during minting:', error);
+      let errorMessage = "An unknown error occurred";
+      if (error instanceof Error) {
+        if (error.message.includes("insufficient funds")) {
+          errorMessage = "Insufficient balance to mint this element";
+        } else if (error.message.includes("user rejected transaction")) {
+          errorMessage = "Transaction rejected by user";
+        } else {
+          errorMessage = error.message;
+        }
+      }
       toast({
         title: "Minting failed",
-        description: error instanceof Error ? error.message : "An unknown error occurred",
+        description: errorMessage,
         status: "error",
         duration: 5000,
         isClosable: true,
@@ -584,6 +593,7 @@ const FusionArea = ({
       setIsMinting(false);
     }
   };
+  
   
   
 

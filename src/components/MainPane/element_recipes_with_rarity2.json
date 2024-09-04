@@ -371,11 +371,11 @@
     },
     {
         "input": ["blockchain", "solidity"],
-        "output": "bytecode",
+        "output": "Bytecode",
         "rarity": "uncommon"
     },
     {
-        "input": ["bytecode", "evm"],
+        "input": ["Bytecode", "evm"],
         "output": "opcodes",
         "rarity": "rare"
     },
