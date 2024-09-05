@@ -1,7 +1,14 @@
 "use client";
 import { Box, Flex } from "@chakra-ui/react";
+import dynamic from 'next/dynamic';
+import { Suspense } from 'react';
 
-import { Footer, Header, MainPane } from "@/components";
+import { Footer, Header } from "@/components";
+
+// Dynamically import MainPane
+const MainPane = dynamic(() => import("@/components/MainPane").then(mod => mod.MainPane), {
+  loading: () => <Box>Loading...</Box>,
+});
 
 export default function Home() {
   return (
@@ -9,7 +16,9 @@ export default function Home() {
       <Header />
 
       <Box as="main" flex={1} p={4} overflowY="auto">
-        <MainPane />
+        <Suspense fallback={<Box>Loading main content...</Box>}>
+          <MainPane />
+        </Suspense>
       </Box>
 
       <Footer />

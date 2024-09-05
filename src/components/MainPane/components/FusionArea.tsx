@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import styled, { keyframes } from 'styled-components';
 import ElementModal  from '../../ElementModal';
 import FusionAnimation from '../../FusionAnimation';
@@ -15,6 +15,7 @@ import { Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, Box } f
 import { InfoIcon, WarningIcon } from '@chakra-ui/icons';
 import { waitForTransactionReceipt } from '@wagmi/core'
 import { wagmiConfig } from '@/wagmi'
+import Image from 'next/image';
 
 type Element = {
   id: number;
@@ -521,14 +522,14 @@ const FusionArea = ({
   };
   
   
-  const categorizedElements = {
+  const categorizedElements = useMemo(() => ({
     common: discoveredElements.filter(e => e.rarity === 'common'),
     uncommon: discoveredElements.filter(e => e.rarity === 'uncommon'),
     rare: discoveredElements.filter(e => e.rarity === 'rare'),
     epic: discoveredElements.filter(e => e.rarity === 'epic'),
     legendary: discoveredElements.filter(e => e.rarity === 'legendary'),
     hidden: discoveredElements.filter(e => e.rarity === 'hidden'),
-  };
+  }), [discoveredElements]);
   
   const handleModeSwitch = (newMode: 'normal' | 'web3') => {
     setCurrentMode(newMode);
@@ -761,7 +762,13 @@ const FusionArea = ({
                 {elements.map((element) => (
                   <ElementItem key={element.id}>
                     <ElementCard onClick={() => handleElementClick(element)}>
-                      <ElementImage src={element.imagePath} alt={element.name} />
+                    <Image 
+                      src={element.imagePath} 
+                      alt={element.name} 
+                      width={60} 
+                      height={60} 
+                      layout="responsive"
+                    />
                       <ElementName>{element.name}</ElementName>
                       <MintButton 
                         rarity={category}

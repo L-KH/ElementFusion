@@ -15,7 +15,7 @@
     "output": "hash",
     "explanation": "In the context of Web3 and blockchain technology, the combination of code and cryptography results in a hash by applying a cryptographic hash function to data, such as a block of transactions. This process generates a unique fixed-size string of characters that represents the original data. Hashing helps secure and validate data within the blockchain by creating a digital fingerprint that uniquely identifies the information and ensures its integrity. This cryptographic technique plays a crucial role in ensuring the immutability and security of blockchain transactions."
   },
-  "code-consensus_smart contract": {
+  "code-consensus_smart_contract": {
     "input": [
       "code",
       "consensus"
@@ -71,7 +71,7 @@
     "output": "mining",
     "explanation": "In the context of Web3 and blockchain technology, the combination of cryptocurrency and consensus results in mining because miners use computational power to verify transactions on the blockchain network. Consensus algorithms like Proof of Work (PoW) or Proof of Stake (PoS) ensure that transactions are valid and secure. Miners compete to solve complex mathematical puzzles to add new blocks to the blockchain and are rewarded with cryptocurrency for their efforts. This process helps maintain the integrity and security of the blockchain network, making it decentralized and resistant to fraud or manipulation."
   },
-  "hash-mining_proof of work": {
+  "hash-mining_proof_of_work": {
     "input": [
       "mining",
       "hash"
@@ -87,7 +87,7 @@
     "output": "wallet",
     "explanation": "The combination of cryptocurrency and cryptography results in a wallet in the context of Web3 and blockchain technology because a wallet acts as a secure digital container that uses cryptographic techniques to store, send, and receive cryptocurrencies. \n\nCryptography ensures the security of the wallet by providing encryption to protect private keys, which are essential for accessing and managing one's cryptocurrency holdings. This secure storage and transmission of digital assets through the use of cryptography make wallets an integral part of the blockchain ecosystem, enabling users to securely store and transact with their cryptocurrencies in a decentralized manner."
   },
-  "cryptography-wallet_private key": {
+  "cryptography-wallet_private_key": {
     "input": [
       "wallet",
       "cryptography"
@@ -95,7 +95,7 @@
     "output": "private_key",
     "explanation": "In Web3 and blockchain technology, a wallet is a digital tool used to store and manage cryptocurrencies and other digital assets. Cryptography is used to secure transactions and provide privacy and security in the blockchain network. \n\nWhen you create a wallet in Web3, it generates a private key using cryptographic algorithms. This private key is a unique, randomly generated string of characters that acts as a secret password to access and control your assets in the blockchain. It is crucial to keep your private key secure and confidential, as anyone with access to it can control your funds.\n\nTherefore, the combination of a wallet and cryptography results in a private key in Web3 and blockchain technology, which is essential for securely managing and accessing your digital assets on the blockchain."
   },
-  "cryptography-private key_public key": {
+  "cryptography-private key_public_key": {
     "input": [
       "private_key",
       "cryptography"
@@ -111,7 +111,7 @@
     "output": "block",
     "explanation": "In the context of Web3 and blockchain technology, the combination of blockchain and consensus results in blocks being added to the blockchain. \n\nHere's a concise explanation:\n\nBlockchain is a distributed ledger that records transactions in blocks. Consensus is the mechanism by which all participants in the network agree on the validity of these blocks. When consensus is reached, a new block is added to the blockchain, continuing the chain of blocks in a secure and transparent manner. This process ensures the integrity and immutability of the data stored on the blockchain in the Web3 ecosystem."
   },
-  "blockchain-hash_merkle tree": {
+  "blockchain-hash_merkle_tree": {
     "input": [
       "blockchain",
       "hash"
@@ -143,7 +143,7 @@
     "output": "staking",
     "explanation": "In Web3 and blockchain technology, staking involves holding and locking up assets in a network to support its operations and security. Smart contracts are self-executing contracts with predefined rules and conditions, capable of automating various processes on the blockchain. Consensus mechanisms ensure agreement among network participants on the validity of transactions.\n\nThe combination of smart contracts and consensus in staking works by allowing users to lock up their assets in a smart contract, which then participates in the consensus mechanism of the network. By staking their assets, users contribute to the security and operation of the network and are rewarded with additional tokens or benefits as an incentive.\n\nIn this context, smart contracts enable the automation of staking processes, such as tracking staked assets and distributing rewards, while"
   },
-  "consensus-staking_proof of stake": {
+  "consensus-staking_proof_of_stake": {
     "input": [
       "staking",
       "consensus"
@@ -167,7 +167,7 @@
     "output": "testnet",
     "explanation": "In Web3 and blockchain technology, the mainnet refers to the live or production network where real transactions and operations take place. On the other hand, testnet is a separate network used for testing purposes to ensure the functionality and security of code before deploying it on the mainnet. By combining the mainnet (live environment) with code (software instructions), developers can test their applications on the testnet to identify and address any issues or bugs before releasing them to the mainnet, thus ensuring a smooth and secure user experience."
   },
-  "cryptography-proof of work_zero-knowledge proof": {
+  "cryptography-proof_of_work_zero-knowledge_proof": {
     "input": [
       "cryptography",
       "proof_of_work"
@@ -175,7 +175,7 @@
     "output": "zero-knowledge_proof",
     "explanation": "In Web3 and blockchain technology, the combination of cryptography and proof of work enables the concept of zero-knowledge proofs. Cryptography allows for secure and private transactions on the blockchain, while proof of work ensures the validity of these transactions through computational puzzles. \n\nZero-knowledge proofs utilize cryptographic techniques to prove the validity of a statement without revealing any additional information beyond the fact that the statement is true. This is achieved by using complex mathematical algorithms that allow one party (the prover) to demonstrate knowledge of a certain piece of information to another party (the verifier) without disclosing the details of that information.\n\nBy leveraging the cryptographic security of the blockchain and the computational integrity of proof of work, zero-knowledge proofs enable users to prove the authenticity of their transactions"
   },
-  "cryptocurrency-smart contract_token": {
+  "cryptocurrency-smart_contract_token": {
     "input": [
       "cryptocurrency",
       "smart_contract"
@@ -183,7 +183,7 @@
     "output": "token",
     "explanation": "In the context of Web3 and blockchain technology, the combination of cryptocurrency and smart contracts results in a token. \n\nCryptocurrency is a digital or virtual form of money that operates independently of a central authority, using cryptography to secure transactions and control the creation of new units. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. \n\nWhen these two technologies are combined, a token is created. Tokens are digital assets that can represent a wide range of assets or utilities on a blockchain. They can represent ownership of physical assets, voting rights, access to services, and more. \n\nTokens are created through smart contracts on a blockchain platform, allowing for programmable and automated functions. This combination provides a way to create, manage"
   },
-  "dao-token_governance token": {
+  "dao-token_governance_token": {
     "input": [
       "token",
       "dao"
@@ -199,7 +199,7 @@
     "output": "web3",
     "explanation": "The combination of blockchain and the internet results in Web3 by enabling decentralized, trustless, and secure interactions online. Blockchain technology allows for transparent and immutable record-keeping, while the internet facilitates global connectivity. Web3 leverages these technologies to create a new paradigm where users have more control over their data, assets, and online interactions without relying on centralized intermediaries. This paves the way for a more open, inclusive, and secure internet ecosystem."
   },
-  "smart contract-web3_smart contract platform": {
+  "smart_contract-web3_smart_contract platform": {
     "input": [
       "web3",
       "smart_contract"
@@ -215,7 +215,7 @@
     "output": "fork",
     "explanation": "In the context of blockchain technology and Web3, a fork occurs when there is a disagreement within the network regarding a proposed change or update to the protocol. This disagreement can stem from various reasons such as different views on how the network should operate, security concerns, or scalability issues.\n\nWhen a significant number of participants in the network cannot reach a consensus on the proposed change, it can lead to a split in the blockchain, resulting in two separate paths or versions of the blockchain moving forward. This creates what is known as a fork, where the original chain continues with its existing rules (hard fork), or a new chain is created with the updated rules (soft fork).\n\nForks are a natural part of blockchain evolution and can lead to the creation of new"
   },
-  "consensus-fork_hard fork": {
+  "consensus-fork_hard_fork": {
     "input": [
       "fork",
       "consensus"
@@ -223,7 +223,7 @@
     "output": "hard_fork",
     "explanation": "In the context of Web3 and blockchain technology, a hard fork occurs when there is a permanent divergence in the blockchain's protocol, resulting in two separate and incompatible versions of the blockchain. This typically happens due to a disagreement within the community regarding a proposed change to the protocol, leading to a split in the network.\n\nThe combination of fork and consensus results in a hard fork because when a significant portion of the network participants (nodes) do not agree on a proposed change, they may decide to follow different rules, causing a split in the blockchain. This divergence in consensus leads to the creation of two separate chains, each following its own set of rules and protocols.\n\nUltimately, hard forks in Web3 and blockchain technology highlight the decentralized nature of these systems,"
   },
-  "code-fork_soft fork": {
+  "code-fork_soft_fork": {
     "input": [
       "fork",
       "code"
@@ -239,7 +239,7 @@
     "output": "sidechain",
     "explanation": "In the context of Web3 and blockchain technology, a sidechain is created by connecting two separate blockchains using a bridge. The bridge enables interoperability between the two blockchains, allowing assets and data to flow securely and efficiently between them.\n\nBy leveraging the combination of blockchain and bridge technology, developers can create sidechains that serve specific purposes or applications while still benefiting from the security and decentralization of the main blockchain network. This architecture enhances scalability, enables faster transaction speeds, and facilitates the development of specialized use cases within the broader blockchain ecosystem.\n\nOverall, sidechains play a crucial role in expanding the capabilities of blockchain technology and fostering innovation in the Web3 space by providing a flexible and scalable framework for building decentralized applications."
   },
-  "proof of stake-sidechain_layer 2": {
+  "proof_of_stake-sidechain_layer 2": {
     "input": [
       "sidechain",
       "proof_of_stake"
@@ -247,7 +247,7 @@
     "output": "layer_2",
     "explanation": "In Web3 and blockchain technology, the combination of sidechains and proof of stake can result in the creation of Layer 2 solutions. Sidechains are secondary blockchains that run in parallel to the main blockchain and allow for faster and more scalable transactions. Proof of stake is a consensus algorithm where validators are chosen to create new blocks based on the number of coins they hold.\n\nWhen sidechains are combined with proof of stake, it enables the offloading of transactions from the main blockchain to sidechains, reducing congestion and increasing scalability. Validators can stake their coins on the sidechain to secure the network and validate transactions, providing a more efficient and cost-effective way to process transactions. This combination of technologies creates Layer 2 solutions that improve the overall performance of the"
   },
-  "layer 2-smart contract_rollup": {
+  "layer_2-smart_contract_rollup": {
     "input": [
       "layer_2",
       "smart_contract"
@@ -255,7 +255,7 @@
     "output": "rollup",
     "explanation": "Layer 2 solutions aim to improve the scalability of blockchain networks by processing transactions off-chain and settling them on the main chain. Smart contracts, on the other hand, are self-executing contracts with the terms directly written into code. When these two concepts are combined, particularly in the context of rollups, smart contracts are used to manage and enforce the state transitions that occur in Layer 2 scaling solutions. This results in a more efficient and secure way of processing transactions, making rollups a promising technology for scaling blockchain networks in Web3 applications."
   },
-  "rollup-zero-knowledge proof_zk-rollup": {
+  "rollup-zero-knowledge_proof_zk-rollup": {
     "input": [
       "rollup",
       "zero-knowledge_proof"
@@ -279,7 +279,7 @@
     "output": "exchange",
     "explanation": "In the context of Web3 and blockchain technology, the combination of cryptocurrency and peer-to-peer networks enables decentralized exchanges. Cryptocurrencies like Bitcoin and Ethereum are digital assets that can be exchanged directly between users on a peer-to-peer basis, without the need for intermediaries like banks or traditional financial institutions. \n\nBlockchain technology, the underlying technology of most cryptocurrencies, facilitates secure and transparent transactions by recording them in a decentralized and immutable ledger. This allows users to exchange value directly with one another in a trustless manner, meaning they don't have to rely on a third party to facilitate or validate the transaction.\n\nOverall, the combination of cryptocurrency and peer-to-peer networks in Web3 enables more efficient, secure, and censorship-resistant exchanges, empowering individuals to transact"
   },
-  "exchange-smart contract_dex": {
+  "exchange-smart_contract_dex": {
     "input": [
       "exchange",
       "smart_contract"
@@ -287,7 +287,7 @@
     "output": "dex",
     "explanation": "In the context of Web3 and blockchain technology, a decentralized exchange (DEX) is created by combining exchanges with smart contracts. \n\nTraditional exchanges rely on centralized authorities to facilitate trading, which can lead to issues such as security risks, high fees, and lack of transparency. \n\nBy integrating smart contracts on a blockchain network, DEXs eliminate the need for intermediaries and enable peer-to-peer trading directly between users. Smart contracts automatically execute trades based on predefined conditions, ensuring secure and transparent transactions without the need for a central authority. \n\nThis combination of exchange and smart contract technology in DEXs exemplifies the decentralized and trustless nature of Web3, providing users with greater control over their assets and reducing reliance on third parties."
   },
-  "dex-token_liquidity pool": {
+  "dex-token_liquidity_pool": {
     "input": [
       "dex",
       "token"
@@ -295,7 +295,7 @@
     "output": "liquidity_pool",
     "explanation": "In Web3 and blockchain technology, decentralized exchanges (DEX) allow users to trade tokens directly with each other without the need for a centralized intermediary. When users provide liquidity by depositing tokens into a DEX, they receive liquidity tokens representing their share of the overall liquidity pool.\n\nThe liquidity pool is created by the combination of these deposited tokens from multiple users. This pool of tokens enables trading pairs to be swapped instantly and efficiently on the DEX platform. The prices of tokens are determined by the ratio of tokens in the liquidity pool, ensuring that trades can be executed without waiting for matching orders.\n\nOverall, the combination of DEX and tokens results in a liquidity pool that facilitates decentralized trading and provides a seamless user experience in the Web3 ecosystem."
   },
-  "liquidity pool-staking_yield farming": {
+  "liquidity_pool-staking_yield_farming": {
     "input": [
       "liquidity_pool",
       "staking"
@@ -311,7 +311,7 @@
     "output": "interoperability",
     "explanation": "The combination of blockchain and Web3 results in interoperability because Web3 is a decentralized version of the internet that uses blockchain technology to enable different blockchain networks to communicate and interact seamlessly. This allows data and assets to move across different blockchains, creating a connected ecosystem where users can access and utilize various decentralized applications and services without being restricted by the limitations of individual blockchains. Overall, interoperability in Web3 enhances the efficiency and flexibility of the decentralized web, ultimately empowering users with more freedom and choice in how they engage with blockchain technology."
   },
-  "interoperability-smart contract_cross-chain bridge": {
+  "interoperability-smart_contract_cross-chain_bridge": {
     "input": [
       "interoperability",
       "smart_contract"
@@ -319,7 +319,7 @@
     "output": "cross-chain_bridge",
     "explanation": "Interoperability allows different blockchains to communicate and interact with each other. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. When combined, interoperability and smart contracts enable the creation of a cross-chain bridge in Web3. \n\nA cross-chain bridge is a technology that allows assets and data to move seamlessly between different blockchains. Smart contracts are used to lock assets on one blockchain while issuing equivalent assets on another blockchain, ensuring trustless and secure transfer. Interoperability ensures that these transactions can occur across different chains, enabling users to access various decentralized applications and assets regardless of the underlying blockchain they are built on."
   },
-  "network-smart contract_oracle": {
+  "network-smart_contract_oracle": {
     "input": [
       "smart_contract",
       "network"
@@ -327,7 +327,7 @@
     "output": "oracle",
     "explanation": "In the context of Web3 and blockchain technology, the combination of smart contracts and networks results in an oracle because smart contracts are unable to fetch and verify external data on their own. Oracles act as intermediaries that provide smart contracts with external data, enabling them to execute actions based on real-world information. Oracles bridge the gap between the blockchain and off-chain data sources, ensuring that smart contracts can interact with the external world in a secure and reliable manner. By leveraging the network and smart contracts, oracles play a crucial role in enabling decentralized applications to access and respond to real-world data effectively within the blockchain ecosystem."
   },
-  "consensus-oracle_decentralized oracle network": {
+  "consensus-oracle_decentralized_oracle_network": {
     "input": [
       "oracle",
       "consensus"
@@ -335,7 +335,7 @@
     "output": "decentralized_oracle_network",
     "explanation": "In the context of Web3 and blockchain technology, a decentralized oracle network combines oracles (entities that provide external data to smart contracts) with a consensus mechanism (a protocol for agreeing on the validity of data) to create a trustless and reliable system for fetching off-chain data onto the blockchain.\n\nOracles retrieve data from external sources and submit it to the blockchain network. By incorporating a consensus mechanism, multiple oracles independently verify and agree on the accuracy of the data before it is accepted by smart contracts. This decentralized approach ensures that data inputs are reliable and tamper-proof, reducing the risk of manipulation or inaccuracies.\n\nUltimately, the combination of oracles and consensus in a decentralized oracle network enables smart contracts to securely access real-world data in a decentralized"
   },
-  "hash-private key_digital signature": {
+  "hash-private_key_digital_signature": {
     "input": [
       "private_key",
       "hash"
@@ -343,7 +343,7 @@
     "output": "digital_signature",
     "explanation": "In Web3 and blockchain technology, a digital signature is created by combining a private key with a hash of the data being signed. The private key is a unique, secret code that only the owner possesses, and the hash is a fixed-length string of characters generated from the data. When the private key and hash are combined using a cryptographic algorithm, it creates a unique signature that can only be produced by the owner of the private key. This digital signature is used to prove the authenticity and integrity of the data, ensuring that it has not been tampered with and that it was indeed signed by the owner of the private key."
   },
-  "digital signature-wallet_multi-sig wallet": {
+  "digital_signature-wallet_multi-sig_wallet": {
     "input": [
       "digital_signature",
       "wallet"
@@ -351,7 +351,7 @@
     "output": "multi-sig_wallet",
     "explanation": "In Web3 and blockchain technology, a multi-sig wallet is created by combining digital signatures and wallets to enhance security and control. A digital signature is a cryptographic method that verifies the authenticity of a message or transaction, ensuring that it comes from the intended sender. A wallet, in this context, is a digital tool used to store and manage cryptocurrency assets.\n\nWhen multiple digital signatures are required to authorize a transaction from a wallet, it creates a multi-sig wallet. This means that more than one private key is needed to approve a transaction, adding an extra layer of security and reducing the risk of unauthorized access or fraud. Each party involved in a multi-sig wallet holds a unique private key, and a specified number of these keys must sign off on"
   },
-  "node-proof of stake_validator": {
+  "node-proof_of_stake_validator": {
     "input": [
       "node",
       "proof_of_stake"
@@ -359,7 +359,7 @@
     "output": "validator",
     "explanation": "In the context of Web3 and blockchain technology, a validator is a participant in the network responsible for verifying and validating transactions. The combination of nodes and proof of stake in a blockchain network results in validators. \n\nNodes are individual computers or servers that participate in maintaining the blockchain network by storing a copy of the blockchain and relaying transactions. Proof of Stake is a consensus mechanism where validators are chosen to create new blocks and validate transactions based on the amount of cryptocurrency they hold and are willing to \"stake\" as collateral.\n\nValidators play a crucial role in ensuring the security and integrity of the blockchain network by validating transactions, proposing new blocks, and participating in the consensus process. By combining nodes with proof of stake, blockchain networks can achieve decentralized consensus without the"
   },
-  "block-smart contract_gas": {
+  "block-smart_contract_gas": {
     "input": [
       "smart_contract",
       "block"
@@ -367,7 +367,7 @@
     "output": "gas",
     "explanation": "In the context of Web3 and blockchain technology, when a smart contract is executed on a blockchain, it requires computational resources to process and validate the transaction. These resources are measured in gas, which is a unit used to quantify the amount of computational work needed to execute operations within a smart contract. Gas is important because it ensures that the network is not overloaded with complex or malicious transactions, as users need to pay for the gas required to execute their smart contracts. The combination of smart contracts and gas within a blockchain system helps maintain network security, prevent spam, and ensure efficient use of computational resources."
   },
-  "consensus-gas_gas limit": {
+  "consensus-gas_gas_limit": {
     "input": [
       "gas",
       "consensus"
@@ -375,7 +375,7 @@
     "output": "gas_limit",
     "explanation": "In Web3 and blockchain technology, gas is the unit used to measure the computational effort required to execute transactions or smart contracts on the network. Consensus mechanisms, such as Proof of Work or Proof of Stake, determine how transactions are validated and added to the blockchain.\n\nThe gas limit is the maximum amount of gas that can be consumed by a block of transactions. It is a crucial parameter set by miners or validators to prevent malicious actors from overwhelming the network with overly complex or resource-intensive transactions. By setting a gas limit, the network ensures that only transactions within a certain computational threshold can be included in a block, maintaining the security and efficiency of the blockchain system."
   },
-  "gas-network_gas price": {
+  "gas-network_gas_price": {
     "input": [
       "gas",
       "network"
@@ -383,7 +383,7 @@
     "output": "gas_price",
     "explanation": "In the context of Web3 and blockchain technology, gas price is determined by the combination of gas and network. Gas represents the computational cost required to execute operations on the blockchain network, such as sending transactions or deploying smart contracts. Network congestion and demand for block space influence the gas price, which is the cost users pay to miners for including their transactions in the blockchain. Essentially, gas price reflects the current supply and demand dynamics within the network, with higher demand leading to higher gas prices."
   },
-  "block-hash_blockchain explorer": {
+  "block-hash_blockchain_explorer": {
     "input": [
       "hash",
       "block"
@@ -391,7 +391,7 @@
     "output": "blockchain_explorer",
     "explanation": "In the context of Web3 and blockchain technology, a blockchain explorer is a tool that allows users to view and interact with data on the blockchain. The combination of hash and block plays a crucial role in creating a blockchain explorer.\n\nEach block in a blockchain contains a unique hash that is generated based on the data within the block. This hash serves as a digital fingerprint for the block, ensuring its integrity and security. By linking blocks together through their hashes, a chain of blocks is created, forming a blockchain.\n\nA blockchain explorer utilizes these hashes and blocks to display information about transactions, blocks, and addresses on the blockchain. Users can search for specific transactions or blocks by inputting their corresponding hashes, enabling transparency and immutability in the blockchain network.\n\nIn"
   },
-  "code-smart contract_solidity": {
+  "code-smart_contract_solidity": {
     "input": [
       "smart_contract",
       "code"
@@ -407,7 +407,7 @@
     "output": "evm",
     "explanation": "Solidity is a high-level programming language used to write smart contracts on the Ethereum blockchain. When Solidity code is compiled, it generates bytecode that is executed by the Ethereum Virtual Machine (EVM). The EVM is a runtime environment that allows smart contracts to be executed on the Ethereum network. Therefore, the combination of Solidity code and the EVM enables the implementation and execution of decentralized applications (dApps) on the blockchain, making it an essential component of Web3 technology."
   },
-  "evm-smart contract platform_Ethereum": {
+  "evm-smart_contract_platform_Ethereum": {
     "input": [
       "evm",
       "smart_contract_platform"
@@ -415,7 +415,7 @@
     "output": "Ethereum",
     "explanation": "Ethereum is a leading platform in Web3 and blockchain technology because it combines the EVM (Ethereum Virtual Machine) with smart contracts. The EVM allows for the execution of code on the Ethereum network, enabling the creation of decentralized applications (DApps) through smart contracts. These smart contracts automate processes and enable trustless interactions, making Ethereum a powerful platform for building decentralized applications and facilitating peer-to-peer transactions securely and efficiently."
   },
-  "ethereum-layer 2_Optimism": {
+  "ethereum-layer_2_Optimism": {
     "input": [
       "ethereum",
       "layer_2"
@@ -431,7 +431,7 @@
     "output": "ovm",
     "explanation": "Optimism is a layer 2 scaling solution for Ethereum that aims to increase transaction throughput and reduce fees by utilizing optimistic rollups. Rollups are a type of scaling solution that batch multiple transactions off-chain and then settle them on the Ethereum mainnet. When combined, optimism and rollups result in the Optimistic Virtual Machine (OVM), which is a virtual execution environment for smart contracts that operates on top of the Ethereum blockchain. This combination allows for faster and cheaper transactions while maintaining the security and decentralization of the Ethereum network."
   },
-  "smart contract-solidity_ABI": {
+  "smart_contract-solidity_ABI": {
     "input": [
       "smart_contract",
       "solidity"
@@ -455,7 +455,7 @@
     "output": "metaMask",
     "explanation": "Web3.js is a JavaScript library that allows interaction with the Ethereum blockchain. A decentralized application (dapp) is an application that runs on a decentralized network like Ethereum. MetaMask is a popular browser extension that acts as a bridge between your web browser and the Ethereum blockchain, enabling you to interact with dapps using your Ethereum wallet. Therefore, the combination of web3.js, dapp, and MetaMask allows users to access and use decentralized applications seamlessly in their web browsers."
   },
-  "blockchain-governance token_quadratic voting": {
+  "blockchain-governance_token_quadratic voting": {
     "input": [
       "blockchain",
       "governance_token"
@@ -463,7 +463,7 @@
     "output": "quadratic_voting",
     "explanation": "In Web3 and blockchain technology, the combination of blockchain and governance tokens enables quadratic voting by allowing token holders to vote on proposals in a way that reflects the intensity of their preferences. Quadratic voting works by giving users voting power proportional to the square root of the number of tokens they hold. This means that users with more tokens have more voting power, but with diminishing returns compared to users with fewer tokens. This system aims to promote fair decision-making by giving a voice to both small and large token holders while preventing majority domination."
   },
-  "dao-quadratic voting_Gitcoin": {
+  "dao-quadratic_voting_Gitcoin": {
     "input": [
       "quadratic_voting",
       "dao"
@@ -479,7 +479,7 @@
     "output": "eip-1559",
     "explanation": "Ethereum is a blockchain platform that utilizes gas as a unit of measure for computational work. Gas fees are paid by users to compensate miners for validating transactions on the network. EIP-1559 is an improvement proposal that aims to make transaction fees more predictable and efficient by introducing a mechanism that adjusts gas fees based on network demand. This proposal is significant for Web3 applications as it helps improve user experience, reduce transaction costs, and make the Ethereum network more sustainable in the long term."
   },
-  "consensus-eip-1559_fee market": {
+  "consensus-eip-1559_fee_market": {
     "input": [
       "eip-1559",
       "consensus"
@@ -487,7 +487,7 @@
     "output": "fee_market",
     "explanation": "EIP-1559 is a proposal to change the way transaction fees are determined on the Ethereum blockchain. It introduces a new mechanism where fees are burned, making the fee market more efficient and predictable. \n\nWhen combined with the consensus mechanism used in blockchain technology, such as Proof of Work or Proof of Stake, EIP-1559 helps to create a fee market by aligning incentives for users to bid on transaction fees based on network demand. This ensures that transactions are processed in a fair and efficient manner, allowing users to prioritize their transactions based on their willingness to pay fees.\n\nIn the context of Web3, the combination of EIP-1559 and consensus mechanisms helps to establish a transparent and competitive fee market that benefits both users and miners,"
   },
-  "ethereum-proof of stake_Beacon Chain": {
+  "ethereum-proof_of_stake_Beacon_Chain": {
     "input": [
       "ethereum",
       "proof_of_stake"
@@ -495,7 +495,7 @@
     "output": "beacon_chain",
     "explanation": "Ethereum's transition to a proof of stake consensus mechanism involves the implementation of the Beacon Chain. This is a separate blockchain that coordinates and manages the staking process for Ethereum 2.0. By combining Ethereum with proof of stake through the Beacon Chain, the network becomes more energy-efficient, scalable, and secure, enabling a stronger foundation for Web3 applications to thrive on the blockchain technology."
   },
-  "beacon chain-ethereum_The Merge": {
+  "beacon_chain-ethereum_The_Merge": {
     "input": [
       "beacon_chain",
       "ethereum"
@@ -503,7 +503,7 @@
     "output": "the_merge",
     "explanation": "The beacon chain is a separate blockchain that allows Ethereum to transition to a proof-of-stake consensus mechanism. The Merge is the final step in this transition, where the Ethereum mainnet and the beacon chain will be combined into a single network. This integration is crucial for Web3 and blockchain technology as it will improve scalability, security, and sustainability of the Ethereum network, enabling more efficient and decentralized applications to be built on top of it."
   },
-  "smart contract-zero-knowledge proof_zk-SNARK": {
+  "smart_contract-zero-knowledge_proof_zk-SNARK": {
     "input": [
       "smart_contract",
       "zero-knowledge_proof"
@@ -519,7 +519,7 @@
     "output": "monero",
     "explanation": "Monero is a cryptocurrency that prioritizes privacy by using advanced cryptographic techniques to obfuscate transaction details such as sender, recipient, and amount. By combining blockchain technology with a focus on privacy, Monero ensures that transactions are confidential and untraceable, offering users a higher level of anonymity compared to other cryptocurrencies like Bitcoin. In the context of Web3, Monero provides a secure and private means of conducting transactions and interacting within decentralized applications, aligning with the principles of decentralization and user empowerment."
   },
-  "cryptography-monero_ring signature": {
+  "cryptography-monero_ring_signature": {
     "input": [
       "monero",
       "cryptography"
@@ -527,7 +527,7 @@
     "output": "ring_signature",
     "explanation": "Monero utilizes ring signatures, a cryptographic technique, to enhance privacy and anonymity in transactions. In the context of Web3 and blockchain technology, ring signatures are used to obfuscate the true sender in a transaction by mixing the sender's transaction with others in a group. This makes it virtually impossible to trace the origin of a transaction back to a specific individual, thereby ensuring privacy and fungibility within the Monero network."
   },
-  "ethereum-smart contract_ERC-20": {
+  "ethereum-smart_contract_ERC-20": {
     "input": [
       "smart_contract",
       "ethereum"
@@ -535,7 +535,7 @@
     "output": "ERC-20",
     "explanation": "In the context of Web3 and blockchain technology, the combination of smart contracts and Ethereum results in the ERC-20 standard. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. Ethereum, being a blockchain platform that supports smart contracts, allows developers to create and deploy these programmable contracts.\n\nERC-20 is a standard interface for tokens on the Ethereum blockchain. It defines a set of rules that a token must follow to be considered ERC-20 compliant. By utilizing smart contracts on the Ethereum platform, developers can easily create and manage tokens that conform to the ERC-20 standard. This standardization enables interoperability between different tokens and platforms, making it easier for developers to create decentralized applications (dApps) and for"
   },
-  "erc-20-token_fungible token": {
+  "erc-20-token_fungible_token": {
     "input": [
       "erc-20",
       "token"
@@ -543,7 +543,7 @@
     "output": "fungible_token",
     "explanation": "When ERC-20 standards are applied to create a token on the blockchain, it ensures that all tokens follow the same set of rules and specifications. This standardization allows tokens to be easily interchangeable with each other, making them fungible. Fungibility means that each token is indistinguishable and of equal value, similar to how one dollar bill is equivalent to another dollar bill. Therefore, by combining the ERC-20 standard with the creation of tokens, it results in the issuance of fungible tokens on the blockchain in the context of Web3 technology."
   },
-  "digital signature-smart contract_erc-721": {
+  "digital signature-smart_contract_erc-721": {
     "input": [
       "smart_contract",
       "digital_signature"
@@ -575,7 +575,7 @@
     "output": "opcodes",
     "explanation": "In the context of Web3 and blockchain technology, bytecode is the low-level machine code that represents smart contract instructions. When bytecode is executed on the Ethereum Virtual Machine (EVM), it is processed through a series of operations called opcodes. Opcodes are the fundamental building blocks of EVM execution, defining the specific actions and calculations performed by the EVM when processing smart contract transactions. Therefore, the combination of bytecode and EVM results in opcodes, which enable the execution of smart contracts on the blockchain network."
   },
-  "gas-opcodes_gas optimization": {
+  "gas-opcodes_gas_optimization": {
     "input": [
       "opcodes",
       "gas"
@@ -583,7 +583,7 @@
     "output": "gas_optimization",
     "explanation": "In the context of Web3 and blockchain technology, opcodes are the fundamental building blocks of smart contracts, representing the operations that can be executed. Gas is the unit of measure for computational work required to process transactions and execute smart contracts on the blockchain.\n\nThe combination of opcodes and gas results in gas optimization by incentivizing efficient code execution. Smart contract developers strive to write code that requires fewer opcodes, as each opcode consumes gas. By writing efficient code, developers can minimize the amount of gas needed to execute their smart contracts, reducing costs for users and making the blockchain network more efficient overall. Gas optimization encourages developers to write clean and efficient code, ultimately improving the performance and scalability of blockchain applications."
   },
-  "privacy-smart contract_Tornado Cash": {
+  "privacy-smart_contract_Tornado_Cash": {
     "input": [
       "smart_contract",
       "privacy"
@@ -607,7 +607,7 @@
     "output": "bft",
     "explanation": "In the context of Web3 and blockchain technology, a node refers to a participant in the network that validates and maintains the integrity of the blockchain. Consensus algorithms are protocols used by nodes to agree on the validity of transactions and reach a common state of the ledger.\n\nBy combining nodes and a Byzantine Fault Tolerant (BFT) consensus algorithm, such as Practical Byzantine Fault Tolerance (PBFT), the network can achieve high levels of security and fault tolerance. BFT algorithms ensure that the network can continue to operate correctly even if some nodes behave maliciously or experience failures.\n\nIn summary, the combination of nodes and a BFT consensus algorithm in Web3 and blockchain technology enables decentralized networks to reach agreement on the validity of transactions in a"
   },
-  "bft-proof of stake_Tendermint": {
+  "bft-proof_of_stake_Tendermint": {
     "input": [
       "bft",
       "proof_of_stake"
@@ -623,7 +623,7 @@
     "output": "cosmos",
     "explanation": "Tendermint is a consensus engine that helps blockchain networks reach agreements on the order and validity of transactions. When combined with blockchain technology, such as in the case of Cosmos, it enables multiple blockchains to communicate and transact with each other securely and efficiently. Cosmos leverages Tendermint to create a scalable and interoperable ecosystem of blockchains, allowing for the seamless exchange of assets and data across different chains. This integration of Tendermint and blockchain in Cosmos enhances the overall capabilities of Web3 by enabling greater connectivity and collaboration among decentralized networks."
   },
-  "blockchain-scalability_state channels": {
+  "blockchain-scalability_state_channels": {
     "input": [
       "blockchain",
       "scalability"
@@ -631,7 +631,7 @@
     "output": "state_channels",
     "explanation": "Blockchain technology is innovative but faces scalability challenges due to the limited processing capacity of each block. State channels are a solution to this issue by allowing participants to conduct off-chain transactions that are then settled on the blockchain. This reduces the burden on the blockchain network, increasing scalability by enabling faster and more cost-effective transactions. In the context of Web3, state channels leverage the security of the blockchain while improving efficiency, making them a valuable tool for scaling decentralized applications."
   },
-  "cryptocurrency-state channels_Lightning Network": {
+  "cryptocurrency-state_channels_Lightning_Network": {
     "input": [
       "state_channels",
       "cryptocurrency"
