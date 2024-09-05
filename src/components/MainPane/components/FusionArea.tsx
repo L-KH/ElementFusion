@@ -186,10 +186,10 @@ const DiscoveredElementsContainer = styled.div`
 
 const CategoryCard = styled.div<{ rarity: string }>`
   flex: 1;
-  min-width: 250px;
+  min-width: 200px;
   max-width: calc(33.33% - 20px);
-  height: 400px; // Fixed height
-  padding: 20px;
+  height: 300px; // Fixed height
+  padding: 10px;
   border-radius: 10px;
   background: ${props => getRarityGradient(props.rarity)};
   overflow-y: auto;
@@ -208,10 +208,11 @@ const CategoryCard = styled.div<{ rarity: string }>`
   }
 `;
 
+
 const ElementsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-  gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 5px;
   justify-items: center;
 `;
 
@@ -222,31 +223,38 @@ const ElementCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 100px;
+  width: 80px;
+  height: 100px;
+  overflow: hidden;
 `;
-
 
 const ElementItem = styled.div`
   cursor: pointer;
   transition: transform 0.3s ease;
   margin: 5px;
+  width: 80px;
+  height: 100px;
 
   &:hover {
     transform: scale(1.05);
   }
+`;
 
-  img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-  }
+const ElementImage = styled.img`
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+`;
 
-  p {
-    font-size: 10px;
-    margin: 2px 0;
-    text-align: center;
-  }
+const ElementName = styled.p`
+  font-size: 9px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 
 
@@ -272,15 +280,16 @@ const MintButton = styled.button<{ rarity: string }>`
   background-color: ${props => getGlowColor(props.rarity)};
   border: none;
   color: white;
-  padding: 3px 6px;
+  padding: 2px 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 8px;
   margin: 2px 0;
   cursor: pointer;
   border-radius: 3px;
 `;
+
 
 
 const getRarityGradient = (rarity: string) => {
@@ -752,12 +761,8 @@ const FusionArea = ({
                 {elements.map((element) => (
                   <ElementItem key={element.id}>
                     <ElementCard onClick={() => handleElementClick(element)}>
-                      <img 
-                        src={element.imagePath} 
-                        alt={element.name} 
-
-                      />
-                      <p>{element.name}</p>
+                      <ElementImage src={element.imagePath} alt={element.name} />
+                      <ElementName>{element.name}</ElementName>
                       <MintButton 
                         rarity={category}
                         onClick={(e) => {
@@ -768,6 +773,7 @@ const FusionArea = ({
                         Mint
                       </MintButton>
                     </ElementCard>
+
                   </ElementItem>
                 ))}
               </ElementsGrid>
