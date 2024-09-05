@@ -4,6 +4,9 @@ import type { AppProps } from "next/app";
 import { ChakraProvider } from '@chakra-ui/react'
 import RootLayout from "./layout";
 import Head from 'next/head';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -13,7 +16,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <RootLayout>
       
     <ChakraProvider>
-      <Component {...pageProps} />
+      <main className={inter.className}>
+              <Component {...pageProps} />
+      </main>
     </ChakraProvider>
       <Analytics />
 

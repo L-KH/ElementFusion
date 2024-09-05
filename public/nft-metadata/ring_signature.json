@@ -1,0 +1,19 @@
+{
+  "name": "ring signature",
+  "description": "A legendary element created by combining monero and cryptography.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPkKz4EXcuimQCmy4M8juqanN7AHv2Sy91AjjDDLZAaoW",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "legendary"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:58.002526"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "monero, cryptography"
+    }
+  ]
+}

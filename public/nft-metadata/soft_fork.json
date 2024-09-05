@@ -1,0 +1,19 @@
+{
+  "name": "soft fork",
+  "description": "A rare element created by combining fork and code.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPAQKrHdhodtnvSrMavL6mBHqYNyBdGXSRgYMn1xr1GJJ",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:08.863441"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "fork, code"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "gas optimization",
+  "description": "A epic element created by combining opcodes and gas.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPbGjUGz5xnSsDYsr2wLnnx81Fb7CppByPN16TRPiNdeB",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:10.491044"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "opcodes, gas"
+    }
+  ]
+}

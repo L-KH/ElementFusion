@@ -1,0 +1,19 @@
+{
+  "name": "decentralized oracle network",
+  "description": "A epic element created by combining oracle and consensus.",
+  "image": "https://gateway.pinata.cloud/ipfs/Qmbxn36RDcUc7NoWxjpQEG62VLDk2YAQymNr9hRixJtaW8",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:35.108689"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "oracle, consensus"
+    }
+  ]
+}

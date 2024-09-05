@@ -1,0 +1,19 @@
+{
+  "name": "proof of work",
+  "description": "A rare element created by combining mining and hash.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmSGSBmdKti7xnwnWLJfyD3ZSRx4mrQehLoEDP8YEaCKTH",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:39:59.010882"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "mining, hash"
+    }
+  ]
+}

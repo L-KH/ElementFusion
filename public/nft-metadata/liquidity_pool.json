@@ -1,0 +1,19 @@
+{
+  "name": "liquidity pool",
+  "description": "A rare element created by combining dex and token.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZo9XktBwaXFWCpXKgtp5UFgiWwJxrhz6bj6ymKaQc6pT",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:22.058938"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "dex, token"
+    }
+  ]
+}

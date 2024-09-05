@@ -1,0 +1,19 @@
+{
+  "name": "layer 2",
+  "description": "A epic element created by combining sidechain and proof of stake.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTddKAZrUFETvEb9N2HVYL9hRdFUbJjChpcVcxt3QCcCt",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:09.854839"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "sidechain, proof of stake"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Beacon Chain",
+  "description": "A epic element created by combining ethereum and proof of stake.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmZxdeaMDGsnr7TrKRPp1WunzA1s47ViiptHNCeEwknRAt",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:51.430723"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "ethereum, proof of stake"
+    }
+  ]
+}

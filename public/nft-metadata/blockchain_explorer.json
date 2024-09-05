@@ -1,0 +1,19 @@
+{
+  "name": "blockchain explorer",
+  "description": "A rare element created by combining hash and block.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmQGKT8T6buNRhpMQsiRvXeNrd4aXkgfmg1RyaRdAFWX3e",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:41.475489"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "hash, block"
+    }
+  ]
+}

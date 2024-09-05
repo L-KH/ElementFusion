@@ -117,7 +117,7 @@
   },
   {
     "input": [
-      "private key",
+      "private_key",
       "cryptography"
     ],
     "output": "public_key",
@@ -142,7 +142,7 @@
   {
     "input": [
       "blockchain",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "dapp",
     "rarity": "rare"
@@ -157,7 +157,7 @@
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "consensus"
     ],
     "output": "staking",
@@ -190,7 +190,7 @@
   {
     "input": [
       "cryptography",
-      "proof of work"
+      "proof_of_work"
     ],
     "output": "zero-knowledge_proof",
     "rarity": "epic"
@@ -198,7 +198,7 @@
   {
     "input": [
       "cryptocurrency",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "token",
     "rarity": "common"
@@ -222,7 +222,7 @@
   {
     "input": [
       "web3",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "smart_contract_platform",
     "rarity": "rare"
@@ -262,7 +262,7 @@
   {
     "input": [
       "sidechain",
-      "proof of stake"
+      "proof_of_stake"
     ],
     "output": "layer_2",
     "rarity": "epic"
@@ -270,7 +270,7 @@
   {
     "input": [
       "layer 2",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "rollup",
     "rarity": "epic"
@@ -278,7 +278,7 @@
   {
     "input": [
       "rollup",
-      "zero-knowledge proof"
+      "zero-knowledge_proof"
     ],
     "output": "zk-rollup",
     "rarity": "legendary"
@@ -302,7 +302,7 @@
   {
     "input": [
       "exchange",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "dex",
     "rarity": "rare"
@@ -317,7 +317,7 @@
   },
   {
     "input": [
-      "liquidity pool",
+      "liquidity_pool",
       "staking"
     ],
     "output": "yield_farming",
@@ -334,14 +334,14 @@
   {
     "input": [
       "interoperability",
-      "smart contract"
+      "smart_contract"
     ],
     "output": "cross-chain_bridge",
     "rarity": "epic"
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "network"
     ],
     "output": "oracle",
@@ -357,7 +357,7 @@
   },
   {
     "input": [
-      "private key",
+      "private_key",
       "hash"
     ],
     "output": "digital_signature",
@@ -365,7 +365,7 @@
   },
   {
     "input": [
-      "digital signature",
+      "digital_signature",
       "wallet"
     ],
     "output": "multi-sig_wallet",
@@ -374,14 +374,14 @@
   {
     "input": [
       "node",
-      "proof of stake"
+      "proof_of_stake"
     ],
     "output": "validator",
     "rarity": "rare"
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "block"
     ],
     "output": "gas",
@@ -413,7 +413,7 @@
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "code"
     ],
     "output": "solidity",
@@ -430,7 +430,7 @@
   {
     "input": [
       "evm",
-      "smart contract platform"
+      "smart_contract_platform"
     ],
     "output": "ethereum",
     "rarity": "epic"
@@ -438,7 +438,7 @@
   {
     "input": [
       "ethereum",
-      "layer 2"
+      "layer_2"
     ],
     "output": "optimism",
     "rarity": "epic"
@@ -453,7 +453,7 @@
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "solidity"
     ],
     "output": "abi",
@@ -478,14 +478,14 @@
   {
     "input": [
       "blockchain",
-      "governance token"
+      "governance_token"
     ],
     "output": "quadratic_voting",
     "rarity": "epic"
   },
   {
     "input": [
-      "quadratic voting",
+      "quadratic_voting",
       "dao"
     ],
     "output": "gitcoin",
@@ -510,14 +510,14 @@
   {
     "input": [
       "ethereum",
-      "proof of stake"
+      "proof_of_stake"
     ],
     "output": "beacon_chain",
     "rarity": "epic"
   },
   {
     "input": [
-      "beacon chain",
+      "beacon_chain",
       "ethereum"
     ],
     "output": "the_merge",
@@ -525,8 +525,8 @@
   },
   {
     "input": [
-      "smart contract",
-      "zero-knowledge proof"
+      "smart_contract",
+      "zero-knowledge_proof"
     ],
     "output": "zk-snark",
     "rarity": "epic"
@@ -549,7 +549,7 @@
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "ethereum"
     ],
     "output": "erc-20",
@@ -565,8 +565,8 @@
   },
   {
     "input": [
-      "smart contract",
-      "digital signature"
+      "smart_contract",
+      "digital_signature"
     ],
     "output": "erc-721",
     "rarity": "rare"
@@ -605,7 +605,7 @@
   },
   {
     "input": [
-      "smart contract",
+      "smart_contract",
       "privacy"
     ],
     "output": "tornado_cash",
@@ -613,7 +613,7 @@
   },
   {
     "input": [
-      "tornado cash",
+      "tornado_cash",
       "zk-snark"
     ],
     "output": "mixer",
@@ -630,7 +630,7 @@
   {
     "input": [
       "bft",
-      "proof of stake"
+      "proof_of_stake"
     ],
     "output": "tendermint",
     "rarity": "epic"
@@ -653,7 +653,7 @@
   },
   {
     "input": [
-      "state channels",
+      "state_channels",
       "cryptocurrency"
     ],
     "output": "lightning_network",

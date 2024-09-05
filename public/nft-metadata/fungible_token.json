@@ -1,0 +1,19 @@
+{
+  "name": "fungible token",
+  "description": "A uncommon element created by combining erc-20 and token.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmS5x6WDYztnJgFmN8fKJQ2m2xnG23V27VWvg55v2f3Dxc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:41:01.960310"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "erc-20, token"
+    }
+  ]
+}

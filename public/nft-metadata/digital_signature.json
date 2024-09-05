@@ -1,0 +1,19 @@
+{
+  "name": "digital signature",
+  "description": "A uncommon element created by combining private key and hash.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmSXHcCpjVM7C7waX3e2JqUYMSt6j81bzpUE4NBSQ9CGTB",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "uncommon"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-08-27T16:40:37.140162"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "private key, hash"
+    }
+  ]
+}
