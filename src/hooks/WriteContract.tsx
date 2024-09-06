@@ -25,7 +25,7 @@ export const useMint = () => {
         parseEther('0.0001'),  // rare
         parseEther('0.0005'),   // epic
         parseEther('0.005'),     // legendary
-        parseEther('0.01')     // hidden
+        parseEther('0.05')     // hidden
       ];
 
       const price = rarityPrices[rarity];

@@ -97,9 +97,9 @@ const FusionElement = styled.div`
   }
 
   img {
-    max-width: 80%;
-    max-height: 80%;
-    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
     z-index: 1;
   }
 
@@ -155,6 +155,8 @@ const getGlowColor = (rarity: string) => {
       return 'rgba(255, 0, 255, 0.8)'; // Purple
     case 'legendary':
       return 'rgba(255, 215, 0, 0.8)'; // Gold
+    case 'hidden':
+      return 'rgba(0, 0, 0, 0.8)'; // Black
     default:
       return 'rgba(255, 255, 255, 0.8)'; // White
   }

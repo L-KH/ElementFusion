@@ -205,7 +205,8 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
         'uncommon': 1,
         'rare': 2,
         'epic': 3,
-        'legendary': 4
+        'legendary': 4,
+        'hidden':5
       };
       const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
       const tx = await handleMint(element.name, rarityNumber);  

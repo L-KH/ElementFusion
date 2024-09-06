@@ -136,6 +136,16 @@ const ProgressFraction = styled.span`
   -webkit-text-fill-color: transparent;
 `;
 //----------------------------- End Search CSS -----------------------------------
+const CheckboxContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+`;
+
+const StyledCheckbox = styled.input`
+  margin-right: 10px;
+`;
 //----------------------------- Optimisation function  -----------------------------------
 
 const MemoizedElementCard = React.memo(({ element, onElementClick, rarity }: { element: Element; onElementClick: (element: Element) => void; rarity: string }) => (
@@ -170,7 +180,7 @@ const MintPage = ({
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredElements, setFilteredElements] = useState<Element[]>([]);
-
+  const [showOnlyCurrentMode, setShowOnlyCurrentMode] = useState(false);
   const totalElements = useMemo(() => {
     const elementsData = currentMode === 'normal' ? normalModeElements : web3ModeElements;
     return getTotalElements(elementsData);
@@ -201,15 +211,15 @@ const MintPage = ({
   useEffect(() => {
     const currentInitialElements = initialElements[currentMode];
     const currentDiscoveredElements = currentMode === 'normal' ? normalModeDiscoveredElements : web3ModeDiscoveredElements;
-
+  
     // Combine initial elements with discovered elements for the current mode only
     const allElements = [...currentInitialElements, ...currentDiscoveredElements];
-
+  
     // Remove duplicates (in case a discovered element is also an initial element)
     const uniqueElements = allElements.filter((element, index, self) =>
       index === self.findIndex((e) => e.name === element.name)
     );
-
+  
     // Sort elements: initial elements first, then alphabetically
     const sortedElements = uniqueElements.sort((a, b) => {
       const aIsInitial = currentInitialElements.some(el => el.name === a.name);
@@ -218,14 +228,16 @@ const MintPage = ({
       if (!aIsInitial && bIsInitial) return 1;
       return a.name.localeCompare(b.name);
     });
-
-    // Filter elements based on search term
+  
+    // Filter elements based on search term and current mode
     const filtered = sortedElements.filter(element =>
-      element.name.toLowerCase().includes(searchTerm.toLowerCase())
+      element.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (!showOnlyCurrentMode || element.imagePath.includes(currentMode === 'normal' ? '/images/' : '/images2/'))
     );
-
+  
     setFilteredElements(filtered);
-  }, [normalModeDiscoveredElements, web3ModeDiscoveredElements, currentMode, searchTerm]);
+  }, [normalModeDiscoveredElements, web3ModeDiscoveredElements, currentMode, searchTerm, showOnlyCurrentMode]);
+  
 
   const memoizedFilteredElements = useMemo(() => filteredElements, [filteredElements]);
 
@@ -235,7 +247,14 @@ const MintPage = ({
         <ProgressText>Progress: </ProgressText>
         <ProgressFraction>{discoveredCount}/{totalElements}</ProgressFraction>
       </ProgressContainer>
-
+      <CheckboxContainer>
+        <StyledCheckbox
+          type="checkbox"
+          checked={showOnlyCurrentMode}
+          onChange={(e) => setShowOnlyCurrentMode(e.target.checked)}
+        />
+        <label>Show only {currentMode} mode elements</label>
+      </CheckboxContainer>
       <SearchContainer>
         <SearchBar
           type="text"

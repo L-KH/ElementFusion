@@ -269,7 +269,7 @@
   },
   {
     "input": [
-      "layer 2",
+      "layer_2",
       "smart_contract"
     ],
     "output": "rollup",
@@ -589,7 +589,7 @@
   },
   {
     "input": [
-      "Bytecode",
+      "bytecode",
       "evm"
     ],
     "output": "opcodes",
