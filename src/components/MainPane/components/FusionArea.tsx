@@ -51,69 +51,94 @@ const FusionBox = styled.div<{ invalid?: boolean }>`
   justify-content: center;
   margin-top: 20px;
   border: ${(props) => (props.invalid ? '2px solid red' : 'none')};
+  flex-wrap: wrap;
+
   @media (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 `;
 
 const FusionElement = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 100px;
+  margin: 0 5px;
+
+  @media (min-width: 768px) {
+    width: 128px;
+    margin: 0 10px;
+  }
+`;
+
+const ImageBox = styled.div`
   width: 100px;
   height: 100px;
-  min-width: 100px;
-  min-height: 100px;
   border: 3px solid #999999;
   border-radius: 5px;
-  margin: 0 10px;
   background-color: rgba(240, 240, 240, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
-  position: relative;
-  overflow: hidden;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: inherit;
-    filter: blur(10px);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-
-    &::before {
-      opacity: 1;
-    }
   }
 
   img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover;
-    z-index: 1;
+    object-fit: contain;
   }
 
-  @media (min-width: 1000px) {
-    width: 180px;
-    height: 180px;
-    min-width: 120px;
-    min-height: 120px;
+  @media (min-width: 768px) {
+    width: 128px;
+    height: 128px;
   }
 `;
 
+const NameBox = styled.div`
+  width: 100px;
+  height: 30px;
+  border: 3px solid #999999;
+  border-radius: 5px;
+  background-color: rgba(240, 240, 240, 0.8);
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    width: 128px;
+  }
+`;
+
+const ElementName = styled.div`
+  font-size: 10px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding: 0 2px;
+
+  @media (min-width: 768px) {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+`;
+
+
+
 const FusionSign = styled.div`
   font-size: 24px;
-  margin: 0 5px;
+  margin: 5px;
   flex-shrink: 0;
 
   @media (min-width: 768px) {
@@ -121,6 +146,7 @@ const FusionSign = styled.div`
     margin: 0 10px;
   }
 `;
+ 
 
 
 const EmptyBox = styled(FusionElement)`
@@ -250,15 +276,7 @@ const ElementImage = styled.img`
   margin-bottom: 5px;
 `;
 
-const ElementName = styled.p`
-  font-size: 9px;
-  margin: 0;
-  text-align: center;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-`;
+
 
 
 
@@ -719,30 +737,64 @@ const FusionArea = ({
 
       {/* <h2>Fusion Area</h2> */}
       <FusionBox invalid={!!(result && !result.success)}>
-        {selectedElements[0] ? (
-          <FusionElement onClick={() => onElementRemove(0)}>
-            <img src={selectedElements[0].imagePath} alt={selectedElements[0].name} />
-          </FusionElement>
-        ) : (
-          <EmptyBox />
-        )}
-        <FusionSign>+</FusionSign>
-        {selectedElements[1] ? (
-          <FusionElement onClick={() => onElementRemove(1)}>
-            <img src={selectedElements[1].imagePath} alt={selectedElements[1].name} />
-          </FusionElement>
-        ) : (
-          <EmptyBox />
-        )}
-        <FusionSign>=</FusionSign>
-        <FusionElement>
-          {result && result.success ? (
-            <img src={result.element?.imagePath} alt={result.element?.name} />
-          ) : result && !result.success ? (
-            <InvalidSign>X</InvalidSign>
-          ) : null}
-        </FusionElement>
-      </FusionBox>
+  {selectedElements[0] ? (
+    <FusionElement>
+      <ImageBox onClick={() => onElementRemove(0)}>
+        <img src={selectedElements[0].imagePath} alt={selectedElements[0].name} />
+      </ImageBox>
+      <NameBox>
+        <ElementName>{selectedElements[0].name}</ElementName>
+      </NameBox>
+    </FusionElement>
+  ) : (
+    <FusionElement>
+      <ImageBox as={EmptyBox} />
+      <NameBox>
+        <ElementName>Empty</ElementName>
+      </NameBox>
+    </FusionElement>
+  )}
+  <FusionSign>+</FusionSign>
+  {selectedElements[1] ? (
+    <FusionElement>
+      <ImageBox onClick={() => onElementRemove(1)}>
+        <img src={selectedElements[1].imagePath} alt={selectedElements[1].name} />
+      </ImageBox>
+      <NameBox>
+        <ElementName>{selectedElements[1].name}</ElementName>
+      </NameBox>
+    </FusionElement>
+  ) : (
+    <FusionElement>
+      <ImageBox as={EmptyBox} />
+      <NameBox>
+        <ElementName>Empty</ElementName>
+      </NameBox>
+    </FusionElement>
+  )}
+  <FusionSign>=</FusionSign>
+  <FusionElement>
+    {result && result.success ? (
+      <>
+        <ImageBox>
+          <img src={result.element?.imagePath} alt={result.element?.name} />
+        </ImageBox>
+        <NameBox>
+          <ElementName>{result.element?.name}</ElementName>
+        </NameBox>
+      </>
+    ) : result && !result.success ? (
+      <ImageBox>
+        <InvalidSign>X</InvalidSign>
+      </ImageBox>
+    ) : (
+      <ImageBox as={EmptyBox} />
+    )}
+  </FusionElement>
+</FusionBox>
+
+
+
       <ButtonContainer>
         <SaveButton onClick={onSave}>Save My Progress</SaveButton>
         <HintButton onClick={handleHintClick}>Show Hint</HintButton>
