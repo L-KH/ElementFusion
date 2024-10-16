@@ -12,7 +12,7 @@ export const useMint = () => {
 
   const handleMint = async (name: string, rarity: number) => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
 
       if (!NFTAddress) {
@@ -70,7 +70,7 @@ export const useHintPurchase = () => {
 
   const handleHintPurchase = async (isPremium: boolean) => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
 
       if (!NFTAddress) {
@@ -118,7 +118,7 @@ export const useQuests = () => {
 
   const getQuestInfo = async (periodType: number, questId: number): Promise<QuestInfo> => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
 
       if (!NFTAddress) {
@@ -142,7 +142,7 @@ export const useQuests = () => {
   }
   const getUserPoints = async (): Promise<bigint> => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
       const userAddress = account.address
   
@@ -172,7 +172,7 @@ export const useQuests = () => {
   
   const getUserQuestProgress = async (periodType: number, questId: number): Promise<bigint> => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
       const userAddress = account.address
 
@@ -202,7 +202,7 @@ export const useQuests = () => {
 
   const completeQuest = async (periodType: number, questId: number) => {
     try {
-      const chainId = account.chainId || 534351 // Sepolia Testnet
+      const chainId = account.chainId || 42161 // Sepolia Testnet
       const NFTAddress = addresses[chainId]?.nft?.address
   
       if (!NFTAddress) {
