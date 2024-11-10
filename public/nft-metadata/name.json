@@ -1,0 +1,19 @@
+{
+  "name": "name",
+  "description": "A rare element created by combining identity and hash.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmVVDQHrYHWp5YDDg5itFnk7WFsda1Toz3RJ4N7NGbmLcL",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-11-10T17:43:57.144054"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "identity, hash"
+    }
+  ]
+}

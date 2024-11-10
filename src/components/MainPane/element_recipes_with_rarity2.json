@@ -269,6 +269,14 @@
   },
   {
     "input": [
+      "ethereum",
+      "code"
+    ],
+    "output": "layer_2",
+    "rarity": "epic"
+  },
+  {
+    "input": [
       "layer_2",
       "smart_contract"
     ],
@@ -437,7 +445,7 @@
   },
   {
     "input": [
-      "ethereum",
+      "code",
       "layer_2"
     ],
     "output": "optimism",
@@ -730,5 +738,38 @@
     ],
     "output": "uniswap",
     "rarity": "hidden"
+  },
+
+
+
+  {
+    "input": ["digital_signature","network"],
+    "output": "identity",
+    "rarity": "rare"
+  },
+  {
+    "input": ["identity","hash"],
+    "output": "name",
+    "rarity": "rare"
+  },
+  {
+    "input": ["ethereum", "layer_2" ],
+    "output": "linea",
+    "rarity": "legendary"
+  },
+  {
+    "input": ["nft", "linea"],
+    "output": "efrog",
+    "rarity": "epic"
+  },
+  {
+    "input": ["efrog", "linea"],
+    "output": "$croak",
+    "rarity": "epic"
+  },
+  {
+    "input": ["identity", "linea"],
+    "output": "proof_of_humanity",
+    "rarity": "rare"
   }
 ]

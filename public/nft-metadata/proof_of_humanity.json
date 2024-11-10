@@ -1,0 +1,19 @@
+{
+  "name": "proof_of_humanity",
+  "description": "A rare element created by combining identity and linea.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmShuMMBqxjkpK87LdGb3qZVuFeevz3Ad3uGQKYTse1DYw",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-11-10T17:44:03.286881"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "identity, linea"
+    }
+  ]
+}

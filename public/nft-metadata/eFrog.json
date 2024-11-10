@@ -1,0 +1,19 @@
+{
+  "name": "eFrog",
+  "description": "A epic element created by combining nft and linea.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmTeUQWFzn2tu15LkQgNHpQdysXY1xWLwXVdWJRzSYPZtz",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "epic"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-11-10T17:43:40.026325"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "nft, linea"
+    }
+  ]
+}

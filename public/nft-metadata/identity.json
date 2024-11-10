@@ -1,0 +1,19 @@
+{
+  "name": "identity",
+  "description": "A rare element created by combining digital_signature and network.",
+  "image": "https://gateway.pinata.cloud/ipfs/QmPtAgD64NChostrEmrkw1ftghVaL4dXSpsKDaQpYtVb5X",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "rare"
+    },
+    {
+      "trait_type": "Creation Date",
+      "value": "2024-11-10T17:43:45.709348"
+    },
+    {
+      "trait_type": "Inputs",
+      "value": "digital_signature, network"
+    }
+  ]
+}
