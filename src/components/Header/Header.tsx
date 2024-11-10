@@ -78,7 +78,7 @@ const Header: FC = () => {
             <Heading as="h1" fontSize={"1.5rem"} className="text-shadow">
               ElementFusion
               <Text fontSize="0.8rem" color="gray.500" ml={1}>
-                Testnet
+                Mainnet
               </Text>
             </Heading>
           )}
