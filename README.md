@@ -1,8 +1,15 @@
 # ElementFusion
+
+
 <p align="center">
   <img src="https://github.com/L-KH/Alchemist/blob/main/public/android-chrome-192x192.png" alt="ElementFusion Logo">
 </p>
 ElementFusion is an innovative blockchain-based game that combines science, strategy, and NFT minting. Players engage in the discovery and creation of new compounds by fusing basic elements and completing quests. With AI-powered explanations and a user-friendly interface, ElementFusion offers an educational and entertaining experience.
+
+
+
+## <img src="https://turquoise-past-herring-206.mypinata.cloud/ipfs/QmVxD3jfAxgLv4VEQCQKoz7mj2DQi9eiy6MbiQL7uvnntJ" alt="ElementFusion Logo"> We are live only on Linea Mainnet <img src="https://turquoise-past-herring-206.mypinata.cloud/ipfs/QmVxD3jfAxgLv4VEQCQKoz7mj2DQi9eiy6MbiQL7uvnntJ" alt="ElementFusion Logo">
+
 
 
 ## 🎮 Features
