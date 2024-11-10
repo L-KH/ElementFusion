@@ -46,13 +46,10 @@ https://www.youtube.com/watch?v=5x11q2aGXpc
    npm run dev
 4. Open http://localhost:3000 in your browser to see the app.
 
-## 🚀 Smart Contract Deployment (Linea Sepolia Testnet)
+## 🚀 Smart Contract Deployment (Linea Mainnet)
 
-https://sepolia.lineascan.build/address/0x5AD2a373d7E261E1570021548de454ccf7eECd6c#code
+https://lineascan.build/address/0xA1851596e5cC2BF6B1d839aA53B908007A55C682#code
 
-## 🚀 Smart Contract of EDU Network Testnet
-
-https://opencampus-codex.blockscout.com/address/0xd62b2dEbF594F2543f43672AA4F809038192180d?tab=contract
 
 ## 🧑‍💻 Team
 
