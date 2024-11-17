@@ -15,7 +15,7 @@ import { type Chain } from 'viem'
 import { createConfig, http } from "wagmi";
 
 const walletConnectProjectId = '51d5d824bfd42cd4f17cfb3dcec82da9';
-import { sepolia , scrollSepolia, lineaSepolia, arbitrum, linea} from 'viem/chains'
+import { sepolia , scrollSepolia, lineaSepolia, arbitrum, linea, taiko} from 'viem/chains'
 import taiko_logo from "../public/img/taiko_logo.png"
 import edu_logo from "../public/img/edu.png"
 
@@ -86,11 +86,12 @@ const transports: Record<number, Transport> = {
   [scrollSepolia.id]: http(),
   [lineaSepolia.id]: http(),
   //[arbitrum.id]: http(),
-  [linea.id]: http()
+  [linea.id]: http(),
+  [taiko.id]: http()
 };
 export const wagmiConfig = createConfig({
   chains: [
-  //arbitrum,
+  taiko,
   linea,
   ],
   connectors,
