@@ -18,6 +18,7 @@ const walletConnectProjectId = '51d5d824bfd42cd4f17cfb3dcec82da9';
 import { sepolia , scrollSepolia, lineaSepolia, arbitrum, linea, taiko} from 'viem/chains'
 import taiko_logo from "../public/img/taiko_logo.png"
 import edu_logo from "../public/img/edu.png"
+import monad_logo from "../public/img/monad_logo.png"
 
 if (!walletConnectProjectId) {
   throw new Error(
@@ -75,13 +76,32 @@ const OpenCampusCodex: Chain = {
   },
   testnet: true,
 }; 
+const monad: Chain = {
+  id: 0x279f, // Chain ID for Berachain Testnet
+  name: 'Monad Testnet',
+  nativeCurrency: {
+    name: 'Monad Network',
+    symbol: 'MON',
+    decimals: 18,
+  },
+  rpcUrls: {
+    default: { http: ['https://testnet-rpc.monad.xyz'] },
+  },
+  blockExplorers: {
+    default: { name: 'Monad Explorer', url: 'https://testnet.monadexplorer.com' },
+  },
+  testnet: true,
+}; 
 // Fix missing icons
 const customTaiko2 = { ...taikokaltatestnet2, iconUrl: taiko_logo.src };
 const customEDU = { ...OpenCampusCodex, iconUrl: edu_logo.src };
+const custommonad = { ...monad, iconUrl: monad_logo.src };
 
 const transports: Record<number, Transport> = {
   [customEDU.id]: http(),
   [customTaiko2.id]: http(), // Add Berachain Testnet transport
+  [custommonad.id]: http(), 
+
   [sepolia.id]: http(), // Add Berachain Testnet transport
   [scrollSepolia.id]: http(),
   [lineaSepolia.id]: http(),
@@ -91,7 +111,8 @@ const transports: Record<number, Transport> = {
 };
 export const wagmiConfig = createConfig({
   chains: [
-  taiko,
+  //taiko,
+  custommonad,
   linea,
   ],
   connectors,

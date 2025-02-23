@@ -42,5 +42,10 @@ export const addresses: Config ={
         "nft": {
             "address": "0xa1851596e5cc2bf6b1d839aa53b908007a55c682"
         }
+    },
+    "10143": {
+        "nft": {
+            "address": "0xa2956d2C0F58827f586aB703241817f171521681"
+        }
     }
 }
