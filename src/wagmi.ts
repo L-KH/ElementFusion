@@ -113,7 +113,7 @@ export const wagmiConfig = createConfig({
   chains: [
   //taiko,
   custommonad,
-  linea,
+  //linea,
   ],
   connectors,
   transports,
