@@ -112,7 +112,7 @@ const transports: Record<number, Transport> = {
 export const wagmiConfig = createConfig({
   chains: [
   //taiko,
-  custommonad,
+  //custommonad,
   linea,
   ],
   connectors,
