@@ -1,7 +1,8 @@
 "use client";
 import { type FC } from "react";
 import { useEffect, useState } from 'react';
-import { HStack, Heading, Text, Box, useColorModeValue, keyframes } from "@chakra-ui/react";
+import { HStack, Heading, Text, Box, useColorModeValue } from "@chakra-ui/react";
+import { keyframes } from '@emotion/react'
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Image from "next/image";
 import { useWindowSize } from "@/hooks/useWindowSize";
