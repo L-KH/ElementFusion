@@ -4,6 +4,8 @@ import { Open_Sans } from "next/font/google";
 import "@/styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { Providers } from "./providers";
+import { Analytics } from '@vercel/analytics/next';
+
 //import Cursor3D from '../components/Cursor3D';
 
 const open_sans = Open_Sans({ subsets: ["latin"] });
@@ -40,6 +42,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {/* <Cursor3D /> */}
           <Providers>{children}</Providers>
         </div>
+        <Analytics />
       </body>
     </html>
   );
