@@ -91,6 +91,23 @@ const monad: Chain = {
     default: { name: 'Monad Explorer', url: 'https://testnet.monadexplorer.com' },
   },
   testnet: true,
+};
+
+const ink: Chain = {
+  id: 0xdef1, // Chain ID 57073 for Ink
+  name: 'Ink',
+  nativeCurrency: {
+    name: 'Ethereum',
+    symbol: 'ETH',
+    decimals: 18,
+  },
+  rpcUrls: {
+    default: { http: ['https://rpc-qnd.inkonchain.com'] },
+  },
+  blockExplorers: {
+    default: { name: 'Ink Explorer', url: 'https://explorer.inkonchain.com' },
+  },
+  testnet: false,
 }; 
 // Fix missing icons
 const customTaiko2 = { ...taikokaltatestnet2, iconUrl: taiko_logo.src };
@@ -101,7 +118,7 @@ const transports: Record<number, Transport> = {
   [customEDU.id]: http(),
   [customTaiko2.id]: http(), // Add Berachain Testnet transport
   [custommonad.id]: http(), 
-
+  [ink.id]: http(),
   [sepolia.id]: http(), // Add Berachain Testnet transport
   [scrollSepolia.id]: http(),
   [lineaSepolia.id]: http(),
@@ -114,6 +131,7 @@ export const wagmiConfig = createConfig({
   //taiko,
   //custommonad,
   linea,
+  ink,
   ],
   connectors,
   transports,
