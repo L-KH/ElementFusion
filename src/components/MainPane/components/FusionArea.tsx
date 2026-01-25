@@ -16,6 +16,7 @@ import { InfoIcon, WarningIcon } from '@chakra-ui/icons';
 import { waitForTransactionReceipt } from '@wagmi/core'
 import { wagmiConfig } from '@/wagmi'
 import Image from 'next/image';
+import { parseBlockchainError, truncateHash } from '../../../utils/errorHandler';
 
 type Element = {
   id: number;
@@ -562,9 +563,9 @@ const FusionArea = ({
   const handleMintClick = async (element: Element) => {
     if (!isConnected) {
       toast({
-        title: "Wallet not connected",
+        title: "Wallet Not Connected",
         description: "Please connect your wallet to mint",
-        status: "error",
+        status: "warning",
         duration: 5000,
         isClosable: true,
       });
@@ -572,7 +573,7 @@ const FusionArea = ({
     }
     setIsMinting(true);
     try {
-      const rarityToNumber = {
+      const rarityToNumber: { [key: string]: number } = {
         'common': 0,
         'uncommon': 1,
         'rare': 2,
@@ -584,8 +585,8 @@ const FusionArea = ({
       const txHash = await handleMint(element.name, rarityNumber);
   
       toast({
-        title: "Element minting initiated",
-        description: `Transaction submitted. Hash: ${txHash}`,
+        title: "Minting Started 🎨",
+        description: `Transaction submitted (${truncateHash(txHash)})`,
         status: "info",
         duration: 5000,
         isClosable: true,
@@ -594,28 +595,19 @@ const FusionArea = ({
       await waitForTransactionReceipt(wagmiConfig, { hash: txHash });
   
       toast({
-        title: "Element minting successful",
-        description: `Transaction confirmed. Hash: ${txHash}`,
+        title: "Minting Successful! 🎉",
+        description: `${element.name} has been minted to your wallet!`,
         status: "success",
         duration: 5000,
         isClosable: true,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error during minting:', error);
-      let errorMessage = "An unknown error occurred";
-      if (error instanceof Error) {
-        if (error.message.includes("insufficient funds")) {
-          errorMessage = "Insufficient balance to mint this element";
-        } else if (error.message.includes("user rejected transaction")) {
-          errorMessage = "Transaction rejected by user";
-        } else {
-          errorMessage = error.message;
-        }
-      }
+      const parsedError = parseBlockchainError(error);
       toast({
-        title: "Minting failed",
-        description: errorMessage,
-        status: "error",
+        title: parsedError.title,
+        description: parsedError.description,
+        status: parsedError.status,
         duration: 5000,
         isClosable: true,
       });

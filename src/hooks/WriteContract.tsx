@@ -6,6 +6,7 @@ import { addresses } from '@/constants/config'
 import { wagmiConfig } from '@/wagmi'
 import NFTAbi from './abi/NFT2.json'
 import { waitForTransactionReceipt } from '@wagmi/core'
+import { formatErrorForLog } from '../utils/errorHandler'
 
 export const useMint = () => {
   const account = useAccount()
@@ -202,11 +203,11 @@ export const useQuests = () => {
 
   const completeQuest = async (periodType: number, questId: number) => {
     try {
-      const chainId = account.chainId || 42161 // Sepolia Testnet
+      const chainId = account.chainId || 42161
       const NFTAddress = addresses[chainId]?.nft?.address
   
       if (!NFTAddress) {
-        throw new Error("NFT address not found")
+        throw new Error("Contract not available on this network")
       }
   
       const txHash = await writeContract(wagmiConfig, {
@@ -218,18 +219,16 @@ export const useQuests = () => {
   
       console.log("Quest completion transaction submitted:", txHash);
   
-      // Wait for the transaction to be mined
       const receipt = await waitForTransactionReceipt(wagmiConfig, {
         hash: txHash,
       })
   
       console.log("Transaction receipt:", receipt);
   
-      // Update the local quest progress
       const updatedProgress = await getUserQuestProgress(periodType, questId);
       return { txHash, receipt, updatedProgress };
-    } catch (error) {
-      console.error("Error in completeQuest:", error)
+    } catch (error: any) {
+      console.error("Error in completeQuest:", formatErrorForLog(error))
       throw error
     }
   }

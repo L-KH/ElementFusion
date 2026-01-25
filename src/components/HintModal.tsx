@@ -5,6 +5,7 @@ import { useToast } from '@chakra-ui/react';
 import { FaLightbulb, FaFlask, FaMagic } from 'react-icons/fa'; // Import icons
 import { useHintPurchase } from '../hooks/WriteContract';
 import { ethers } from 'ethers';
+import { parseBlockchainError } from '../utils/errorHandler';
 //----
 const fadeIn = keyframes`
   from { opacity: 0; }
@@ -259,25 +260,25 @@ const HintModal = ({ onClose }: { onClose: () => void }) => {
             throw new Error("Failed to generate hints");
           }
           setPurchasedHints(newHints);
-         // localStorage.setItem('purchasedHints', JSON.stringify(newHints));
           setActiveCard(isPremium ? 2 : 1);
           toast({
-            title: "Purchase successful",
+            title: "Purchase Successful! 🎉",
             description: `You've unlocked ${hintCount} new hints!`,
             status: "success",
             duration: 5000,
             isClosable: true,
           });
           setShowHintModal(true);
-                    // Clear localStorage
-            localStorage.removeItem('purchasedHints');
-            localStorage.removeItem('hintsDownloaded');
-        } catch (error) {
+          // Clear localStorage
+          localStorage.removeItem('purchasedHints');
+          localStorage.removeItem('hintsDownloaded');
+        } catch (error: any) {
           console.error("Error during purchase:", error);
+          const parsedError = parseBlockchainError(error);
           toast({
-            title: "Purchase failed",
-            description: error instanceof Error ? error.message : "An unknown error occurred",
-            status: "error",
+            title: parsedError.title,
+            description: parsedError.description,
+            status: parsedError.status,
             duration: 5000,
             isClosable: true,
           });

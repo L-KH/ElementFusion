@@ -8,6 +8,7 @@ import { useMint } from '../hooks/WriteContract';
 import { Element } from '@/utils/types'; // Add this import
 import { FaTwitter } from 'react-icons/fa'; // Import Twitter icon
 import explanations from './MainPane/element_explanations.json';
+import { parseBlockchainError, truncateHash } from '../utils/errorHandler';
 
 const ModalBackground = styled.div<{ rarity: string }>`
   position: fixed;
@@ -187,9 +188,9 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
   const handleMintClick = async () => {
     if (!isConnected) {
       toast({
-        title: "Wallet not connected",
+        title: "Wallet Not Connected",
         description: "Please connect your wallet to mint",
-        status: "error",
+        status: "warning",
         duration: 5000,
         isClosable: true,
       });
@@ -200,40 +201,40 @@ const ElementModal: React.FC<ElementModalProps> = ({ element, onClose }) => {
   
     try {
       console.log("Minting element:", element);
-      const rarityToNumber = {
+      const rarityToNumber: { [key: string]: number } = {
         'common': 0,
         'uncommon': 1,
         'rare': 2,
         'epic': 3,
         'legendary': 4,
-        'hidden':5
+        'hidden': 5
       };
       const rarityNumber = rarityToNumber[element.rarity.toLowerCase()];
       const tx = await handleMint(element.name, rarityNumber);  
       toast({
-        title: "Element minting initiated",
-        description: "Transaction submitted. Please wait for confirmation.",
+        title: "Minting Started 🎨",
+        description: `Transaction submitted (${truncateHash(tx)})`,
         status: "info",
         duration: 5000,
         isClosable: true,
       });
   
-      // Instead of waiting for the transaction, we'll just log it
       console.log("Transaction hash:", tx);
   
       toast({
-        title: "Element minting transaction submitted",
-        description: `Transaction hash: ${tx}`,
+        title: "Minting Successful! 🎉",
+        description: `${element.name} has been minted to your wallet!`,
         status: "success",
         duration: 5000,
         isClosable: true,
       });
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error during minting:', error);
+      const parsedError = parseBlockchainError(error);
       toast({
-        title: "Minting failed",
-        description: error instanceof Error ? error.message : "An unknown error occurred",
-        status: "error",
+        title: parsedError.title,
+        description: parsedError.description,
+        status: parsedError.status,
         duration: 5000,
         isClosable: true,
       });
