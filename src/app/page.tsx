@@ -848,7 +848,7 @@ export default function LandingPage() {
             <div className="footer-socials">
               <a href="https://twitter.com/element_fusion_" target="_blank" rel="noopener noreferrer" aria-label="Twitter">𝕏</a>
               <a href="#" aria-label="Discord">💬</a>
-              <a href="https://github.com/AceVikings/ElementFusion" target="_blank" rel="noopener noreferrer" aria-label="GitHub">⌨</a>
+              <a href="https://github.com/L-KH/ElementFusion" target="_blank" rel="noopener noreferrer" aria-label="GitHub">⌨</a>
               <a href="#" aria-label="Telegram">✈</a>
             </div>
           </div>
@@ -866,7 +866,7 @@ export default function LandingPage() {
             <ul>
               <li><a onClick={() => scrollToSection('faq')} style={{ cursor: 'pointer' }}>FAQs</a></li>
               <li><Link href="/contact">Contact Us</Link></li>
-              <li><a href="https://github.com/AceVikings/ElementFusion/issues" target="_blank" rel="noopener noreferrer">Report Bug</a></li>
+              <li><a href="https://github.com/L-KH/ElementFusion/issues" target="_blank" rel="noopener noreferrer">Report Bug</a></li>
               <li><a href="https://twitter.com/element_fusion_" target="_blank" rel="noopener noreferrer">Community</a></li>
             </ul>
           </div>

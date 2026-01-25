@@ -127,7 +127,7 @@ export default function PrivacyPolicy() {
         </p>
         <ul>
           <li>Twitter: <a href="https://twitter.com/element_fusion_" target="_blank" rel="noopener noreferrer">@element_fusion_</a></li>
-          <li>GitHub: <a href="https://github.com/AceVikings/ElementFusion" target="_blank" rel="noopener noreferrer">ElementFusion Repository</a></li>
+          <li>GitHub: <a href="https://github.com/L-KH/ElementFusion" target="_blank" rel="noopener noreferrer">ElementFusion Repository</a></li>
         </ul>
 
         <div style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.1)' }}>

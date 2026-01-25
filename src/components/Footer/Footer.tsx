@@ -54,7 +54,7 @@ const Footer: FC = () => {
             </HStack>
           </Link>
           <Link
-            href="https://github.com/AceVikings/ElementFusion"
+            href="https://github.com/L-KH/ElementFusion"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -80,7 +80,7 @@ export default function ContactPage() {
               <div className="icon">💻</div>
               <h3>GitHub</h3>
               <p>Check out our open-source code and submit issues or feature requests.</p>
-              <a href="https://github.com/AceVikings/ElementFusion" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/L-KH/ElementFusion" target="_blank" rel="noopener noreferrer">
                 ElementFusion Repository
               </a>
             </div>
@@ -103,7 +103,7 @@ export default function ContactPage() {
                 <span className="icon">💬</span>
                 <span>Discord</span>
               </a>
-              <a href="https://github.com/AceVikings/ElementFusion" target="_blank" rel="noopener noreferrer" className="social-link">
+              <a href="https://github.com/L-KH/ElementFusion" target="_blank" rel="noopener noreferrer" className="social-link">
                 <span className="icon">⌨</span>
                 <span>GitHub</span>
               </a>
