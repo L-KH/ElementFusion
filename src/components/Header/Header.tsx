@@ -1,15 +1,17 @@
 "use client";
 import { type FC } from "react";
 import { useEffect, useState } from 'react';
-import { HStack, Heading, Text, Box, useColorModeValue } from "@chakra-ui/react";
+import { HStack, Heading, Text, Box, useColorModeValue, Button } from "@chakra-ui/react";
 import { keyframes } from '@emotion/react'
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import Image from "next/image";
+import Link from "next/link";
 import { useWindowSize } from "@/hooks/useWindowSize";
 import { useQuests } from '../../hooks/WriteContract';
 import { useAccount } from 'wagmi';
 import logo from "../../../public/img/logo_transparent.png";
 import { DarkModeButton } from "../DarkModeButton";
+import { FaHome } from "react-icons/fa";
 
 const rainbowAnimation = keyframes`
   0% { border-color: red; }
@@ -73,16 +75,31 @@ const Header: FC = () => {
         p={"1.5rem"}
         justifyContent={"space-between"}
       >
-        <HStack>
-          <Image src={logo.src} alt="logo" width={75} height={75} />
-          {!isTablet && (
-            <Heading as="h1" fontSize={"1.5rem"} className="text-shadow">
-              ElementFusion
-              <Text fontSize="0.8rem" color="gray.500" ml={1}>
-                Mainnet
-              </Text>
-            </Heading>
-          )}
+        <HStack spacing={4}>
+          <Link href="/">
+            <HStack cursor="pointer" _hover={{ opacity: 0.8 }} transition="opacity 0.2s">
+              <Image src={logo.src} alt="logo" width={75} height={75} />
+              {!isTablet && (
+                <Heading as="h1" fontSize={"1.5rem"} className="text-shadow">
+                  ElementFusion
+                  <Text fontSize="0.8rem" color="gray.500" ml={1}>
+                    Mainnet
+                  </Text>
+                </Heading>
+              )}
+            </HStack>
+          </Link>
+          <Link href="/">
+            <Button
+              size="sm"
+              variant="outline"
+              colorScheme="purple"
+              leftIcon={<FaHome />}
+              display={{ base: "none", md: "flex" }}
+            >
+              Home
+            </Button>
+          </Link>
         </HStack>
 
         <HStack spacing={4}>
