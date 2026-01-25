@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
-import Script from 'next/script';
+import type { Mesh } from 'three';
 import '@/styles/landing.css';
 
 export default function LandingPage() {
@@ -70,7 +70,7 @@ export default function LandingPage() {
 
       // Create glowing orbs
       const orbGeometry = new THREE.SphereGeometry(0.2, 32, 32);
-      const orbs: THREE.Mesh[] = [];
+      const orbs: Mesh[] = [];
       
       colors.forEach((color, index) => {
         const orbMaterial = new THREE.MeshBasicMaterial({
